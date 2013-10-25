@@ -1,62 +1,60 @@
 
 ****************
-Create a Problem 
+創建問題
 ****************
 
-Overview
+概要
 ********
 
 
-The problem component allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems
-in Studio.
+問題component允許您在您的課程中新增互動式、自動graded練習。您可以在Studio創建許多不同種類的問題。
 
-By default, all problems are ungraded practice problems. To change the problems to graded problems, change the assignment type of the subsection. 
+預設的情況下，所有的問題都是ungraded practice problems。要改變這些問題以graded problems，請改變subsection中的作業種類. 
 
-To create a problem, determine:
+創建問題，需決定：
 
-• The type of problem that you want.
+• 您想要創建的問題種類。
 
-• The weight to assign to the problem.
+• 這個問題所佔的權重。
 
-• Whether you want to randomize the problem. 
+• 您是否想要隨機排列這問題。
 
-• How to close the problem-that is, how to set the number of attempts a student has, [as well as set the due date].
+• 要如何創建一個問題 - that is, how to set the number of attempts a student has, [as well as set the due date].
 
-• How you want to provide feedback to students; show answer on/off.
+• 您想要如何提供feedback給學生們；顯示答案 開啟/關閉。
 
-This course contains several places with more information about creating exercises and integrating them into your 	course.
+這個課程包含許多地方有更多資訊有關創建練習以及整合它們到您的課程中。
 
 • `Writing Exercises <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/a45de3baa8a9468cbfb1a301fdcd7e86/d15cfeaff0af4dd7be4765cd0988d172/1>`_ has more in-depth discussion about problem types, and some general pedagogical considerations for adapting to the online format and a `Gallery of Response Types <https://edge.edx.org/accounts/login?next=/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/a45de3baa8a9468cbfb1a301fdcd7e86/3ba055e760d04f389150a75edfecb844/1>`_
 
-•  `Appendix E <appendices/e.html>`  contains XML documentaion for the different problem response types.
+•  `Appendix E <appendices/e.html>`  包含了許多不同問題回應種類之XML的文件。
 
 •  The `Discussion Forum <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/discussion/forum">`_  for this class is a good place to ask questions about exercise types, report any errors or oddities that you may encounter, and get technical support.
-   
+
 •  Creating problems for the online format opens a new playing field in the educational process. A big part of the community aspect of edX is to initiate and grow a `Creative Problems <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/wiki/edx101/creative-problems/>`_ . Please look here to be inspired by new approaches when first making your class. Please also come back to post interesting approaches that you came up with while running your class, and to share with the community what worked well and what did not.
 
 **Simple Editor and Advanced Editor**
 
 
-Studio offers two interfaces for editing problem components.
-
-• The **Simple Editor** allows you to edit problems visually, without having to work with XML.
-
-• The **Advanced Editor** converts the problem to edX's XML standard and allows you to edit that XML directly. For more information about the XML for different problem types, see `Appendix E <appendices/e.html>` .
-
+Studio提供兩個介面來編輯問題components。
  
-Some of the simpler problem templates, including multiple choice, open in the Simple Editor and allow you to switch to the Advanced Editor. The more complicated problem types, such as Circuit Response, open in the Advanced Editor.
+• **Simple Editor** 允許您直觀的去編輯問題，不需要用XML。
+
+• **Advanced Editor** 轉換這些問題成edX's XML標準並且允許您直接去修改那個XML。想了解更多有關XML不同問題種類，請看 `Appendix E <appendices/e.html>` .
+
+
+一些簡單的問題範例，包括多個選擇，在Simple Editor中開啟並且允許您在Advanced Editor選擇。更多複雜的問題種類，像是Circuit Response，在Advanced Editor中開啟。
 
 .. note::
+	您可以隨時點擊在Simple Editor介面中的"Advanced Editor"就可以從Simple Editor切換到Advanced Editor。但是，如果新增一個component就沒有辦法從Advanced Editor切換回Simple Editor。
 
-    You can switch at any time from the Simple Editor to the Advanced Editor by clicking "Advanced Editor" in the Simple Editor interface. However, there is no way to go back from the Advanced Editor to the Simple Editor without making a new component.
-   
-To open the Advanced Editor, click **Advanced Editor** in the top right corner of the Simple Editor.
+開啟Advanced Editor，請點擊Simple Editor右邊角落的**Advanced Editor**。
 
 .. image:: Images/image275.png
     :width: 600px
    
 
-The following is a multiple choice problem in the Advanced Editor.
+接著是一個在Advanced Editor中的多選題。
 
 .. image:: Images/image276.png
     :width: 600px
@@ -66,42 +64,42 @@ The following is a multiple choice problem in the Advanced Editor.
   \newpage %
 
 
-Problem Type
+問題種類
 ************
 
-Links to description of all the different problem types-brief. Then include links to all the XML, etc.
+連結到不同問題種類的敘述-brief。並且匯入連結給所有XML，etc。
 
-You may want to create a problem that has more than one response type. For example, you may want to create a multiple choice question, and then ask the
-student to explain his or her response. You may also want a student to be able to check the answers to many problems at one time. To accomplish these
-tasks, you can include multiple problems inside a single Problem component. (LINK)
+您可能想要創建一個超過一個回應類型的問題。舉例來說，您可能想要創建一個多選題，並且要求學生去解釋他或她的回應。
+您可能也想要學生能夠檢查這些同時有多個問題的答案。為了實現這個工作，您可以匯入一個多選題到一個有單一的問題component。 (LINK)
 
 .. raw:: latex
   
   \newpage %
 
-Randomizing
+隨機化
 ***********
 
-The **rerandomize** setting determines whether any random variable inputs for a problem are randomized each time a student loads the problem.
-(This is only applicable to problems with randomly generated numeric variables.)
+
+**rerandomize** 設定可以決定是不是要任何問題隨機的輸入，是不是在任何時間一個學生看到這個問題時會不會隨機化。
+(這個只可以應用在可以隨機產生數值變數的問題。)
 
 .. raw:: latex
   
   \newpage %
 
-Scoring and Weight
+分數及加權
 ******************
 
-Problems store a **point score** for submitted responses. The score that a student earns is the number of correct responses the student
-submits divided by the maximum score for the problem. The default maximum score, or weight, is the integer number of response type inputs the problem has.
-Thus, the weight attribute for a problem with one response type input is set to 1 (one point). You can change the maximum score for an individual problem
-by manually changing the problem **weight** attribute to another number. When you do this, the number of points that you specify appears next
-to the problem title ( to one decimal precision).
+每個問題都儲存了一個 **point score** 給提交的回應。而一個學生取得的分數是由學生提交回應的正確數量除以問題的maximum score。
+預設的maximum score或者權重，是這問題擁有回應輸入種類的整數值。
+因此，這個問題的權重屬性帶有一個回應輸入種類被設定為1 (一分)。您可以藉由手動改變問題的 **weight** 屬性值成另一個數字來改變最小分數給這個individual問題，
+當您做完這件事，分數的數值明確顯示在問題的標題旁邊 ( 一個小數的精準度)。
 
 **WEIGHT: 0 POINTS**
 
-Scores are stored for all problems, but they only contribute to a student's grade in the course if they are part of a subsection marked as graded. For more
-information, see the material on attempts and closing problems in 7B: Feedback and Grading.
+
+這些分數被儲存在問題中，but they only contribute to a student's grade in the course if they are part of a subsection marked as graded. 
+想要了解更多資訊，請看material on attempts and closing problems in 7B: Feedback and Grading.
 
 .. raw:: latex
   
@@ -128,60 +126,60 @@ possible score for the problem (also known as the problem weight). The formula u
    
 **Examples**
 
-The following are some examples of setting problem weight and computing problem scores.
+接下來是一些設定問題權重和計算分數的例子。
 
 
 **Example 1**
 
-A problem with two response type inputs and a blank weight attribute has a maximum score of 2.0 points.
+一個問題有兩種回應輸入以及一個空的權重屬性有一個最小分數2.0分。
 
-A student response to this problem that consists of one correct input value and one incorrect input value would be marked as having a score of 1.0 points
-out of 2.0 points possible.
+一位學生回應這個由一個正確輸入值和一個不正確輸入值的問題將被標記為擁有1.0分到2.0分的可能性。
 
 
 **Example 2**
 
-A problem with three response type inputs and a weight attribute of 12 has a maximum score of 12.0 points.
+一個問題有三種回應輸入種類以及一個權重屬性為12有一個最小分數12.0分。
 
-A student response to this problem that consists of one correct input value and two incorrect input values would be marked as having a score of 4.0 points out of 12.0 points possible.
+一位學生回應這個由一個正確輸入值和兩個不正確輸入值的問題將會被標記為擁有4.0分到12.0分的可能性。
 
 
 **Example 3**
 
-A problem with four response type inputs and a weight attribute of 2 has a maximum score of 2.0 points.
+一個問題有四種回應輸入種類以及一個權重屬性為2有一個最小分數2.0分。
 
-A student response to this problem that consists of two correct input values and two incorrect input values would be marked as having a score of 0.5 of a point out of 2.0 points total.
+一位學生回應這個由兩個正確輸入值和兩個不正確輸入值的問題將會被標記為擁有0.5到1.0分的可能性。
 
 **PROBLEM: 20.0 POINTS**
 
-• The weight attribute for this problem has been changed from the default.
+• 這個問題的權重屬性已經從預設值被改變。
 
-• How many points is the entire problem worth?
+• 整個問題有多少分？
 
-• What number is the weight attribute of this problem set to?
+• 這個問題中的權重值設定為多少？
 
-• How many response inputs does this problem have?
+• 這個問題中有多少回應輸入？
 
-• What is the default maximum score for this problem?
+• 這個問題的預設最小分數是多少？
 
-• If a response to this problem got one value right and the rest wrong, what score would it be assigned?
+• 這個問題中如果對一個而其餘錯，那分數怎麼算？
 
 .. raw:: latex
   
   \newpage %
 
-Close
+關閉
 *****
+為了停止接受回應並且紀錄分數，問題可以被 **closed.** 關閉問題不會顯示一個 **Check** 按鈕。
+學生在一個關閉的問題中依然可以看到問題、答案，以及顯示說明，但是他們再也不能檢查他們的工作、提交回應，或者改變他們儲存的分數。
 
-To stop accepting responses and recording points, problems can be **closed.** Closed problems do not display a **Check** button. Students
-can still see questions, solutions, and revealed explanations in a closed problem, but they can no longer check their work, submit responses, or change their stored score.
 
-There are several ways that you can close problems:
+您可以用許多方式關閉問題：
 
-• Set a due date for the problems in a subsection. Note that you cannot set due dates for individual problems -- only for containing subsections (assignments). By default, due dates are not set. To set a due date, see LINK.
 
-• Specify a grace period for your course. Note that the grace period applies to the entire course. To set a grace period, see LINK.
+• 設定一個截止日期給這些在subsection中的問題。注意您不可以設定截止日期給individual問題 -- 只能是包含subsections (作業)。 預設的情況下，截止日期不會被設定。要設定一個截止日期，請看 LINK。
 
+• 指定一個寬限期給您的課程。注意這個寬限期顯示給全部的課程。要設定一個寬限期，請看 LINK。
+設定
 • Set the number of attempts for the individual problem component. The attempts setting determines the number of times a student is allowed to check their answer by clicking Check before the problem closes. If this field is left blank, a student has unlimited attempts. If you specify a number for the attempts setting, the number of total allowed and remaining attempts appears next to the Check button for the problem. Problems with a limited number of attempts also always display a Save button that allows response values to be saved without being submitted. When there is only one submission left, the student will receive a warning, and the Check button will be replaced with a Final Check button. When no attempts are left, both the Save and Check button will disappear.For more information, see Problem Attributes.
 
 • Manually increase the number of attempts left for a given problem for a particular student from the Instructor tab in the live view of your course, when accessed in the Instructor view on Edge. This is recommended only for unusual situations, such as if you have to fix live problems during an exam.
@@ -193,42 +191,43 @@ There are several ways that you can close problems:
 Feedback
 ********
 
-Studio includes several tools to provide feedback to students: the **Check** button, the **Show Answer** button, and the**Attempts** setting. When you use the **Show Answer** button, you can also provide a detailed explanation of the answer.
+Stuido包含許多可以提供feedback給學生的工具： **Check** 按鈕， **Show Answer** 按鈕，以及 **Attempts** 設定。當您使用 **Show Answer** 按鈕，您也可以提供一個答案的詳細說明。
 
 TBD-SCREENSHOT OF PROBLEM WITH THESE ELEMENTS CIRCLED
 
 **Check Button**
 
-The student clicks the **Check** button to submit a response. The problem module then performs the following steps.
+學生點擊 **Check** 按鈕去提交一個回應。這個問題module就會執行接下來的步驟。
 
-• Accepts and stores the responses entered into each input.
+• 同意並儲存回應到每個輸入。
 
-• Checks the response values against the correct answers or solutions using an automatic grader.
+• 使用一個automatic grader去檢查回應值來對應到正確答案或解答。
 
-• Visually marks the correct responses with a green check mark and the incorrect responses with a red x.
+• 目視標記一個正確的回應是一個綠色的勾勾以及不正確的回應是一個紅色叉叉。
 
-• Stores the point score earned by this response for this problem for this student.
+• 儲存學生回應這題得到的分數。
 
-If a student wants to save but not submit a response, the student can click **Save**.
+如果一位學生想要去儲存但是不要提交回應，那位學生可以點擊 **Save** 。
 
-In the following problem, enter a response, and then click **Check**. The problem tells you if your response is correct or incorrect.
-Additionally, although you don't see it, a point score is also automatically stored for the response you submit.
+接下來的問題，輸入一個回應，之後點擊 **Check** 。這個問題就會告訴您，您的回應是正確還是不正確的。
+
+此時，雖然您不會看見它，但是分數還是會自動儲存到您提交的回應。
 
 .. image:: Images/image277.png
     :width: 600px
 
 **Show Answer button**
 
-When a student clicks **Show Answer**, the problem shows the correct answers next to the corresponding response inputs and reveals any
-additional explanations that you have provided. **Show Answer** is controlled by the **showanswer** attribute in the problem
-editor. It can be set to be never visible, always visible, or visible only when the problem has closed. [Reference: Setting Problem Attributes.]
+當一位學生點擊 **Show Answer** ，這個問題就會在對應回應輸入的旁邊顯示出正確答案並且顯示您已經提供的額外解釋。
+**Show Answer** 是由問題編輯器中的 **showanswer** 屬性所控制。
+它可能被設定為絕對無法看見、總是被看見或者只有當問題被關閉後才可看見。 [Reference: Setting Problem Attributes.]
 
-In the following problem, the **Show Answer ** button appears after the student has made at least one attempt to answer. Enter a response that you know is wrong, and then click **Check**.
+接下來的問題， **Show Answer ** 按鈕在學生對答案做了至少一個attempt後出現。輸入一個回應您知道是錯的，之後點擊 **Check** 。
 
 .. image:: Images/image278.png
     :width: 600px
 
-Now, click **Show Answer** to view the correct answer and its explanation.
+現在，點擊 **Show Answer** 去查看正確答案以及它的解釋。
 
 .. image:: Images/image279.png
     :width: 600px
@@ -240,73 +239,70 @@ Now, click **Show Answer** to view the correct answer and its explanation.
 
 
 
-Create a Problem
+創建問題
 ****************
 
 .. note::
     
-    You can also include non-graded exercises throughout your course.
+    您可以也通過您的課程匯入non-graded練習題。
 
+為了增加互動性，使用問題component，來自動graded練習題到給您的課程內容。這個component允許您去匯入一個說明是學生點擊 **Show Answer** 時可以看見的。
 
-To add interactive, automatically graded exercises to your course content, use the Problem component. This component allows you to include an explanation
-that the student can see when the student clicks **Show Answer**.
-
- Studio offers several templates that you can use. Alternatively, you can create your own problem type in XML.
- For detailed information about different problem types, see `Appendix E <appendices/e.html>`.  
+ Studio提供多個templates讓您使用。另一方面，您可以在XML創建您自己的問題類型。
+ 要了解更多有關不同問題類型問題的訊息，請看 `Appendix E <appendices/e.html>`.  
    
 
-1. Under **Add New Component**, click **Problem**.
+1. 在 **Add New Component** 之下，點擊 **Problem** 。
 
 .. image:: Images/image096.png
     :width: 600px
 
-
-The **Select Problem Component Type** screen appears. By default, the **Common Problem Types** tab is selected.
+**Select Problem Component Type** 畫面顯示。預設情況下， **Common Problem Types** 標籤被選擇。
 
 .. image:: Images/image097.png
     :width: 600px
 
-
-To see a list of more complex problem types, click the **Advanced** tab.
+要觀看更多複雜問題類型的列表，點擊 **Advanced** 標籤。
 
 
 .. image:: Images/image099.png
     :width: 600px
 
 
-2. Click the problem type that you want.
+2. 點擊您想要的問題類型。
 
 .. note::
     
-    To create your own problem in XML, click "Empty" to open a blank XML editor.
+    為了在XML中創建您自己的問題，點擊 "Empty" 來開啟一個空的XML編輯器。
 
 A new problem component with sample template text appears.
 
-For example, if you click **Multiple Choice**, the following problem component appears.
+舉個例子，如果您點擊 **Multiple Choice** ，接下來的問題component會顯示。
 
 .. image:: Images/image101.png
     :width: 600px
 
 
 
-3. Click **Edit**. This opens the Simple Editor for the problem component. The following example shows this view for a multiple choice
-problem.
+3. 點擊 **Edit** 。這會開啟Simple Editor給問題component。接下來的例子會顯示出這個視圖給一個多選問題。
 
 .. image:: Images/image103.jpg
     :width: 600px
 
 
-4. Set the problem attributes.
+4. 設定問題屬性。
 
-In the **display_name** box, type the text that you want the student to see when the student hovers over the icon in the bar at the top of the page. This text also appears as a header for the problem.
-   
-a. In the **weight** box, set a weight for the problem. If you want the problem to be a practice problem, set this to zero (0).
 
-b. In the **rerandomize** box,
+在 **display_name** 欄位，填入您想要學生在hovers over the icon in the bar at the top of the page時看見的文字。這個文字也會顯示為 a header for the problem。
 
-c.  In the **attempts** box, specify the number of attempts that you want to allow the student.
+
+a. 在 **weight** 欄位中，設定一個權重值給問題。如果您想要這個問題被作為一個practice問題，設定這為零 (0)。
+
+b. 在 **rerandomize** 欄位，
+
+c.  在 **attempts** 欄位，具體指明您想要允許學生attempts的數量。
   
-d.  In the **showanswer** box, enter one of the following settings.
+d.  在 **showanswer** 欄位，輸入接下來的設定。
 
 .. raw:: latex
   
@@ -314,41 +310,41 @@ d.  In the **showanswer** box, enter one of the following settings.
 
 **Reference**
 
-• **never** = The Show Answer button is never visible.
+• **never** = 顯示答案按鈕永遠不會被看見。
 
-• **closed** = The Show Answer button is not visible if either the due date has passed, or the student has no attempts left.
+• **closed** = 顯示答案按鈕不論是在截止日期已經過了，或者學生已經沒有attempts left，都不會被看見。
 
-• **attempted** = The Show Answer button appears after the student has checked an answer once, regardless of correctness.
+• **attempted** = 顯示答案按鈕在學生已經檢查過答案一次之後出現，不論是否正確。
 
-• **always** = The Show Answer button always appears.
+• **always** = 顯示答案按鈕永遠出現。
 
 
-5. Modify the problem text, and then click **Save** to save and check your work. Make sure to publish the draft you are working on to view the problem live.
+5. 修改問題的文字，之後點擊 **Save** 來儲存並且檢查您的工作。確認發布您現在正在工作的草稿來即時觀看問題。
 
 .. raw:: latex
   
   \newpage %
 
-Modify a Released Problem
+修改釋出的問題
 *************************
 
-   **WARNING: Be careful when you modify problems after they have been released!**
+   **WARNING: 當您已經釋出問題之後要做修改請務必格外小心!**
 
 Currently, problems cache the following information per student:
 
-• The student's last **submitted** response. 
+• 這位學生的最後 **submitted** 回應. 
+  
+• 學生最後回應所獲得的分數。
 
-• The score the student earned for that last response.
+• 問題的最小值分數。
 
-• The maximum point score for that problem.
+當學生提一個回應給問題時這個訊息會被上傳。如果學生重新整理這個 **Progress** 頁面，解答不是被重新檢查。If a student refreshes the page of a problem, the latest version of the problem statement is loaded, but their previous response is NOT reevaluated. Rather, the previous response is loaded on top of the current problem statement. That is **existing** student responses for a problem are not reevaluated if the problem statement or attributes are changed, until a student goes back and resubmits the problem. Furthermore, as of the time of writing, if the problem weight attribute is changed, stored scores are re-weighted (without rechecking the response) when the student reloads the **Progress** page.
 
-This information is updated when a student submits a response to a problem. If the student refreshes the **Progress** page, solutions are not re-checked. If a student refreshes the page of a problem, the latest version of the problem statement is loaded, but their previous response is NOT reevaluated. Rather, the previous response is loaded on top of the current problem statement. That is **existing** student responses for a problem are not reevaluated if the problem statement or attributes are changed, until a student goes back and resubmits the problem. Furthermore, as of the time of writing, if the problem weight attribute is changed, stored scores are re-weighted (without rechecking the response) when the student reloads the **Progress** page.
+舉例來說，您可能會釋出一個有兩個輸入的問題。當一些學生已經提交了答案之後，如果您改變這個答案中輸入的其中一個，則目前學生的分數不會更新。
 
-For example, you may release a problem that has two inputs. After some students have submitted answers, if you change the solution to one of the inputs, the existing student scores are not updated.
+Example: 如果您改變輸入的數量變成三個，學生在這個改變之前提交答案則會有一個分數為 0, 1, 或 2到2.2。學生提交答案在這個改變之後，則同樣的問題會有分數 0, 1, 2, 或 3到3.0 。
 
-Example: If you change the number of inputs to three, students who submitted answers before the change will have a score of 0, 1, or 2 out of 2.0. Students who submitted answers after the change will have scores of 0, 1, 2, or 3 out of 3.0 for the same problem.
-
-However, if you go in and change the weight of the problem, the existing scores update when you refresh the **Progress** page.
+然而，如果您進入並且改變這個問題的權重，目前的分數當您重新整理 **Progress** 時會更新。
 
 Note that the behavior of re-grading in case of error is an edX Edge case. It is dependent on the implementation of grading, and may change. The goal in the future is to include re-grading that will allow some basic updates to live problems, whether or not students have submitted a response.
 
@@ -360,15 +356,15 @@ Note that the behavior of re-grading in case of error is an edX Edge case. It is
 Workarounds
 ===========
 
-If you have to modify a released problem in a way that affects grading, you have two options. Note that both options require you to ask your students to go back and resubmit a problem.
+如果您已經以某種方式修改了一個釋出的問題而影響到評分，您有兩個選項。注意這兩個選項需要您去要求您的學生回去並重新提交問題。
 
 
-1.  Increase the number of attempts on the problem in the same Problem component. Then ask all the students in your class to redo the problem.
-   
-2.  Delete the entire Problem component in Studio and create a new Problem component with the content and settings that you want. Then ask all the students in your course to go back to this assignment and complete problem.
+1.  增加相同問題component中的attempts在問題上的數量。之後要求所有在您這堂課的學生重做這個問題。
 
-Check your **Progress** view or the **Instructor** tab on Edge as described in the Viewing Scores unit to see if point scores are being stored as you expect. If there are issues with stored scores that you do not understand or cannot fix, contact support on the Studio help page.
+2.  刪除整個在Studio中的問題component並且創建一個新的問題component，其內容和設定是您想要的。之後要求所有在您這堂課的學生回到這個作業並且完成問題。
 
-For a discussion of some trade-offs and some suggestions for cleaner solutions in the future, see the following `discussion thread <http://help.edge.edx.org/discussions/questions/73-what-if-you-discover-that-a-live-problem-is-wrong">`_ on the Studio help desk.
+檢查您在Edge上的 **Progress** 視圖或 **Instructor** 標籤作為在觀看分數的unit中的描述以查看是否分數被儲存如您所料。如果那裡有儲存分數的問題讓您不能理解或者不能修正，連繫在Studio幫助頁面支援。
 
-You can include multiple problems of different types inside a single Problem component, even if you select a particular template when you create a problem. A template is simply an XML editor with template text already filled in. You can add to or replace the template text.
+For a discussion of some trade-offs and some suggestions for cleaner solutions in the future, see the following `discussion thread <http://help.edge.edx.org/discussions/questions/73-what-if-you-discover-that-a-live-problem-is-wrong">`_ 在Studio上的help desk。
+
+您可以匯入多個單一問題component中不同種類的問題，甚至當您創建一個問題時，您可以選擇一個particular template。一個template僅僅是一個由XML編輯已經填寫好的文字。您可以新增或者取代這個template的文字。

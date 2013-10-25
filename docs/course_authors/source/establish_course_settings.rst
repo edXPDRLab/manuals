@@ -1,43 +1,43 @@
 *************************
-Establish Course Settings
+建立課程設定
 *************************
 
-Add Collaborators
+新增合作者
 *****************
 
-
-    Studio has support for rudimentary collaborative editing of a course. Users must have registered at studio.edge.edx.org, and must have activated their account via the mail link. If a user is not found, you will be notified.
-
-
-    Before you add a new user, consider the following.
+	
+    Studio支援對一個課程基本的合作編輯。使用者必須已經在studio.edge.edx.org上註冊，以及已經透過郵件的連結建立他們的帳號。如果使用者沒有找到，您將會被通知。
 
 
-    · Invited users have full permissions to edit your course, including deleting content created by anyone else.
+    在您新增一個新的使用者之前，考慮以下幾點。
 
 
-    · Invited users cannot currently grant new permissions on the course.
+    · 邀請的使用者有完整的權限可以修改您的課程，包括刪除任何人創建的課程內容。
 
 
-    · Editing conflicts are currently not managed. Thus, the state of the course might change between refreshes of the page.
+    · 邀請的使用者目前不能在課堂上授予新權限。
 
 
-    To give another user permission to edit your course:
+    · 編輯上的衝突目前沒辦法管理。因此，課程的狀態會在頁面重新整理之後改變。
 
 
-    1. On the navigation bar, click **Course Settings**, and then click **Course Team**.
+    給予其他使用者權限以修改您的課程：
+
+
+    1. 在navigation bar上，點擊 **Course Settings** ，之後點擊 **Course Team** 。
 
 
     .. image:: Images/image115.png
 
 
 
-    2. Click **New User**.
+    2. 點擊 **New User** 。
 
 
     .. image:: Images/image117.png
 
 
-    3. In the **email** box, type the  mail address of the user, and then click **Add User**.
+    3. 在 **email** 欄位，填入使用者的郵件地址，之後點擊 **Add User** 。
 
 
 .. raw:: latex
@@ -46,35 +46,34 @@ Add Collaborators
 
 
 
-Add Manual Policy Data
+新增說明書Policy資料
 **********************
 
 
 
-    You can add manual policy data on the **Advanced Settings** page. These advanced configuration options are specified using JSON key and value
-    pairs.
+    您可以在 **Advanced Settings** 頁面新增說明書policy資料。These advanced configuration options are specified using JSON key and value pairs.
 
 
-    You should only add manual policy data if you are very familiar with valid configuration key value pairs and the ways these pairs will affect your course.
-    Errors on this page can cause significant problems with your course.
+    您只能在您非常熟悉valid configuration key value pairs以及the ways these pairs will affect your course時新增說明書policy資料。
+	您頁面上的錯誤可能導致您課程發生重大的問題。
+    
+
+    edX的專案管理員可以幫助您學習有關如何應用這些設定。
 
 
-    The edX program managers can help you learn about how to apply these settings.
+    1. 在navigation bar上，點擊 **Course Settings** ，之後點擊 **Advanced Settings** 。
 
 
-    1. On the navigation bar, click **Course Settings**, and then click **Advanced Settings**.
-
-
-    2. Click **New Manual Policy** .
+    2. 點擊 **New Manual Policy** .
 
 
       .. image:: Images/image119.png
 
 
-    3. In the **Policy Key** box, enter the policy key.
+    3. 在 **Policy Key** 欄位，輸入這個policy key。
 
 
-    4. In the **Policy Value** box, enter the value of the policy.
+    4. 在 **Policy Value** 欄位，輸入這個policy的值。
 
 
 .. raw:: latex
@@ -82,11 +81,11 @@ Add Manual Policy Data
       \newpage %
 
 
-Add About Page Information
+關於頁面資訊的新增
 ***************************
 
 
-    To add scheduling information, a description, and other information for your course, use the **Course Settings** menu.
+    新增一個日程安排資訊，一個敘述以及其他您課程中的資訊，使用 **Course Settings** 功能表。
 
 
      .. image:: Images/image121.png
@@ -98,122 +97,119 @@ Schedule and Details Page
 =========================
 
 
-1. At the top of this page, you will find a section with the **Basic Information** for your course. It is here that you can locate the title of your course and find the URL for your course, which you can  mail to students to invite students to enroll in your course.
+1. 在這個頁面的上方，您會發現有a section with the **Basic Information** for your course。這裡您可以發現您課程的標題以及您課程可以郵寄邀請學生參加課程的URL。
 
  .. image:: Images/image281.png
 
 
-2. In the **Course Schedule** section, enter the date you want your course to start in the **Course Start Date** box, and then enter the time you want your course to start in the **Course** **Start Time** box.
+2. 在 **Course Schedule** section，輸入您想要的開課日期在 **Course Start Date** 欄位，之後輸入您想要的開課時間在 **Course** **Start Time** 欄位。
 
 
 .. note::
-
-    The Course Start Time on this screen will reflect the current time zone in your browser, depending on your geography. Course start times for students will show as UTC on Edge.
-
-
-3. In the **Course Schedule** section, enter the date you want your course to end in the **Course** **End Date**
-    box, and then enter the time you want your course to end in the **Course** **End Time** box.
+	
+    開課時間在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。開課時間在Edge上以UTC表示給學生看。
 
 
-Add Enrollment Information
+3. 在**Course Schedule** section，輸入您想要的課程結束日期在 **Course** **End Date** 欄位中，之後輸入您想要的課程結束時間在 **Course** **End Time** 欄位中。
+
+
+新增招生資訊
 ==========================
 
 
-1. On the navigation bar, click **Course **Settings, and then click **Schedule & Details** .
+1. 在 navigation bar上，點擊 **Course ** 設定，之後點擊 **Schedule & Details** 。
 
 
-2. In the **Course Schedule** section, enter the date you want enrollment for your course to start in the **Enrollment Start Date** box, and then enter the time you want enrollment for your course to start in the **Enrollment Start Time** box.
+2. 在 **Course Schedule** section，輸入您想要開始招生的日期在 **Enrollment Start Date** 欄位，之後輸入您想要開始招生的時間在 **Enrollment Start Time** 欄位。
 
 
-3. In the **Course Schedule** section, enter the date you want enrollment for your course to end in the **Enrollment End Date**
-box, and then enter the time you want enrollment for your course to end in the **Enrollment End Time** box.
+3. 在 **Course Schedule** section，輸入您想要結束招生的日期在 **Enrollment End Date** 欄位，之後輸入您想要結束招生的時間在 **Enrollment End Time** 欄位。
 
 
 .. note::
+	
+    招生日期在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。招生時間在Edge上以UTC表示給學生看。
 
-    The Enrollment dates on this screen will reflect the current time zone in your browser, depending on your geography. Enrollment times for students will show as UTC on Edge.
 
 
-
-Add a Course Overview
+新增課程大綱
 =====================
 
 
-1. On the navigation bar, click **Course Settings**, and then click   **Schedule & Details** .
+1. 在 navigation bar上，點擊 **Course Settings**，之後點擊 **Schedule & Details** 。
 
 
-2. Scroll down to the **Introducing Your Course** section, and then locate the **Course Overview** box.
+2. 向下滾動到 **Introducing Your Course** section，之後找到 **Course Overview** 欄位。
 
 .. image:: Images/image123.png
 
 
 
 
-3. In the **Course Overview** box, enter a description of your course.
+3. 在 **Course Overview** 欄位，輸入您的課程描述。
 
 
-The content for this box must be formated in HTML. For a template that you
-can use that includes placeholders, see :doc:`appendices/a`.
+這個欄位內容是HTML格式。對於template可以使用包括placeholders，請看 :doc:`appendices/a`.
 
 
 
-If your course has prerequisites, you can include that information in the course overview.
+如果修您的課程中有先決條件，您可以把資訊放在課程大綱。
 
 
 .. note::
 
-    There is no save button. Studio automatically saves your changes.
+    沒有儲存的按鈕。Studio會自動儲存您的改變。
 
 
-The following is example content for the **Course Overview** box:
+接下來的是 **Course Overview** 欄位的範例內容：
 
 
 .. image:: Images/image125.png
 
-Add a Descriptive Picture
+新增照片敘述
 =========================
 
-1.  Select a high-resolution image that is a minimum of 660 pixels in width by 240 pixels in height.
+1.  選擇一個高解析度的圖片，寬度最小為660 pixels、高度最小為240 pixels。
 
-2.  Change the file name of the picture that you want to use to **images_course_image.jpg**.
+2.  改變相片中您想要使用的檔案名稱 **images_course_image.jpg** 。
 
-3.  Upload the file to the **Files & Uploads** page.
+3.  上傳檔案到 **Files & Uploads** 頁面。
 
 
-The picture that is named **images_course_image.jpg** automatically appears on the course About page.
+這張照片被命名為 **images_course_image.jpg** 自動出現在課程的About頁面上。
 
 Add an About Video
 ==================
 
 
-You can create an About video that will appear on the **About** page for your course.
+您可以創建一個About video 將會出現在您課程 **About** 頁面上。
 
 
-1. Upload the video that you want to YouTube. Make note of the code that appears between   ** watch?v =**  and   ** &feature**  in the URL. This code appears in the green box below.
+1. 上傳您想要的影片到YouTube上。請注意出現在URL中的 ** watch?v =**  和   ** &feature** 之間的編碼。這個編碼出現在綠色box之下。
 
 
 .. image:: Images/image127.png
 
 
-2. On the navigation bar, click **Course Settings**, and then click **Schedule & Details** .
+2. 在 navigation bar上，點擊 **Course Settings** ，之後點擊 **Schedule & Details** 。
 
 
-3. Scroll down to the **Introducing Your Course** section, and then locate the **Course** **Introduction Video**
-    field. If you have not already added a video, you see a blank field above an **id** box.
+3. 向下滾動到 **Introducing Your Course** section，之後找到 **Course** **Introduction Video** field。
+如果您還未新增影片，您會看到一個空的field在 **id** 欄位上。
 
 
 .. image:: Images/image129.png
 
 
-4. In the **your YouTube video's ID**  box, enter your video code. When you add the code, the video automatically appears in the field above the   **your YouTube video's ID**  box.
+4. 在 **your YouTube video's ID**  欄位，輸入您的影片編碼。當您新增編碼，影片會自動出現在 field **your YouTube video's ID** 欄位上。
 
 
 .. note::
 
-    There is no save button. Studio automatically saves your changes.
+    沒有儲存的按鈕。Studio會自動儲存您的改變。
 
 
-For example, your course introduction video appears as follows.
+舉例來說，您的課程簡介影片出現如下。
 
 
 .. image:: Images/image131.png
@@ -223,10 +219,10 @@ Add Weekly Time Requirements Information
 ========================================
 
 
-1. On the navigation bar, click **Course Settings**, and then click **Schedule & Details** .
+1. 在 navigation bar上，點擊 **Course Settings** ，之後點擊 **Schedule & Details** 。
 
 
-2. Scroll down to the **Requirments** section.
+2. 往下捲動到 **Requirments** section.
 
 
-3. In the **Hours of Effort per Week** box, enter the number of hours you expect students to work on this course each week.
+3. 在 **Hours of Effort per Week** 欄位，以小時為單位輸入您期望學生每週在這堂課用功的時間。
