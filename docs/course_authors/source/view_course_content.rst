@@ -189,136 +189,131 @@ Unit View
 例子
 =======
  
-接下來的例子是在預覽模式下第一個Unit "What Does an edX Course Look Like?" Subsection
-The following example shows the first Unit of the "What Does an edX Course
-Look Like?" Subsection in Preview mode.
- 
+接下來的例子是在預覽模式下第一個Unit "What Does an edX Course Look Like?" 的Subsection。 
  
 .. image:: Images/image211.png
  
  
-Remember that the release date for the Subsection is in the past. However,
-even if you change the release date for the "What Does an edX Course Look
-Like?" Subsection to a date in the future, you still see both Units in
-Preview.
+請記得Subsection的釋出日期是過去的。
+然而，即使您改變"What Does an edX Course Look Like?"Subsection的釋出日期為未來，
+您依然可以在預覽中看到這兩個Units。
  
  
-In the "What Does an edX Course Look Like?" Subsection, Unit 1 ("Welcome to
-edX 101") is set to Public, and Unit 2 ("New edX Information") is set to
-Private. Both Units appear in the course ribbon at the top of the screen.
+在"What Does an edX Course Look Like?" Subsection中，Unit 1 ("Welcome to
+edX 101") 被設定為公開，以及Unit 2 ("New edX Information") 被設定為私人。
+這兩個Units顯示在畫面上方的課程ribbon。
  
  
 .. image:: Images/image213.png
 
-When you click Unit 2 in the course ribbon, you see the content in Unit 2:
+當您在課程ribbon點擊Unit 2，您就會看到在Unit 2中的內容：
  
  
 .. image:: Images/image215.png
  
 **On edX or Edge as an Instructor**
  
-When you view your course on edX or Edge as an instructor:
+當您以老師的角度在edX或Edge看課程。
+ 
+
+* 您會看到您課程中所有您已設為公開的Units。
+* 釋出日期不重要。
+
+ 
+您沒有看到設為私人的Units。
  
  
-* You see all the Units of your course that you have set to Public. 
-* Release dates do not matter.
+另外，在edX或Edge頁面上方，您可以看到 **Instructor** 標籤。
+
  
  
-You do not see Units that are set to Private.
+以老師的角度觀看您在edX或Edge上的課程，點擊 **View Live**。
+這個 **View Live ** 按鈕在三個地方是available。** **
+
  
- 
-Additionally, at the top of the page on edX or Edge, you can see the
-**Instructor** tab.
- 
- 
-To view your course on edX or Edge as an instructor, click **View Live**. The
-**View Live **button is available in three places.** **
- 
-The **Course Outline** page.
+**Course Outline** 頁面。
  
  
 .. image:: Images/image217.png
  
  
-Any Subsection page.
+任何Subsection頁面。
  
  
 .. image:: Images/image219.png
  
  
  
-The Unit page, if the Unit is Public.
+Unit頁面，Unit是否為公開。
  
  
 .. image:: Images/image221.png
  
-Example
+例子
 =======
  
-The following example shows the first Unit of the "What Does an edX Course
-Look Like?" Subsection as if you were viewing it on edX or Edge as an
-instructor. Notice the **Instructor** tab at the top of the page.
+接下來的例子是如果您過去以老師的角度在edX或Edge上正在觀看第一Unit中
+"What Does an edX Course Look Like?" Subsection。注意**Instructor** 在頁面的上方。
  
  
 .. image:: Images/image223.png
  
  
-The release date for the "What Does an edX Course Look Like?" Subsection is
-set to January 1, 2099. However, you still see this Unit on edX or Edge as
-an instructor.
+"What Does an edX Course Look Like?" Subsection的釋出日期被設定為January 1, 2099。
+但是，您依然可以以老師的角度在edX or Edge看到這個Unit。
+
  
  
-On the other hand, remember that Unit 1 is set to Public, and Unit 2 is set
-to Private. Unit 2 does not appear in the course ribbon at the top of the
-screen. Instead, the next public unit, **Tabs**, appears.
+另一方面，請記得Unit 1被設定為公開，Unit 2被設定為私人。
+則Unit 2不是被顯示在課程ribbon中畫面的上方。
+取而代之的是在下一個公開Unit， **Tabs**，顯示。
  
  
 .. image:: Images/image225.png
  
 **On edX or Edge as a Current Student**
  
-When you view your course as a current student would see it, you can only
-see material that meets all three publishing conditions:
- 
- 
-The course start date has passed.
- 
- 
-* The release dates for the Section and Subsection have passed.
- 
-* The Unit that contains the material is set to Public.
- 
- 
-You can use this view to make sure that material does not appear in your
-course prematurely.
- 
- 
-To view your course as a student, set up a test account on edX or Edge with
-an e-mail address that is not associated with your Course Team, and then go
-to your course URL and register for your course.
+當您以目前學生的角度觀看您的課程，您只能夠在滿足三個發佈條件下看到教材：
 
-Example
+ 
+ 
+當開課日期已過。
+ 
+
+* Section和Subsection的釋出日期已過。
+
+* 這個包含教材的Unit被設定為公開。
+ 
+
+您可以使用這個view來確保教材不是過早顯示在您的課程中。
+
+ 
+ 
+為了以學生的角度來觀看課程，在edX和Edge上以is not associated with您的課程團隊的郵件地址來設定好一個測試帳號，
+之後進入您的課程網址並且註冊您的課程。
+
+
+例子
 =======
  
-The following example shows the first Unit of the "What Does an edX Course
-Look Like?" Subsection as if you were viewing it on edX or Edge as a
-student. Notice that the **Instructor** tab does not appear at the top of
-the page.
- 
+接下來的例子是如果您過去以學生的角度在edX或Edge上正在觀看第一Unit中
+"What Does an edX Course Look Like?" Subsection 。
+注意 **Instructor** 標籤不是顯示在頁面的上方。
+
  
 .. image:: Images/image227.png
  
  
-Remember that Unit 1 is set to Public, and Unit 2 is set to Private. Unit 2
-does not appear in the course ribbon at the top of the screen. Instead, the
-next public unit, **Tabs**, appears.
+請記得Unit 1被設定為公開，以及Unit 2被設定為私人。Unit 2不是顯示在畫面上方的課程ribbon。
+取而代之的是在下一個公開unit， **Tabs**，顯示。
+
  
  
 .. image:: Images/image229.png
  
  
-If you change the release date of the Subsection to a future date (such as
-January 1, 2099), the student cannot see it.
+如果您改變Subsection的釋出日期為未來 (像是 January 1, 2099) ，學生就不能看到它。
+
  
  
-If you set the Unit to Private, the student cannot see it.
+如果您設定Unit為私人，學生就不能看到它。
