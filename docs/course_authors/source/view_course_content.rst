@@ -1,40 +1,30 @@
 *******************
-View Course Content
+查看課程內容
 *******************
 
-When you create a course on Studio, you can control when students can see
-the content of your course. This means that you can continue building a
-course, but students won't be able to see the changes you make until you
-make those changes available. You can set release dates that control when
-content is released to the internet. You can also set the visibility of
-specific Units (a subdivision that helps you organize your course content)
-to Public or Private. By default, all content is set to Private.
+當您在Studio上創建課程時，您可以控制何時讓學生看到您課程的內容。
+這代表您可以繼續建立一個課程，一直到您讓這些改變available之前，學生都不能看到您所更動的內容。
+您可以設定釋出日期來決定何時把內容釋出到網路上。您也可以設定specific Units (a subdivision that helps you organize your course content) 的能見度為
+公開或者私人。
+預設情況下，所有的內容都為私人。
  
- 
-Your content is not visible to students on edX or Edge until three
-conditions are met: 
+當您遇到以下三種條件之前，您在edX或Edge上的內容不會被學生看到：
 
-1. The course start date has passed.
+1. 課程已經到開課日期。
 
-2. The release dates for the Section and Subsection that contain the
-   content have passed.
+2. Section和Subsection釋出日期包含的內容have passed。
+ 
+* Sections and Subsections 是您用來組織您的課程用的。
+例如，Sections相當於您課程的每個Weeks，而Subsections相當於您課程的每個主題。
  
  
-* Sections and Subsections are categories that you use to organize your
-course. For example, Sections may correspond to weeks in your course, while
-Subsections may correspond to the topics in your course.
+* 不論是Section或是它的內容，直到釋出日期之前都不會被看見，
+如果這個Section的釋出日期已經過了，而Subsection的釋出日期還沒過，那學生可以看到
+Section的heading在左側pane。但是，學生不能看到Subsection的heading或任何Subsection的內容。
+
  
- 
-* Neither a Section nor its contents are visible until the release date
-passes. If the release date for the Section has passed, but the release date
-for the Subsection has not passed, the student can see the Section heading
-in the left pane. However, the student cannot see the Subsection heading or
-any of the Subsection's content.
- 
- 
-* Subsections inherit the release date of the Section they are in, but you
-can change this date so that individual Subsections are released at different
-times after the Section has been released.
+* Subsections 繼承了它們在Section的釋出日期，但是您可以在Section已經釋出之後，
+更改這個日期來使得個別的Subsections釋出時間不一樣。
  
  
 .. image:: Images/image189.png
@@ -43,48 +33,46 @@ times after the Section has been released.
 .. image:: Images/image191.png
 
  
-3. You set the Unit that contains the content to Public.** By default, all
-Units are set to Private.
+
+3. 您可以設定這個包含開放內容的Unit。** 預設情況下，所有Units都被設為私人。
  
  
-There are four ways of viewing your course on edX or Edge while you are
-still creating it:
+當您還在創建中，這裡有四種方式來觀看您在edX或Edge的課程：
+
  
- 
-* In Studio
+* 在Studio
 
 
 .. note::
+	
+	您在Studio中看您課程的方式與學生在edX或Edge上看您課程的方式不一樣。
+	 
+ 
+ 
+* 在edX或Edge上的預覽模式
+	
+	任何被設定為私人的內容只能在預覽模式看到。
+ 
 
-	The way your course looks in Studio is not the way it looks to students on
-	edX or Edge.
- 
- 
-* On edX or Edge in Preview mode
+* 老師在edX或Edge上 
 
-	Any content that is set to Private is only visible in Preview mode.
- 
- 
-* On edX or Edge as an Instructor
+	當您以老師角度觀看內容時，您會看到 **Instructor** 標籤在畫面的上方。
 
-	When you view content as an instructor, you see the **Instructor** tab at the
-	the top of the screen.
  
  
-* On edX or Edge as a Student
+* 學生在edX或Edge上 
 
 .. raw:: latex
   
       \newpage %
  
 
-Outline View
+大綱View
 ============
 
  
-When you want to see the overall organization of your course in Studio, you can
-go to the **Course Outline **page. On the**Course Outline **page, you can
-see the "macro" outline of your course, down to individual Units.
+當您想要看到您在Studio中的整個課程架構，您可以到 **Course Outline **頁面。
+在 **Course Outline **上，您可以看到課程的 "macro" 大綱，down to individual Units。
  
  
 .. image:: Images/image193.png
@@ -97,12 +85,10 @@ see the "macro" outline of your course, down to individual Units.
 Subsection View
 ===============
  
-You can also view content by Subsection. In this view, you can see the name
-of the Subsection and the Units that the Subsection contains. You can see if
-the Section is graded or not graded; if it is graded, you can see the
-assignment type of the Subsection. You can also see if the individual Units
-are set to Public or Private. Private Units appear in light gray text with
-"PRIVATE" next to the Unit name. All other Units are Public.
+您也可以觀看Subsection的內容。在這個view，您可以看到Subsection和Subsection中的Units名稱。
+您可也看到這個Section是否is graded或not graded；如果is graded，您可以看到Subsection中的作業類型。
+您也可以看到個別的Units是設定為公開或私人。
+私人Units會在Unit名稱旁邊顯示為淺灰色的文字 "PRIVATE"。所有其他的Units都是公開。
  
  
 .. image:: Images/image195.png
@@ -115,36 +101,34 @@ are set to Public or Private. Private Units appear in light gray text with
 Unit View
 =========
  
-When you want to see the actual text, problems, and other content in your
-course, you can open an individual Unit. You then see the Components for
-that Unit. You can see this content whether it is set to Public or Private,
-and whether or not the release date has passed.
+當您想要在您的課程中看到實際的文字、問題或其他內容，您可以開啟一個個別Unit。
+您就可以看到Unit的Components。不論它設定為公開或私人以及不論它的釋出日期過了沒，您都可以看到這些內容。
  
  
-The following example shows the Studio view of two Units in the "What Does
-an edX Course Look Like?" Subsection.
+接下來的例子顯示出在"What Does an edX Course Look Like?" Subsection中兩個Units的Studio View。
  
  
-The following Unit is set to Public. The release date for the Subsection has
-passed.
- 
+
+接下來的Unit被設定為公開。Subsection的釋出日期已經過了。
+
+
  
 .. image:: Images/image197.png
  
  
-The following Unit is set to Private. The release date for the Subsection
-has passed.
+接下來的Unit被設定為私人。Subsection的釋出日期已經過了。
+
  
  
 .. image:: Images/image199.png
  
  
-If you change the release date for the "What Does an edX Course Look Like?"
-Subsection to a date in the future (in this example, January 1, 2099), you
-still see both Units in Studio.
+如果改變"What Does an edX Course Look Like?"這個Subsection的釋出日期為未來 (在這個例子中，為 January 1, 2099)，
+您依然可以在Studio看到這兩個Units。
+
  
  
-Public Unit
+公開Unit
 ^^^^^^^^^^^
 
  
@@ -152,7 +136,7 @@ Public Unit
 .. image:: Images/image201.png
  
  
-Private Unit
+私人Unit
 ^^^^^^^^^^^^
 
  
@@ -166,46 +150,46 @@ Private Unit
       \newpage %
 
  
-Preview Mode
+預覽模式
 ============
  
-When you view your course on edX or Edge using Preview mode, you see all the
-Units of your course, regardless of whether they are set to Public or
-Private and regardless of whether the release dates have passed.
+當您使用預覽模式在edX或Edge上觀看您的課程，您可以看到所有在您課程中的Units，
+不論他們是否設定為公開或私人以及不論是否釋出日期已經過了。
+
+ 
+
+**使用預覽模式是唯一可以看到已經設定為私人內容的方式。
+**學生會看到它**
  
  
-**Using Preview mode is the only way to see content that is set to Private
-**as a student would see it.**
+您可以以兩種方式進入預覽模式。
  
  
-You can enter Preview mode in two ways.
- 
- 
-1. On any Subsection page, click** Preview Drafts**.
+1. 在任何Subsection頁面，點擊 ** Preview Drafts** 。
  
  
 .. image:: Images/image205.png
  
  
-2. On any Unit page, click **Preview**.
+2. 在任何Unit頁面，點擊 **Preview**。
  
- 
-The following example shows the **Preview** button on a page for a Unit that
-is set to Public.
+
+
+接下來的例子是Unit被設定為公開那個頁面的 **Preview** 按鈕。
  
  
 .. image:: Images/image207.png
  
  
-The following example shows the **Preview** button on a page for a Unit that
-is set to Private.
+接下來的例子是Unit被設定為私人那個頁面的 **Preview** 按鈕。
  
  
 .. image:: Images/image209.png
  
-Example
+例子
 =======
  
+接下來的例子是在預覽模式下第一個Unit "What Does an edX Course Look Like?" Subsection
 The following example shows the first Unit of the "What Does an edX Course
 Look Like?" Subsection in Preview mode.
  
