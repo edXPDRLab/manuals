@@ -1,218 +1,203 @@
 *******************************************************
-Add a Syllabus, StaticPage, Update, or Course Handouts
+新增教學大綱、靜態頁面、更新或課程講義
 *******************************************************
 
-Add a Static Page 
+新增靜態頁面
 *****************
 
-**Static Pages** takes you to a list of the important pages for your course that
-you want students to be able to access easily. Static pages usually apply to the
-whole course rather than a particular sequence. For example, your static pages
-might include your syllabus or information about your grading policy.
+**Static Pages** 帶您到您想要學生能夠簡單存取的課程重要頁面表單。
+靜態頁面經常應用在整個課程而不是一個特定的順序。
+舉個例子，您的靜態頁面可能包含您的教學大綱或您的grading policy資訊。
+
 
 .. image:: Images/image155.png
 
-When you create a static page, the name of that page appears in your course's
-navigation bar at the top of the page, along with **Courseware**, **Course
-Info**, and other tabs. For example, the following navigation bar includes a
-**Syllabus** static page and a  **Projects** static page.
+當您創建一個靜態頁面，會在您課程頁面上方的navigation bar 沿著
+ **Courseware** ， **CourseInfo** 以及其他標籤的地方顯示名稱。
+舉個例子，接著 navigation bar 包含一個 **Syllabus** 靜態頁面和
+一個 **Projects** 靜態頁面。
+
 
 .. image:: Images/image157.png
     
 
-To add a static page:
+新增一個靜態頁面:
 
-1. On the navigation bar, click **Course Content**, and then click **Static
-Pages**.
+1. 在navigation bar上，點擊 **Course Content** ，之後點擊 **Static Pages** 。
 
 .. image:: Images/image159.png
 
 
-2. In the top right corner, click **New Page**. The following entry appears.
+2. 在右上角，點擊 **New Page** 。 接下來entry就會顯示。
 
 .. image:: Images/image161.png
 
 
-3. On the right side of the box, click **Edit**. The following dialog box opens.
+3. 在Box的右側，點擊 **Edit** 。 就會開啟dialog box。
 
 .. image:: Images/image163.png
 
-4. In the **display_name** box, type the name that you want to appear in the
-navigation bar for your course.
+4. 在 **display_name** 欄位，填入您想要顯示在您課程中navigation bar 的名稱。
 
 
-5. Replace the placeholder text with your content.
 
-6. Click **Save**.
+5. 以您的內容取代placeholder文字。
+
+6. 點擊 **Save**.
 
 
-Add a Schedule 
+新增一個行事曆
 **************
 
 
-To create a schedule for your course, you can create a Google calendar that
-students can incorporate into their personal Google calendars, or you can use
-HTML to create a dynamic schedule with links that students can click. You can
-also include both types of calendar in your course.
+為您的課程創建一個行事曆，您可以創建一個Google行事曆讓學生可以合併進他們個人行事曆中，
+或者您可以使用HTML去創建一個動態行事曆讓學生可以點擊連結。
+您也可以同時兩種行事曆都使用在您課程中。
 
-Google Calendar 
+
+Google行事曆
 ===============
 
 
-Your Google calendar should include all release dates and due dates. You can
-link to it in your course. Your calendar may look like the following calendar
-for BerkeleyX's CS 169.2x course. To see this calendar live, 
-click 
-https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@group.calendar.g
-oogle.com&amp;ctz=America/New_York_
+您的Google行事曆應包含所有釋出日期以及截止日期。您可以連結他們到您的課程中。
+您的行事曆看起來像接下來的行事曆for BerkeleyX's CS 169.2x 課程。
+馬上看這個行事曆，點擊
+https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@group.calendar.google.com&amp;ctz=America/New_York_
 
 .. image:: Images/image165.png
 
 
-To create a Google calendar, access your Google account, and then click
-**Calendar** at the top of the page. You can then enter your schedule
-information. You can also create a link to this calendar anywhere in your
-course.
+創建一個Google行事曆，存取您的Google帳號，之後點擊頁面上方的 **Calendar**  。
+您就可以輸入您的行事曆資訊。您也可以在您的課程中任何地方創建一個連結到這個行事曆。
 
-Dynamic HTML Schedule 
+
+動態HTML行事曆
 =====================
 
-You can create a dynamic HTML schedule page that you update manually as the
-course progresses. The template below was adapted from a version created by
-Professors Dan Klein and Pieter Abbeel.
+您可以創建一個動態HTML行事曆頁面，來手動更新課程的進展。
+下面的樣板是改編自Dan Klein和Pieter Abbeel教授創建的版本。
 
-Below is a sample course schedule that shows the way the schedule would look
-during week 3 of the course. As you can see, there are no links for material
-after week 3, since that information has not yet been released.
 
-This course uses the following release schedule:
+在下面是一個範例課程行事曆，展現出三週課程行事曆的方式。
+如您所見，教材在第三周後沒有連結，也就是說資訊尚未被釋出。
 
-1. All lessons are released on Mondays. 2. All homework assignments are released
-on Wednesdays, and are due on Sunday of the following week. 3. All quizzes are
-released on Fridays and due on Sunday of the following week (9 days later).
+
+這個課程使用如下釋出行事曆：
+
+1. 所有lessons在星期一被釋出。 2. 所有回家作業在星期三被釋出，以及截止日期在接下來一周的星期六。
+3. 所有考試在星期五被釋出以及截止日期在接下來一周的周六 (9天後) 。
+
 
 
 .. image:: Images/image285.png
 
 
-To create a dynamic HTML schedule:
+創建一個動態HTML行事曆：
 
-1. On the navigation bar, click **Course Content**, and then click **Static
-Pages**.
+1. 在navigation bar上，點擊 **Course Content** ，之後點擊 **Static Pages**.
 
 .. image:: Images/image159.png
 
-2. In the top right corner, click **New Page**. The following entry appears.
+2. 在右上角，點擊 **New Page** 。接下來entry顯示。
 
 .. image:: Images/image161.png
 
-3. On the right side of the box, click **Edit**. The following dialog box opens.
+3. 在Box右側，點擊 **Edit** 。接著dialog box開啟.
 
-4. In the editor that opens, type **Schedule **in the **display_name** box.
+4. 在編輯中開啟，並且填入 **Schedule ** 在 **display_name** box中。
 
-5. Click the **HTML** tab.
+5. 點擊 **HTML** 標籤。
   
  
 .. image:: Images/image163.png
   
  
-6. Go to `Appendix B <appendices/b.html>` and copy the code for the dynamic
-schedule template.
+6. 進入 `Appendix B <appendices/b.html>` 並且複製編碼給動態行事曆template。
   
  
-7. In the editor in Studio, replace the placeholder code on the HTML tab with
-the code for the dynamic schedule template.
+7. 在Studio編輯之中，以動態行事曆template編碼取代在HTML標籤上的placeholder編碼。
   
   
-Course Handouts  
+課程講義  
 ***************
   
  
-Your course handouts are available on Edge from the **Course Handouts** sidebar
-on the **Course Info** page. To add these items, you must create a file and
-upload the file to the **>Files & Uploads** page. When you do this, a URL is
-created for that file. You then use this URL to create a link to the file on the
-**Handouts** sidebar. You create this link on the **Course Updates** page.
+在Edge上您的課程講義是有用的在 **Course Info** 頁面上的 **Course Handouts** sidebar 。
+為了新增這些項目，您必須創建一個檔案以及上船這個檔案到 **>Files & Uploads** 頁面。
+當您做了這件事，一個URL就會為了這個檔案被創造。
+之後您就會看到這個URL創建了一個連結給這個在**Handouts** sidebar上的檔案。
+您可以在 **Course Updates** 頁面創建這個連結。
+
   
 .. note::
+	
+    您不能上傳影片到檔案與上傳頁面。
 
-    You cannot upload videos to the Files & Uploads page.
 
-
-Upload a File to the Files & Uploads page
+上傳一個檔案到檔案與上傳頁面
 =========================================
   
  
-The **Files & Uploads** page lists handouts, images, and other content that you
-want to integrate into your course.
+檔案與上傳頁面列出講義、圖片以及其他您想整合到您課程的內容。
 
   
 .. image:: Images/image160.png
   
  
-For example, if you want to include a cartoon in one of your weekly updates, you
-upload the image to **Files & Uploads**. When you do this, the file receives its
-own URL, and you then use that URL to create a link to the image in the body of
-the course. Likewise, if you want to include a handout in the **Course
-Handouts** section of the **Course Info** page or in a lesson, you upload the
-handout here, and then create a link to the handout under **Course Handouts** or
-in the lesson.
+舉例來說，如果您想要匯入卡通在您的每週一次更新之一，您可以上傳圖片到 **Files & Uploads**。
+當您做了這件事，這個檔案就會收到他自己的URL，之後您就可以使用這個URL來創建一個連結圖片給這個課程的body。
+同樣的，如果您想要匯入一個講義到 **Course Info** 頁面或在一個lesson中 的 **Course Handouts** section，
+您先上傳講義到這裡，之後在這個lesson或 **Course Handouts** 之下創建一個連結給講義。
+
   
  
-You can also use the **Files & Uploads** page to keep all of the content for
-your course in one place. Content is only visible to students if you create a
-link to it. You can thus keep older versions of your content.
+您也可以使用 **Files & Uploads** 頁面來使您所有課程的內容在一個地方。
+如果您創建一個連結給它，內容只有學生可以看到。
+這樣您就可以保持舊版的內容。
   
  
-For example, if you create a Word file to use in your class, and you then create
-a PDF copy of that Word file, you can link to the PDF file but keep the Word
-file on the **Files Uploads** page. If you later delete the file from your
-personal computer, or if a colleague asks you if they can run a version of your
-course but change the dates in your handout, you can easily find the Word file
-on the **Files Uploads** page.
+舉個例子，如果您創建一個Word檔案使用在您的班級，然後在創建一個從Word複製內容過來的PDF副本，
+您就可以連結到PDF檔但仍保持Word檔在 **Files Uploads** 頁面上。
+如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求您如果可以他們在您的課程中執行一個版本但是會更改您講義的日期，
+您就可以簡單地在 **Files Uploads** 頁面找到Word檔。
+
   
  
-Note that you should be careful when you name files that you add to the **Files
-& Uploads** page. Because the file name becomes part of the URL, students can
-see the name of the file when they open it. Avoid using file names such as
-"AnswerKey.pdf."
+請注意當您命名您的檔案名稱新增到 **Files & Uploads** 頁面時您應該小心。
+因為這個檔案名稱會變成URL的一部分，當學生開啟它的時候可能看到檔案名稱。
+避免使用的檔案名稱像是"AnswerKey.pdf."
   
  
 .. warning::
 
-    Uploading a file with the same name as a file that is already 
-    uploaded will cause the original file to be overwritten. There is not currently 
-    a warning when you try to upload a file that has the same name.
+	正在上傳檔案如果和已經上傳的檔案有相同的檔案名稱會導致原本的檔案被覆蓋掉。
+    當您嘗試上傳一個已經有相同檔案名稱檔案的情況目前沒有警告。
+	
         
  
-To upload a file to the **Files & Uploads** page:
+上傳一個檔案到  **Files & Uploads** 頁面：
   
  
-1. On the navigation bar, click **Course Content**, and then click **Files &
-Uploads**.
+1. 在navigation bar上，點擊 **Course Content** ，之後點擊 **Files & Uploads** 。
   
  
-2. On the **>Files & Uploads** page, click **Upload New File**.
+2. 在 **>Files & Uploads** 頁面，點擊 **Upload New File** 。
   
  
 .. image:: Images/image162.png
   
  
-3. In the **Upload New File** dialog box, click **Choose File**.
+3. 在 **Upload New File** 中的dialog box，點擊 **Choose File**。
   
  
-4. In the **Open** dialog box, locate the file that you want, and then click
-**Open**.
+4. 在 **Open** 中的dialog box，選擇您想要的檔案，並且點擊 **Open** 。
    
-To add another file, click **Load Another File**. To close the dialog box, click
-the **x** in the top right corner. When you close the dialog box, the file
-appears on the **Files & Uploads** page.
+新增另外的檔案，點擊 **Load Another File** 。關閉dialog box，點擊在右上角的 **x** 。
+當您關閉dialog box，檔案出現在 **Files & Uploads** 頁面上。
   
- 
-5. Determine the URL of your newly uploaded file. To do this, on the **Files &
-Uploads** page, locate the file in the list. In the **URL** column on the right,
-you can see the URL you will need to use to display an image or create a
-hyperlink.
+5. 決定您重新上傳檔案的URL。要做到這件事，在 **Files & Uploads** 頁面上，選擇列表中的檔案。在 **URL** 列右側，
+您可以看到這個URL您將會需要使用這個來顯示一張圖片或創建一個超連結。
+
   
  
 .. image:: Images/image164.png
@@ -226,26 +211,27 @@ hyperlink.
       
   
   
-Add Items to the Handouts Sidebar 
+新增項目給講義Sidebar 
 =================================
   
  
-1. On the navigation bar, click **Course Content**, and then click **Updates**.
+1. 在navigation bar上，點擊 **Course Content** ，之後點擊 **Updates** 。
   
  
 image:: Images/image166.png
   
  
-2. Locate the **Course Handouts** sidebar on the right, and then click **Edit**.
+2. 在右側選擇 **Course Handouts** sidebar ，之後點擊 **Edit** 。
   
  
 .. image:: Images/image168.png
   
  
-3. In the XML box that appears, create links to your files.
+3. 在XML box中，顯示、創建連結給您的檔案。
   
  
-* To create a link to a document, enter the following syntax, where URL OF FILE
+
+* 為了創建一個連結給一個文件，輸入接下來的語法， where URL OF FILE
 is the URL that you noted in step 5 of **Upload a File** on the **Files &
 Uploads Page** and LINK TEXT is the text that you want to appear in the
 **Handouts** sidebar.
@@ -255,7 +241,7 @@ Uploads Page** and LINK TEXT is the text that you want to appear in the
     <p><a href="[URL OF FILE]">[LINK TEXT]</a></p>
 
 
-* To create a link to an image that you've uploaded, enter the following syntax,
+* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，
 where URL OF FILE is the URL that you noted in step 5 of **Upload a File to
 Your Assets Tab**.
 
@@ -265,37 +251,35 @@ Your Assets Tab**.
  
   
  
-4. Click **Save**. Your files appear under **Course Handouts**.
+4. 點擊 **Save** 。您的檔案出現在 **Course Handouts** 之下。
   
  
-Add an Announcement or Update  
+新增一個公告或更新
 *****************************
   
  
-    You can add announcements or updates to welcome students to the class,
-    remind students of exams, notify students of changes in the course schedule,
-    and call out important steps students need to keep in mind. These updates
-    appear on the **Course Info** tab on edX or Edge. Because your course
-    automatically opens to the **Course Info** page, students will see the
-    update as soon as they sign in.
+	您可以新增公告或更新來歡迎學生來到這個班級，
+	提醒學生考試，通知學生課程行事曆的變動，以及call out學生需要銘記的重要步驟。
+	這些更新出現在edX或Edge的 **Course Info** 標籤上。
+	因為您的課程自動開啟到 **Course Info** 頁面，學生登入時將會馬上看到更新。
+    
   
  
-    1. On the **Course Content** menu, click **Updates**. The **Course Updates**
-    page opens.
+    1. 在 **Course Content** menu上，點擊 **Updates** 。 **Course Updates** 頁面開啟。
   
  
     .. image:: Images/image185.png
 
   
  
-    2. Click **New Update**. The following dialog box opens.
+    2. 點擊 **New Update** 。 接著 dialog box 開啟。
   
  
     .. image:: Images/image187.png
   
  
-    The content for this box must be formatted in HTML. For a template that you
-    can use that includes placeholders, see `Appendix A <appendices/a.html>`.
+    這個box的內容格式必須是HTML。作為一個template您可能使用來匯入placeholders，
+	請看 `Appendix A <appendices/a.html>`。
   
  
-    3. Enter your update formatted as HTML, and then click **Save**.
+    3. 以HTML輸入您的更新，之後點擊 **Save** 。
