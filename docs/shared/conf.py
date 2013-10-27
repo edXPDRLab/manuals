@@ -64,7 +64,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'edX'
-copyright = u'2013, EdX Doc Team'
+copyright = u'2013, EdX Doc Team, revised by edX PDR Lab of NCU, Taiwan'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
