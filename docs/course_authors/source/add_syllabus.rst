@@ -7,15 +7,13 @@
 
 **Static Pages** 帶您到您想要學生能夠簡單存取的課程重要頁面表單。
 靜態頁面經常應用在整個課程而不是一個特定的順序。
-舉個例子，您的靜態頁面可能包含您的教學大綱或您的grading policy資訊。
+舉例來說，您的靜態頁面可能包含您的教學大綱或您的 grading policy 資訊。
 
 
 .. image:: Images/image155.png
 
-當您創建一個靜態頁面，會在您課程頁面上方的navigation bar 沿著
- **Courseware** ， **CourseInfo** 以及其他標籤的地方顯示名稱。
-舉個例子，接著 navigation bar 包含一個 **Syllabus** 靜態頁面和
-一個 **Projects** 靜態頁面。
+當您創建一個靜態頁面，會在您課程頁面上方的 navigation bar 沿著 **Courseware** ， **CourseInfo** 以及其他標籤的地方顯示名稱。
+舉例來說，接著 navigation bar 包含一個 **Syllabus** 靜態頁面和一個 **Projects** 靜態頁面。
 
 
 .. image:: Images/image157.png
@@ -37,7 +35,7 @@
 
 .. image:: Images/image163.png
 
-4. 在 **display_name** 欄位，填入您想要顯示在您課程中navigation bar 的名稱。
+4. 在 **display_name** 欄位，填入您想要顯示在您課程中navigation bar的名稱。
 
 
 
@@ -50,42 +48,38 @@
 **************
 
 
-為您的課程創建一個行事曆，您可以創建一個Google行事曆讓學生可以合併進他們個人行事曆中，
-或者您可以使用HTML去創建一個動態行事曆讓學生可以點擊連結。
-您也可以同時兩種行事曆都使用在您課程中。
+為您的課程創建一個行事曆，您可以創建一個Google行事曆讓學生可以合併進他們個人行事曆中，或者您可以使用HTML去創建一個動態行事曆讓學生可以點擊連結。
+您也可以同時將兩種行事曆都使用在您課程中。
 
 
 Google行事曆
 ===============
 
 
-您的Google行事曆應包含所有釋出日期以及截止日期。您可以連結他們到您的課程中。
-您的行事曆看起來像接下來的行事曆for BerkeleyX's CS 169.2x 課程。
+您的Google行事曆應包含所有釋出日期以及截止日期。您可以連結他們到您的課程中。您的行事曆看起來像接下來的行事曆for BerkeleyX's CS 169.2x 課程。
 馬上看這個行事曆，點擊
 https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@group.calendar.google.com&amp;ctz=America/New_York_
 
 .. image:: Images/image165.png
 
 
-創建一個Google行事曆，存取您的Google帳號，之後點擊頁面上方的 **Calendar**  。
-您就可以輸入您的行事曆資訊。您也可以在您的課程中任何地方創建一個連結到這個行事曆。
+創建一個Google行事曆，存取您的Google帳號，之後點擊頁面上方的 **Calendar** 。您就可以輸入您的行事曆資訊。您也可以在您的課程中任何地方創建一個連結到這個行事曆。
 
 
 動態HTML行事曆
 =====================
 
-您可以創建一個動態HTML行事曆頁面，來手動更新課程的進展。
-下面的樣板是改編自Dan Klein和Pieter Abbeel教授創建的版本。
+您可以創建一個動態HTML行事曆頁面，來手動更新課程的進展。下面的樣板是改編自Dan Klein和Pieter Abbeel教授創建的版本。
 
 
-在下面是一個範例課程行事曆，展現出三週課程行事曆的方式。
-如您所見，教材在第三周後沒有連結，也就是說資訊尚未被釋出。
+在下面是一個範例課程行事曆，展現出三週課程行事曆的方式。如您所見，教材在第三周後沒有連結，也就是說資訊尚未被釋出。
 
 
-這個課程使用如下釋出行事曆：
+這個課程使用如下方式釋出行事曆：
 
-1. 所有lessons在星期一被釋出。 2. 所有回家作業在星期三被釋出，以及截止日期在接下來一周的星期六。
-3. 所有考試在星期五被釋出以及截止日期在接下來一周的周六 (9天後) 。
+1. 所有lessons在星期一被釋出。 
+2. 所有回家作業在星期三被釋出，以及截止日期在接下來一周的星期六。
+3. 所有考試在星期五被釋出，截止日期則設定在下星期的星期六 (9天後) 。
 
 
 
@@ -123,18 +117,17 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
   
  
 在Edge上您的課程講義是有用的在 **Course Info** 頁面上的 **Course Handouts** sidebar 。
-為了新增這些項目，您必須創建一個檔案以及上船這個檔案到 **>Files & Uploads** 頁面。
-當您做了這件事，一個URL就會為了這個檔案被創造。
-之後您就會看到這個URL創建了一個連結給這個在**Handouts** sidebar上的檔案。
+為了新增這些項目，您必須創建一個檔案以及上傳這個檔案到 **Files & Uploads** 頁面。
+當您做了這件事，一個URL就會為了這個檔案被創造，之後您就會看到這個URL創建了一個連結給這個在**Handouts** sidebar上的檔案。
 您可以在 **Course Updates** 頁面創建這個連結。
 
   
 .. note::
 	
-    您不能上傳影片到檔案與上傳頁面。
+    您不能上傳影片到 **Files & Uploads** 頁面。
 
 
-上傳一個檔案到檔案與上傳頁面
+上傳一個檔案到檔案與上傳頁面 (File & Uploads)
 =========================================
   
  
@@ -144,10 +137,10 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 .. image:: Images/image160.png
   
  
-舉例來說，如果您想要匯入卡通在您的每週一次更新之一，您可以上傳圖片到 **Files & Uploads**。
-當您做了這件事，這個檔案就會收到他自己的URL，之後您就可以使用這個URL來創建一個連結圖片給這個課程的body。
-同樣的，如果您想要匯入一個講義到 **Course Info** 頁面或在一個lesson中 的 **Course Handouts** section，
-您先上傳講義到這裡，之後在這個lesson或 **Course Handouts** 之下創建一個連結給講義。
+舉例來說，如果您想要匯入一部卡通到您的每週更新當中，您可以上傳圖片到 **Files & Uploads**。
+當您做了這件事之後，這個檔案就會一個專屬的URL，之後您就可以使用這個URL來創建一個連結圖片到課程之中。
+同樣的，如果您想要匯入一個講義到 **Course Info** 頁面或在一個課程中的 **Course Handouts** section，
+您先上傳講義到這裡，之後在這個課程或是 **Course Handouts** 之下創建一個連結給講義。
 
   
  
@@ -156,22 +149,20 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 這樣您就可以保持舊版的內容。
   
  
-舉個例子，如果您創建一個Word檔案使用在您的班級，然後在創建一個從Word複製內容過來的PDF副本，
-您就可以連結到PDF檔但仍保持Word檔在 **Files Uploads** 頁面上。
-如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求您如果可以他們在您的課程中執行一個版本但是會更改您講義的日期，
-您就可以簡單地在 **Files Uploads** 頁面找到Word檔。
+舉個例子，如果您創建一個Word檔案并使用在您的班級，然後再創建一個從Word複製內容過來的PDF副本，
+您就可以連結到PDF檔但仍保持原始Word檔在 **Files Uploads** 頁面上。
+如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求您使用您的課程中的其中一個版本，但是會更改您講義的日期，您就可以簡單地在 **Files Uploads** 頁面找到Word檔。
 
   
  
-請注意當您命名您的檔案名稱新增到 **Files & Uploads** 頁面時您應該小心。
-因為這個檔案名稱會變成URL的一部分，當學生開啟它的時候可能看到檔案名稱。
-避免使用的檔案名稱像是"AnswerKey.pdf."
+請注意當您命名您的檔案名稱新增到 **Files & Uploads** 頁面時您應該小心。因為這個檔案名稱會變成URL的一部分，當學生開啟連結的時候會看到檔案名稱。
+請避免使用像是"AnswerKey.pdf." 的檔案名稱。
   
  
 .. warning::
 
-	正在上傳檔案如果和已經上傳的檔案有相同的檔案名稱會導致原本的檔案被覆蓋掉。
-    當您嘗試上傳一個已經有相同檔案名稱檔案的情況目前沒有警告。
+	在上傳檔案時，如果和已經上傳的檔案有相同的檔案名稱，將會導致原本的檔案被覆蓋掉。
+    當您嘗試上傳一個已經有相同檔案名稱檔案存在的情況發生時，目前沒有警告訊息通知您。
 	
         
  
@@ -192,7 +183,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
  
 4. 在 **Open** 中的dialog box，選擇您想要的檔案，並且點擊 **Open** 。
    
-新增另外的檔案，點擊 **Load Another File** 。關閉dialog box，點擊在右上角的 **x** 。
+新增另外的檔案，點擊 **Load Another File**。關閉dialog box，點擊在右上角的 **x** 。
 當您關閉dialog box，檔案出現在 **Files & Uploads** 頁面上。
   
 5. 決定您重新上傳檔案的URL。要做到這件事，在 **Files & Uploads** 頁面上，選擇列表中的檔案。在 **URL** 列右側，
@@ -205,9 +196,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
  
 .. note::
 
-    Currently, you cannot delete a file after you upload it to the **Files &
-    Uploads** page. You can replace a file by uploading another file with the same
-    name, but you cannot delete the file.
+    目前來說，您不能在檔案上傳到 **File & Upload** 頁面後刪除檔案，您可以上傳一個相同檔名的檔案覆蓋原始檔案，但是您無法刪除它。
       
   
   
@@ -231,10 +220,7 @@ image:: Images/image166.png
   
  
 
-* 為了創建一個連結給一個文件，輸入接下來的語法， where URL OF FILE
-is the URL that you noted in step 5 of **Upload a File** on the **Files &
-Uploads Page** and LINK TEXT is the text that you want to appear in the
-**Handouts** sidebar.
+* 為了創建一個連結給一個文件，請輸入接下來的語法。要注意的是 URL OF FILE 欄位應該輸入的是於 **Upload a File** 上傳檔案時，第五步提示給您的 URL。LINK TEXT 則是您想顯示在 **Handouts** 側邊欄上的訊息。
 
 .. code-block:: html
 
@@ -242,8 +228,7 @@ Uploads Page** and LINK TEXT is the text that you want to appear in the
 
 
 * 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，
-where URL OF FILE is the URL that you noted in step 5 of **Upload a File to
-Your Assets Tab**.
+要注意的是 URL OF FILE 欄位應該輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
 
 .. code-block:: html
 
@@ -251,7 +236,7 @@ Your Assets Tab**.
  
   
  
-4. 點擊 **Save** 。您的檔案出現在 **Course Handouts** 之下。
+4. 點擊 **Save** 。您的檔案會出現在 **Course Handouts** 之下。
   
  
 新增一個公告或更新
