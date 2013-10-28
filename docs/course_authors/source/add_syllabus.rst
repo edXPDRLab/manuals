@@ -149,9 +149,9 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 這樣您就可以保持舊版的內容。
   
  
-舉個例子，如果您創建一個Word檔案并使用在您的班級，然後再創建一個從Word複製內容過來的PDF副本，
+舉個例子，如果您創建一個Word檔案並使用在您的班級，然後再創建一個從Word複製內容過來的PDF副本，
 您就可以連結到PDF檔但仍保持原始Word檔在 **Files Uploads** 頁面上。
-如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求您使用您的課程中的其中一個版本，但是會更改您講義的日期，您就可以簡單地在 **Files Uploads** 頁面找到Word檔。
+如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求使用您的課程中的其中一個檔案，但是會更改您講義的日期，您就可以簡單地在 **Files Uploads** 頁面找到Word檔。
 
   
  
@@ -227,8 +227,7 @@ image:: Images/image166.png
     <p><a href="[URL OF FILE]">[LINK TEXT]</a></p>
 
 
-* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，
-要注意的是 URL OF FILE 欄位應該輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
+* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，應注意 URL OF FILE 欄位要輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
 
 .. code-block:: html
 
@@ -257,14 +256,14 @@ image:: Images/image166.png
 
   
  
-    2. 點擊 **New Update** 。 接著 dialog box 開啟。
+    2. 點擊 **New Update** ，接著對話框開啟。
   
  
     .. image:: Images/image187.png
   
  
     這個box的內容格式必須是HTML。作為一個template您可能使用來匯入placeholders，
-	請看 `Appendix A <appendices/a.html>`。
+	請參考 `Appendix A <appendices/a.html>`。
   
  
     3. 以HTML輸入您的更新，之後點擊 **Save** 。
