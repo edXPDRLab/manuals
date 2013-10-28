@@ -1,6 +1,6 @@
 
 **************************
-在Studio中創建一個Lesson
+在Studio中創建一門課程
 **************************
 
 一旦您已經創建一個課程，而您準備去創建那個課程的內容。
@@ -39,7 +39,7 @@ Sections，舉例來說，可對應您的課程的第幾週，而subsections常�
   
 	\newpage %
 
-Section
+節
 *******
 
 一個section是最頂層的類可以用它來組織您的課程。
@@ -57,7 +57,7 @@ Sections包含subsections，which in turn contain units.
   
 	\newpage %
 
-Subsection
+小節
 **********
 
 一個subsection是一個section的一個subcategory。許多教師根據他們課程的主題去命名他們的subsections。
@@ -80,7 +80,7 @@ Subsection命名顯示along with section的命名在左側的pane當您在Edge�
   
 	\newpage %
 
-Unit
+單元
 ****
 
 一個單元是一個幫助您組資您的課程教材之進一步的類別。
@@ -100,7 +100,7 @@ Unit
 	\newpage %
 
 
-Component 
+元件 
 *********
 一個component為一個單元的部分包含您實際的課程內容。
 當您在頁面上方的course accordion中hover over這個單元，所有在unit中components的名稱會顯示。

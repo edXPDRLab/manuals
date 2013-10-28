@@ -82,7 +82,7 @@ Section的heading在左側pane。但是，學生不能看到Subsection的heading
   
       \newpage %
  
-Subsection View
+小節 View
 ===============
  
 您也可以觀看Subsection的內容。在這個view，您可以看到Subsection和Subsection中的Units名稱。
@@ -98,7 +98,7 @@ Subsection View
   
       \newpage %
  
-Unit View
+單元 View
 =========
  
 當您想要在您的課程中看到實際的文字、問題或其他內容，您可以開啟一個個別Unit。
@@ -128,7 +128,7 @@ Unit View
 
  
  
-公開Unit
+公開單元
 ^^^^^^^^^^^
 
  
@@ -136,7 +136,7 @@ Unit View
 .. image:: Images/image201.png
  
  
-私人Unit
+私人單元
 ^^^^^^^^^^^^
 
  

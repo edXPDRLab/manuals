@@ -178,7 +178,7 @@ Schedule and Details Page
 
 這張照片被命名為 **images_course_image.jpg** 自動出現在課程的About頁面上。
 
-Add an About Video
+加入一個關於我影片
 ==================
 
 

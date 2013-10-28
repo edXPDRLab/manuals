@@ -6,7 +6,7 @@
 課程教材的發佈時程表是由設定sections與subsections的發佈日期決定的。
 
 
-Section
+節
 *******
 
     要設定section的發行日期:
@@ -18,7 +18,7 @@ Section
     3. 在**Will Release**下方，點擊**Edit**接著改變日期。
  .. image:: Images/image280.png
 
-Subsection
+小節
 **********
 
 Subsections繼承其所在section的發佈日期，但你可以更改這個日期
@@ -35,7 +35,7 @@ Section會覆寫subsection的發佈日期。
 
     3. 在**Release Date**下方，修改日期。
 
-Unit
+單元
 ****
      
 個別的units繼承其所在的subsection的發佈日期，但其有一個額外的
