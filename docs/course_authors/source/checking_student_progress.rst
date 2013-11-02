@@ -1,96 +1,76 @@
-**************************************************
-檢查學生的進度以及頒發證書
-**************************************************
+﻿**************************
+檢查學生的進度以及證書核發
+**************************
 
  
-將會在之後的sections討論，評分方針及儲存的問題分數是用於
-記錄該課程的進度，確定最終成績，
-並在最後頒發證書。這個unit將會給予你一些有關評分方針是如何
-可讓學生看到以及你需要在課程結尾做的是以給予成績的建議。
+如同我們將會在之後的章節所討論的，評分準則以及學生於問題中所得到的分數，是用於記錄該課程的進度，確定最終成績，並在最後頒發證書。
+這個單元將會給予您一些有關評分準則是如何在課程進行中實施，以及您於課程結束時如何給予成績的建議。
  
  
 以學生身分確認進度
-******************************
+******************
  
 
-在課程run時，學生可以確認他們的進度藉由點擊Edge上的課程的Progress tab，
-(這是同一個頁面他們會去觀看subsection problem scores，as described in Viewing Scores) 
-學生的課程的成績部分的進度會顯示在頁面上方，
-包含subsection scores, as a chart with entries for all the assignments，
-在目前課程中獲得的總百分比及各grade cutoff所需要的百分比。
-這是一個學生在edX101的進度的範例。
+在課程進行時，學生可以藉由點擊課程分頁上的"Progress"確認他們的進度(這與於Viewing Scores章節中描述如何檢視小節問題分數為同一個頁面)。
+學生的學習進度透過課程中已經評分的部分顯示在頁面的上方，
+學生的學習進度於課程中已被評分或已分級的部分，將以圖表分配條列的方式呈現於此頁上方，位於小節分數之上；包含課程中目前所得之整體百分比，與達到每一級要求指標的百分比要求。
+以下為一位學生在edX101學習進度的範例。
  
  
 .. image:: Images/image245.png
 
  
  
-學生將可以從此頁面看到，當此screenshot被拍下時，
- edX101被以一個34%的cutoff及
-grading rubric contained one assignment type評為Pass/Fail課程，稱為
-Learning Sequence，由總計11個assignments構成。 此外，此圖表示出
-此一學生只有對兩個assignment submit出正確回應，
-及他們的現在總百分比分數在此課程為6%。
-藉由滑過每個progress bar，學生能夠去得到有關多少assignment counted as的更深入的統計。
+學生將可以從此頁面看到，當此圖被拍下時，edX101採用34%為通過與否的標準，評分內容包含了一種被稱為"Learning Sequence"的作業類別，當中包含了十一個作業。
+此外，圖上也說明了目前這些特定的學生們只在兩個作業中送出了正確的答案，目前僅完成了6%的作業。
+您可以將滑鼠指標滑過每個進度列，系統將會告訴您針對每個作業更詳細的數據。
  
- 
-雖已在unit on Viewing Scores中提過， 接下來在Progress page是一個所有課程中的subsections的清單，
-連同課程中學生對所有問題的分數的記錄。這裡有一個為學生的down view 範例的Progress pagescrolled:
+雖已在Viewing Scores單元中提過，接下來在"Progress"頁面中是一個所有課程中的小節的清單，連同課程中學生對所有問題的分數的記錄。
+以下是個範例，可以在頁面中向下捲動檢視學生的進度。
  
  
 .. image:: Images/image247.png
  
  
-再一次的，注意來自graded sections的point scores稱為 "Problem
-Scores"，同時來自ungraded sections的point scores稱為 "Practice
-Scores".
+再次提醒，從已評分部分得到的分數稱為 "Problem Scores"，從尚未評分部分得到的分數稱為 "Practice Scores".
 
 .. raw:: latex
   
       \newpage %
  
 以教師身分確認進度
-**********************************************
+******************
  
  
-要確認學生在課程中的進度，在Edge上以instructor view造訪你課程的
-Instructor dashboard並且點擊Grades page。
-課程中的Instructor dashboard有時由於更多course-specific工具加入而改變。
-這是一個edX101的Instructor dashboard的Grades page的上方的current view:
+要確認學生在課程中的進度，在Edge上以教師身分檢視教師控制面板並點選成績。 
+教師控制面板的畫面可能會隨著功能的增加而有所改變，以下是目前的樣貌供您參考：
  
  
 .. image:: Images/image249.png
 
  
-這裡你會看到許多選項用於觀看或下載學生成績，
-觀看個別的進度progress經由一個課程或resetting problem attempts。
+這裡您會看到一些選項，可用於觀看或下載學生成績、從一門課程檢視個別的進度或是重置所有問題的嘗試記錄。
 
 .. note::
 
-	只會顯示Grades page的上方部分。頁面包含一些更多資訊有關課程統計。
-	此到學生的progress page的連結應該會給你究竟學生看的的是什麼，
-	包含成績的分數及未評定的assignments。
+	此圖只顯示出少部分的功能，繼續向下檢視頁面將會看到一些關於課程統計結果的資訊。
+	透過點選學生的進度頁面，您會看到與學生看到一樣的畫面，包含已經評分過的成績以及尚未評分的部分作業。
  
  
 .. note::
 
-	The stored scores visible to you on the Instructor tab and to
-	the students from the Progress tab in the course on Edge are a snapshot of the
-	current state of the problem score database.他們可能明顯地未與實際的problem scores同步。
-	(非同步也可能發生，例如，
-	the weight of a live problem was changed during an assignment, and not
-	everyone has yet resubmitted their answers for that problem.) 分數及成績通常會在
-	學期末的determining final grades and issuing Certificates之前重新計算。
+	事實上，不管是位於教師頁面所看到的或是從Edge上課程內的進度頁中所看到的學生分數，您所看到的分數僅為一份快照。
+	這些分數有可能與真實的分數有所不同(例如當一個即時問題的評分權重修改以後，有些學生可能尚未更新他們的答案)。
+	因此分數以及最後的評等通常在課程結束階段時會再重新計算，作為最後核發證書的依據。
+
 
 .. raw:: latex
   
       \newpage %
  
  
-指定Final Grades及Issuing Certificates
+決定最後評分以及核發證書
 ***********************************************
 
-學生課程中的final grades及你設定的grading rubric是用於確定學生是否在此課程中取得一個Certificate of Mastery。 
-issuing Certificates的程序必須在課程run的最後由你或是由edX support team手動開始
-更多有關issuing Certificates的資訊，見TBD.
- 
+學生的最後成績以及用於評分的標準可決定最後學生是否能獲得修課合格證明。
+證書並不是於課程結束後自動核發給學生，必須由您或是管理員手動執行。
