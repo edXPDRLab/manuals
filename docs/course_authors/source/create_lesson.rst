@@ -1,32 +1,28 @@
 
-**************************
+********************
 在Studio中創建一門課程
-**************************
+********************
 
-一旦您已經創建一個課程，而您準備去創建那個課程的內容。
+一旦您已經創建一個課程，則您已經準備好去創建課程的內容。
 
 .. warning::
 
-	這個Studio的alpha版本沒有版本控制或自動更新您的瀏覽器between refreshes. 
-	Versioning is planned for future refresheseleases, 但是，in the meantime, only one author should edit a unit, in one
-	browser, on only one tab.  如果一個unit使用多個瀏覽器進行編輯，這個session將不會顯示任何警告就會將最後儲存內容覆蓋掉過去所儲存的內容。
-	並且，舊的瀏覽器sessions可以覆蓋更多最新的內容，所以, 在每次開始一個private unit或編輯一個public unit的草稿這些工作之前請刷新您的瀏覽器。
+	這個Alpha版本的Studio沒有版本控制機制或於您的瀏覽器重新整理頁面時的更新功能，版本控制功能將會在未來的版本中釋出。
+	目前為止，請保持只有作者一個人於單一瀏覽器 (或是單一分頁) 上編輯課程內容，若是有一個單元同時間有多個網頁進行編輯，則有可能發生覆蓋的情況，新舊之間可能會互相影響。
+	因此，在每次開始編輯之前，請先重新整理您的瀏覽器頁面，以確保載入最新的資料。
 
 
 簡介
-************
+****
 
-正如一個offline課程，在一個線上課程內容被細分成更小的碎片。
-在Studio中，這些碎片被分類叫**sections，subsections以及units** 
-Units，in turn，被做成 **components** 包含了您課程內容的實際內容。
+正如離線課程一般，在一個線上課程內容被細分成許多細小的片段。
+在Studio中，這些片段被分類成**節**、**小節**以及**單元**，其中每個「單元」是由「元件」所組成，這些元件包含了您課程中的實際內容。
 
-Sections，舉例來說，可對應您的課程的第幾週，而subsections常常是對應您的lessons、
-回家作業或者考試。
-一個lesson可以選擇各units的種類，像是影片、文字、圖片、討論以及問題所交織而成。
-這是一個具有互動代表性的教材，您會cover in a typical class period.
+「節」，舉例來說，可對應您課程中的第幾週，而「小節」常常是對應您的第幾課、作業或者測驗。
+一門課可以選擇由幾個單元所組成，像是影片、文字、圖片、討論以及問題所交織而成。
+這是一個具有互動代表性的教材，您會在一次課程中經歷過所有部分。
 
-在**Course Outline** 頁，您可以看到全部的sections、subsections以及units在您的課程中一目了然，
-還有subsections是否為公開或私人。
+在**Course Outline** 頁，您可以一次瀏覽整門課程中所有的節、小節以及單元，以及小節是否為公開或私人狀態。
 
 
     .. image:: Images/image029.png
@@ -40,41 +36,34 @@ Sections，舉例來說，可對應您的課程的第幾週，而subsections常�
 	\newpage %
 
 節
-*******
+****
 
-一個section是最頂層的類可以用它來組織您的課程。
-許多教師根據課程在第幾週來命名
--像是，section 1被命名為第一週、section 1被命名為第二週，以此類推。
-Sections包含subsections，which in turn contain units.
+「節」是最頂層的類別，可以用它來組織您的課程。許多教師根據位於課程第幾週來命名，像是第一節被命名為「第一週」、第二節被命名為「第二週」，以此類推。
+節當中包含了「小節」，裡面包著更多「單元」.
 
-您可以設置一個individual 發佈日期給每一個在您課程中的section。
-直到釋出日期已經通過之前，在section中沒有內容會被看見。
+您可以設置給每一個您課程中的「節」一個獨立的釋出日期，直到已經通過釋出日期之前，在節中的內容不會被看見。
 
-要了解更多有關如何創建一個section的資訊，請看
-:doc:`create_section_sub_section`.
+要了解更多有關如何創建一個「節」的資訊，請看 :doc:`create_section_sub_section`.
 
 .. raw:: latex
   
 	\newpage %
 
 小節
-**********
+****
 
-一個subsection是一個section的一個subcategory。許多教師根據他們課程的主題去命名他們的subsections。
-Subsection命名顯示along with section的命名在左側的pane當您在Edge上觀看您的課程。
+一個「小節」是一個「節」的一個子項目。許多教師根據課程的主題去命名小節。
+當您於Edge上檢視課程時，每個小節的名字會依附於每個節之下，顯示於左方的面板當中。
 
     .. image:: Images/image033.png
 
-您可以設定subsections當作您創造作業種類當您設定grading。
-您可以include作業在subsection的body中。
+您可以設定「小節」作為您作業中評分的依據，並將作業放置於小節之中。
 
-您可以對您的課程中的每個subsection設定一個單獨的發佈日期。
-直到它的發佈日期已經通過之前，在subsection中沒有內容會被看見。
-如果您沒有設定一個發佈日期，這個subsection已經有和它的section相同的發佈日期。
+您可以設置給每一個您課程中的「小節」一個獨立的釋出日期，直到已經通過釋出日期之前，在小節中的內容不會被看見。
+如果您沒有設定一個釋出日期，這個小節會使用所屬的「節」的釋出日期。
 
 
-要了解更多有關如何創建一個subsection，請看
-:doc:`create_section_sub_section`.
+要了解更多有關如何創建一個小節，請看 :doc:`create_section_sub_section`.
 
 .. raw:: latex
   
@@ -83,17 +72,14 @@ Subsection命名顯示along with section的命名在左側的pane當您在Edge�
 單元
 ****
 
-一個單元是一個幫助您組資您的課程教材之進一步的類別。
-單元中包含建立lessons區塊之Component。
-單元不會顯示在左側的pane with section and subsection headings。
-取而代之的是，當您在Edge上觀看您的課程，每個單元顯示成 course accordion在頁面上方的一部分，
-接下來的頁面顯示出一個subsection有兩個Units。
+「單元」是一個進一步幫助您組織您的課程教材的類別，單元中包含建立各個課程區塊之「元件」。
+當您於 Edge 中檢視您的課程時，單元不會顯示在左側顯示節與小節的面板中，而是顯示在主要面板的上方。
+以下範例中可以看到一個小節中包含兩個單元的範例。
 
     .. image:: Images/image035.png
 
-請注意，默認情況下，所有的單元被設定成 **Private.** 為了顯示一個單元給學生，
-您必須明確的改變unit的可見度為 **Public.**
-要了解更多資訊請看 :doc:`set_content_releasedates` .
+請注意，預設情況下所有的單元的可見度被設定成**私有**。若要讓一個單元被學生看見，您必須明確的改變單元的可見度為**公開**
+要了解更多資訊，請看 :doc:`set_content_releasedates` .
 
 .. raw:: latex
   
@@ -101,15 +87,13 @@ Subsection命名顯示along with section的命名在左側的pane當您在Edge�
 
 
 元件 
-*********
-一個component為一個單元的部分包含您實際的課程內容。
-當您在頁面上方的course accordion中hover over這個單元，所有在unit中components的名稱會顯示。
+****
+
+「元件」為一個「單元」的一部分，其中包含您的課程的實際內容。
+當您透過滑鼠游標滑過畫面上方，您可以看到每個單元的實際名稱。
 
 .. image:: Images/image037.png    
  :width: 800
-這裡有四種components：討論components、HTML components、問題components，以及影片components。
-了解更多資訊，請看:doc:`create_discussion`, :doc:`create_html_component`, :doc:`create_problem`, and :doc:`create_video` . 
 
-
-
-
+目前一共有四種單元：討論單元、HTML 單元、問題單元以及影片單元。
+欲了解更多資訊，請看 :doc:`create_discussion`, :doc:`create_html_component`, :doc:`create_problem`, and :doc:`create_video` . 
