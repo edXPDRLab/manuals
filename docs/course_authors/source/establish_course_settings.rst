@@ -1,12 +1,12 @@
-*************************
+**********
 建立課程設定
-*************************
+**********
 
 新增合作者
-*****************
+*********
 
 	
-    Studio支援對一個課程基本的合作編輯。使用者必須已經在studio.edge.edx.org上註冊，以及已經透過郵件的連結建立他們的帳號。如果使用者沒有找到，您將會被通知。
+    Studio支援針對單一課程的基本合作編輯。使用者必須在studio.edge.edx.org (或是其他相對應的 Studio 系統)上註冊，並且已透過個人信箱收到的啟動郵件啟動他們的帳號。如果找不到指定的使用者，您會收到通知。
 
 
     在您新增一個新的使用者之前，考慮以下幾點。
@@ -18,20 +18,20 @@
     · 邀請的使用者目前不能在課堂上授予新權限。
 
 
-    · 編輯上的衝突目前沒辦法管理。因此，課程的狀態會在頁面重新整理之後改變。
+    · 編輯上的衝突目前沒辦法管理。因此，課程的狀態可能會在頁面重新整理之後改變 (被其他使用者修改過)。
 
 
-    給予其他使用者權限以修改您的課程：
+    要給予其他使用者權限以修改您的課程：
 
 
-    1. 在navigation bar上，點擊 **Course Settings** ，之後點擊 **Course Team** 。
+    1. 在導覽列上，點擊 **課程設定** ，之後點擊 **課程團隊** 。
 
 
     .. image:: Images/image115.png
 
 
 
-    2. 點擊 **New User** 。
+    2. 點擊 **建立新使用者** 。
 
 
     .. image:: Images/image117.png
@@ -51,17 +51,16 @@
 
 
 
-    您可以在 **Advanced Settings** 頁面新增說明書policy資料。These advanced configuration options are specified using JSON key and value pairs.
+    您可以在 **進階設定** 頁面新增說明書policy資料。這些進階的設定選項是透過 JSON 的鍵值和值所決定。
 
 
-    您只能在您非常熟悉valid configuration key value pairs以及the ways these pairs will affect your course時新增說明書policy資料。
-	您頁面上的錯誤可能導致您課程發生重大的問題。
+    您最好在完全了解設定的後果的狀況下再進行設定，任何設定造成的後果都可能導致您的課程發生重大的問題。
     
 
-    edX的專案管理員可以幫助您學習有關如何應用這些設定。
+    edX 的專案管理員可以幫助您學習有關如何應用這些設定。
 
 
-    1. 在navigation bar上，點擊 **Course Settings** ，之後點擊 **Advanced Settings** 。
+    1. 在導覽列上，點擊 **課程設定** ，之後點擊 **進階設定** 。
 
 
     2. 點擊 **New Manual Policy** .
@@ -82,131 +81,125 @@
 
 
 關於頁面資訊的新增
-***************************
+****************
 
 
-    新增一個日程安排資訊，一個敘述以及其他您課程中的資訊，使用 **Course Settings** 功能表。
+    您可以使用 **課程設定** 功能表新增一個時程表、一個敘述以及其他資訊至您的課程中。
 
 
      .. image:: Images/image121.png
 
 
-    This takes you to the
-
-Schedule and Details Page
-=========================
+時程表與細節
+==========
 
 
-1. 在這個頁面的上方，您會發現有a section with the **Basic Information** for your course。這裡您可以發現您課程的標題以及您課程可以郵寄邀請學生參加課程的URL。
+1. 在這個頁面的上方，您會發現有個區塊記載著關於您課程的 **基本資訊** ，您可以在此找到您課程的詳細資訊以及可用來邀請學生參加課程的網址。
 
  .. image:: Images/image281.png
 
 
-2. 在 **Course Schedule** section，輸入您想要的開課日期在 **Course Start Date** 欄位，之後輸入您想要的開課時間在 **Course** **Start Time** 欄位。
+2. 在 **課程時程表** 區塊，輸入您想要的開課日期於 **開課日期** 欄位，之後輸入您想要的開課時間在 **開課時間** 欄位。
 
 
 .. note::
 	
-    開課時間在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。開課時間在Edge上以UTC表示給學生看。
+    開課時間在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。開課時間在 Edge 上以 UTC 表示。
 
 
-3. 在**Course Schedule** section，輸入您想要的課程結束日期在 **Course** **End Date** 欄位中，之後輸入您想要的課程結束時間在 **Course** **End Time** 欄位中。
+3. 在 **課程時程表** 區塊，輸入您想要的課程結束日期在 **課程結束日期** 欄位中，之後輸入您想要的課程結束時間在 **課程結束時間** 欄位。
 
 
-新增招生資訊
-==========================
+新增註冊資訊
+==========
 
 
-1. 在 navigation bar上，點擊 **Course ** 設定，之後點擊 **Schedule & Details** 。
+1. 在導覽列上，點擊 **課程** 設定，之後點擊 **時程表與細節** 。
 
 
-2. 在 **Course Schedule** section，輸入您想要開始招生的日期在 **Enrollment Start Date** 欄位，之後輸入您想要開始招生的時間在 **Enrollment Start Time** 欄位。
+2. 在 **課程時程表** 區塊，輸入您想要開始招生的日期在 **註冊開始日期** 欄位，之後輸入您想要開始招生的時間在 **註冊開始時間** 欄位。
 
 
-3. 在 **Course Schedule** section，輸入您想要結束招生的日期在 **Enrollment End Date** 欄位，之後輸入您想要結束招生的時間在 **Enrollment End Time** 欄位。
+3. 在 **課程時程表** 區塊，輸入您想要結束招生的日期在 **註冊結束日期** 欄位，之後輸入您想要結束招生的時間在 **註冊結束時間** 欄位。
 
 
 .. note::
 	
-    招生日期在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。招生時間在Edge上以UTC表示給學生看。
+    招生日期在這畫面將會反映在您的瀏覽器中的當前時區，這取決於您的地理位置。註冊時間在 Edge 上以 UTC 表示。
 
 
 
 新增課程大綱
-=====================
+==========
 
 
-1. 在 navigation bar上，點擊 **Course Settings**，之後點擊 **Schedule & Details** 。
+1. 在導覽列上，點擊 **課程設定**，之後點擊 **時程表與細節** 。
 
 
-2. 向下滾動到 **Introducing Your Course** section，之後找到 **Course Overview** 欄位。
+2. 向下滾動到 **介紹您的課程** 區塊，之後找到 **課程大綱** 欄位。
 
 .. image:: Images/image123.png
 
 
-
-
-3. 在 **Course Overview** 欄位，輸入您的課程描述。
+3. 在 **課程大綱** 欄位，輸入您的課程描述。
 
 
 這個欄位內容是HTML格式。對於template可以使用包括placeholders，請看 :doc:`appendices/a`.
 
 
-
-如果修您的課程中有先決條件，您可以把資訊放在課程大綱。
+如果修您的課程中有先決條件 (例如學生需要俱備哪些背景知識)，您可以把資訊放在課程大綱。
 
 
 .. note::
 
-    沒有儲存的按鈕。Studio會自動儲存您的改變。
+    系統沒有單獨儲存的按鈕，Studio 會自動儲存您的所有變更。
 
 
-接下來的是 **Course Overview** 欄位的範例內容：
+接下來的是 **課程大綱** 欄位的範例內容：
 
 
 .. image:: Images/image125.png
 
 新增照片敘述
-=========================
+===========
 
 1.  選擇一個高解析度的圖片，寬度最小為660 pixels、高度最小為240 pixels。
 
 2.  改變相片中您想要使用的檔案名稱 **images_course_image.jpg** 。
 
-3.  上傳檔案到 **Files & Uploads** 頁面。
+3.  上傳檔案到 **檔案及上傳管理** 頁面。
 
 
-這張照片被命名為 **images_course_image.jpg** 自動出現在課程的About頁面上。
+這張照片被命名為 **images_course_image.jpg** 自動出現在課程的 **關於** 頁面上。
 
-加入一個關於我影片
-==================
-
-
-您可以創建一個About video 將會出現在您課程 **About** 頁面上。
+加入一個課程介紹影片
+=================
 
 
-1. 上傳您想要的影片到YouTube上。請注意出現在URL中的 ** watch?v =**  和   ** &feature** 之間的編碼。這個編碼出現在綠色box之下。
+您可以創建一個課程簡介影片，將會出現在您課程 **關於** 頁面上。
+
+
+1. 上傳您想要的的影片到 YouTube 上。您會需要顯示在 **watch?v=** 與 **&feature** 中間的影片編號，約略於下圖綠色方塊的位置。
 
 
 .. image:: Images/image127.png
 
 
-2. 在 navigation bar上，點擊 **Course Settings** ，之後點擊 **Schedule & Details** 。
+2. 在導覽列上，點擊 **課程設定** ，之後點擊 **時程表與細節** 。
 
 
-3. 向下滾動到 **Introducing Your Course** section，之後找到 **Course** **Introduction Video** field。
-如果您還未新增影片，您會看到一個空的field在 **id** 欄位上。
+3. 向下滾動到 **介紹您的課程** 區塊，之後找到 **課程簡介影片** 欄位。如果您還未新增影片，您會在 **編號** 欄位上看到空白資訊。
 
 
 .. image:: Images/image129.png
 
 
-4. 在 **your YouTube video's ID**  欄位，輸入您的影片編碼。當您新增編碼，影片會自動出現在 field **your YouTube video's ID** 欄位上。
+4. 在 **your YouTube video's ID** 欄位，輸入您的影片編號。當您新增編號後，影片會自動出現在 **your YouTube video's ID** 欄位之上。
 
 
 .. note::
 
-    沒有儲存的按鈕。Studio會自動儲存您的改變。
+    系統沒有單獨儲存的按鈕，Studio 會自動儲存您的所有變更。
 
 
 舉例來說，您的課程簡介影片出現如下。
@@ -215,14 +208,14 @@ Schedule and Details Page
 .. image:: Images/image131.png
 
 
-Add Weekly Time Requirements Information
-========================================
+新增每週要求時間資訊
+=================
 
 
-1. 在 navigation bar上，點擊 **Course Settings** ，之後點擊 **Schedule & Details** 。
+1. 在導覽列上，點擊 **課程設定** ，之後點擊 **時程表與細節** 。
 
 
-2. 往下捲動到 **Requirments** section.
+2. 往下捲動到 **要求** 區塊。
 
 
-3. 在 **Hours of Effort per Week** 欄位，以小時為單位輸入您期望學生每週在這堂課用功的時間。
+3. 在 **每週應投入時間** 欄位，以小時為單位輸入您期望學生每週在這堂課投入的時間。
