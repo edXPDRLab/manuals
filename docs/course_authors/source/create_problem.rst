@@ -47,7 +47,7 @@ Studio提供兩個介面來編輯問題components。
 .. note::
 	您可以隨時點擊在Simple Editor介面中的"Advanced Editor"就可以從Simple Editor切換到Advanced Editor。但是，如果新增一個component就沒有辦法從Advanced Editor切換回Simple Editor。
 
-開啟Advanced Editor，請點擊Simple Editor右邊角落的**Advanced Editor**。
+開啟Advanced Editor，請點擊Simple Editor右邊角落的  **Advanced Editor**  。
 
 .. image:: Images/image275.png
     :width: 600px
@@ -115,7 +115,7 @@ possible score for the problem (also known as the problem weight). The formula u
    
 •  **problem weight** is the maximum possible point score that can be earned for the problem. By default, this is the integer number of response types in that problem. This can be changed to another value by setting the weight attribute of the problem, as described in Setting Problem Attributes.
   
-• ** # inputs correct** is the number of values for this response that were evaluated as correct by the response type fields.
+• **# inputs correct** is the number of values for this response that were evaluated as correct by the response type fields.
    
 • **# total inputs** is the total number of response type fields in the problem.
 
@@ -221,7 +221,7 @@ TBD-SCREENSHOT OF PROBLEM WITH THESE ELEMENTS CIRCLED
 **Show Answer** 是由問題編輯器中的 **showanswer** 屬性所控制。
 它可能被設定為絕對無法看見、總是被看見或者只有當問題被關閉後才可看見。 [Reference: Setting Problem Attributes.]
 
-接下來的問題， **Show Answer ** 按鈕在學生對答案做了至少一個attempt後出現。輸入一個回應您知道是錯的，之後點擊 **Check** 。
+接下來的問題， **Show Answer** 按鈕在學生對答案做了至少一個attempt後出現。輸入一個回應您知道是錯的，之後點擊 **Check** 。
 
 .. image:: Images/image278.png
     :width: 600px

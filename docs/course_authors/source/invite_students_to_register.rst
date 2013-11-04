@@ -10,14 +10,14 @@
 1. 要確定連到你在Edge的課程的註冊頁面連結。 請做這些:
  
  
-a. 在Studio中點擊你課程的**Settings **分頁， 接著找到
-**Course Details**的部分.
+a. 在Studio中點擊你課程的 **Settings** 分頁， 接著找到
+ **Course Details** 的部分.
  
  
-b. 在**Basic Information**下方，你會一個連結用來連到電子郵件並邀請學生來註冊你的課程。
+b. 在 **Basic Information** 下方，你會一個連結用來連到電子郵件並邀請學生來註冊你的課程。
  
  
-c. 點擊"**Invite Your Students**"連結。 點擊連結以創建一個電子郵件樣式。
+c. 點擊" **Invite Your Students** "連結。 點擊連結以創建一個電子郵件樣式。
  
  
 .. image:: Images/image286.png

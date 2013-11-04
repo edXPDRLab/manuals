@@ -27,7 +27,7 @@ running他們自己客製化後的課程。
 將遺失你的學生的work.
  
  
-當你匯出你的課程，Studio會創建一個**.tar.gz**檔案其中包含
+當你匯出你的課程，Studio會創建一個 **.tar.gz** 檔案其中包含
 以下課程資料:
  
  
@@ -87,7 +87,7 @@ running他們自己客製化後的課程。
 be courses that you or someone else has created and exported.
  
  
-你匯入的檔案必須是一個**.tar.gz**檔案其中包含，至少，
+你匯入的檔案必須是一個 **.tar.gz** 檔案其中包含，至少，
 一個Course.xml檔案位於課程資料目錄。 此tar.gz檔必須要
 與課程資料目錄命名相同
  
@@ -100,14 +100,14 @@ be courses that you or someone else has created and exported.
 匯入一個課程:
  
  
-1. 在navigation bar，點擊**Tools**，接著點擊**Import**。
+1. 在navigation bar，點擊 **Tools** ，接著點擊 **Import** 。
  
  
 .. image:: Images/image243.png
  
  
-2. 在**Course to Import**下方，點擊**Choose File**。
+2. 在 **Course to Import** 下方，點擊 **Choose File** 。
  
  
-3. 找到你要的檔案，接著點擊**Open**。
+3. 找到你要的檔案，接著點擊 **Open** 。
 

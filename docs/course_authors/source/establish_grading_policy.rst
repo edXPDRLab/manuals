@@ -64,9 +64,9 @@ Set Grade Brackets
   
 設定course grades的thresholds:
     
-1. 在navigation bar，點擊 **Course Settings**，接著點擊 **Grading**。
+1. 在navigation bar，點擊 **Course Settings** ，接著點擊 **Grading** 。
   
-2. 在 **Overall Grade Range**，點擊並拖曳grade divisions之間的dividing line以移動threshold上下。
+2. 在 **Overall Grade Range** ，點擊並拖曳grade divisions之間的dividing line以移動threshold上下。
   
 .. note::
 
@@ -85,7 +85,7 @@ Set Grade Brackets
 你無法為個別的assignments設定grace period。
   
   
-1. 在navigation bar，點擊 **Course Settings**，接著點擊 **Grading**。
+1. 在navigation bar，點擊 **Course Settings** ，接著點擊 **Grading** 。
   
   
 2. 在 **Grace Period on Deadline** box中的 **Grading Rules & Policies** 輸入數值。
@@ -102,13 +102,13 @@ Set Grade Brackets
 要設定一個assignment type:
   
   
-1. 在navigation bar，點擊 **Course Settings**，接著點擊 **Grading**。
+1. 在navigation bar，點擊 **Course Settings** ，接著點擊 **Grading** 。
   
   
-2. 在 **Assignment Types**，找到你要的assignment type設定。
+2. 在 **Assignment Types** ，找到你要的assignment type設定。
   
   
-若你想要創建新的assignment type，捲動到頁面底部，點擊 **New Assignment Type**。
+若你想要創建新的assignment type，捲動到頁面底部，點擊 **New Assignment Type** 。
   
   
 3. 輸入下列boxes中的數值。
@@ -120,7 +120,7 @@ Set Grade Brackets
   
   
 **Abbreviation:** 
-這是會顯示在學生的**Progress** 分頁旁的短名(see below)。
+這是會顯示在學生的 **Progress** 分頁旁的短名(see below)。
   
 .. image:: Images/image141.png
       
@@ -176,25 +176,25 @@ Troubleshooting
 All assignments of a particular type are automatically worth the same amount. Thus, a homework assignment that contains 10 problems is worth the same percentage of a student's grade as a homework assignment that contains 20 problems. If you want the assignment with 20 problems to be worth twice as much as the assignment with 10 problems, you can create two assignments.
   
   
-1. 在navigation bar，點擊 **Course Content**，接著點擊 **Outline**。
+1. 在navigation bar，點擊 **Course Content** ，接著點擊 **Outline** 。
   
   
 .. image:: Images/image145.png
 
       
-2. 在 **Course Outline**，找到你想要增加assignment的section。
+2. 在 **Course Outline** ，找到你想要增加assignment的section。
   
-3. 在name of the section，點擊 **New Subsection**。
+3. 在name of the section，點擊 **New Subsection** 。
        
-4. 在text box中，以你的subsection name取代 **New Subsection** ，接著點擊 **Save**。
+4. 在text box中，以你的subsection name取代 **New Subsection** ，接著點擊 **Save** 。
       
 點擊你要的subsection。 開啟此subsection的edit page。 在頁面的右上角，找到 **Subsection Settings** box。
 
 
 .. image:: Images/image147.png     
       
-設定assignment type. 做下列，找到 **Graded as**旁的藍色連結。
-因為所有subsections都預設設為**Not Graded**。此連結的文字是 **NOT GRADED**。
+設定assignment type. 做下列，找到 **Graded as** 旁的藍色連結。
+因為所有subsections都預設設為 **Not Graded** 。此連結的文字是 **NOT GRADED** 。
 
 .. image:: Images/image149.png  
     
@@ -203,9 +203,9 @@ Click this link to open a list of the assignment types that you specified in you
   
 .. image:: Images/image151.png   
 
-要設定assignment的發佈日期及時間。 要設定日期， 在**Release date** field中點擊，接著在出現的calendar裡選取你要的日期。 要設定發佈時間，在time input field中點擊，接著指定你要的時間。
+要設定assignment的發佈日期及時間。 要設定日期，在 **Release date** field中點擊，接著在出現的calendar裡選取你要的日期。 要設定發佈時間，在time input field中點擊，接著指定你要的時間。
        
-要為assignment設定截止日期。 做下列，點擊藍色 **SET A DUE DATE** 連結，接著在**Due date** box中點擊，
+要為assignment設定截止日期。 做下列，點擊藍色 **SET A DUE DATE** 連結，接著在 **Due date** box中點擊，
 接著在出現的calendar裡選取你要的截止日期。 要設定時間，在time input field中點擊，接著指定你要的時間。
 
 修改Subsection的Assignment Type
@@ -213,9 +213,9 @@ Click this link to open a list of the assignment types that you specified in you
   
 要為一個subsection設定assignment type:
   
-1. 在navigation bar，點擊 **Course Content**接著點擊 **Course Outline**。
+1. 在navigation bar，點擊 **Course Content** 接著點擊 **Course Outline** 。
 
-2. 在 **Course Outline**，找到你要的subsection。
+2. 在 **Course Outline** ，找到你要的subsection。
   
 3. 在screen右側，點擊subsection的藍色check mark，並選取assignment type。
   
