@@ -43,7 +43,7 @@
  
  
 若你想觀看你正在作業中的草稿，點擊 **Unit Settings** 下方的
- **Preview** 。將會以預覽模式開啟你的課程。****
+ **Preview** 。將會以預覽模式開啟你的課程。
  
  
 .. image:: Images/image239.png
