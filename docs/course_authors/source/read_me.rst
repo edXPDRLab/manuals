@@ -1,12 +1,14 @@
-*******
+****
 讀我
-*******
+****
 
-這個edX"開始使用Studio"裡面的Help和pdf文件是使用Sphinx 1.2b1 and LaTex所創建的。 您或者使用者社群，可以幫忙更新和修訂這個專案文件，在GitHub上的 ::
+這個 edX "開始使用Studio" 裡面的 "幫助" 和 PDF 文件是使用 Sphinx 1.2b1 and LaTex 所創建的。
+您或者使用者社群可以幫忙更新和修訂這個專案文件，原始內容在 GitHub 上的 ::
 
   edx\edX-platform\userdocs\source
 
-一個pull request需要一個為edX聯繫人的工程師來正式批准。
+任何 pull request 都會需要一個 edX 工程師批准。而這份文件的 edX 聯繫人是mchang@edx.org 
 
-而這份文件的edX聯繫人是mchang@edx.org 
+正體中文版本由 edX 平台開發研究實驗室所維護，您可以在從以下網址取得原始碼 ::
 
+    https://github.com/edXPDRLab/manuals.git
