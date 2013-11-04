@@ -34,7 +34,7 @@ Section的heading在左側pane。但是，學生不能看到Subsection的heading
 
  
 
-3. 您可以設定這個包含開放內容的Unit。** 預設情況下，所有Units都被設為私人。
+3. 您可以設定這個包含開放內容的Unit。 **預設情況** 下，所有Units都被設為私人。
  
  
 當您還在創建中，這裡有四種方式來觀看您在edX或Edge的課程：
@@ -71,8 +71,8 @@ Section的heading在左側pane。但是，學生不能看到Subsection的heading
 ============
 
  
-當您想要看到您在Studio中的整個課程架構，您可以到 **Course Outline **頁面。
-在 **Course Outline **上，您可以看到課程的 "macro" 大綱，down to individual Units。
+當您想要看到您在Studio中的整個課程架構，您可以到 **Course Outline** 頁面。
+在 **Course Outline** 上，您可以看到課程的 "macro" 大綱，down to individual Units。
  
  
 .. image:: Images/image193.png
@@ -158,20 +158,20 @@ Section的heading在左側pane。但是，學生不能看到Subsection的heading
 
  
 
-**使用預覽模式是唯一可以看到已經設定為私人內容的方式。
-**學生會看到它**
+ **使用預覽模式是唯一可以看到已經設定為私人內容的方式。** 
+ **學生會看到它**  
  
  
 您可以以兩種方式進入預覽模式。
  
  
-1. 在任何Subsection頁面，點擊 ** Preview Drafts** 。
+1. 在任何Subsection頁面，點擊 **Preview Drafts** 。
  
  
 .. image:: Images/image205.png
  
  
-2. 在任何Unit頁面，點擊 **Preview**。
+2. 在任何Unit頁面，點擊 **Preview** 。
  
 
 
@@ -227,8 +227,8 @@ edX 101") 被設定為公開，以及Unit 2 ("New edX Information") 被設定為
 
  
  
-以老師的角度觀看您在edX或Edge上的課程，點擊 **View Live**。
-這個 **View Live ** 按鈕在三個地方是available。** **
+以老師的角度觀看您在edX或Edge上的課程，點擊 **View Live** 。
+這個 **View Live** 按鈕在三個地方是available。
 
  
 **Course Outline** 頁面。
@@ -253,7 +253,7 @@ Unit頁面，Unit是否為公開。
 =======
  
 接下來的例子是如果您過去以老師的角度在edX或Edge上正在觀看第一Unit中
-"What Does an edX Course Look Like?" Subsection。注意**Instructor** 在頁面的上方。
+"What Does an edX Course Look Like?" Subsection。注意 **Instructor** 在頁面的上方。
  
  
 .. image:: Images/image223.png
@@ -266,7 +266,7 @@ Unit頁面，Unit是否為公開。
  
 另一方面，請記得Unit 1被設定為公開，Unit 2被設定為私人。
 則Unit 2不是被顯示在課程ribbon中畫面的上方。
-取而代之的是在下一個公開Unit， **Tabs**，顯示。
+取而代之的是在下一個公開Unit， **Tabs** ，顯示。
  
  
 .. image:: Images/image225.png
@@ -305,7 +305,7 @@ Unit頁面，Unit是否為公開。
  
  
 請記得Unit 1被設定為公開，以及Unit 2被設定為私人。Unit 2不是顯示在畫面上方的課程ribbon。
-取而代之的是在下一個公開unit， **Tabs**，顯示。
+取而代之的是在下一個公開unit， **Tabs** ，顯示。
 
  
  
