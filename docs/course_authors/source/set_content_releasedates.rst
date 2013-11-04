@@ -60,10 +60,10 @@ Public的unit。
     2. 找到位於右上角的 **Unit Settings** box。
   
   
-    3. 於 **Visibility**，選取 **Public** 。
+    3. 於 **Visibility** ，選取 **Public** 。
   
   
-    要變更public unit的**Visibility**設定:
+    要變更public unit的 **Visibility** 設定:
   
   
     1. 點擊以開啟unit。
