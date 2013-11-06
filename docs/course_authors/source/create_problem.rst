@@ -1,13 +1,13 @@
 
-*******
+********
 創建問題
-*******
+********
 
 概要
 ****
 
 
-「問題」單元允許您在您的課程中新增互動式及自動評分的練習，您可以在Studio創建許多不同種類的問題。
+「問題」單元允許您在您的課程中新增互動式及自動評分的練習，您可以在 Studio 創建許多不同種類的問題。
 預設的情況下，所有的問題都是不評分練習問題。要將這些問題改成評分問題，請改變小節中的作業種類。
 
 創建一個問題時，需要決定：
@@ -32,28 +32,29 @@
 
 •  Creating problems for the online format opens a new playing field in the educational process. A big part of the community aspect of edX is to initiate and grow a `Creative Problems <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/wiki/edx101/creative-problems/>`_ . Please look here to be inspired by new approaches when first making your class. Please also come back to post interesting approaches that you came up with while running your class, and to share with the community what worked well and what did not.
 
-**Simple Editor and Advanced Editor**
+
+**簡易編輯器及進階編輯器**
 
 
-Studio提供兩個介面來編輯問題components。
+Studio提供兩個介面來編輯問題元件。
  
-• **Simple Editor** 允許您直觀的去編輯問題，不需要用XML。
+• **簡易編輯器** 允許您以直觀的方式去編輯問題，不需要用 XML。
 
-• **Advanced Editor** 轉換這些問題成edX's XML標準並且允許您直接去修改那個XML。想了解更多有關XML不同問題種類，請看 `Appendix E <appendices/e.html>` .
+• **進階編輯器** 轉換這些問題成 edX 的 XML 標準，並且允許您直接去修改那個 XML。想了解更多有關 XML 中不同問題種類，請參考 `Appendix E <appendices/e.html>` 。
 
 
-一些簡單的問題範例，包括多個選擇，在Simple Editor中開啟並且允許您在Advanced Editor選擇。更多複雜的問題種類，像是Circuit Response，在Advanced Editor中開啟。
+一些簡單的問題範例包括多重選擇，允許您在簡單編輯器中先開啟，再轉用進階編輯器繼續處理。不過更複雜的問題種類像是Circuit Response，您必須在進階編輯器中才能編輯。
 
 .. note::
-	您可以隨時點擊在Simple Editor介面中的"Advanced Editor"就可以從Simple Editor切換到Advanced Editor。但是，如果新增一個component就沒有辦法從Advanced Editor切換回Simple Editor。
+	您可以隨時點擊在簡單編輯器介面中的 "進階編輯器"，就可以從簡單介面切換到進階介面。但是除非您新增一個單元，不然您無法從進階編輯器的介面切換回簡單編輯器。
 
-開啟Advanced Editor，請點擊Simple Editor右邊角落的  **Advanced Editor**  。
+要開啟進階編輯器，請點擊簡單編輯器右邊角落的 **進階編輯器** 。
 
 .. image:: Images/image275.png
     :width: 600px
    
 
-接著是一個在Advanced Editor中的多選題。
+接著是一個在進階編輯器中的多選題範例。
 
 .. image:: Images/image276.png
     :width: 600px
@@ -64,19 +65,19 @@ Studio提供兩個介面來編輯問題components。
 
 
 問題種類
-************
+********
 
 連結到不同問題種類的敘述-brief。並且匯入連結給所有XML，etc。
 
 您可能想要創建一個超過一個回應類型的問題。舉例來說，您可能想要創建一個多選題，並且要求學生去解釋他或她的回應。
-您可能也想要學生能夠檢查這些同時有多個問題的答案。為了實現這個工作，您可以匯入一個多選題到一個有單一的問題component。 (LINK)
+您可能也想要學生能夠檢查這些同時有多個問題的答案。為了實現這個工作，您可以匯入一個多選題到一個有單一的問題元件。
 
 .. raw:: latex
   
   \newpage %
 
 隨機化
-***********
+******
 
 
 **rerandomize** 設定可以決定是不是要任何問題隨機的輸入，是不是在任何時間一個學生看到這個問題時會不會隨機化。
@@ -86,67 +87,67 @@ Studio提供兩個介面來編輯問題components。
   
   \newpage %
 
-分數及加權
-******************
+分數及權重
+**********
 
-每個問題都儲存了一個 **point score** 給提交的回應。而一個學生取得的分數是由學生提交回應的正確數量除以問題的maximum score。
-預設的maximum score或者權重，是這問題擁有回應輸入種類的整數值。
-因此，這個問題的權重屬性帶有一個回應輸入種類被設定為1 (一分)。您可以藉由手動改變問題的 **weight** 屬性值成另一個數字來改變最小分數給這個individual問題，
-當您做完這件事，分數的數值明確顯示在問題的標題旁邊 ( 一個小數的精準度)。
+每個問題都儲存了一個 **得分** 給提交的回應，而學生取得的分數則由學生提交的正確答案占所有問題的比例決定。
+預設的 "最高分數" 或是 "權重" 表示這個問題學生最高可以拿到的分數，系統預設值為 "1"。
+當然您可以自行提高分數，您可以根據問題的難易度跟數量調整比分，您所做的只是需要修改 **權重** 的參數值而已。
+當您修改完設定以後，您所調整的權重會明確地顯制在問題的標題旁邊。
 
-**WEIGHT: 0 POINTS**
+**權重: 1 分**
 
 
-這些分數被儲存在問題中，but they only contribute to a student's grade in the course if they are part of a subsection marked as graded. 
-想要了解更多資訊，請看material on attempts and closing problems in 7B: Feedback and Grading.
-
-.. raw:: latex
-  
-  \newpage %
-
-**Computing Point Scores**
-
-The point score of a response for a problem reflects the correctness of the response and is recorded as the number of points earned out of the maximum
-possible score for the problem (also known as the problem weight). The formula used for computing the recorded point score is the following:
-
-•  **point score of response = problem weight * (# inputs correct / # total inputs)**
-
-•  **point score of response** is the point score "earned" by this response for the problem.
-   
-•  **problem weight** is the maximum possible point score that can be earned for the problem. By default, this is the integer number of response types in that problem. This can be changed to another value by setting the weight attribute of the problem, as described in Setting Problem Attributes.
-  
-• **# inputs correct** is the number of values for this response that were evaluated as correct by the response type fields.
-   
-• **# total inputs** is the total number of response type fields in the problem.
+所有問題的分數都會被儲存下來，但是只有在這些屬於某個小節同時這個小節被設定成要計分後，才會對學生的期末分數造成影響。
+如果您需要參考更多資訊，請參考後續 **問題結束** 以及 **回饋** 兩個章節的內容。
 
 .. raw:: latex
   
   \newpage %
+
+**計算分數**
+
+分數的計算是在反應問題本身被答對所佔的比例，以及整個題組於成績計算中所佔的權重。
+下面的方程式是用來計算所記錄的分數：
+
+•  **回答問題獲得的分數 = 問題權重 * (# 答案正確 / # 輸入總和)**
+
+•  **回答問題獲得的分數** 指的是回答問題所獲得的分數。
    
-**Examples**
+•  **問題權重** 指的是回答這個問題所能獲得的最高分數，預設值是一個整數。您可以修改這個權重設定，詳細請參考 "設定問題屬性" 章節內容。
+  
+• **# 答案正確** 指的是所有回應中回答正確的數量。
+   
+• **# 輸入總和** 指的是所有這個題組本身擁有的問題數量總和。
+
+.. raw:: latex
+  
+  \newpage %
+   
+**範例**
 
 接下來是一些設定問題權重和計算分數的例子。
 
 
-**Example 1**
+**範例 1**
 
-一個問題有兩種回應輸入以及一個空的權重屬性有一個最小分數2.0分。
+一個問題有兩種回應輸入，以及一個空的權重屬性，有一個最小分數2.0分。
 
-一位學生回應這個由一個正確輸入值和一個不正確輸入值的問題將被標記為擁有1.0分到2.0分的可能性。
-
-
-**Example 2**
-
-一個問題有三種回應輸入種類以及一個權重屬性為12有一個最小分數12.0分。
-
-一位學生回應這個由一個正確輸入值和兩個不正確輸入值的問題將會被標記為擁有4.0分到12.0分的可能性。
+一位學生回應這個由一個正確輸入值和一個不正確輸入值的問題，將被標記為擁有1.0分到2.0分的可能性。
 
 
-**Example 3**
+**範例 2**
 
-一個問題有四種回應輸入種類以及一個權重屬性為2有一個最小分數2.0分。
+一個問題有三種回應輸入種類，以及一個權重屬性為12，有一個最小分數12.0分。
 
-一位學生回應這個由兩個正確輸入值和兩個不正確輸入值的問題將會被標記為擁有0.5到1.0分的可能性。
+一位學生回應這個由一個正確輸入值和兩個不正確輸入值的問題，將會被標記為擁有4.0分到12.0分的可能性。
+
+
+**範例 3**
+
+一個問題有四種回應輸入種類，以及一個權重屬性為2，有一個最小分數2.0分。
+
+一位學生回應這個由兩個正確輸入值和兩個不正確輸入值的問題，將會被標記為擁有0.5到1.0分的可能性。
 
 **PROBLEM: 20.0 POINTS**
 
@@ -166,67 +167,74 @@ possible score for the problem (also known as the problem weight). The formula u
   
   \newpage %
 
-關閉
-*****
-為了停止接受回應並且紀錄分數，問題可以被 **closed.** 關閉問題不會顯示一個 **Check** 按鈕。
+問題結束
+********
+為了停止接受回應並且紀錄分數，問題可以被 **關閉** 關閉問題不會顯示一個 **檢查** 按鈕。
 學生在一個關閉的問題中依然可以看到問題、答案，以及顯示說明，但是他們再也不能檢查他們的工作、提交回應，或者改變他們儲存的分數。
 
 
 您可以用許多方式關閉問題：
 
 
-• 設定一個截止日期給這些在subsection中的問題。注意您不可以設定截止日期給individual問題 -- 只能是包含subsections (作業)。 預設的情況下，截止日期不會被設定。要設定一個截止日期，請看 LINK。
+• 設定一個截止日期給這些在小節中的問題。請注意您不可以設定截止日期給獨立的問題 -- 只能是包含在小節(作業)。預設的情況下截止日期不會被設定。要設定一個截止日期，請看 LINK。
 
-• 指定一個寬限期給您的課程。注意這個寬限期顯示給全部的課程。要設定一個寬限期，請看 LINK。
-設定
-• Set the number of attempts for the individual problem component. The attempts setting determines the number of times a student is allowed to check their answer by clicking Check before the problem closes. If this field is left blank, a student has unlimited attempts. If you specify a number for the attempts setting, the number of total allowed and remaining attempts appears next to the Check button for the problem. Problems with a limited number of attempts also always display a Save button that allows response values to be saved without being submitted. When there is only one submission left, the student will receive a warning, and the Check button will be replaced with a Final Check button. When no attempts are left, both the Save and Check button will disappear.For more information, see Problem Attributes.
+• 指定一個寬限期給您的課程。請注意這個寬限期會影響全部的課程。要設定一個寬限期，請看 LINK。
 
-• Manually increase the number of attempts left for a given problem for a particular student from the Instructor tab in the live view of your course, when accessed in the Instructor view on Edge. This is recommended only for unusual situations, such as if you have to fix live problems during an exam.
+• 指定一個嘗試次數給每個問題。這個嘗試次數的設定會影響系統允許學生在問題關閉前，針對單一問題重送答案的次數。
+  如果您有做這個設定，則學生在送出問題的介面上將會看到答案重送的次數以及剩餘的次數。
+  另外同一介面會提供暫存的功能，學生可以點擊畫面上的 "儲存" 暫存答案，等到確認答案無誤以後才點擊 "送出檢查" 將答案送出。
+  暫存功能本身沒有次數限制，不會受到重送次數的限制影響。
+  當只剩下最後一次送出的機會時，介面上的 "送出檢查" 會變成 "最後送出檢查"，以提醒學生這是最後一次的機會。
+  當已經沒有任何機會時，"儲存" 及 "送出檢查" 按鈕將會消失。
+  如需更多的資訊，請參考問題屬性章節的說明。
+
+• 當您透過教師身分檢視 Edge 上的課程時，您可以在介面上手動增加嘗試次數的問題上。換句話說，您可以在問題已經公布以後修改可嘗試的次數。
+  一般來說我們不建議您這樣做，不過若您在事後才發現有問題本身的錯誤，您可以重新給學生一些機會找出答案。
 
 .. raw:: latex
   
   \newpage %
 
-Feedback
-********
+回饋
+****
 
-Stuido包含許多可以提供feedback給學生的工具： **Check** 按鈕， **Show Answer** 按鈕，以及 **Attempts** 設定。當您使用 **Show Answer** 按鈕，您也可以提供一個答案的詳細說明。
+Stuido 包含許多可以提供回饋給學生的工具： **送出檢查** 按鈕， **顯示答案** 按鈕，以及 **嘗試** 設定。當您使用 **顯示答案** 按鈕時，您也可以提供一個答案的詳細說明。
 
 TBD-SCREENSHOT OF PROBLEM WITH THESE ELEMENTS CIRCLED
 
-**Check Button**
+**送出檢查按鈕**
 
-學生點擊 **Check** 按鈕去提交一個回應。這個問題module就會執行接下來的步驟。
+學生點擊 **送出檢查** 按鈕去提交一個回應，系統就會執行接下來的步驟。
 
-• 同意並儲存回應到每個輸入。
+• 同意並儲存每個回應到輸入中。
 
-• 使用一個automatic grader去檢查回應值來對應到正確答案或解答。
+• 使用一個自動評分機制去檢查回應值是否對應到正確答案或解答。
 
-• 目視標記一個正確的回應是一個綠色的勾勾以及不正確的回應是一個紅色叉叉。
+• 利用可目視的標記告訴學生答案正確與否，若答案正確則顯示一個綠色的勾勾，反之則顯示一個紅色的叉叉。
 
 • 儲存學生回應這題得到的分數。
 
-如果一位學生想要去儲存但是不要提交回應，那位學生可以點擊 **Save** 。
+如果一位學生想要暫存但是不要立刻提交答案，那學生可以點擊 **儲存** 。
 
-接下來的問題，輸入一個回應，之後點擊 **Check** 。這個問題就會告訴您，您的回應是正確還是不正確的。
+於下圖中的範例中，在選擇完答案以後點擊 **送出檢查** 。此時系統會立刻回應答案正確與否。
 
-此時，雖然您不會看見它，但是分數還是會自動儲存到您提交的回應。
+此時，雖然您不會看見它，但是分數還是會立刻自動儲存到系統中。
 
 .. image:: Images/image277.png
     :width: 600px
 
-**Show Answer button**
+**顯示答案按鈕**
 
-當一位學生點擊 **Show Answer** ，這個問題就會在對應回應輸入的旁邊顯示出正確答案並且顯示您已經提供的額外解釋。
-**Show Answer** 是由問題編輯器中的 **showanswer** 屬性所控制。
-它可能被設定為絕對無法看見、總是被看見或者只有當問題被關閉後才可看見。 [Reference: Setting Problem Attributes.]
+當學生點擊 **顯示答案** 時，這個問題就會在回答輸入的欄位旁邊，根據您預先提供的額外解釋顯示出來。
+**顯示答案** 是由問題編輯器中的 **showanswer** 屬性所控制。
+它可能被設定為絕對無法看見、總是被看見或者只有當問題被關閉後才可看見。 請參考設定問題屬性章節的說明。
 
-接下來的問題， **Show Answer** 按鈕在學生對答案做了至少一個attempt後出現。輸入一個回應您知道是錯的，之後點擊 **Check** 。
+接下來的問題， **顯示答案** 按鈕在學生至少嘗試送出答案一次以後才出現。您可以輸入一個您知道是錯的答案後，點擊 **送出檢查** 。
 
 .. image:: Images/image278.png
     :width: 600px
 
-現在，點擊 **Show Answer** 去查看正確答案以及它的解釋。
+現在，點擊 **顯示答案** 去查看正確答案以及它的解釋。
 
 .. image:: Images/image279.png
     :width: 600px
@@ -239,29 +247,29 @@ TBD-SCREENSHOT OF PROBLEM WITH THESE ELEMENTS CIRCLED
 
 
 創建問題
-****************
+********
 
 .. note::
     
-    您可以也通過您的課程匯入non-graded練習題。
+    您可以於您的課程中增加一些不評分的練習題。
 
-為了增加互動性，使用問題component，來自動graded練習題到給您的課程內容。這個component允許您去匯入一個說明是學生點擊 **Show Answer** 時可以看見的。
 
- Studio提供多個templates讓您使用。另一方面，您可以在XML創建您自己的問題類型。
- 要了解更多有關不同問題類型問題的訊息，請看 `Appendix E <appendices/e.html>`.  
+想要增加一些具有互動性，會自動評分的練習到您的課程中，請利用 **問題** 元件。這個元件允許您建立一個包含 **顯示答案** 提示功能的問題，當學生遇到問題的時候，可以求助您預先準備好的提示。
+
+Studio 提供多個樣板供您參考。另一方面，您也可以在 XML 創建您自己的問題類型。要了解更多有關不同問題類型問題的訊息，請看 `Appendix E <appendices/e.html>`.  
    
 
-1. 在 **Add New Component** 之下，點擊 **Problem** 。
+1. 在 **新增元件** 之下，點擊 **問題** 。
 
 .. image:: Images/image096.png
     :width: 600px
 
-**Select Problem Component Type** 畫面顯示。預設情況下， **Common Problem Types** 標籤被選擇。
+**選擇問題元件類別** 畫面會顯示出來。預設情況下， 系統預設選擇 **通用問題類別** 。
 
 .. image:: Images/image097.png
     :width: 600px
 
-要觀看更多複雜問題類型的列表，點擊 **Advanced** 標籤。
+要查看更多複雜問題類型的列表，請點擊 **進階** 分頁。
 
 
 .. image:: Images/image099.png
@@ -272,18 +280,19 @@ TBD-SCREENSHOT OF PROBLEM WITH THESE ELEMENTS CIRCLED
 
 .. note::
     
-    為了在XML中創建您自己的問題，點擊 "Empty" 來開啟一個空的XML編輯器。
+    為了在 XML 中創建您自己的問題，點擊 "空白" 來開啟一個空的 XML 編輯器。
 
-A new problem component with sample template text appears.
 
-舉個例子，如果您點擊 **Multiple Choice** ，接下來的問題component會顯示。
+一個套用預設樣板的新問題即為您產生出來，顯示在畫面上。
+
+舉個例子，如果您點擊 **多重選擇** ，您就會看到下圖中的問題元件。
 
 .. image:: Images/image101.png
     :width: 600px
 
 
 
-3. 點擊 **Edit** 。這會開啟Simple Editor給問題component。接下來的例子會顯示出這個視圖給一個多選問題。
+3. 點擊 **編輯** 會開啟簡單編輯器讓您編輯問題元件。
 
 .. image:: Images/image103.jpg
     :width: 600px
@@ -292,78 +301,79 @@ A new problem component with sample template text appears.
 4. 設定問題屬性。
 
 
-在 **display_name** 欄位，填入您想要學生在hovers over the icon in the bar at the top of the page時看見的文字。這個文字也會顯示為 a header for the problem。
+在 **顯示名稱** 欄位，填入您想要學生在滑鼠滑過頁面上的導覽條時看見的文字。這個文字也會作為標題顯示在問題之上。
 
 
-a. 在 **weight** 欄位中，設定一個權重值給問題。如果您想要這個問題被作為一個practice問題，設定這為零 (0)。
+a. 在 **權重** 欄位中，設定一個權重值給問題。如果您想要這個問題被作為一個practice問題，設定這為零 (0)。
 
-b. 在 **rerandomize** 欄位，
+b. 在 **rerandomize** 欄位，TBD
 
-c.  在 **attempts** 欄位，具體指明您想要允許學生attempts的數量。
+c.  在 **嘗試次數** 欄位，具體指明您想要允許學生嘗試的次數。
   
-d.  在 **showanswer** 欄位，輸入接下來的設定。
+d.  在 **顯示答案** 欄位，輸入接下來的設定。
 
 .. raw:: latex
   
   \newpage %
 
-**Reference**
+**參考資料**
 
 • **never** = 顯示答案按鈕永遠不會被看見。
 
-• **closed** = 顯示答案按鈕不論是在截止日期已經過了，或者學生已經沒有attempts left，都不會被看見。
+• **closed** = 顯示答案按鈕不論是在截止日期已經過了，或者學生已經沒有剩餘的嘗試次數，都不會被看見。
 
 • **attempted** = 顯示答案按鈕在學生已經檢查過答案一次之後出現，不論是否正確。
 
 • **always** = 顯示答案按鈕永遠出現。
 
 
-5. 修改問題的文字，之後點擊 **Save** 來儲存並且檢查您的工作。確認發布您現在正在工作的草稿來即時觀看問題。
+5. 修改問題的文字，之後點擊 **儲存** 來儲存並且檢查您的工作，確認您已經發佈現在編輯中的草稿。
 
 .. raw:: latex
   
   \newpage %
 
-修改釋出的問題
-*************************
+修改已經釋出的問題
+******************
 
-   **WARNING: 當您已經釋出問題之後要做修改請務必格外小心!**
+   **警告: 當您已經釋出問題之後，要做修改請務必格外小心！**
 
-Currently, problems cache the following information per student:
+目前來說，程式會針對以下的資訊做每位學生不同的快取。
 
-• 這位學生的最後 **submitted** 回應. 
+• 這位學生的最後 **送出** 的回應。
   
-• 學生最後回應所獲得的分數。
+• 學生最後一次回應所獲得的分數。
 
 • 問題的最小值分數。
 
-當學生提一個回應給問題時這個訊息會被上傳。如果學生重新整理這個 **Progress** 頁面，解答不是被重新檢查。If a student refreshes the page of a problem, the latest version of the problem statement is loaded, but their previous response is NOT reevaluated. Rather, the previous response is loaded on top of the current problem statement. That is **existing** student responses for a problem are not reevaluated if the problem statement or attributes are changed, until a student goes back and resubmits the problem. Furthermore, as of the time of writing, if the problem weight attribute is changed, stored scores are re-weighted (without rechecking the response) when the student reloads the **Progress** page.
+當學生提一個回應給問題時這個訊息會被上傳。如果學生重新整理這個 **進度** 頁面，解答並不會重新檢查。
+如果學生重新整理問題的頁面，則會顯示最新版本的問題描述，但是先前已經送出的答案並不會被重新檢查，僅會顯示在問題的答案欄位上。
+就算您修改過問題，所有學生已經上傳的答案亦不會被重新檢查，除非您通知學生請他們重新回到問題頁面作答，並送出新的答案。
+此外，若您修改過問題的權重，則已經評分完的結果會被重新計算，學生可以在 **進度** 頁面上看到最新的狀態。
+
 
 舉例來說，您可能會釋出一個有兩個輸入的問題。當一些學生已經提交了答案之後，如果您改變這個答案中輸入的其中一個，則目前學生的分數不會更新。
 
-Example: 如果您改變輸入的數量變成三個，學生在這個改變之前提交答案則會有一個分數為 0, 1, 或 2到2.2。學生提交答案在這個改變之後，則同樣的問題會有分數 0, 1, 2, 或 3到3.0 。
+例如：如果您改變輸入的數量變成三個，學生在這個改變之前提交答案則會有一個分數為 0, 1, 或 2 (最高分為 2)。學生提交答案在這個改變之後，則同樣的問題會有分數 0, 1, 2, 或 3 (最高分為 3)。
 
-然而，如果您進入並且改變這個問題的權重，目前的分數當您重新整理 **Progress** 時會更新。
+然而，如果您改變這個問題的權重，目前的分數在您重新整理 **進度** 時會更新。
 
-Note that the behavior of re-grading in case of error is an edX Edge case. It is dependent on the implementation of grading, and may change. The goal in the future is to include re-grading that will allow some basic updates to live problems, whether or not students have submitted a response.
 
 .. raw:: latex
   
   \newpage %
 
 
-Workarounds
-===========
+解決方案
+========
 
-如果您已經以某種方式修改了一個釋出的問題而影響到評分，您有兩個選項。注意這兩個選項需要您去要求您的學生回去並重新提交問題。
+如果您已經以某種方式修改了一個釋出的問題而影響到評分，您有兩個選項解決這個問題。注意這兩個選項都需要您去要求您的學生回去並重新檢視問題。
 
 
-1.  增加相同問題component中的attempts在問題上的數量。之後要求所有在您這堂課的學生重做這個問題。
+1.  增加問題的嘗試次數，不然學生就算看到新的問題內容，也有可能無法重新送出答案。
 
-2.  刪除整個在Studio中的問題component並且創建一個新的問題component，其內容和設定是您想要的。之後要求所有在您這堂課的學生回到這個作業並且完成問題。
+2.  將原本的問題直接刪除然後重新建立，之後要求所有您的學生完成這份新問題。
 
-檢查您在Edge上的 **Progress** 視圖或 **Instructor** 標籤作為在觀看分數的unit中的描述以查看是否分數被儲存如您所料。如果那裡有儲存分數的問題讓您不能理解或者不能修正，連繫在Studio幫助頁面支援。
+完成以後請到 Edge 上的 **進度** 或是 **教師** 分頁檢視，確認新的分數以及問題已經被發佈。如果沒有發生您預期中的改變，您可能需要尋求技術人員的支援。
 
-For a discussion of some trade-offs and some suggestions for cleaner solutions in the future, see the following `discussion thread <http://help.edge.edx.org/discussions/questions/73-what-if-you-discover-that-a-live-problem-is-wrong">`_ 在Studio上的help desk。
-
-您可以匯入多個單一問題component中不同種類的問題，甚至當您創建一個問題時，您可以選擇一個particular template。一個template僅僅是一個由XML編輯已經填寫好的文字。您可以新增或者取代這個template的文字。
+您可以於單一個問題元件中同時間放置多種不同的問題類別，當您創建問題的時候，系統預設會幫您輸入一個簡單的問題樣本。您可以透過 XML 編輯器編輯內容，加上其他不同的問題類別，甚至是您自行定義的問題類別。
