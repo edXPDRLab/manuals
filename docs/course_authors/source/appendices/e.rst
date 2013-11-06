@@ -317,7 +317,7 @@
  :width: 600   
 
 
-**問題代碼：**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -559,24 +559,18 @@ We urge usage of <formulaequationinput />. See the opening paragraphs of the
 運算元和函式
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-As expected, the normal operators apply (with normal order of operations): 
-``+ - * / ^``. Also provided is a special "parallel resistors" operator given
-by ``||``. For example, an input of ``1 || 2`` would represent the resistance
-of a pair of parallel resistors (of resistance 1 and 2 ohms), evaluating to 2/3
-(ohms).
+常見的四則運算 ``+ - * / ^`` 可以直接使用，另外支援了特別的 "並聯電阻" 運算元 ``||``。
+舉例來說，``1 || 2`` 表示一個 1 歐姆跟一個 2 歐姆的電阻並聯，因此計算結果為 2/3 歐姆。
 
-At the time of writing, factorials written in the form '3!' are invalid, but
-there is a workaround. Students can specify ``fact(3)`` or ``factorial(3)`` to
-access the factorial function.
+目前系統暫時不支援 '3!' 這種形式的階層計算，不過有個解決的方法：使用函式。您可以使用 ``fact(3)`` 或 ``factorial(3)`` 來呼叫函式做階層計算。
 
-The default included functions are the following:
+預設支援的函式如下所示：
 
-- Trig functions: sin, cos, tan, sec, csc, cot
-- Their inverses: arcsin, arccos, arctan, arcsec, arccsc, arccot
-- Other common functions: sqrt, log10, log2, ln, exp, abs
-- Factorial: ``fact(3)`` or ``factorial(3)`` are valid. However, you must take
-  care to only input integers. For example, ``fact(1.5)`` would fail.
-- Hyperbolic trig functions and their inverses: sinh, cosh, tanh, sech, csch,
+- 三角函數: sin, cos, tan, sec, csc, cot
+- 反三角函數: arcsin, arccos, arctan, arcsec, arccsc, arccot
+- 常用數學函式: sqrt, log10, log2, ln, exp, abs
+- 階層: ``fact(3)`` 或 ``factorial(3)`` 都是合法的，不過要注意的是只能使用整數作為輸入，舉例來說： ``fact(1.5)`` 就是個不合法的計算。
+- 雙曲線三角函數以及其反函數: sinh, cosh, tanh, sech, csch,
   coth, arcsinh, arccosh, arctanh, arcsech, arccsch, arccoth
 
 .. raw:: latex
@@ -588,29 +582,16 @@ The default included functions are the following:
 方程式響應
 ============
 
-The Formula Response input type accepts a line of text representing a
-mathematical expression from the student and evaluates the input for equivalence
-to a mathematical expression provided by the grader. Correctness is based on
-numerical sampling of the symbolic expressions.
+方程式響應允許使用者輸入一串文字當做數學表示式，評分程式會代入指定的參數去做計算，基於數值採樣符號表達式判定答案正確與否。
 
-The syntax of the answers is shared with that of the Numerical Response,
-including default variables and functions. The difference between the two
-response types is that the Formula Response grader may specify unknown
-variables. The student's response is compared against the instructor's
-response, with the unknown variable(s) sampled at random values, as specified
-by the problem author.
+方程式響應與數值響應共用相同的答案格式，包含了預設的變數和函式。
+不同之處在於方程式響應在評分時可以指定未知的變數，學生的答案與教師的答案可以透過隨機取樣的方式進行比較，端看問題作者要怎樣設計。
 
-The answer is correct if both the student-provided response and the grader's
-mathematical expression are equivalent to specified numerical tolerance, over a
-specified range of values for each variable.
+評分程式會根據學生答案的計算結果，比對本身記錄的答案。程式本身可以允許一定程度的誤差，超過誤差範圍會被判定為錯誤，誤差範圍內則判定為正確。
 
-This kind of response type can handle symbolic expressions. However, it places
-an extra burden on the problem author to specify the allowed variables in the
-expression and the numerical ranges over which the variables must be sampled in
-order to test for correctness.
+這種響應型態可以控制符號表示式，不過作者本身必須額外指出哪些變數可以允許加入，計算用的數值的範圍也需設定，程式才能嘗試進行運算並檢測答案正確與否。
 
-A further note about the variables: when the following Greek letters are typed
-out, an appropriate character is substituted:
+系統支援使用希臘字母，當您需要使用希臘字母的時候，您可以輸入下列文字，對應的希臘字母將會被自動代入：
 
   ``alpha beta gamma delta epsilon varepsilon zeta eta theta vartheta iota
   kappa lambda mu nu xi pi rho sigma tau upsilon phi varphi chi psi omega``
@@ -623,7 +604,7 @@ backward 3.
 .. image:: ../Images/image293.png
  :width: 600   
 
-**問題代碼：**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -713,10 +694,9 @@ size      (optional) defines the size (i.e. the width)
 圖片響應
 ========
 
-The Image Response input type presents an image and accepts clicks on the image as an answer.
-Images have to be uploaded to the courseware Assets directory. Response clicks are marked as correct if they are within a certain specified sub rectangle of the image canvas.
+圖片響應會顯示一張圖片並引導使用者點選特定區域作為答案。圖片必須先上傳到課程目錄底下才能使用，評分時會判定是否正確點選到指定的矩形區塊當中。
 
-*Note The Mozilla Firefox browser is currently not supported for this problem type.*
+*請注意：Mozilla Firefox 尚不支援此種問題型別*
 
 範例問題如下：
 
@@ -724,7 +704,7 @@ Images have to be uploaded to the courseware Assets directory. Response clicks a
  :width: 600   
 
 
-**問題代碼：**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -764,7 +744,7 @@ Images have to be uploaded to the courseware Assets directory. Response clicks a
 自定響應
 ========
 
-A Custom Response input type accepts one or more lines of text input from the student and evaluate the inputs for correctness using an embedded Python script.
+透過指定的輸入與計算流程，您可以自行撰寫一個 Python 的腳本來定義一種自定響應。
 
 範例問題如下：
 
@@ -827,7 +807,7 @@ A Custom Response input type accepts one or more lines of text input from the st
 
 **樣板**
 
-*With displayed suggested correct answers*
+*顯示建議的正確答案*
 
 .. code-block:: xml
 
@@ -856,7 +836,7 @@ A Custom Response input type accepts one or more lines of text input from the st
 
 **樣板**
 
-*With NO suggested correct answers*
+*不顯示建議的正確答案*
 
 
 .. code-block:: xml
@@ -891,8 +871,7 @@ A Custom Response input type accepts one or more lines of text input from the st
 化學方程式響應
 ==============
 
-The Chemical Equation Response input type is a special type of Custom Response
-that allows the student to enter chemical equations as answers. 
+化學方程式響應是一種特別的自定響應，學生可以輸入化學方程式作答。
 
 範例問題如下：
 
@@ -932,8 +911,7 @@ that allows the student to enter chemical equations as answers.
 示意圖響應
 ==========
 
-The Schematic Response input type provides an interactive grid on which the
-student can construct a schematic answer, such as a circuit. 
+示意圖響應提供了一個互動的網格界面，學生可用來建構電子電路圖。
 
 範例問題如下：
 
