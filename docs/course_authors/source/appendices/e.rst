@@ -4,11 +4,11 @@
 
 
 ==========================
-APPENDIX E: Problem Types
+附錄 E: 問題類別
 ==========================
 
-Option Response
-===============
+選項響應
+========
 
 The Option Response input type allows the student to choose from a collection of
 answer options, presented as a drop-down list.
@@ -90,8 +90,8 @@ Sample Problem:
       \newpage %
 
 
-Multiple Choice 
-===============
+多重選擇 
+========
 
 
 The Multiple Choice input type allows the student to select at most one choice
@@ -187,8 +187,8 @@ Sample Problem:
       \newpage %
 
 
-Checkbox
-========
+方格
+====
 
 The Checkbox input type allows the student to select zero or more choices from a
 collection of answer choices, presented as a list of checkboxes.
@@ -246,8 +246,8 @@ Sample Problem:
      \newpage %
 
 
-String Response
-===============
+字串響應
+========
 
 The String Response input type provides an input box in which the student can
 enter a line of text, which is then checked against a specified expected answer.
@@ -315,8 +315,8 @@ Sample Problem:
       \newpage %
 
 
-Numerical Response
-==================
+數值響應
+========
 
 The Numerical Response input type accepts a line of text input from the student
 and evaluates the input for correctness based on its numerical value. The input
@@ -467,7 +467,7 @@ Answers with scripts
   </problem>
 
 
-**XML Attribute Information**
+**XML 屬性資訊**
 
 <script>
 
@@ -528,8 +528,8 @@ We urge usage of <formulaequationinput />. See the opening paragraphs of the
   .. image:: ../Images/numericalresponse5.png
 
 
-Math Expression Syntax
-----------------------
+數學表達式語法
+--------------
 
 In NumericalResponses, the student's input may be more complicated than a
 simple number. Expressions like ``sqrt(3)`` and even ``1+e^(sin(pi/2)+2*i)``
@@ -612,8 +612,8 @@ The default included functions are the following:
 
 
 
-Formula Response
-================
+方程式響應
+============
 
 The Formula Response input type accepts a line of text representing a
 mathematical expression from the student and evaluates the input for equivalence
@@ -737,8 +737,8 @@ size      (optional) defines the size (i.e. the width)
       \newpage %
 
 
-Image Response
-==============
+圖片響應
+========
 
 The Image Response input type presents an image and accepts clicks on the image as an answer.
 Images have to be uploaded to the courseware Assets directory. Response clicks are marked as correct if they are within a certain specified sub rectangle of the image canvas.
@@ -787,8 +787,8 @@ XML Attribute Information
       \newpage %
 
 
-Custom Response
-===============
+自定響應
+========
 
 A Custom Response input type accepts one or more lines of text input from the student and evaluate the inputs for correctness using an embedded Python script.
 
@@ -914,8 +914,8 @@ Sample Problem:
   
       \newpage %
 
-Chemical Equation Response
-==========================
+化學方程式響應
+==============
 
 The Chemical Equation Response input type is a special type of Custom Response
 that allows the student to enter chemical equations as answers. 
@@ -955,8 +955,8 @@ Sample Problem:
   
       \newpage %
 
-Schematic Response
-==================
+示意圖響應
+==========
 
 The Schematic Response input type provides an interactive grid on which the
 student can construct a schematic answer, such as a circuit. 
