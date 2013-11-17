@@ -55,22 +55,26 @@
 Google 行事曆
 ============
 
-您的 Google 行事曆應包含所有釋出日期以及截止日期。您可以連結他們到您的課程中，您的行事曆看起來像接下來的行事曆 BerkeleyX's CS 169.2x 課程。
+您的 Google 行事曆應包含所有釋出日期以及截止日期。
+您可以連結他們到您的課程中，您的行事曆看起來像接下來的行事曆 BerkeleyX's CS 169.2x 課程。
 https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@group.calendar.google.com&amp;ctz=America/New_York_
 
 .. image:: Images/image165.png
 
 
-要創建一個 Google 行事曆，請先登入您的 Google 帳號，透過 **Calendar** 。您就可以輸入您的行事曆資訊。您也可以在您的課程中任何地方創建一個連結到這個行事曆。
+要創建一個 Google 行事曆，請先登入您的 Google 帳號，透過 **Calendar** 。
+您就可以輸入您的行事曆資訊。您也可以在您的課程中任何地方創建一個連結到這個行事曆。
 
 
 動態 HTML 時程表
 ===============
 
-您可以創建一個動態 HTML 時程表頁面，來手動更新課程的進展。下面的樣板是改編自 Dan Klein 和 Pieter Abbeel 教授創建的版本。
+您可以創建一個動態 HTML 時程表頁面，來手動更新課程的進展。
+下面的樣板是改編自 Dan Klein 和 Pieter Abbeel 教授創建的版本。
 
 
-在下面是一個範例課程行事曆，展現出三週課程行事曆的方式。如您所見，教材在第三周後沒有連結，也就是說資訊尚未被釋出。
+在下面是一個範例課程行事曆，展現出三週課程行事曆的方式。
+如您所見，教材在第三周後沒有連結，也就是說資訊尚未被釋出。
 
 
 這個課程使用如下方式釋出行事曆：
@@ -85,7 +89,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 
 創建一個動態 HTML 行事曆：
 
-1. 在導覽列上，點擊 **課程內容** ，之後點擊 **靜態頁面**.
+1. 在導覽列上，點擊 **課程內容** ，之後點擊 **靜態頁面** 。
 
 .. image:: Images/image159.png
 
@@ -103,7 +107,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 .. image:: Images/image163.png
   
  
-6. 進入 `Appendix B <appendices/b.html>` 並且複製編碼給動態行事曆樣板。
+6. 進入 `附錄 B <appendices/b.html>` 並且複製編碼給動態行事曆樣板。
   
  
 7. 在 Studio 編輯之中，以動態行事曆樣板編碼取代在 HTML 標籤上的佔位編碼。
@@ -148,7 +152,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求使用您的課程中的其中一個檔案，但是會更改您講義的日期，您就可以簡單地在 **檔案及上傳** 頁面找到原始 Word 檔。
   
  
-請注意當您命名您的檔案名稱新增到 **Files & Uploads** 頁面時您應該小心。因為這個檔案名稱會變成URL的一部分，當學生開啟連結的時候會看到檔案名稱。
+請注意當您命名您的檔案名稱新增到 **檔案及上傳** 頁面時您應該小心。因為這個檔案名稱會變成 URL 的一部分，當學生開啟連結的時候會看到檔案名稱。
 請避免使用像是 "AnswerKey.pdf." 的檔案名稱。
   
  
@@ -179,8 +183,9 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 新增另外的檔案，請繼續點擊 **載入其他檔案** 。欲關閉對話框，點擊在右上角的 **X** 。
 當您關閉對話框，檔案出現在 **檔案及上傳** 頁面上。
   
-5. 決定您重新上傳檔案的URL。要做到這件事，在 **檔案及上傳** 頁面上，選擇列表中的檔案，在 **URL** 列右側，
-您可以看到這個 URL 您將會需要使用這個來顯示一張圖片或創建一個超連結。
+5. 決定您重新上傳檔案的URL。
+   要做到這件事，在 **檔案及上傳** 頁面上，選擇列表中的檔案，在 **URL** 列右側可以看到這個 URL。
+   您將會需要使用這個 URL 來顯示一張圖片或創建一個超連結。
 
   
  
@@ -193,7 +198,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
       
   
   
-新增項目給講義Sidebar 
+新增項目給講義側邊欄 
 =================================
   
  
@@ -213,7 +218,9 @@ image:: Images/image166.png
   
  
 
-* 為了創建一個連結給一個文件，請輸入接下來的語法。要注意的是 URL OF FILE 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。LINK TEXT 則是您想顯示在 **課程講義** 側邊欄上的訊息。
+* 為了創建一個連結給一個文件，請輸入接下來的語法。
+  要注意的是 URL OF FILE 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
+  LINK TEXT 則是您想顯示在 **課程講義** 側邊欄上的訊息。
 
 .. code-block:: html
 
@@ -235,10 +242,9 @@ image:: Images/image166.png
 ***************
   
  
-	您可以新增公告或更新來歡迎學生來到這個班級，
-	提醒學生考試，通知學生課程行事曆的變動，以及call out學生需要銘記的重要步驟。
-	這些更新出現在edX或Edge的 **課程資訊** 標籤上。
-	因為您的課程自動開啟到 **課程資訊** 頁面，學生登入時將會馬上看到更新。
+	您可以新增公告或更新來歡迎學生來到這個班級，提醒學生考試，通知學生課程行事曆的變動，以及學生需要銘記的重要步驟。
+	這些更新出現在 edX 或 Edge 的 **課程資訊** 標籤上。
+	因為您的課程會自動開啟到 **課程資訊** 頁面，學生登入時將會馬上看到更新。
     
   
  
@@ -255,8 +261,7 @@ image:: Images/image166.png
     .. image:: Images/image187.png
   
  
-    這個 Box 的內容格式必須是 HTML。作為一個樣本您可能使用來匯入placeholders，
-	請參考 `Appendix A <appendices/a.html>`。
+    這個對話框的內容格式必須是 HTML，您可以參考 `附錄 A <appendices/a.html>` 內的說明填入。
   
  
     3. 以 HTML 輸入您的更新，之後點擊 **儲存** 。
