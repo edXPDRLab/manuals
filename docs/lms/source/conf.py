@@ -264,9 +264,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'edX LMS Manual'
-epub_author = u'edX ¥­¥x¶}µo¬ã¨s¹êÅç«Ç'
-epub_publisher = u'edX ¥­¥x¶}µo¬ã¨s¹êÅç«Ç'
-epub_copyright = u'2013, edX ¥­¥x¶}µo¬ã¨s¹êÅç«Ç'
+epub_author = u'edX å¹³å°é–‹ç™¼ç ”ç©¶å¯¦é©—å®¤'
+epub_publisher = u'edX å¹³å°é–‹ç™¼ç ”ç©¶å¯¦é©—å®¤'
+epub_copyright = u'2013, edX å¹³å°é–‹ç™¼ç ”ç©¶å¯¦é©—å®¤'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'edX LMS Manual'
