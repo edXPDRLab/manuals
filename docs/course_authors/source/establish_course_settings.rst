@@ -149,7 +149,7 @@
 3. 在 **課程大綱** 欄位，輸入您的課程描述。
 
 
-這個欄位內容是HTML格式。對於template可以使用包括placeholders，請看 :doc:`appendices/a`.
+這個欄位內容是 HTML 格式。對於 template 可以使用包括 placeholders，請看 :doc:`appendices/a`.
 
 
 如果您的課程有先決條件 (例如學生需要俱備哪些背景知識)，您可以把資訊放在課程大綱。
