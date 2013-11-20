@@ -1,11 +1,8 @@
-
-.. image:: Images/image001.png
-
-
 ##############
 開始使用 Studio
 ##############
 
+.. image:: Images/image001.png
   
 ****
 簡介

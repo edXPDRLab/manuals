@@ -20,3 +20,13 @@
 線上閱讀版本與原始碼是同步的 ::
 
 	http://edx-ca-zhtw.readthedocs.org/en/latest/index.html
+
+
+關於 edX 平台開發研究實驗室
+==========================
+
+edX 平台開發研究實驗室由國立中央大學及國立中央大學資訊工程系所共同成立，專注於 edX/Open edX 平台開發與研究工作，同時擔任 Open edX 正體中文語系版本的維護與協調工作。
+
+.. image:: Images/logo_ncu.png
+
+.. image:: Images/logo_ncu_csie.png
