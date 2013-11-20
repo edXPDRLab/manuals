@@ -219,15 +219,15 @@ image:: Images/image166.png
  
 
 * 為了創建一個連結給一個文件，請輸入接下來的語法。
-  要注意的是 URL OF FILE 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
-  LINK TEXT 則是您想顯示在 **課程講義** 側邊欄上的訊息。
+  要注意的是 **URL OF FILE** 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
+  **LINK TEXT** 則是您想顯示在 **課程講義** 側邊欄上的訊息。
 
 .. code-block:: html
 
     <p><a href="[URL OF FILE]">[LINK TEXT]</a></p>
 
 
-* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，應注意 URL OF FILE 欄位要輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
+* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，應注意 **URL OF FILE** 欄位要輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
 
 .. code-block:: html
 
