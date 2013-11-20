@@ -32,7 +32,7 @@
 .. image:: Images/image161.png
 
 
-3. 在對話框的右側，點擊 **編輯** ，就會開啟對話框。
+3. 在對話框g的右側，點擊 **編輯** ，就會開啟對話框。
 
 .. image:: Images/image163.png
 
@@ -107,7 +107,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 .. image:: Images/image163.png
   
  
-6. 進入 `附錄 B <appendices/b.html>` 並且複製編碼給動態行事曆樣板。
+6. 進入 `附錄 B <appendices/b.html>`_ 並且複製編碼給動態行事曆樣板。
   
  
 7. 在 Studio 編輯之中，以動態行事曆樣板編碼取代在 HTML 標籤上的佔位編碼。
@@ -152,8 +152,8 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 如果您稍後從您的個人電腦中刪除這個檔案，或者一位同事要求使用您的課程中的其中一個檔案，但是會更改您講義的日期，您就可以簡單地在 **檔案及上傳** 頁面找到原始 Word 檔。
   
  
-請注意當您命名您的檔案名稱新增到 **檔案及上傳** 頁面時您應該小心。因為這個檔案名稱會變成 URL 的一部分，當學生開啟連結的時候會看到檔案名稱。
-請避免使用像是 "AnswerKey.pdf." 的檔案名稱。
+請注意當您命名您的檔案名稱新增到 **檔案及上傳** 頁面時您應該小心，因為這個檔案名稱會變成 URL 的一部分。
+由於當學生開啟連結的時候會看到檔案名稱，所以請避免使用像是 "AnswerKey.pdf" 等直覺的檔名，以致讓其他人猜到您不想公佈的檔案名稱。
   
  
 .. warning::
@@ -262,7 +262,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
     .. image:: Images/image187.png
   
  
-    這個對話框的內容格式必須是 HTML，您可以參考 `附錄 A <appendices/a.html>` 內的說明填入。
+    這個對話框的內容格式必須是 HTML，您可以參考 `附錄 A <appendices/a.html>`_ 內的說明填入。
   
  
     3. 以 HTML 輸入您的更新，之後點擊 **儲存** 。
