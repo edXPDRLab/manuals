@@ -97,7 +97,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 
 .. image:: Images/image161.png
 
-3. 在Box的右側，點擊 **編輯** ，就會開啟對話框。
+3. 在對話框的右側，點擊 **編輯** ，就會開啟對話框。
 
 4. 在編輯中開啟，並在 **顯示名稱** 中填入 **時程表** 。
 
@@ -117,7 +117,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 *******
   
  
-在 Edge 上您的課程講義是有用的在 **課程資訊** 頁面上的 **課程講義** 側邊欄。
+在 Edge 上您的課程講義是列在 **課程資訊** 頁面上的 **課程講義** 側邊欄。
 為了新增這些項目，您必須創建一個檔案以及上傳這個檔案到 **檔案及上傳** 頁面。
 當您做了這件事之後，系統會替這個檔案產生網址，之後您就可以使用這個 URL 創建一個連結到 **課程講義** 側邊欄。
 您可以在 **課程更新** 頁面創建這個連結。
@@ -159,7 +159,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 .. warning::
 
 	在上傳檔案時，如果和已經上傳的檔案有相同的檔案名稱，將會導致原本的檔案被覆蓋掉。
-    當您嘗試上傳一個已經有相同檔案名稱檔案存在的情況發生時，目前沒有警告訊息通知您。
+  當您嘗試上傳一個已經有相同檔案名稱檔案存在的情況發生時，目前沒有警告訊息通知您。
 	
         
  
@@ -183,7 +183,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 新增另外的檔案，請繼續點擊 **載入其他檔案** 。欲關閉對話框，點擊在右上角的 **X** 。
 當您關閉對話框，檔案出現在 **檔案及上傳** 頁面上。
   
-5. 決定您重新上傳檔案的URL。
+5. 決定您重新上傳檔案的 URL。
    要做到這件事，在 **檔案及上傳** 頁面上，選擇列表中的檔案，在 **URL** 列右側可以看到這個 URL。
    您將會需要使用這個 URL 來顯示一張圖片或創建一個超連結。
 
@@ -205,7 +205,7 @@ https://www.google.com/calendar/embed?src=edx.org_mcjhp2tv3ul2etfpb43hd388p4@gro
 1. 在導覽列上，點擊 **課程內容** ，之後點擊 **更新** 。
   
  
-image:: Images/image166.png
+.. image:: Images/image166.png
   
  
 2. 在右側選擇 **課程講義** 側邊欄，之後點擊 **編輯** 。
@@ -214,20 +214,21 @@ image:: Images/image166.png
 .. image:: Images/image168.png
   
  
-3. 在 XML box中，顯示、創建連結給您的檔案。
+3. 在 XML 對話框中，顯示、創建連結給您的檔案。
   
  
 
 * 為了創建一個連結給一個文件，請輸入接下來的語法。
-  要注意的是 URL OF FILE 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
-  LINK TEXT 則是您想顯示在 **課程講義** 側邊欄上的訊息。
+  要注意的是 **URL OF FILE** 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
+  **LINK TEXT** 則是您想顯示在 **課程講義** 側邊欄上的訊息。
 
 .. code-block:: html
 
     <p><a href="[URL OF FILE]">[LINK TEXT]</a></p>
 
 
-* 為了創建一個連結給一張您已經上傳的圖片，輸入接下來的語法，應注意 URL OF FILE 欄位要輸入的是於 **Upload a File to Your Assets Tab** 上傳檔案時，第五步提示給您的 URL .
+* 為了創建一個連結給一張您已經上傳的圖片，請輸入接下來的語法。
+  要注意的是 **URL OF FILE** 欄位應該輸入的是於 **檔案及上傳** 上傳檔案時，第五步提示給您的 URL。
 
 .. code-block:: html
 
