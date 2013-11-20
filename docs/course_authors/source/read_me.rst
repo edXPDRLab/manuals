@@ -9,6 +9,14 @@
 
 任何 pull request 都會需要一個 edX 工程師批准。而這份文件的 edX 聯繫人是mchang@edx.org 
 
-正體中文版本由 edX 平台開發研究實驗室所維護，您可以在從以下網址取得原始碼 ::
+正體中文版本由 **edX 平台開發研究實驗室** 所維護，您可以在從以下網址取得原始碼 ::
 
     https://github.com/edXPDRLab/manuals.git
+
+正體中文版本每次的更新都會公佈於 edX 平台開發研究實驗室的網站，您亦可於此處取得 PDF 版本文件 ::
+
+	http://edxpdrlab.logdown.com
+
+線上閱讀版本與原始碼是同步的 ::
+
+	http://edx-ca-zhtw.readthedocs.org/en/latest/index.html
