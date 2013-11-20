@@ -209,8 +209,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'getting_started_zhTW.tex', u'edX Studio Documentation',
-   u'edX PDR Lab', 'manual'),
+  ('index', 'getting_started_zhTW.tex', u'edX 開始使用 Studio',
+   u'edX 平台開發研究實驗室', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -274,7 +274,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'getting_started_zhTW'
+epub_title = u'edX 開始使用 Studio'
 epub_author = u'edX 平台開發研究實驗室'
 epub_publisher = u'edX 平台開發研究實驗室'
 epub_copyright = u'2013, edX 平台開發研究實驗室'
