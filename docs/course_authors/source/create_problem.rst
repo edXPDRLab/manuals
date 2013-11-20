@@ -27,11 +27,11 @@
 
 • `Writing Exercises <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/a45de3baa8a9468cbfb1a301fdcd7e86/d15cfeaff0af4dd7be4765cd0988d172/1>`_ 有許多關於作業分類的深入討論，並且附上許多不同類型問題的範例 `Gallery of Response Types <https://edge.edx.org/accounts/login?next=/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/a45de3baa8a9468cbfb1a301fdcd7e86/3ba055e760d04f389150a75edfecb844/1>`_
 
-•  `Appendix E <appendices/e.html>`  包含了許多不同問題回應種類之XML的文件。
+•  `附錄 E <appendices/e.html>`_  包含了許多不同問題回應種類之XML的文件。
 
 •  在 Edge 上的 `Discussion Forum <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/discussion/forum">`_  是個詢問問題的好地方，您可以在此找到參考的答案或是尋求技術支援。
 
-•  Creating problems for the online format opens a new playing field in the educational process. A big part of the community aspect of edX is to initiate and grow a `Creative Problems <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/wiki/edx101/creative-problems/>`_ . Please look here to be inspired by new approaches when first making your class. Please also come back to post interesting approaches that you came up with while running your class, and to share with the community what worked well and what did not.
+•  新的線上格式的問題已經成為教育界一個新的競爭領域，edX 社群中有很大一群人正在關注這個議題 `Creative Problems <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/wiki/edx101/creative-problems/>`_ 。請先參考前面的討論，看看有哪些方法可以啟發您應用於課程中，也歡迎您回來社群中與我們討論您於實際課程中應用的經驗，並提供我們如何改善的建議。
 
 
 **簡易編輯器及進階編輯器**
