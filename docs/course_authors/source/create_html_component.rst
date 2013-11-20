@@ -78,7 +78,7 @@ HTML 組件編輯器有兩種顯示模式: **視覺檢視** 以及 **HTML 檢視
 
 2. 在 HTML 對話框，創建連到您的檔案的連結。
 
-要創建連到文件的連結，請輸入以下句法，URL OF FILE 是您上傳檔案到 **檔案及上傳** 頁面的步驟5記下的 URL，LINK TEXT 是使用者所看到可以按下的文字連結要顯示的文字。 ::
+要創建連到文件的連結，請輸入以下句法， **URL OF FILE** 是您上傳檔案到 **檔案及上傳** 頁面的步驟5記下的 URL， **LINK TEXT** 是使用者所看到可以按下的文字連結要顯示的文字。 ::
 
 	<p><a href="[URL OF FILE]">[LINK TEXT]</a></p>
 
@@ -89,7 +89,7 @@ HTML 組件編輯器有兩種顯示模式: **視覺檢視** 以及 **HTML 檢視
   <p><a href="/c4x/edX/edX101/asset/AboutPage_Template.txt">HTML Template for
   <the "About" page</a></p>
 
-要創建連到您已上傳的圖片的連結，請輸入以下句法，URL OF FILE 是您上傳檔案到 **檔案及上傳** 頁面的步驟5記下的 URL，LINK TEXT 是使用者所看到可以按下的文字連結要顯示的文字。 ::
+要創建連到您已上傳的圖片的連結，請輸入以下句法， **URL OF FILE** 是您上傳檔案到 **檔案及上傳** 頁面的步驟5記下的 URL， **LINK TEXT** 是使用者所看到可以按下的文字連結要顯示的文字。 ::
 
   <p><img src="[URL OF FILE]"/></p>
 
