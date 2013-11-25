@@ -16,6 +16,7 @@ edX 平台教學-如何上傳簡報至 SlideShare 並加入 edX 課程中
    register
    upload
    share
+   add2edx
 
 Indices and tables
 ==================
