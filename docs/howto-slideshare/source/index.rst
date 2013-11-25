@@ -12,6 +12,7 @@ edX 平台教學-如何上傳簡報至 SlideShare 並加入 edX 課程中
    :maxdepth: 2
 
    read_me
+   get_started
    register
 
 Indices and tables
