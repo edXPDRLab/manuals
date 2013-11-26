@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    read_me
+   get_started
 
 
 Indices and tables
