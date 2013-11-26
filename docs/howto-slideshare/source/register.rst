@@ -8,6 +8,7 @@
 .. image:: images/reg-01.png
 
 2. SlideShare提供多種方式註冊方式，您可以選擇
+
    a. 使用LinkedIn帳號註冊
    b. 使用Facebook帳號註冊
    c. 註冊一個SildeShare獨立帳號

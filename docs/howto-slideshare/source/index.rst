@@ -3,25 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-edX 平台教學-如何上傳簡報至 SlideShare 並加入 edX 課程中
-========================================================================================================
-
-內文:
+內文
+====
 
 .. toctree::
    :maxdepth: 2
 
    read_me
-   get_startedg
+   get_started
    register
    upload
    share
    add2edx
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
