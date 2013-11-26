@@ -13,6 +13,7 @@ Contents:
 
    read_me
    get_started
+   about_course
 
 
 Indices and tables
