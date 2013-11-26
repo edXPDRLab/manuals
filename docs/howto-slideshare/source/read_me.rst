@@ -11,19 +11,22 @@
 
 	http://edxpdrlab.logdown.com
 
-線上閱讀版本與原始碼是同步的 ::
+線上閱讀版本與原始碼是同步更新的 ::
 
 	http://edx-howto-slideshare.readthedocs.org/
 
+若您對本文有任何建議，歡迎您透過 GitHub 提交 issue 或是發送 pull request。
+感謝您的協助，讓這份文件內容更臻完美。
 
-作者
+
+關於作者
 ********
 
-• 陳禹任 yrchen@MINELab.tw
-  國立中央大學資訊工程系研究所
+**陳禹任** yrchen@MINELab.tw
+國立中央大學資訊工程系研究所
 
-• 林宥均 alwaysopen7-11@MINELab.tw
-  國立中央大學資訊工程系研究所
+**林宥均** alwaysopen7-11@MINELab.tw
+國立中央大學資訊工程系研究所
 
 
 關於 edX 平台開發研究實驗室
