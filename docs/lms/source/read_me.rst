@@ -2,15 +2,29 @@
 讀我
 ****
 
-這個 edX “開始使用 LMS” 裡面的 “幫助” 和 PDF 文件是使用 Sphinx 1.2b1 and LaTex 所創建的。
-您或者使用者社群可以幫忙更新和修訂這個專案文件，原始內容在 GitHub 上的 ::
+這份 "edX 開始使用 LMS" 文件是使用 Sphinx 1.2b1 和 LaTex 所創建的，
+由 **edX 平台開發研究實驗室** 所創作，您可以在以下網址取得原始碼 ::
 
-edx\edX-platform\userdocs\source
+    https://github.com/edXPDRLab/manuals.git
 
-任何 pull request 都會需要一個 edX 工程師批准。而這份文件的 edX 聯繫人是 joeyc0916@gmail.com
-正體中文版本由 edX 平台開發研究實驗室所維護，您可以在從以下網址取得原始碼 ::
+每次的更新都會公佈於 edX 平台開發研究實驗室的網站，您亦可於此處取得 PDF 版本文件 ::
 
-https://github.com/edXPDRLab/manuals.git
+	http://edxpdrlab.logdown.com
+
+線上閱讀版本與原始碼是同步更新的 ::
+
+	http://edx-lms-zhTW.readthedocs.org/
+
+若您對本文有任何建議，歡迎您透過 GitHub 提交 issue 或是發送 pull request。
+感謝您的協助，讓這份文件內容更臻完美。
+
+
+關於作者
+********
+
+**邱翊** joeyc@MINELab.tw
+
+國立中央大學資訊工程系研究所
 
 
 關於 edX 平台開發研究實驗室
