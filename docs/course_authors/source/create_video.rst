@@ -20,7 +20,7 @@
 1. 上傳您想要的的影片到 YouTube 上。
    您會需要顯示在 **watch?v=** 與 **&feature** 中間的影片編號，約略於下圖綠色方塊的位置。
 
-.. image:: Images/image053.png
+.. image:: Images/C5_01.png
   :width: 800 px
 
 2. 在 Studio 中，進入您想要編輯的單元。
@@ -36,7 +36,7 @@
 7. 利用於步驟1所記錄下來的影片編號，填入下圖中綠色方塊的位置。
    格式為 **速度:影片編號** 。所以您可以同時在影片組件中指定多個檔案，讓使用者以不同速度播放。
 
-.. image:: Images/image055.png
+.. image:: Images/C5_02.png
   :width: 800
 
 8. 點擊 **儲存**
