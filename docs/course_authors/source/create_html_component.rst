@@ -190,7 +190,7 @@ c. 複製在主要網址之後，“about”之前的 URL (包含最後面的 "/
 
 1. 在 **新增單元** 下方，點擊 **HTML** ，接著點擊 **E-text Written in LaTeX.** 
 
-.. image:: Images/image067.png
+.. image:: Images/C07_01.png
   :width: 800
 
 2. 在出現的組件中點擊編輯。
