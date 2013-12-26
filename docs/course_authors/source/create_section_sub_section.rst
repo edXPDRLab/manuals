@@ -9,7 +9,7 @@
 
 2. 在 **課程大綱** 頁面，點擊 **建立新章節**
 
-.. image:: Images/image039.png  
+.. image:: Images/C03_01.png  
  :width: 800
 
 
@@ -20,14 +20,14 @@
 	在大部分的課程中，第一個章節的名稱是第一周 (Week 1)。
 	這個您已經創建的章節會顯示在 **課程大綱** 頁面之上。
 
-.. image:: Images/image041.png  
+.. image:: Images/C03_02.png  
  :width: 800
 
 
 您輸入的名稱也會顯示在課程導覽列中，如下所述。
 
 
-.. image:: Images/image043.png  
+.. image:: Images/C03_03.png  
  :width: 800
 
 
@@ -39,19 +39,19 @@
 舉例來說，如果您輸入 **Week 1** 當成章節的標題以及 **Subsection 1** 當成小節的標題，您會看到如下。
 
 
-.. image:: Images/image045.png  
+.. image:: Images/C03_04.png  
  :width: 800
 
 
 如果您以學生的身分觀看您的課程，您會看到如下畫面。
 
 
-.. image:: Images/image047.png  
+.. image:: Images/C03_05.png  
  :width: 800
 
 
 6. 點擊您剛創建的新的小節。在這個例子中，當點擊 **Subsection 1** 時，您會看到如下的畫面。
 
 
-.. image:: Images/image049.png  
+.. image:: Images/C03_06.png  
  :width: 800
