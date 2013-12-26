@@ -2,7 +2,7 @@
 創建一個 HTML 組件
 ****************
 
-    .. image:: Images/image067.png
+    .. image:: Images/C07_01.png
 
 HTML 組件是最基本的組件類型，可用於建造以文字為主的課程。
 諸如文字、清單、聯結、圖片等資訊到單元中。 
@@ -28,11 +28,11 @@ HTML 組件編輯器有兩種顯示模式: **視覺檢視** 以及 **HTML 檢視
 
 1. 在新增新組件下，點擊 **HTML** 接著點擊 **空白** ，會出現下方的空白組件。
 
-.. image:: Images/image069.png
+.. image:: Images/C07_02.png
 
 2. 在空白組件中，點擊 **編輯** 開啟 HTML 編輯器。
 
-.. image:: Images/image071.png
+.. image:: Images/C07_03.png
 
 3. 輸入您要的資訊，接著點擊 **儲存** 。
 
@@ -48,7 +48,7 @@ HTML 組件編輯器有兩種顯示模式: **視覺檢視** 以及 **HTML 檢視
 
 1. 在 **新增組件** 下方點擊 **HTML** 接著點擊 **公告** ，出現下列畫面。
 
-.. image:: Images/image073.png
+.. image:: Images/C07_04.png
 
 2. 點擊 **編輯** 。
 
@@ -58,7 +58,7 @@ HTML 組件編輯器有兩種顯示模式: **視覺檢視** 以及 **HTML 檢視
 
   若您想要加入到其它頁面或圖片的連結或或是要直接編輯 HTML，請切換到 HTML 分頁。
 
-.. image:: Images/image075.png
+.. image:: Images/C07_05.png
 
 3. 點擊 **儲存** 。
 
