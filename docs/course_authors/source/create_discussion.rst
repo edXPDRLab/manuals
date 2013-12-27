@@ -32,7 +32,7 @@
 
 4. 在此新 HTML 組件的正下方，點擊 **添加新組件** 下方的 **討論** 。
 
-.. image:: Images/image057.png
+.. image:: Images/C06_01.png
 
 5. 當出現以下對話框，點擊 **討論標籤** 。
 
@@ -40,11 +40,11 @@
 
 6. 當出現以下對話框，點擊 **編輯** 。
 
-.. image:: Images/image061.png
+.. image:: Images/C06_02.png
 
 當出現以下對話框時，您可以修改小對話框中的數值，但不會更改到大對話框中的內容。
 
-.. image:: Images/image063.png
+.. image:: Images/C06_03.png
 
 .. note::
 
@@ -60,7 +60,7 @@
 
 舉例來說，當您把 **討論分類** 設定成 “The Discussion Component”，並把 **討論目標** 設定成 “Online Instruction Methods”，分類及子分類會如下出現在討論區塊中的分類清單:
 
-.. image:: Images/image065.png
+.. image:: Images/C06_04.png
  :width: 300
 
 9. 在 **顯示名稱** 對話框，鍵入討論名稱，當學生用滑鼠滑過單元導覽列時將會顯示出來。
