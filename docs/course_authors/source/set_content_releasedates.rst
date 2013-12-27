@@ -17,7 +17,7 @@
 
     3. 在 **即將發佈** 下方，點擊 **編輯** 來改變日期。
 
- .. image:: Images/image280.png
+ .. image:: Images/C09_01.png
 
 小節
 ****
