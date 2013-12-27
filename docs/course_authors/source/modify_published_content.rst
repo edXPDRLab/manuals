@@ -11,40 +11,40 @@
 要創建一個草稿，首先開啟您想要修改的單元。
 注意畫面上沒有 **編輯** 按鈕時，就代表您不能對此單元做任何修改。
   
-.. image:: Images/image231.png
+.. image:: Images/C14_01.png
   :width: 600 
  
  
 在右邊的窗格點擊 **單元設定** 格裡的藍色 **編輯草稿** 連結。
  
  
-.. image:: Images/image233.png
+.. image:: Images/C14_02.png
   :width: 600 
  
  
 在點擊 **編輯草稿** 後，您就可以對單元進行修改，您可以編輯已存在的內容或是新增內容。 
  
  
-.. image:: Images/image235.png
+.. image:: Images/C14_03.png
   :width: 600 
  
  
 若您想要觀看即時的內容，請點擊在頁面上方的黃色橫幅中的 **以發表版本格式預覽** 。
  
  
-.. image:: Images/image237.png
+.. image:: Images/C14_04.png
   :width: 600 
  
  
 若您想觀看您正在修改中的草稿，點擊 **單元設定** 下方的 **預覽** ，您將會以預覽模式開啟您的課程。
  
  
-.. image:: Images/image239.png
+.. image:: Images/C14_05.png
   :width: 600 
  
  
 當您完成對單元的修改時，點擊 **單元設定** 下方的藍色 **使用本草稿替換** 連結。
  
  
-.. image:: Images/image241.png
+.. image:: Images/C14_06.png
   :width: 600 
