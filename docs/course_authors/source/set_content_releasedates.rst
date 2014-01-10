@@ -79,19 +79,15 @@ To set a release date for a section:
 Set the Release Date for a Subsection
 ========================================
 
-Subsections inherit the release date of the section they are in, but you can
-change this date so that different subsections are released at different times.
+小節預設是繼承其所在小節的發佈日期，但您可以更改這個日期，如此一來不同的小節能在不同的時間發布。
 
-Note that if the release date for a subsection falls before the release date for
-the section that contains it, students will not be able to see the subsection
-until the release date for the *section* has passed. Section release dates
-override subsection release dates.
+注意若小節的發佈日期比在其所在的章節的發佈日期更早，學生在此 **章節** 發佈日期前將無法看到此小節，章節的發佈日期會覆寫小節的發佈日期。 
 
-To set the release date for a subsection:
+要為小節設定發佈日期:
 
-#. Open the subsection.
-#. Locate the **Subsection Settings** box in the top right corner.
-#. Enter the release date in MM/DD/YYYY format, and the UTC time.
+#. 開啟小節。
+#. 找到在右上角的 **小節設定** 方格。
+#. 在 **發佈日期ㄧ** 下方修改日期。
 
 
 ================================================

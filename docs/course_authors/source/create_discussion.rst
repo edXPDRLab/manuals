@@ -76,36 +76,31 @@ students can find the category and subcategory of the discussion in the left pan
 .. image:: Images/DiscussionComponent_Forum.png
 
 
-.. _Seed a Discussion Space in Your Course:
+.. _在您的課程中開啟一個討論空間:
 
 **************************************
-Seed a Discussion Space in Your Course 
+在您的課程中開啟一個討論空間  
 **************************************
 
-Many students may feel hesitant to be the first to
-post an answer to your question. You can get the discussion started by posting
-your own answer—preferably anonymously or as a student, so that students will be
-more comfortable replying if they disagree with your post.
+許多學生可能對是否要第一個發表答案感到猶豫。
+您可以自行發表一個答案來開始這個討論，建議最好是以匿名或以學生名義發表，如此若學生不同意您的答案，他們也能較為自在的發表自己的看法。
 
-To post as a student, follow the steps below. If you later want to reply as
-yourself, log back into your usual account and omit steps 1 and 2.
+要以學生名義發表，請按照下面的步驟。若您之後想以自己名義回覆，登入到您平常使用的帳號並忽略步驟1及步驟2。
 
-#. Set up a test account on with an e-mail address that is not associated with your Course Team.
+#. 以一個未關係到您課程團隊的電子信箱設定一個測試帳號。
 
-#. Go to your course URL and register for your course.
+#. 前往您的課程網址並註冊課程。
 
-  a. Locate the Unit that contains the Discussion component.
+  a. 找到包含一個討論區塊的單元。
 
-  b. In the Unit, locate the discussion space.
+  b. 在單元中，找到一個討論空間。
 
-  c. Click **New post.**
+  c. 點擊 **發表文章** 。
 
-3. Type a title for your post in the Title field, and then enter text for your post.
+3. 在標題框中鍵入您要發表的標題，並輸入內文。
 
-#. If you want to, select the **post anonymously** check box or the **follow this post** check box.
+#. 若您想的話，可以選取 **匿名發表** 或是 **追蹤此文** 。
 
-#. When you are satisfied with your post, click **Add Post.**
+#. 當您對發表內容滿意，點擊 **新增發表** 。
 
-Your new post appears at the top of list in the unit. Posts are listed in
-reverse chronological order.
-
+您的發表會出現在單元中清單的上方。所有發表會以反向時間順序排序顯示。
