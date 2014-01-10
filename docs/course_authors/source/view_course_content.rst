@@ -19,33 +19,28 @@ From within Studio, you can test your course in two ways:
 Preview Your Course
 ***********************
  
-When you view your course through Preview mode, you see all the
-units of your course, regardless of whether they are set to Public or
-Private and regardless of whether the release dates have passed.
+當您使用預覽模式觀看您的課程，您可以看到所有在您課程中的單元，不論他們是否設定為公開或私有，亦不論釋出日期是否已經過了。
  
- 
-Using Preview mode is the only way to see content that is set to Private
+使用預覽模式是唯一可以看到已經設定為私人內容的方式
 **as a student would see it.**
  
+
+您有兩種方式進入預覽模式。
  
-You can enter Preview mode in two ways.
- 
-* On any subsection page, click **Preview Drafts**.
+* 在任何小節頁面，點擊 **檢視草稿** 。
 
 .. image:: Images/preview_draft.png
   :width: 800
  
-* On any Unit page, click **Preview**.
+* 在任何單元頁面，點擊 **預覽** 。
  
-  The following example shows the **Preview** button for a unit that
-  is set to Public.
+  接下來的例子是單元被設定為公開那個頁面的 **預覽** 按鈕。
  
   .. image:: Images/preview_public.png
    :width: 800
  
  
-  The following example shows the **Preview** button for a unit that
-  is set to Private.
+  接下來的例子是單元被設定為私人那個頁面的 **預覽** 按鈕。
  
   .. image:: Images/preview_private.png
    :width: 800
