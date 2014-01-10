@@ -1,199 +1,165 @@
-.. _Open Response Assessment Problems:
+.. _開放式互動評分問題(Open Response Assessment):
 
-Open Response Assessment Problems
+開放式互動評分問題(Open Response Assessment)
 ---------------------------------
 
-Introduction to Open Response Assessments
+開放式互動評分問題介紹
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: Open response assessments are still in beta. We recommend that
-          you test them thoroughly in a practice course and only add them to
-          courses that are **not** already running.
+.. 注意:: 開放式互動評分問題仍在開發，在我們未準備好前，
+		  若您想使用此功能，我們建議您仔細的做測試，
+		  在測試課程先測試它並且只將它加入 **未** 開始運作的課程。
 
-Open response assessments allow instructors to assess student learning
-through questions that may not have definite answers. Tens of thousands
-of students can receive feedback on written responses of varying lengths
-as well as files, such as computer code or images, that the students
-upload. Open response assessment technologies include self assessment,
-peer assessment, and artificial intelligence (AI) assessment (sometimes
-called "machine assessment" or "machine grading"). With self
-assessments, students learn by comparing their answers to a rubric that
-you create. With peer assessments, students compare their peers' answers
-to the rubric.
+		  開放式互動評分能夠讓教師在未提供明確答案的問題中評分學生的學習成果。
+		  數以千計的學生們將在為其他學生的作業（如程式碼或是圖片）評分後收到回饋。
+		  開放式互動評分技術包括自我評分（self assessment）、同儕評分（peer assessment）、與人工智慧（artificial intelligence assessment ）評分。
+		  當進行自我評分時學生將透過比較您所創建的評分規則評分。
+		  當進行同儕評分時，學生將其他同學的作答與您創建的評分規則進行比較並評分。
 
-A Few Notes about Open Response Assessments
+
+關於開放式互動評分的幾個注意事項
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Open response assessment technology is still in beta.** For a good
-experience with open response assessments, you'll need to follow a few
-guidelines.
+** 開放式互動評分技術仍在開發（beta 版）。** 
+對於開放式互動評分，請注意以下守則。
 
--  Do not create a new open response assessment in a running course.
-   Only create open response assessments in a test course.
--  If your course will include open response assessments, add and
-   thoroughly test all the open response assessments *before* the course
-   is live.
--  Set open response assessments to be optional, ungraded, or droppable
-   exercises until you've used the technology a few times and have
-   become familiar with it.
--  Use open response assessments sparingly at first. Only include a few
-   in your course, and make sure that you have contingency plans in case
-   you run into problems.
 
-Finally, if you're at an edX consortium university and you plan to
-include open response assessments in a MOOC, make sure to notify your
-edX project manager (PM).
+-  請仔細的做測試，不要再正式的課程使用開放式互動評分，只在測試的課程中使用它。
+-  如果您的課程將加入開放式互動評分，請在課程開始 *前* 做全面的測試。
+-  設定開放式互動評分為可選擇的、不計分或是可遺棄的練習題直到您熟悉使用此技術。
+-  請謹慎使用開放式互動評分。只在您的課程加入一些，並且確定您在發生問題後有對應方法。
 
-Components of an Open Response Assessment
+最後，如果您在edX合作大學並且您計畫加入開放式互動評分在一個磨課師課程，
+請務必通知您的edX專案管理員。
+
+開放式互動評分的組成元件
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An open response assessment has three elements:
+一個開放式互動評分有三個元素組成：
 
--  The assessment type or types--self, peer, or artificial intelligence
-   (AI). The type of assessment and the order in which the assessments
-   run appears in the upper right corner of the ORA problem. In the
-   following example, the student performs a self assessment, then peers
-   perform peer assessments, and then an AI assessment runs.
+-  在自我評分、同儕評分、與人工智慧中，這些評分類型和其評分順序將顯示在開放式互動評分問題的右上角。
+   在下面例子中，學生進行自我評分，然後進行同儕評分，最後進行人工智慧評分。
 
    .. image:: Images/CITL_AssmtTypes.gif
 
--  The question that you want your students to answer. This appears near
-   the top of the component, followed by a field where the student
-   enters a response.
+-  您希望學生作答的問題，將出現在元件的頂部，然後學生將在後面的欄位對問題進行作答。
 
    .. image:: Images/CITLsample.gif
 
--  A rubric that you design. After the student enters a response and
-   clicks **Submit**, if the assessment is a self assessment, the
-   student sees the rubric below his answer and compares his answer to
-   the rubric. (If the assessment is an AI or peer assessment, the
-   student sees a "Your response has been submitted" message but doesn't
-   see the rubric.)
+-  您所設計的評分規則 (rubric)。
+   在學生對問題進行作答並點擊 **送出後** ，如果評分法是自我評分，學生將看見評分規則在他的答案之下，並與其答案做比較評分。
+   如果評分是人工智慧或是同儕評分，那麼學生將只看到以提交的訊息的回應。
 
    .. image:: Images/CITL_SA_Rubric.gif
 
-Open Response Assessment Types
+開放式互動評分類型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are three types of assessments for ORAs: self assessment, AI
-assessment, and peer assessment.
+在此有三個開放式互動評分類型，
+分別是自我評分，人工智慧評分，與同儕評分。
 
--  Self assessment allows students to answer a question, and then assess
-   their response according to the rubric you created for the question.
--  In AI assessment, a computer algorithm learns how to grade according
-   to the rubric from 100 or more instructor-graded responses, and
-   attempts to grade the rest of the student responses in the same way.
--  Peer assessment allows students to score each other and provide
-   feedback, again using the same rubric.
+-  自我評分允許學生對問題進行作答，並且根據您的評分規則 (rubric) 評定自己的答案。
+-  在人工智慧評分中，一個電腦演算法將學習如何去根據評分規則從100個以上的教師評分，來評定分數。
+   並且試圖以同樣的方法去評定其餘的學生。
+-  同儕評分允許學生去評定其他同學的分數並提供回饋。
 
-You can use one or more of these assessments in any problem. You can
-also set thresholds within the problem for each assessment, so that a
-response with a low score in one assessment does not move on to the next
-assessment.
+您能夠在任何問題使用一個或是多個這些評分法。
+您可以為每一個評分法設定一個門檻，
+當分數低於評分的門檻時，評分階段將不會移動在下一個評分階段。
 
-Effective Questions
+有效的問題
 ~~~~~~~~~~~~~~~~~~~
 
-When you write your question, we recommend that you specify an
-approximate number of words or sentences that a student's response has
-to have in the body of your question. You may also want to provide
-information about how to use the LMS. If you require students to upload
-a file as a response, you can provide specific instructions about how to
-upload and submit their files. You can let students know what to expect
-after they submit responses. You can also mention the number of times
-that a student will be able to submit a response for the problem.
+當您出一個問題，我們建議您指定一個大約的作答字數。
+使學生有一個主要參考能夠對問題進行作答，您或許還需要提供學生一些訊息以使用學習管理系統(LMS)。
+如果您要求學生要上傳文件，您可以提供學生上傳文件的說明。
+您能夠讓學生了解他們答題後會發生什麼狀況，向學生們說明他們可以嘗試答題的次數。
 
-.. _Rubrics:
+.. _評分規則(Rubrics):
 
-Rubrics
+評分規則(Rubrics)
 ~~~~~~~
 
-The same rubric is used for all three ORA types, and it can include
-anything that you want it to include.
+同樣的評分規則(Rubrics)能夠用於三種開放式互動評分的類型，
+而且能夠加入任何您想加入的訊息。
 
-In Studio, rubrics are arranged by *categories*. Each category has two
-or more *options*, and each option has a point value.
+在Studio中，評分規則是按照 *類型* 排列，
+每個類型能夠有兩個或多個 *選項* ，每個選項代表一分。
 
-Options must be listed in ascending order starting at 0 points. For
-example, in a category with three options, the first option is worth 0
-points, the second is worth 1 point, and the third is worth 2 points.
-The person or algorithm that grades the problem selects one value for
-each category.
+選項必須從0開始算起。
+舉例來說:在一個有三個選項的類別中，
+第一個選項0分，第二個選項1分，第三個選項2分，
+當人或是人工智慧演算法要評分時能夠從中選擇分數。
 
-Different categories in the same problem can have different numbers of
-options.
+不同類別的評分規則在同樣問題中可以有不同數量的選項。
 
-Create an Open Response Assessment Problem
+建立一個開放式互動評分問題
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Creating an open response assessment is a multi-step process.
+為了建立一個開放式互動評分您必須執行以下幾個步驟：
 
-#. Create the component for the open response assessment.
-#. Add the question.
-#. Add the rubric.
-#. Set the assessment type and scoring.
-#. Set the problem name.
-#. Set other options.
-#. Save the problem.
-#. Add the peer grading interface (for peer assessments only).
-#. Test the problem.
+#. 建立開放式互動評分元件。
+#. 加入問題。
+#. 加入評分規則(rubric)。
+#. 設定評分類型和分數。
+#. 設定問題名稱。
+#. 設定其他選項。
+#. 儲存問題。
+#. 加入同儕評分介面(如果有選擇同儕評分類型)。
+#. 測試問題。
 
-Each of these steps is described in detail below.
+上述每個步驟將在下面詳細說明。
 
-Step 1. Create the Component
+步驟一.建立開放式互動評分元件
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Add the advanced component for open response assessments. To do this,
-   add the "peergrading","combinedopenended" key value to the **Advanced
-   Settings** page. (For more information, see the instructions in
+#. 為開放式互動評分加入進階元件，為了加入此元件，
+   請加入“peergrading”,”combinedopenended”值到 **進階設置** 頁面上。
+   (詳細見
    :ref:`Specialized Problems`.)
-#. In Studio, open the unit where you want to create the ORA.
-#. Under **Add New Component**, click **Advanced**, and then click
-   **Open Response Assessment**.
-#. In the problem component that appears, click **Edit**, and then click
-   **OK** in the dialog box that appears.
-#. The component editor opens. The component editor contains a sample
-   question ("prompt"), rubric, and the code for the assessment type and
-   scoring. You'll replace this sample content with the content for your
-   problem. 
+#. 在Studio中新增一個單元以創建開放式互動評分。
+#. 在 **Add New Component** 上, 點 **Advanced** , 並點 **Open Response Assessment**.
+#. 在問題元件出現後，點擊 **Edit** ，並在浮動框框點 **OK** 後，編輯元件將開啟。
+#. 編輯元件包括一個簡單的問題(prompt)，評分規則(rubric)，和評分類型(assessment type)與分數(scoring)的程式碼。
+   您能夠以範例程式碼來更新您問題的內容。
  
 .. image:: Images/ORAComponentEditor.gif
   
-Step 2. Add the Question
+步驟二.加入問題
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. In the component editor, locate the [prompt] tags.
+#. 在編輯元件上找到[prompt]標籤。 
 
    .. image:: Images/ORA_Prompt.gif
 
-#. Replace the sample text between the **[prompt]** tags with the text of
-   your question. When you replace the sample text, make sure you follow
-   these guidelines to avoid common formatting mistakes.
+#. 以您的問題替換 **[prompt]** 標籤中的範例問題，
+   並確認您的問題格式必須如下。
 
-   -  Leave the **[prompt]** tags in place.
-   -  Enclose all text in HTML tags.
+   -  在 **[prompt]** 標籤之間。
+   -  所有訊息必須以HTML標籤撰寫。
 
-Step 3. Add the Rubric
+Step 3. 步驟三. 加入評分規則
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: After you release your problem to students in your live course, make sure
-          you don't make any changes to the rubric that affect scoring, such as adding or removing an option
-          in a category. Changing the rubric can cause errors in live courses.*
+.. 注意:: 當您在已開課的課程加入您的問題，
+		  確保您不會改變評分規則以影響得分，
+		  如：加入或刪除一個選項，
+		  更改評分規則可能導致您的課程發生錯誤。
 
-#. In the component editor, locate the [rubric] tags. (The sample rubric
-   is long, so you'll have to scroll down to locate the second tag.)
-
+#. 在編輯元件中，找到[rubric]標籤。(此範例評分規則可能過長，
+   所以您必須去捲動視窗以找到第二個[rubric]標籤)
+   
    .. image:: Images/ORA_Rubric.gif
 
-#. Replace the sample rubric with the text of your rubric. Make sure to
-   do the following.
+#. 以您的評分規則取代範例評分規則。
+   須做到以下幾點。
 
-   -  Include the beginning and ending [rubric] tags.
-   -  Precede the categories with a plus (+) sign.
-   -  Precede the options with a minus (-) sign.
-   -  List the option that scores zero points first, followed by the option that scores one point, and so on.
+   -  在[rubric] 標籤中撰寫。
+   -  在類別前標記(+)號。
+   -  在選項前標記(-)號。
+   -  清單的選項第一項得分為0，第二為1，第三為2依此類推。
 
-   For example, your rubric might resemble the following rubric.
+   例如以下為評分規則的範例
 
 ::
 
@@ -209,16 +175,16 @@ Step 3. Add the Rubric
 
     [rubric]
 
-Step 4. Set the Assessment Type and Scoring
+步驟四.設定評分類型和分數
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: After you release your problem to students in your live course, make sure
-          you don't make any changes to the code for the assessment type and scoring. Changing 
-          this code can cause errors in live courses.
+.. 注意:: 當您在已開課的課程公開您的問題，
+		  確保您不會改變評分類型與分數，
+		  否則更改這些程式碼可能導致您的課程發生錯誤。
 
-To set the assessment type and scoring for your open response assessment, you'll 
-enter code that specifies the type and order of assessments to use along with 
-the scoring thresholds for each assessment. The code uses the following format.
+為了在您的開放式互動評分設定評分類型和分數，
+您必須輸入指定的類型與評分類型的順序，
+並為每個評分設定一個分數門檻。其程式碼如下。
 
 ::
 
@@ -226,18 +192,15 @@ the scoring thresholds for each assessment. The code uses the following format.
     (Type 1), ({min-max}Type 2), ({min-max}Type 3)
     [tasks] 
 
--  The **[tasks]** tags surround the code.
--  **Type 1**, **Type 2**, and **Type 3** are the names of the types of
-   assessments. Assessments run in the order in which they're listed.
--  **min** is the point value the response must receive in the previous
-   assessment to move to this assessment. Note that you do not define a
-   scoring threshold for the first assessment, because there is no
-   required previous assessment.
--  **max** is the maximum point value for the assessment. The maximum
-   score is the second number in the pair of numbers for each assessment
-   after the first assessment.
+-  程式碼寫在 **[tasks]** 標籤中。
+-  **Type 1**, **Type 2**, 和 **Type 3** 為評分的類型，評分類型將以此順序執行。
+-  **Min** 是此評分階段要進入到在下一次評分階段所必須達到的最小值。
+   需要注意的是您不必第一個評分階段時就定義一個分數門檻，
+   因為在其之前沒有評分階段。
+-  **Max** 是此評分階段所能達到的分數最大值。
+   這個最大分數是在第一個評分類型後面所有的類型的兩個數字的第二個數字。
 
-For example, a problem might contain the following code.
+例如:以下為一個問題的範例程式碼。
 
 ::
 
@@ -245,448 +208,394 @@ For example, a problem might contain the following code.
     (Self), ({5-7}Peer), ({4-7}AI)
     [tasks]
 
-The problem that includes this code has the following characteristics.
+此問題有以下幾個特點。
 
--  The problem has a self assessment, a peer assessment, and then an AI
-   assessment.
--  The maximum score for the problem is 7.
--  To advance to the peer assessment, the response must have a self
-   assessment score of 5 or greater.
--  To advance to the AI assessment, the response must have a peer
-   assessment score of 4 or greater.
+-  這個問題有一個自我評分，同儕評分，和一個人工智慧評分。
+-  最高分數為7。
+-  要進到同儕評分階段，自我評分分數最低必須為5。
+-  要進到人工智慧評分階段，同儕評分分數最低必須為4。
 
-.. note:: If a response's score isn't high enough for the response to move to the next
-          assessment, 
+.. 注意:: 如果一個回答的分數沒有達到指定分數，
+		  則此回答將不會進到下個評分階段。
 
-Set the Type and Scoring
+設定類型和分數
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. In the component editor, locate the [tasks] tags.
+#. 在編輯元件中，找到[tasks]標籤。
 
    .. image:: Images/ORA_Tasks.gif
 
-#. Replace the sample code with the code for your problem.
+#. 將自己的問題取代範例問題。
 
-Step 5. Set the Problem Name
+步驟五.設定問題名稱
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::   After you release your problem to students in your live course, make sure
-            you don't change the name of the problem. Changing the display name when the problem
-            is live can cause a loss of student data.
+.. 注意::   當您在以開課的課程公開您的問題，確保您不會改變問題的名稱。
+		    當問題公開後改變問題名稱可能會導致學生資料遺失。當您還在測試問題時，
 
-            You can change the display name of a problem while you're still testing the problem.
-            However, note that all the test responses and scores associated with the problem 
-            will be lost when you change the name. To update the problem name on the 
-            instructor dashboard, submit a new test response to the problem.
+			您能夠改變問題名稱。然而須注意的是當您改變問題名稱後，
+			所有和此問題相關的測驗作答與分數將會遺失。
+			在教師介面上更新問題名稱後，需對此問題送出一個新的測試訊息。
 
-The name of the problem appears as a heading above the problem in the
-courseware. It also appears in the list of problems on the **Staff
-Grading** page.
+問題的名稱將成為每個問題的標題並出現在教材頁面上。
+並且它也會在 **員工評分** 頁面上顯示問題列表。
 
 .. image:: Images/ORA_ProblemName1.gif
 
-To change the name:
+為了變更問題名稱:
 
-#. In the upper-right corner of the component editor, click
-   **Settings**.
-#. In the **Display Name** field, replace **Open Response Assessment**
-   with the name of your problem.
+#. 在編輯元件的右上角點擊選 **設置** 。
+#. 在 **Display Name** 欄位中，
+   將 **Open Response Assessment** 改為您的問題名稱。
 
-Step 6. Set Other Options
+步驟六. 設定其他選項
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to change the problem settings, which include the number of
-responses a student has to peer grade and whether students can upload
-files as part of their response, click the **Settings** tab, and then
-specify the options that you want.
+如果您想改變問題的設定，
+其中包括一個學生必須為多少同學的作答評分與學生是否可以上傳文件，
+點擊 **設置** 然後指定您想變更的選項。
 
 .. image:: Images/ORA_Settings.gif
 
-Open response assessments include the following settings.
+一個開放式互動評分包括以下設定。
+
 
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Allow "overgrading" of peer submissions** | This setting applies only to peer grading. If all of the responses |
-|                                             | for a question have been graded, the instructor can allow          |
-|                                             | additional students to grade responses that were previously        |
-|                                             | graded. This can be helpful if an instructor feels that peer       |
-|                                             | grading has helped students learn, or if some students haven't     |
-|                                             | graded the required number of responses yet, but all available     |
-|                                             | responses have been graded.                                        |
+| **允許同儕評分超過限制數量			      | 這個設定只針對同儕評分。如果所有的作答已被評分完，				   |
+| (Allow "overgrading" of peer submissions)** | 教師可以允許學生評分之前已評分過的問題。				           |
+|                                             | 果教師認為同儕評分可以幫助學習，						           |
+|                                             | 或是如果學生不足以評完系統要求的需評分的作答數量，			       |
+|                                             | 但是所有可評分的作答以被評分那此設定是有益的。				       |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Allow File Uploads**                      | This setting specifies whether a student can upload a file, such   |
-|                                             | as an image file or a code file, as a response. Files can be of    |
-|                                             | any type.                                                          |
+| **允許檔案上傳(Allow File Uploads) **       | 這個設定能讓學生可以上傳文件，例如圖片或是程式碼。 				   |
+|                                             | 文件可以是任何類型的文件。										   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Disable Quality Filter**                  | This setting applies to peer grading and AI grading. When the      |
-|                                             | quality filter is disabled (when this value is set to True),       |
-|                                             | Studio allows submissions that are of "poor quality" (such as      |
-|                                             | responses that are very short or that have many spelling or        |
-|                                             | grammatical errors) to be peer graded. For example, you may        |
-|                                             | disable the quality filter if you want students to include URLs to |
-|                                             | external content - otherwise Studio sees a URL, which may contain a|
-|                                             | long string of seemingly random characters, as a misspelled word.  |
-|                                             | When the quality filter is enabled (when this value is set to      |
-|                                             | False), Studio does not allow poor-quality submissions to be peer  |
-|                                             | graded.                                                            |
+| **取消品質過濾器(Disable Quality Filter)**  | 這個設定只針對同儕評分與人工智慧評分。							   |
+|											  | 當品質過濾器被關閉(當它的值是 **True** )時，					   |
+|											  | 一些作答被系統認定為品質差(作答很短或是有很多錯字語法錯誤)		   |
+|											  | 的作答會被允許進入同儕評分與人工智慧評分階段。					   |
+|											  | 例如:如果您想讓學生引用 **URL** 到外部網站您可以取消品質過濾器，   |
+|											  | 否則系統會將URL視為錯誤語法( **URL** 中的隨機字串，拼寫錯誤的字)   |
+|											  | 過濾掉此文章。當品質過濾器被開啟(取消品質過濾器值為 **False** )	   |
+|											  | 系統將不會允許品質差的文章進入同儕評分階段。 					   |  
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Display Name**                            | This name appears in two places in the LMS: in the course ribbon   |
-|                                             | at the top of the page and above the exercise.                     |
+| **顯示名稱(Display Name)**	              | 這個名稱會出現在LMS(學習管理系統)的兩個頁面:					   |
+|                                             | 課程功能表上與練習題上面。					                       |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Graded**                                  | This setting specifies whether the problem counts toward a         |
-|                                             | student's grade. By default, if a subsection is set as a graded    |
-|                                             | assignment, each problem in that subsection is graded. However, if |
-|                                             | a subsection is set as a graded assignment, and you want this      |
-|                                             | problem to be a "test" problem that doesn't count toward a         |
-|                                             | student's grade, you can change this setting to **False**.         |
+| **評分(Graded)**                            | 這個設定可以指定此問題是否要算入學生成績分數中。		           |
+|                                             | 預設情況下，如果一個小節被設定為計入分數，    					   |
+|                                             | 則在此小節中每個問題都被設為計入分數，							   |
+|                                             | 但是如果一小節被設定為計入分數，      							   |
+|                                             | 而您希望此問題是練習題，那麼您將此值設為 **False** ，        	   |
+|                                             | 則此問題不會被記入學生成績分數中。         						   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Maximum Attempts**                        | This setting specifies the number of times the student can try to  |
-|                                             | answer the problem. Note that each time a student answers a        |
-|                                             | problem, the student's response is graded separately. If a student |
-|                                             | submits two responses to a peer-assessed problem (for example, by  |
-|                                             | using the **New Submission** button after her first response       |
-|                                             | receives a bad grade or because she wants to change her original   |
-|                                             | response), and the problem requires three peer graders, three      |
-|                                             | separate peer graders will have to grade each of the student's two |
-|                                             | responses. We thus recommend keeping the maximum number of         |
-|                                             | attempts for each question low.                                    |
+| **最大嘗試次數(Maximum Attempts)**          | 這個設定可以指定學生作答的最大嘗試次數。						   |
+|                                             | 需要注意的是，每次學生嘗試作答， 								   |
+|                                             | 此作答的評分對於其他嘗試的評分都是獨立評分的，      			   |
+|                                             | 如果一個學生送出兩次問題嘗試給同儕評分 							   |
+|                                             | (如:當學生在一次嘗試時獲得了較差的分數或是他想改變原來的答案，     |
+|                                             | 可以點選 **新的提交** 鈕)則兩次的問題嘗試將會個別丟給三個同儕評分. |
+|                                             | 因我們建議最大嘗試次數最好低一點。      						   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Maximum Peer Grading Calibrations**       | This setting applies only to peer grading. You can set the maximum |
-|                                             | number of responses a student has to "practice grade" before the   |
-|                                             | student can start grading other students' responses. The default   |
-|                                             | value is 6, but you can set this value to any number from 1 to 20. |
-|                                             | This value must be greater than or equal to the value set for      |
-|                                             | **Minimum Peer Grading Calibrations**.                             |
+| **最大同儕評分校準     					  | 這個設定只適用於同儕評分。										   |
+|   (Maximum Peer Grading Calibrations)**     | 您能夠設定一個學生開始為其他同儕評分時"評分練習"的最大數量。   	   |
+|                                             | 此值預設值為6，但是您能夠設定此值從1到20的任意數。   			   |
+|                                             | 這個值必須要大於等於 **最小同儕評分校準** 的值。		    	   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Minimum Peer Grading Calibrations**       | This setting applies only to peer grading. You can set the minimum |
-|                                             | number of responses a student has to "practice grade" before the   |
-|                                             | student can start grading other students' responses. The default   |
-|                                             | value is 3, but you can set this value to any number from 1 to 20. |
-|                                             | This value must be less than or equal to the value set for         |
-|                                             | **Maximum Peer Grading Calibrations**.                             |
+| **最小同儕評分校準    					  | 這個設定只適用於同儕評分。 										   |
+|   (Minimum Peer Grading Calibrations)**     | 您能夠設定一個學生開始為其他同儕評分時評分練習的最小數量。   	   |
+|                                             | 此值預設值為3但是您能夠設定此值為1到20的任意數。   				   |
+|                                             | 這個值必須要小於等於 **最大同儕評分校準** 的值。				   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Peer Graders per Response**               | This setting applies only to peer grading. This setting specifies  |
-|                                             | the number of times a response must be graded before the score and |
-|                                             | feedback are available to the student who submitted the response.  |
+| **每個作答的同儕評分數量             		  | 這個設定只適用於同儕評分。這個設定指定  						   |
+|   (Peer Graders per Response)**             | 每次作答的評分次數必須達到多少 									   |
+|                                             | 才能夠計入分數並回饋給為問題作答的學生。  						   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Peer Track Changes**                      | This setting is new and still under development. This setting      |
-|                                             | applies only to peer grading. When this setting is enabled (set to |
-|                                             | **True**), peer graders can make inline changes to the responses   |
-|                                             | they're grading. These changes are visible to the student who      |
-|                                             | submitted the response, along with the rubric and comments for the |
-|                                             | problem.                                                           |
+| **互評紀錄變更(Peer Track Changes)**        | 這個設定還在開發中。此設定只適用於同儕評分。 				       |
+|                                             | 當此設定被開啟(設為 **True** )，  								   |
+|                                             | 評分者可以線上修改他們已評過的分數。  							   |
+|                                             | 而提交此次作答的同學，能夠查看這個問題的評分規則與意見。      	   |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Problem Weight**                          | This setting specifies the number of points the problem is worth.  |
-|                                             | By default, each problem is worth one point.                       |
+| **問題權重(Problem Weight)**                | 這個設定決定此問題的價值。每個問題的預設值為一點。			       |
 |                                             |                                                                    |
-|                                             | **Note** *Every problem must have a problem weight of at least     |
-|                                             | one point. Problems that have a problem weight of zero points      |
-|                                             | don't appear on the instructor dashboard.*                          |
+|                                             | **注意:** *每個問題的權重值必須最少有一點，					       |
+|                                             | 如權重值為零則其將不會出現在教師介面上。*                          |
 +---------------------------------------------+--------------------------------------------------------------------+
-| **Required Peer Grading**                   | This setting specifies the number of responses that each student   |
-|                                             | who submits a response has to grade before the student receives a  |
-|                                             | grade for her response. This value can be the same as the value    |
-|                                             | for the **Peer Graders per Response** setting, but we recommend    |
-|                                             | that you set this value higher than the **Peer Graders per         |
-|                                             | Response** setting to make sure that every student's work is       |
-|                                             | graded. (If no responses remain to be graded, but a student still  |
-|                                             | needs to grade responses, you can set the **Allow "overgrading" of |
-|                                             | peer submissions** setting to allow more students to grade         |
-|                                             | previously graded responses.)                                      |
+| **需要同儕評分(Required Peer Grading)**     | 這個設定指定每個學生對一個問題作答後，							   |
+|                                             | 必須評多少分數才能夠收到其分數。 								   |
+|                                             | 這個值可以和 **每個作答的同儕評分數量** 一樣，  				   |
+|                                             | 但是我們建議您設定這個值高於 **每個作答的同儕評分數量** 		   |
+|                                             | 以確保每個同學都被評分。     								       |
+|                                             | (如果沒有作答等待評分，但是學生還需要評分，    				       |
+|                                             | 您可以設定 **允許同儕評分超過限制數量** 為允許，  				   |
+|                                             | 那這些學生就可以評之前已評完的作答分數。) 						   |
 +---------------------------------------------+--------------------------------------------------------------------+
 
-Step 7. Save the Problem
+步驟七. 儲存問題
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  After you have created the prompt and the rubric, set the assessment
-   type and scoring, changed the name of the problem, and specified any
-   additional settings, click **Save**.
+-  在您建立一個問題與評分規則後，設定評分類型和分數，
+   變更問題名稱，與指定額外設定，點擊 **保存** 。
 
-   The component appears in Studio. In the upper right corner, you can
-   see the type of assessments that you have set for this problem.
+   此問題元件將會出現在Studio系統，在右上角您可以看到此問題評分的類型。
 
    .. image:: Images/ORA_Component.gif
 
-Step 8. Add the Peer Grading Interface (for peer assessments only)
+步驟 8. 加入同儕評分介面(同儕評分專用)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can add just one peer grading interface for the whole course, or you
-can add a separate peer grading interface for each individual problem.
+您可以為整個課程，加入一個同儕評分介面或是您可以為單獨的問題加入同儕評分介面。
 
-Add a Single Peer Grading Interface for the Course
+為課程加入單個同儕評分介面
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you add just one peer grading interface for the entire course, we
-recommend that you create that peer grading interface in its own section
-so that students can find it easily. Students will be able to access all
-the ORA problems for the course through this peer grading interface.
+當您只需要為整個課程加入一個同儕評分介面。
+我們建議您建一個同儕評分介面在單獨的章節讓學生可以容易的找到它。
+學生將透過這個同儕評分介面存取整個課程的開放式互動評分問題。
 
-#. Create a new section, subsection, and unit. You can use any names
-   that you want. One course used "Peer Grading Interface" for all
-   three.
-#. Under **Add New Component** in the new unit, click **Advanced**, and
-   then click **Peer Grading Interface**.
+#. 創建一個新的章節加入一個小節再加入一個單元，您可以為其取任意的名稱，
+   並在單元中加入一個"同儕評分介面"。
+   一個"同儕評分介面"可以為課程中所有互動式評分問題評分。.
+#.  在 **添加新元件** 上，點選 **Advanced** 並點
+    **Peer Grading Interface** 
+	
+	一個新的同儕評分介面元件將會出現。
 
-   A new Peer Grading Interface component appears.
+#. 為了在課程上看到同儕評分介面，設定此單元為 **公開的(Public)** ，
+   並點 **線上查看**。
 
-#. To see the peer grading interface in the course, set the visibility
-   of the unit to **Public**, and then click **View Live**.
-
-   The following page opens.
+   以下頁面將被打開.
 
    .. image:: Images/PGI_Single.gif
 
-   When students submit responses for peer assessments in your course,
-   the names of the problems appear in this interface.
+   當學生在課堂上提交問題的作答進入同儕評分階段，
+   則此問題名稱將會出現在這個介面。
 
-Add the Peer Grading Interface to an Individual Problem
+加入同儕評分介面到單一問題
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you add a peer grading interface for an individual problem, you
-must add the identifier for the problem to that peer grading interface.
-If you don't add the identifier, the interface will show all of the peer
-assessments in the course.
+當您為單一問題加入同儕評分介面，
+您必須為同儕評分介面加入一個此問題的識別標籤。
+如果您沒加入識別標籤，這個介面將會顯示課堂上所有的同儕評分問題。
 
-Note that the peer grading interface doesn't have to appear under the
-problem you want it to be associated with. As long as you've added the
-identifier of the problem, the peer grading interface will be associated
-with the problem, even if you include the peer grading interface in a
-later unit (for example, if you want the problem to be due after a
-week).
 
-#. Open the unit that contains the ORA.
-#. If the visibility of the unit is set to Public, click **View Live**.
-   If the visibility is set to Private, click **Preview**. The unit
-   opens in the LMS in a new tab. Make sure you're in Staff view rather
-   than Student view.
-#. Scroll down to the bottom of the ORA, and then click **Staff Debug
-   Info**.
-#. In the image that opens, locate the string of alphanumeric characters
-   to the right of the word **location**. Press CTRL+C to copy this
-   string, starting with **i4x**.
+注意:同儕評分介面不一定要放在您希望關聯的問題下面。
+只要您加入此問題的識別標籤，
+這個同儕評分介面將會被關聯到此問題，
+即使您在後面的單元加入此同儕評分介面
+(如:如果您想在下一周再出此題)。.
+
+#. 創建一個單元加入開放式互動評分問題
+#. 如果此單元是公開的，點擊 **線上查看** 。如果此問題是私有的，
+   點擊 **預覽** ，將會在一個新視窗開啟學習管理系統(LMS) 進入此這個單元。
+   確保您在員工視圖而不是學生視圖。
+#. 將視窗捲動到開放式互動評分問題下面並點擊 **Staff Debug Info** 。
+#. 以下圖將會開啟，找到 **location** 右邊的字串並將包含 **i4x **後面的字串複製起來。I
 
    .. image:: Images/PA_StaffDebug_Location.gif
 
-#. Switch back to the unit in Studio. If the visibility of the unit is
-   set to **Public**, change the visibility to **Private**.
-#. Scroll to the bottom of the unit, click **Advanced** under **Add New
-   Component**, and then click **Peer Grading Interface**.
-#. On the Peer Grading Interface component that opens, click **Edit**.
-#. In the Peer Grading Interface component editor, click **Settings**.
-#. In the **Link to Problem Location** field, paste the string of
-   alphanumeric characters that you copied in step 4. Then, change the
-   **Show Single Problem** setting to **True**.
+#. 切換到Studio系統的單元畫面。如果此單元設定是 **公開的(Public)** ，
+   將它設為 **私有的(Private)** 。
+#. 捲動視窗到單元底部。點擊 **添加新元件** 上的 **Advanced** ，點擊 **Peer Grading Interface **。
+#. 在同儕評分介面元件，點擊 **編輯** 。
+#. 在同儕評分介面元件編輯器中，點擊 **設置** 。
+#. 在 **Link to Problem Location** 欄位貼上剛剛在步驟4複製的字串。
+   然後改變 **Show Single Problem** 值為 **True** 。
 
    .. image:: Images/PGI_CompEditor_Settings.gif
 
-#. Click **Save** to close the component editor.
+#. 點擊 **儲存** 以關閉編輯元件。
 
-Step 9. Test the Problem
+步驟9. 測試問題
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Test your problem by adding and grading a response.
+為了測試您的問題加入一個問題並為作答評分。
 
-#. In Studio, open the unit that contains your ORA problem.
-#. Under **Unit Settings**, change the **Visibility** setting to
-   **Public**, and then click **View Live**.
+#. 在Studio系統上，打開一個包含您的開放式互動評分問題的單元。
 
-   When you click **View Live**, the unit opens in the LMS in a new tab.
+#. 在 **單元設置** 上改變它的設定為 **公開的(Public)** 並點選 **線上查看** ，
 
-#. In the LMS, locate your ORA question, and then type your response in
-   the Response field under the question.
+   點選 **線上查看** 後將會在新視窗開啟學習管理系統(LMS)進入此單元中。
+
+#. 在學習管理系統(LMS)下，找到您的開放式互動評分問題，
+   然後在此問題下的Response欄位輸入您的作答。
 
    .. image:: Images/ThreeAssmts_NoResponse.gif
 
-   Note that when you view your ORA problem in the LMS as an instructor,
-   you see the following message below the problem. This message never
-   appears to students.
+   注意:當您在學習管理系統(LMS)以教師身分查看開放式互動評分問題，
+   您將看到以下訊息出現在問題下。這些訊息將不會出現在學生視圖。
 
    .. image:: Images/ORA_DuplicateWarning.gif
 
-#. Test the problem to make sure that it works as expected.
+#. 測試此問題以確保它會按照您所預期來運作。
 
-To test your open response assessment, you may want to sign into your
-course as a student, using an account that's different from the account
-that you use as an instructor.
+為了測試您的開放式互動評分問題，
+您可能要使用一個不同於教師帳號的新帳號，
+以學生的身分註冊您的課程。
 
--  If you want to keep your course open as an instructor when you sign
-   in as a student, either open a window in Incognito Mode in Firefox or
-   Chrome or use a different browser to access your course. For example,
-   if you used Firefox to create the course, use Chrome when you sign in
-   as a student.
--  If you don't need to keep your course open, sign out of your course,
-   and then sign back in using a different account. Note that if you do
-   this, you can't make changes to your course without signing out and
-   signing back in as an instructor.
+-  如果您想保持您的教師編輯頁面以編輯課程並以學生身分登入測試，
+   可以在Firefox或Chrome啟動隱身模式以
+   開啟新瀏覽器視窗或是使用不同瀏覽器登入學生帳號，
+   例如:您用Firefox登入教師帳號，使用Chrome登入學生帳號。
+-  如果您不需要保持您的教師編輯頁面開啟以編輯課程，
+   登出您的帳號，並且以不同的帳號登入。
+   注意如果您登出教師帳號，您必須將學生帳號登出後再登入教師帳號才能編輯課程。
 
-When you test your problem, you may want to submit test responses that contain little
-text, random characters, or other content that doesn't resemble the responses that you
-expect from your students. Open response assessments include a quality filter that
-prevents instructors and other students from seeing these "low-quality" responses. 
-This quality filter is enabled by default. If you want to see all of your test 
-responses, including the "low-quality" responses, disable the quality filter. 
+當您測試完您的問題後，您可能希望提交一個測試作答，
+包括簡短的文字、隨機字串或是其他您不希望學生會回應的作答。
+開放式互動評分包含一個品質過濾器防止教師或是學生看到這些"低品質"的作答。
+這個品質過濾器是預設開啟的，如果您想要看到所有的測試結果，
+包括"低品質"的作答，請關閉這個品質過濾器。
 
-To disable the quality filter, open the problem component, click the **Settings** tab,
-and then set the **Disable Quality Filter** setting to **True**.
+為了關閉品質過濾器，開啟一個問題元件點擊 **設置** ，
+並設定 **Disable Quality Filter setting** 值為 **True** 。
 
-Grade an Open Response Assessment Problem
+為開放式互動評分問題評分
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You'll grade student responses to both AI assessments and peer
-assessments from the **Staff Grading** page in the LMS. Take a moment to
-familiarize yourself with the features of this page.
+您將會以人工智慧評分和同儕評分，
+從學習管理系統(LMS)的 **員工評分** 頁面為學生的作答評分。
+在此花一些時間為您來熟悉這個頁面的功能。
 
-The Staff Grading Page
+員工評分頁面
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-When a response is available for you to grade, a yellow exclamation mark
-appears next to **Open Ended Panel** at the top of the screen.
+當一個作答已經可以讓您評分時，
+一個黃色的驚嘆號將會出現在頁面上方的 **打開已關閉的面板** 旁邊。
 
 .. image:: Images/OpenEndedPanel.gif
 
-To access the **Staff Grading** page, click **Open Ended Panel**.
+為了進入 **員工評分** 頁面，點擊 **打開已關閉的面板** 
 
-When the **Open Ended Console** page opens, click **Staff Grading**.
-Notice the **New submissions to grade** notification.
+當 **打開已關閉的面板** 開啟後，點擊 **Staff Grading** 。
+請注意 **新提交的評分** 通知。
 
 .. image:: Images/OpenEndedConsole_NewSubmissions.gif
 
-When the **Staff Grading** page opens, information about your open
-response assessment appears in several columns.
+當 **員工評分** 頁面開啟後，您的開放式互動評分將會出現在下面多個列。
 
 .. image:: Images/ProblemList-DemoCourse.gif
 
 +----------------------------------------------------+--------------------------------------------------------------------+
-| **Problem Name**                                   | The name of the problem. Click the name of the problem to open it. |
-|                                                    | Problems in your course do not appear under **Problem Name** on    |
-|                                                    | the **Staff Grading** page until at least one response to the      |
-|                                                    | problem has been submitted and is available to grade.              |
+| **問題名稱(Problem Name)**                         | 這個問題的名稱。點擊此名稱可以開啟此問題。 					      |
+|                                                    | 直到至少一個您的問題的作答被送出並為可評分，   					  |
+|                                                    | 否則您課程上的問題不會出現在 **員工評分** 頁面。      			  |
 +----------------------------------------------------+--------------------------------------------------------------------+
-| **Graded**                                         | The number of responses for that problem that you have already     |
-|                                                    | graded. Even if the AI algorithm has graded all available          |
-|                                                    | responses, you can still grade the responses that the algorithm    |
-|                                                    | designates as low-confidence responses by clicking the problem     |
-|                                                    | name in the list.                                                  |
+| **已評分(Graded)**                                 | 這個數字表示多少此問題的作答已被評分。。     					  |
+|                                                    | 即使人工智慧演算法已經評完所有的作答，         					  |
+|                                                    | 您還能夠將人工智慧演算法指定   									  |
+|                                                    | 為低信心的作答並點擊問題名稱以評分這些作答     					  |
 +----------------------------------------------------+--------------------------------------------------------------------+
-| **Available to grade**                             | The total number of ungraded student submissions.                  |
+| **可評分(Available to grade)**                     | 所有還未評分的學生的作答數量                  					  |
 +----------------------------------------------------+--------------------------------------------------------------------+
-| **Required**                                       | The number of responses remaining to be graded to train the        |
-|                                                    | algorithm for AI or to calibrate the responses for peer grading.   |
-|                                                    | If your open response assessment calls for both AI and peer        |
-|                                                    | assessment, the 20 responses that you grade for the peer           |
-|                                                    | assessment count toward the 100 responses for the AI assessment.   |
+| **需要評分(Required)**                             | 需要去訓練人工智慧演算法評分的剩餘評分數量，    				      |
+|                                                    | 或是校準同儕評分的回應數量。   									  |
+|                                                    | 如果您的開放式互動評分問題要求人工智慧和同儕評分，        		  |
+|                                                    | 每20份您評的同儕評分分數將計入100份人工智慧評分。          		  |
 +----------------------------------------------------+--------------------------------------------------------------------+
-| **Progress**                                       | A visual indication of your progress through the grading process.  |
+| **進度(Progress)**                                 | 顯示您的評分流程進度。											  |
 +----------------------------------------------------+--------------------------------------------------------------------+
 
-Grade Responses
+為作答評分
 ^^^^^^^^^^^^^^^
 
-#. Go to the **Staff Grading** page.
-#. Under **Problem Name**, click the name of the problem that you want.
+#. 進入 **員工評分** 頁面。
+#. 在 **問題名稱** 下點擊您想評分的問題。
 
-   When the problem opens, the information about the number of responses
-   that are still available to grade, that have been graded, and that an
-   instructor is required to grade appears under the problem name. You
-   can also find out about the AI algorithm's error rate. The error rate
-   is a calculation of the difference between the scores that AI
-   algorithm provides and the scores that the instructor provides.
+   當問題開啟後，已可評分的作答與已評分的作答數量會顯示出來，
+   並且教師需要評分的問題會出現在問題名稱下面。
+   您也能夠找到人工智慧演算法的錯誤率。
+   這個錯誤率是由教師評分和人工智慧演算法比對所得出的資訊。
 
    .. image:: Images/ResponseToGrade.gif
 
-#. In the rubric below the response, select the option that best
-   describes the response.
-#. If applicable, add additional feedback.
+#. 在作答下面的評分規則，選擇對於此作答最符合的說明選項。
+#. 如果您想的話，您可以加入您想回饋學生的訊息。
 
-   -  You can provide comments for the student in the **Written Feedback** field.
-   -  If you do not feel that you can grade the response (for example,
-      if you're a member of course staff but you would rather have the
-      instructor grade the response), you can click **Skip** to skip it.
-   -  If the response contains inappropriate content, you can select the
-      **Flag as inappropriate content for later review** check box.
-      Flagged content is accessed on the **Staff Grading** page. If
-      necessary, course staff can ban a student from peer grading.
+   -  您能夠為學生在 **書面回饋** 欄位提供建議
+   -  如果您覺得您不能夠為學生的作答評分(例如，您是此課程的員工，
+      但是您覺得還是由評分教師評分比較好。)您可以點擊 **跳過** 以跳過評分。
+   -  如果學生的作答為不適當的內容，
+	  您可以勾選 **標記為不恰當的內容需要再次審查** 選項。
+	  標記不適當的內容將能夠透過 **員工評分** 頁面存取。如果有必要的話，課程員工可以禁止對此學生評分。
 
    .. image:: Images/AdditionalFeedback.gif
 
-#. When you are done grading the response, click **Submit**.
+#. 當您完成作答評分，點擊 **提交**  。
 
-When your course is running, another response opens automatically after
-you grade the first response, and a message appears at the top of the
-page.
+當您的課程正在運行，另一個作答將在您評完第一個評分後自動開啟，
+並顯示訊息在頂部。
 
 .. image:: Images/FetchingNextSubmission.gif
 
-After you've graded all responses for this problem, **No more
-submissions to grade** appears on the page.
+當您評分完這個問題的所有的作答， **No more submissions to grade** 。
+訊息將顯示在頁面上。
 
 .. image:: Images/NoMoreSubmissions.gif
 
-Click **Back to problem list** to return to the list of problems. You
-can also wait for a few minutes and click **Re-check for submissions**
-to see if any other students have submitted responses.
+點擊 **Back to problem list** 來回到問題列表。
+您也能夠等一段時間並點擊 **Re-check for submissions** 按鈕
+以查看是否有任何學生已送出答案。
 
-.. note:: After you've graded enough responses for AI assessments to start, the number
-          of responses in the **Available to grade** column decreases rapidly as
-          the algorithm grades responses and returns them to your students in just 
-          a few seconds. No student data is lost. 
+.. 注意:: 當您已經為人工智慧演算法評完足夠的作答，
+		  **Available to grade** 欄位的數量將會快速的減少，
+          這是由於人工智慧演算法在數秒內評完學生們的作答，學生們的資料並沒有遺失。
 
-.. note:: When a response opens for you to grade, it leaves the current "grading pool" 
-          that other instructors or students are grading from, which prevents other 
-          instructors or students from grading the response while you are working on 
-          it. If you do not submit a score for this response within 30 minutes, 
-          the response returns to the grading pool (so that it again becomes available 
-          for others to grade), even if you still have the response open on your screen.
+
+.. 注意:: 當一個您開啟一個作答以評分，這個作答會離開目前的”評分池” 
+		  使其他的教師或是學生無法對此問題評分，
+		  這是為了要防止其他學生或教師在您評分期間對這個作答評分。 
+		  
+		  如果您沒有在30分鐘內送出這個作答的分數，
+		  這個作答將會回歸於評分池(使其能夠被其他人評分)，
+		  即使您還未關閉視窗，仍在為這個作答評分。
+		  
+		  如果這個作答回到評分池(因為30分鐘過去了)，
+		  但是這個作答還在評分中，您仍然可以送出此作答的評分。
+		  
+		  如果其他教師或學生評分了回歸於評分池的作答，而之後您送出了此作答的評分，這個作答將會收到兩次評分。
  
-          If the response returns to the grading pool (because the 30 minutes have passed), 
-          but the response is still open on your screen, you can still submit feedback for 
-          that response. If another instructor or student grades the response after it returns to the 
-          grading pool but before you submit your feedback, the response receives two grades.
- 
-          If you click your browser's **Back** button to return to the problem list before you 
-          click **Submit** to submit your feedback for a response, the response stays outside 
-          the grading pool until 30 minutes have passed. When the response returns to the 
-          grading pool, you can grade it. 
+          如果在您點擊 **提交 **以提交評分之前，
+		  您點擊了瀏覽器的 **上一步** 鈕回到問題列表，
+		  則此問題將會停留在評分池內，直到30分鐘過去。
+		  當此作答重新回歸評分池，則可再次評分。
 
-Access Scores and Feedback
+存取分數與回饋
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You access your scores for your responses to AI and peer assessment
-problems through the **Open Ended Console** page.
+您可以存取人工智慧與同儕評分您的作答的分數透過 **打開已關閉的面板** 頁面。
 
-#. From any page in the LMS, click the **Open Ended Panel** tab at the
-   top of the page.
+
+#. 從學習管理系統(LMS)的任意頁面點擊頁面上面的 **打開已關閉的面板** 。
+
 
    .. image:: Images/OpenEndedPanel.gif
 
-#. On the **Open Ended Console** page, click **Problems You Have
-   Submitted**.
+#. 在 **打開已關閉的面板** 頁面，點擊 **Problems you have submitted** 。
 
    .. image:: Images/ProblemsYouHaveSubmitted.gif
 
-#. On the **Open Ended Problems** page, check the **Status** column to
-   see whether your responses have been graded.
-#. When grading for a problem has been finished, click the name of a
-   problem in the list to see your score for that problem. When you
-   click the name of the problem, the problem opens in the courseware.
+#. 在 **打開已關閉的面板** 頁面，
+   確認 **狀態** 欄位以查看是否您的作答有被評分。
+#. 當此問題以被評分完了，
+   點擊問題列表上的問題名稱以查看您的成績。
+   當您點了問題的名稱，此問題將會在教材元件打開。
 
-For both AI and peer assessments, the score appears below your response
-in an abbreviated version of the rubric. For peer assessments, you can
-also see the written feedback that your response received from different
-graders.
 
-**Graded AI Assessment**
+人工智慧與同儕評分的分數將會出現在您的作答下面的評分規則中。
+在同儕評分中，您也能夠看到不同評分者寫的回饋。
+
+**人工智慧評分完成畫面**
 
 .. image:: Images/AI_ScoredResponse.gif
 
-**Graded Peer Assessment**
+**同儕評分完成畫面**
 
 .. image:: Images/Peer_ScoredResponse.gif
 
-If you want to see the full rubric for either an AI or peer assessment,
-click **Toggle Full Rubric**.
+如果您想看到全部同儕評分以及人工智慧評分的評分規則，點擊 **開關完整規則** 。
 
-.. note:: For a peer assessment, if you haven't yet graded enough
-          problems to see your score, you receive a message that lets you know how
-          many problems you still need to grade.
+
+.. 注意:: 對於同儕評分，如果您沒有足夠的同學評完您的分數，您將看不到您的分數訊息。
 
 .. image:: Images/FeedbackNotAvailable.gif
