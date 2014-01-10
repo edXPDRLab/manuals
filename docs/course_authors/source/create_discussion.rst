@@ -1,99 +1,111 @@
-**********
-創建一個討論 
-**********
+.. _Working with Discussion Components:
 
-要在您的課程裡創建一個討論，您需先在 Studio 中創建問題以及討論組件。 
-然後，您可以鼓勵學生在 edX 或 Edge 中開始此討論來回應。
+###################################
+Working with Discussion Components
+###################################
 
+*******************
+Overview
+*******************
 
-創建討論組件
-**********
+You can add a Discussion component to a Unit, to pose a question related to the Unit and give students a chance to respond and interact.
 
-當您在創建討論組件時，請將下面的練習銘記在心。
+See the following topics:
 
-
-• 請確定您真的想加入討論組件。
-
-• 一但創建，您的論壇上討論類別是立即可見的(就位於您課程的的討論分頁上)，既使它包含被設定為私密的討論組件。
-
-• 當您為討論組件創建一個 ID 時，請千萬要注意—特別是當您正在為一個進行中的課程新增討論組件時。
-  遵守以下的格式在步驟10以確保此ID在整個edx課程中是獨一無二的。
-
-• 只編輯討論組件編輯區上方的欄位。 不要去修改對話框中的 XML。
+* :ref:`Create a Discussion Component`
+* :ref:`A Student's View of the Discussion`
+* :ref:`Seed a Discussion Space in Your Course`
 
 
-新增討論組件:
+Before you add a Discussion component, it is generally a good idea to add an HTML component that 
+introduces the topic to be discussed. The Discussion component itself does not contain any text and may be easy for students to overlook. 
 
-1. 開啟 Studio.
+.. _Create a Discussion Component:
 
-2. 做一個您目前所在小節的 **顯示名稱** 的筆記與您目前所在單元的 **顯示名稱** 的筆記。
+*****************************
+Create a Discussion Component 
+*****************************
 
-3. 在一個您想開始討論的單元位置 :doc:`create_html_component`  並其包含您希望學生去討論的問題。
+.. note:: Before you create a Discussion component, consider that Discussion categories are immediately visible in your forum (on the Discussion tab for your course) when you create them, even though the unit that contains the Discussion component is set to Private.
 
-4. 在此新 HTML 組件的正下方，點擊 **添加新組件** 下方的 **討論** 。
 
-.. image:: Images/C06_01.png
+To create a new HTML component in an existing Unit, ensure the Unit is Private.  
+For more information on Public and Private Units, see LINK.
 
-5. 當出現以下對話框，點擊 **討論標籤** 。
+#. Under **Add New Component**, click the **discussion** icon.
 
-.. image:: Images/image059.png
-
-6. 當出現以下對話框，點擊 **編輯** 。
-
-.. image:: Images/C06_02.png
-
-當出現以下對話框時，您可以修改小對話框中的數值，但不會更改到大對話框中的內容。
-
-.. image:: Images/C06_03.png
-
-.. note::
-
-	在今後，這些對話框會先填入初始數值。
-
-7. 在 **討論分類** 對話框，輸入您想創建之討論的分類名稱，可包含空白。
-
-8. 在 **討論目標** 對話框，輸入您想創建之討論的子分類名稱，可包含空白。
-
-.. note::
-	
-	分類名稱及子分類名稱只會出現在您課程的討論區，不會出現在單元中的討論區塊。
-
-舉例來說，當您把 **討論分類** 設定成 “The Discussion Component”，並把 **討論目標** 設定成 “Online Instruction Methods”，分類及子分類會如下出現在討論區塊中的分類清單:
-
-.. image:: Images/C06_04.png
- :width: 300
-
-9. 在 **顯示名稱** 對話框，鍵入討論名稱，當學生用滑鼠滑過單元導覽列時將會顯示出來。
-
-10. 點擊 **儲存**
-
-.. raw:: latex
+   .. image:: Images/NewComponent_Discussion.png
   
-      \newpage %
+   The Discussion component is added:
+  
+   .. image:: Images/EditDiscussionComponent.png
 
 
-在您的課程中開啟一個討論空間 
-************************
+#. In the Discussion component, click **Edit**.
 
-當您創建一個討論，許多學生可能對是否要第一個發表答案感到猶豫。
-您可以自行發表一個答案來開始這個討論，建議最好是以匿名或以學生名義發表，如此若學生不同意您的答案，他們也能較為自在的發表自己的看法。
+   The Discussion component editor opens.
+   
+   .. image:: Images/DiscussionComponentEditor.png
 
-要以學生名義發表，請按照下面的步驟。若您之後想以自己名義回覆，登入到您平常使用的帳號並忽略步驟1及步驟2。
+#. Follow the guidelines in the editor to fill in the **Discussion Category**, **Display Name**, and **Subcategory**. 
+  
+#. Click **Save**.
 
-1. 以一個未關係到您課程團隊的電子信箱設定一個在 edX 或 Edge 上的測試帳號。
+.. _A Student's View of the Discussion:
 
-2. 前往您的課程網址並註冊課程。
+**********************************
+A Student's View of the Discussion 
+**********************************
 
-3. 在 edX 或 Edge 中，找到包含一個討論區塊的單元。
+For students, Discussion component names appear in the course ribbon at the top of the page:
 
-4. 在單元中，找到一個討論空間。
+.. image:: Images/DiscussionComponent_LMS_Ribbon.png
 
-5. 點擊 **發表文章** 。
+The Discussion space appears under other components in the unit. 
+It doesn't have a label in the body of the unit. 
+Instead, students see "Show discussion" or "Hide discussion" on the left, 
+and a blue **New Post** button on the right.
 
-6. 在標題框中鍵入您要發表的標題，並輸入內文。
+In the following example, the Discussion component follows Video and HTML components:
 
-7. 若您想的話，可以選取 **匿名發表** 或是 **追蹤此文** 。
+.. image:: Images/DiscussionComponent_LMS.png
 
-8. 當您對發表內容滿意，點擊 **新增發表** 。
+In the **Discussion** tab at the top of the page, 
+students can find the category and subcategory of the discussion in the left pane.
 
-您的發表會出現在單元中清單的上方。所有發表會以反向時間順序排序顯示。
+.. image:: Images/DiscussionComponent_Forum.png
+
+
+.. _Seed a Discussion Space in Your Course:
+
+**************************************
+Seed a Discussion Space in Your Course 
+**************************************
+
+Many students may feel hesitant to be the first to
+post an answer to your question. You can get the discussion started by posting
+your own answer—preferably anonymously or as a student, so that students will be
+more comfortable replying if they disagree with your post.
+
+To post as a student, follow the steps below. If you later want to reply as
+yourself, log back into your usual account and omit steps 1 and 2.
+
+#. Set up a test account on with an e-mail address that is not associated with your Course Team.
+
+#. Go to your course URL and register for your course.
+
+  a. Locate the Unit that contains the Discussion component.
+
+  b. In the Unit, locate the discussion space.
+
+  c. Click **New post.**
+
+3. Type a title for your post in the Title field, and then enter text for your post.
+
+#. If you want to, select the **post anonymously** check box or the **follow this post** check box.
+
+#. When you are satisfied with your post, click **Add Post.**
+
+Your new post appears at the top of list in the unit. Posts are listed in
+reverse chronological order.
+

@@ -1,76 +1,103 @@
-﻿**************************
-檢查學生的進度以及證書核發
-**************************
+.. _Checking Student Progress and Issuing Certificates:
+
+###################################################
+Checking Student Progress and Issuing Certificates
+###################################################
 
  
-如同我們將會在之後的章節所討論的，評分準則以及學生於問題中所得到的分數，是用於記錄該課程的進度，確定最終成績，並在最後頒發證書。
-這個單元將會給予您一些有關評分準則是如何在課程進行中實施，以及您於課程結束時如何給予成績的建議。
+The grading policy and stored problem scores are used to record progress through the course, determine
+final grades, and issue certificates at the end. This unit will give you
+some advance information about how the grading policy will be visible to the
+students during the run of the course and what you will need to do at the
+end of the course to give out grades.
  
- 
-以學生身分確認進度
-******************
- 
+.. _A Student's View:
 
-在課程進行時，學生可以藉由點擊課程分頁上的 **進度** 確認他們的進度 (這與於 **檢視分數** 章節中描述如何檢視小節問題分數為同一個頁面)。
-學生的學習進度透過課程中已經評分的部分顯示在頁面的上方。
-已被評分或已分級的部分，將以圖表分配條列的方式呈現於此頁上方，位於小節分數之上；包含課程中目前所得之整體百分比，與達到每一級要求指標的百分比要求。
-以下為一位學生在 edX101 學習進度的範例。
+******************************
+A Student's View
+******************************
+ 
+Students can check their progress by clicking on
+the **Progress** tab in the course. The
+student's progress through the graded part of the course is displayed at the
+top of this page, above the subsection scores, as a chart with entries for
+all the assignments, total percentage earned in the course so far and
+percent needed for each grade cutoff. Here is an example of a student's
+progress through edX101.
  
  
 .. image:: Images/image245.png
-
+  :width: 800
  
  
-學生將可以從此頁面看到，當此圖被拍下時，edX101 採用 34% 為通過與否的標準，評分內容包含了一種被稱為 "Learning Sequence" 的作業類別，當中包含了十一個作業。
-此外，圖上也說明了目前這些特定的學生們只在兩個作業中送出了正確的答案，目前僅完成了 6% 的作業。
-您可以將滑鼠指標滑過每個進度列，系統將會告訴您針對每個作業更詳細的數據。
+The student can see from this page that edX101 was graded as a Pass/Fail course with a cutoff
+of 34% and that the grading rubric contained one assignment type, called
+Learning Sequence, consisting of 11 assignments total. Furthermore, this particular student has only 
+submitted correct responses to two assignments, and that her current total percent grade in
+the course is 6%. By hovering over each progress bar, the student can
+get further statistics of how much each assignment was counted as.
  
-雖已在檢視分數單元中提過，接下來在 **進度** 頁面中是一個所有課程中的小節的清單，連同課程中學生對所有問題的分數的記錄。
-以下是個範例，可以在頁面中向下捲動檢視學生的進度。
+ 
+As was mentioned in the unit on Viewing Scores, further down on the Progress
+page is a list of all the subsections in the course, with the scores
+recorded for the student for all problems in the course. Here is a scrolled
+down view of the example Progress page for the student in the example above:
  
  
 .. image:: Images/image247.png
+   :width: 800
  
- 
-再次提醒，從已評分部分得到的分數稱為 "問題計分"，從尚未評分部分得到的分數稱為 "練習計分"。
+Again, note that point scores from graded sections are called "Problem
+Scores", while point scores from ungraded sections are called "Practice
+Scores".
 
-.. raw:: latex
-  
-      \newpage %
+.. _Check Progress of Students as an Instructor:
+
+**********************************************
+Check Progress of Students as an Instructor
+**********************************************
  
-以教師身分確認進度
-******************
- 
- 
-要確認學生在課程中的進度，在 Edge 上以教師身分檢視教師控制面板並點選成績。 
-教師控制面板的畫面可能會隨著功能的增加而有所改變，以下是目前的樣貌供您參考：
+To check the progress of the student, go to the
+Instructor Dashboard of your course click 
+the Grades page. The Instructor Dashboard for courses sometimes changes as
+more course-specific tools get added. Here is the current view of the top of
+the Grades page of the Instructor dashboard for edX101:
  
  
 .. image:: Images/image249.png
-
+  :width: 800
  
-這裡您會看到一些選項，可用於觀看或下載學生成績、從一門課程檢視個別的進度或是重置所有問題的嘗試記錄。
+Here you see several options for viewing or downloading student grades,
+viewing individual progress through a course or resetting problem attempts.
 
 .. note::
 
-	此圖只顯示出少部分的功能，繼續向下檢視頁面將會看到一些關於課程統計結果的資訊。
-	透過點選學生的進度頁面，您會看到與學生看到一樣的畫面，包含已經評分過的成績以及尚未評分的部分作業。
+	Only the top part of the Grades page is shown. The page continues
+	with some more information about course statistics. The link to the
+	student's progress page should give you a view of exactly what the student
+	would see, including scores for graded and ungraded assignments.
  
  
 .. note::
 
-	事實上，不管是位於教師頁面所看到的或是從 Edge 上課程內的進度頁中所看到的學生分數，您所看到的分數僅為一份快照。
-	這些分數有可能與真實的分數有所不同(例如當一個即時問題的評分權重修改以後，有些學生可能尚未更新他們的答案)。
-	因此分數以及最後的評等通常在課程結束階段時會再重新計算，作為最後核發證書的依據。
+	The stored scores visible to you on the Instructor tab and to
+	the students from the Progress tab in the course are a snapshot of the
+	current state of the problem score database. They may be slightly out of
+	sync with actual problem scores. (Asynchronicities may happen if, for example,
+	the weight of a live problem was changed during an assignment, and not
+	everyone has yet resubmitted their answers for that problem.) Scores and grades
+	are usually recomputed at the end of the semester before determining final
+	grades and issuing Certificates.
 
+.. _Assign Final Grades and Issuing Certificates:
 
-.. raw:: latex
-  
-      \newpage %
- 
- 
-決定最後評分以及核發證書
+*********************************************** 
+Assign Final Grades and Issue Certificates
 ***********************************************
 
-學生的最後成績以及用於評分的標準可決定最後學生是否能獲得修課合格證明。
-證書並不是於課程結束後自動核發給學生，必須由您或是管理員手動執行。
+The final grades of a student in the course and the grading
+rubric you have set are used to determine whether the student has earned a
+Certificate of Mastery for the course. The process for issuing Certificates
+has to be started manually by you or by the edX support team at the end of the
+course.
+ 

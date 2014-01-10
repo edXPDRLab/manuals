@@ -1,181 +1,193 @@
-##############
-開始使用 Studio
-##############
 
 .. image:: Images/image001.png
-  
-****
-簡介
-****
-
-當我們開始發行 edX 給我們最初的夥伴時，我們已經提供一些機會讓另外的教師們在我們的平台上創建一些課程。
-我們努力的成果是 Edge 與 Studio，這些工具不只對我們的 edX 平台有用，還能對所有大學協會的所有教職員有所幫助。
-
-EdX (http://edx.org) 是我們獨創，最初的學習入口。
-在 edX 上能做的事情，端看於您的學校和 edX 達成的協議內容。
-您需要您學校的特別批准以將您的課程放置到 edX 上，一但課程被放置到 edX 入口，它就變成一個公開大型開放式線上課程(MOOC)。
-
-Edge (http://edge.edx.org) 是我們最新的線上學習入口。
-它和 edx.org 不論是能見度和功能幾乎完全相同，您可以在上面測試您的課程。
-
-Edge 是可以看到您在 Studio 所創建的課程內容的網站，而 Studio 是我們的課程彙編工具。
-在 Edge 上的課程不能夠被公開看到；除了您以外，只有您的同事能分享分享連結給學生，讓學生們可以看到您的課程。
-我們鼓勵老師們用 Edge 去實驗性地創建一些課程，您不需要任何正式批准就可以在 Edge 上發佈一個課程
-
-您可以創建一門課程並且立刻發佈。
-
-Studio (http://studio.edge.edx.org) 是我們的網頁課程彙編工具，它是讓教師們在edX平台上以最簡單的方式開發課程的地方。
-您可以在 Studio上 創建課程並且觀看並且立即在 Edge 上登記它們-甚至在您完成正在創建的課程之前。
-
-
-**這裡有個如何開始的工作流程** ，以下是份簡易的總結：
-
-
-1. 首先進入: https://studio.edge.edx.org. 註冊並且創建一個帳號。
-
-
-.. image:: Images/C01_01.png
  :width: 800  
 
+.. _Getting Started with Studio:
 
-**接著**
+###########################
+Getting Started with Studio
+###########################
+
+***************
+Overview
+***************
+
+This chapter describes the tools you use to build an edX course, and how to create your first course:
+
+* :ref:`What is Studio?`
+* :ref:`What is Edge?`
+* :ref:`Get Started on Edge`
+* :ref:`Use Studio on Edge`
+* :ref:`Create Your First Course`
+* :ref:`View Your Course on Edge`
+* :ref:`What is edX.org?`
+* :ref:`Register Your Course on edX.org`
+
+If you are using an instance of Open edX, some specifics in this chapter may not apply.
+
+.. _What is Studio?:        
+            
+***************
+What is Studio?
+***************
+
+Studio is the edX tool you use to build your courses. 
+
+You use Studio to create course content, problems, videos, and other resources for students.
+
+With Studio, you can also manage your schedule and course team, set grading policies, publish your course, and more.
+
+You use Studio directly through your browser. You do not need any additional software.
 
 
-2. 在 Studio 創建一門課程。
+.. _What is Edge?: 
 
+******************
+What is Edge?
+******************
 
-.. image:: Images/C01_02.png
- :width: 800
+EdX Edge_ is the site where you can create courses with Studio, then run courses through the edX Learning Management System.
 
+EdX Edge_ is also used to host SPOCs, or Small Private Online Courses.
 
-**接著**
+Visually and functionally, edX Edge is the same as edX.org_. 
+However, on Edge you can freely publish courses.  
+There is no course catalog on Edge and other users will not find your course. You must explicitly invite students to participate in your course.
 
+Courses on Edge are not published on edX.org. All course data and accounts on Edge and edX.org are separate.
 
-3. 在 Edge 上觀看您的課程。
+To publish courses on edX.org, you must have an agreement with edX and specific approval from your university.
 
-
-.. image:: Images/C01_03.png
- :width: 800
-
-.. raw:: latex
-  
-	\newpage %
-
-
-***********
-創建一個帳號
-***********
-
-要開始使用 Studio，您必須先以一個獨一無二的使用者名稱及密碼創建一個帳號。
-Studio 帳號和 edX 帳號是不同的，即使您已經有一個 edX 帳號，您仍然需要另外創建一個分開的 Studio 帳號，當然您可以使用相同的電子郵件地址於兩個系統中。
-
-當您創建您的 Studio 帳號後，系統會自動以相同的帳號密碼建立使用於 Edge 的帳號，您不需要分別創建 Studio 和 Edge 的帳號。
-
-Edge 有兩種檢視模式 - 一個教師模式和一個學生模式。
-當您在 Edge 上觀看您的課程，若您是以教師模式來觀看您的課程，您就會看到 **教師** 字樣顯示在頁面的右上方。
-
-.. image:: Images/C01_04.png
- :width: 800
-    
-
-您的學生則是以學生模式在檢視課程，而學生模式與教師模式相似，但不包括教師才能使用的功能標籤或是課程釋出日期等資訊。
-
-創建一個帳號：
-
-1. 進入 http://studio.edge.edX.org. The Welcome to edX Studio page opens.
-
-.. image:: Images/C01_01.png
- :width: 800
+.. _Edge: http://edge.edx.org
+.. _edX.org: http://edx.org
 
    
-2. 捲動到頁面的底部然後點擊 **註冊並開始創建一個 EDX 線上課程** 。
+.. _Get Started on Edge:
+         
+*******************
+Get Started on Edge
+*******************
 
-.. image:: Images/C01_05.png
- :width: 800
+Go to https://edge.edx.org, click **Register**, and fill out required information to create your account.
 
- 
-3. 填寫申請資料，必填的欄位旁有標註星號(*)。
+.. note::  Students will see your **Public Username**, not your **Full Name**.
 
+.. note::  If you are at an edX consortium university, you should use your institutional e-mail
+   address.
 
-.. image:: Images/C01_06.png
- :width: 800
+After you click \ **Create My Account**, you will receive an activation
+e-mail message. To finish creating your account, click the link in the e-mail.
 
- 
-a. 在 **電子郵件** 欄位，填寫您的電子郵件地址。
-b. 在 **密碼** 欄位，填寫一個獨一無二的密碼。
-c. 在 **公開的使用者名稱** 欄位, 填寫一個當您在使用者論壇上發文時，想讓學生看到的名字 (大部分的網站稱這個叫做 "使用者名稱" )。
-d. 在 **全名** 欄位，填入您的全名。這個名字只出現在 Studio 中，您的學生將不會看到這個名字。
-e. 點選 **我同意服務條款** 。
+When you log in to Edge, you can view edX101_.	
 
-.. image:: Images/C01_07.png
- :width: 800
+edX101 is both an example of a course you can build with Studio, 
+and a self-paced walk through of planning, building, and running your own online course.	
 
-4. 點擊 **創建我的帳戶 & 開始製作課程** ，當您點擊這個按鈕之後，系統會自動跳到下一個註冊完成的頁面。
+.. _edX101: https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about
 
-.. image:: Images/C01_08.png
- :width: 800
+.. _Use Studio on Edge:
 
-5. 要完成帳戶的創建，請檢查您於前述步驟中填寫的電子郵件信箱，您會收到一封驗証信驗證您的電子郵件信箱資訊是否正確。
-   請點擊您收到的驗證連結，當您點擊這個連結後，您會看到以下頁面。
-   恭喜您註冊完成，可以準備開始建立課程了！
+******************
+Use Studio on Edge
+******************
 
-.. image:: Images/C01_07.png
- :width: 800
+You can use Studio_ on Edge to build your own courses.
 
-.. raw:: latex
+Go to: https://studio.edge.edx.org. Sign in with the account you created on Edge.
+
+You must then request access to create courses:  
+
+#. Click the **+** sign to expand the field labeled **Becoming a Course Creator in Studio**.
+
+#. Click **Request the Ability to Create Courses**.
+
+EdX then evaluates your request. When course creation permissions are granted, you receive an email message.
+
+.. _Studio: https://studio.edge.edx.org
   
-	\newpage %
+.. _Create Your First Course:  
+  
+***************************
+Create Your First Course
+***************************
 
-**************
-創建一個新的課程
-**************
+When you receive notice that you can create courses, log into Studio_.
 
-當您第一次登入 Studio 時，您會看到以下頁面。
+You see the following page:
 
-.. image:: Images/C01_07.png
- :width: 800
- 
-點擊 **控制台** 連結，接著您會看到 **我的課程** 頁面開啟。
+.. image:: Images/first_course.png
+ :width: 800  
 
-.. image:: Images/C01_02.png
- :width: 800
+#. Click **Create Your First Course**.
+#. Enter course information as needed and click **Create**.
 
-一旦您已經在 Studio 創建了任何課程，它會在這個頁面列出來。
-您也可以從這個頁面點擊 **新建課程** 按鈕來立刻開始創建新的課程。
+  .. image:: Images/new_course_info.png
+     :width: 800
 
+  .. note::  Enter new course information carefully. This information becomes part of the URL for your course. To change the URL after the course is created, you must contact edX through the Help site (http://help.edge.edx.org). Additionally, because this information becomes part of your course URL, the total number of characters in the following three fields must be 65 or fewer.
 
-創建一個新的課程：
+  * For **Course Name**, enter the title of your course. For example, the name may be “Sets, Maps and Symmetry Groups". Use title capitalization for the course title.
 
-1. 點擊 **新建課程** ，系統會開始詢問您一些課程資訊。
+  * For **Organization**, enter the name of your university. Do not include whitespace or special characters.
 
+  * For **Course Number**, enter both a subject abbreviation and a number. For example, for public health course number 207, enter **PH207**. For math course 101x, enter **Math101x**. Do not include whitespace or special characters in the course number.
 
-.. note::
+    *Note: If your course will be open to the world, be sure to include the "x". If it is exclusively an on-campus offering, do not include the "x".* 
 
-	請小心輸入您的新課程資訊，這些資訊會變成您課程網址的一部分。
-	若欲在課程創建後改變網址，您必須聯繫 edX 的管理人員協助您處理，相關資訊請參考 Help site (http://help.edge.edx.org).
-	除此之外，由於這個資訊成為您課程網址的一部分，所以在三個欄位中全部的字元總數必須少於或等於 65。
+3. Click **Save.**
 
+You then see the empty Course Outline.
 
-2. 請於 **課程名稱** 欄位輸入您的課程標題。
-   舉個例子，這個名稱可能是像是 “Sets, Maps and Symmetry Groups"。
-   若是課程名稱為英文，建議您以首字大寫的形式作為名稱的格式。
+In your browser’s address bar, notice that the URL of your course includes the course organization, number, and course run.
 
-3. 請於 **組織名稱** 欄位輸入您的大學名稱，請注意不要包含空白鍵或特殊字元。
-
-4. 請於 **課程編號** 欄位輸入一個主題縮寫以及一個數字。
-   舉個例子，如果是門公共衛生 207 (Public Health 207) 課程，可以輸入 "PH207"；若是數學 101x (Math 101x)，可以輸入  “Math101x”。
-   請注意不要包含空白鍵或特殊字元在課程代號中。
-
-   *注意: 如果您的課程將對全世界開放，請於課程編號後加上 "x"，反之若課程僅對少數人提供，請不要於課程編號後加上 "x"。*
-
-5. 點擊 **儲存**
-
-.. image:: Images/image025.png
- :width: 800
+The rest of this documentation describes how you now build and run your course. But first, lets view your empty course on Edge.
+  
+.. _View Your Course on Edge:
     
-   如果您點擊 **線上查看** ，您的課程會立即顯示在 Edge 上！
+************************
+View Your Course on Edge
+************************
+You can now view the course you just created, even though it doesn't have any content.
 
-.. image:: Images/C01_03.png
+In the Course Outline in Studio, click **View Live**. The course opens on Edge.
+
+You can also go directly to Edge_. Log in if prompted. You see the course you just created listed:
+
+.. image:: Images/new_course.png
  :width: 800
 
-   *注意: 雖然開始日期預設值被設為現在日期，但是您的課程將不會馬上曝光。您可以於 Studio 中設定正確的課程開始日期。*
+You can view the course and see that there is no content yet.
+
+To build your course, keep reading this document.
+
+
+.. _What is edX.org?:
+
+*******************
+What is edX.org?
+*******************
+edX.org_ is the site where edX hosts MOOCs, or Massive Open Online Courses, that are created with our institutional partners. These courses are open to students from around the world.
+
+Courses on edX.org_ are listed publicly.
+
+To publish courses on edX.org, you must have an agreement with edX and specific approval from your university.
+
+
+
+.. _Register Your Course on edx.org:
+
+************************************
+Register Your Course on edX.org
+************************************
+
+If you're creating your course on **edX**, you must register
+for your course.
+
+#. On the **Course Outline** page, click the blue **View
+   Live** button in the upper-right corner of your screen.
+
+   Your course registration page opens in a new tab on the LMS.
+
+#. Click the blue **Register** button to register for your course.
+#. In your browser, switch back to the tab that shows Studio. You will
+   still be on the **Course Outline** page.

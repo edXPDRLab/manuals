@@ -1,97 +1,86 @@
-************
-匯出或匯入課程
-************
- 
-Studio 提供了匯入與匯出的工具，您可以利用這些工具來匯入與匯出您的課程。
+.. _Exporting and Importing a Course:
 
- 
-匯出一門課程
-**********
- 
-您可以將一個已存在於 Studio 裡的課程匯出。您可以匯出一個課程來讓另一個教師使用，或是用來備份您的課程。
- 
-例如，您在 Studio 中創建一個課程，並且於網站上實際進行這門課程。
-您的朋友或是同事，甚至是另外一個機構的朋友可能對您的課程很有興趣，希望能複製您的課程進行客製化。
-您能將您創建的課程匯出後，複製給其他教師使用。
-其他教師可以透過匯入工具匯入課程，並根據其教學情況進行修改，最後發佈給學生。
- 
-另外一種情況是，您可以先匯出一份目前的課程資料，並繼續在 Studio 做些修改。
-若您之後想將課程改回先前的版本，您可以匯入您先前匯出的版本。
+#####################################
+Exporting and Importing a Course
+#####################################
 
-注意若您會出的是一門進行中的課程，您將遺失所有您學生的記錄。 
- 
-當您匯出您的課程時，Studio 會創建一個 **.tar.gz** 檔案，其中包含以下課程資料：
- 
- 
-1. 課程結構 (章節及小節的順序)
- 
- 
-2. 個別的單元
- 
- 
-3. 個別的問題
- 
- 
-4. 額外的靜態頁面
+You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
+
+.. _Export a Course:
+
+*************** 
+Export a Course
+***************
+There are several reasons you may want to export your course:
+
+* To edit the XML in your course directly
+* To create a backup copy of your course, which you can import if you want to revert the course back to a previous state
+* To create a copy of your course that you can later import into another course instance and customize
+* To share with another instructor for another class
  
  
-5. 檔案及上傳頁面中的檔案
+When you export your course, Studio creates a **.tar.gz** file that includes
+the following course data:
+ 
+* Course content (all Sections, Subsections, and Units)
+* Course structure
+* Individual problems
+* Static pages
+* Course assets
+* Course settings
  
 
+The following data is not exported with your course:
  
-匯出的檔案不會包含以下資料：
+* User data
+* Course team data
+* Forum/discussion data
+* Certificates
+
+To export a course:
  
- 
-1. 學生或使用者資料
- 
- 
-2. 討論區的內容
- 
- 
-3. 課程設定
- 
- 
-4. 修課證書
- 
- 
-5. 評分資料
+#. From the **Tools** menu, select **Export**.
+#. Click **Export Course Content**.
+
+When the export completes you can then access the .tar.gz file on your computer.
 
 
-.. raw:: latex
-  
-      \newpage %
- 
+.. _Import a Course:
 
-匯入課程
-*******
+*************** 
+Import a Course
+***************
 
- 
 .. warning::
 
-	請小心使用此功能！
-	匯入一個新的課程資料將會刪除目前所有與您目前課程有關聯的內容，並且以上傳的檔案中的內容取代。
-	匯入後的課程無法復原！
+	Content of the imported course replaces all the content of this course. 
+	**You cannot undo a course import**. We recommend that you first export the current course, 
+	so you have a backup copy of it.
  
+There are several reasons you may want to import a course:
+
+* To run a new version of an existing course
+* To replace an existing course 
+* To load a course you developed outside of Studio
+
+
+The course that you import must be in a .tar.gz file (that is, a .tar file compressed with GNU Zip). 
+This .tar.gz file must contain a course.xml file in a course data directory. The tar.gz file must
+have the same name as the course data directory. It may also contain other files.
  
-您可以匯入一個已存在於 Studio 的課程，例如是由您或是其他擁有權限的使用者匯出的檔案。
+If your course uses legacy layout structures, you may not be able to edit
+the course in Studio, although it will probably appear correctly on Edge. To
+make sure that your course is completely editable, ensure that all of your
+material is embedded in a unit.
  
-您匯入的檔案必須是一個 **.tar.gz** 格式的檔案，其中 **至少** 必須包含一個 **Course.xml** 檔案位於課程資料目錄。
-此 tar.gz 檔必須要與課程資料目錄命名相同
+The import process has five stages. During the first two stages, you must stay on the Course Import page. 
+You can leave this page after the Unpacking stage has completed. We recommend, however, 
+that you don't make important changes to your course until the import operation has completed. 
  
+To import a course:
  
-若您的課程使用傳統舊的格式包裝，您可能無法在 Studio 中編輯您的課程資料，即使其可能正確地在 Edge 裡顯示。
-要確定您的課程是完全可編輯的，必須確定您所有的教材都被嵌入至一個「單元」中。
- 
- 
-匯入一個課程： 
- 
-1. 在導覽列點擊 **工具** ，接著點擊 **匯入** 。
- 
-.. image:: Images/C15_01.png
- 
- 
-2. 在 **匯入課程** 下方，點擊 **選擇檔案** 。
- 
- 
-3. 找到您要的檔案，接著點擊 **開啓** 。
+#. From the **Tools** menu, select **Import**.
+#. Click **Choose a File to Import**.
+#. Locate the file that you want, and then click **Open**.
+#. Click **Replace my course with the one above**.
 
