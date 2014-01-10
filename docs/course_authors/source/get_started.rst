@@ -2,10 +2,10 @@
 .. image:: Images/image001.png
  :width: 800  
 
-.. _Getting Started with Studio:
+.. _開始使用 Studio:
 
 ###########################
-Getting Started with Studio
+開始使用 Studio
 ###########################
 
 ***************
