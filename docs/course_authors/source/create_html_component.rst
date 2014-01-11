@@ -46,9 +46,7 @@ For more information on public and private units, see :ref:`Public and Private U
    
   .. image:: Images/HTMLComponent_Edit.png
    
-3. In the empty component, click **Edit**.
-   
-   The HTML Component Editor opens. 
+3. 在空白元件中，點擊 **編輯** 開啟 HTML 編輯器。
   
   .. image:: Images/HTMLEditor.png
 
@@ -78,7 +76,7 @@ For more information, see:
 Work with the Visual and HTML Editors
 *****************************************
 
-The HTML Component editor has two views: the **Visual view** and the **HTML view.**
+HTML 元件編輯器有兩種顯示模式: **Visual view**以及**HTML 檢視**
 
 You select the view by clicking the tab in the upper-right of the component Editor.
 
@@ -88,8 +86,7 @@ You select the view by clicking the tab in the upper-right of the component Edit
 Visual Editor
 ==============
 
-The Visual view provides a “what you see is what you get” (WYSIWYG) editor for
-editing a pre-formatted version of the text. 
+「Visual 檢視」提供“所見即所得” (WYSIWYG) 編輯器用以編輯已預先格式化版本的文字。 
 
 .. image:: Images/HTMLEditor_Visual.png
 
@@ -104,9 +101,8 @@ The HTML allows you to edit HTML code directly.
 
 .. image:: Images/HTMLEditor_HTML.png
 
-.. note:: Studio processes the HTML code entered when saving it and before rendering
-  it. Make sure that the text you create looks the way you expect if
-  you go back and forth between the Visual and HTML views.
+.. note:: 當 HTML 原始碼被儲存時，Studio 將在渲染前先行處理結果。 
+  在「Visual 檢視」及「HTML 檢視」之間切換以確您創建的組件看起來與您預期的一樣。
 
 .. _Use the Announcement Template:
 
