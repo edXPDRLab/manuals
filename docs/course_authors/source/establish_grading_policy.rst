@@ -1,11 +1,11 @@
 .. _Establish a Grading Policy:
 
 ##############################
-Establishing a Grading Policy  
+建立評分標準  
 ##############################
 
 *******************
-Overview
+簡介
 *******************
 
 Establishing a grading policy takes several steps. You must:
@@ -60,12 +60,12 @@ After you make any changes to the grade range, you must click **Save Changes** a
 .. _Set the Grace Period:
 
 *************************
-Set the Grace Period 
+設定寬限期
 *************************
     
-You can set a grace period that extends homework due dates for your students. 
+您可以為您的學生設定一個寬限期，允許他們遲交作業。
 
-.. note:: The grace period applies to the whole course; you cannot set a grace period for individual assignments.
+.. note:: 請注意，寬限期會套用到整門課程上，您無法單獨為一次作業設定寬限期。
   
 In the Grading page, under **Grading Rules & Policies**, enter a value in the **Grace Period on Deadline** field. Enter the value in Hours:Minutes format.
 
@@ -99,21 +99,21 @@ Assignment Type Fields
 ==========================
 You configure the following fields for each assignment type:
     
-* **Assignment Type Name:** 
+* **作業類別名稱:** 
   
   The general category of the assignment. This name will be visible to students.
  
   .. note:: All assignments of a particular type are automatically worth the same amount. Thus, a homework assignment that contains 10 problems is worth the same percentage of a student's grade as a homework assignment that contains 20 problems. 
   
   
-* **Abbreviation:** 
+* **簡稱:** 
   
-  This is the short name that appears next to an assignment on a student's **Progress** tab.
+  這是會顯示在學生的 **進度** 分頁旁的短名(請見下圖)。
       
 
-* **Weight of Total Grade:** 
+* **在總分中的權重:** 
   
-  The assignments of this type together account for the percent value set in **Weight of Total Grade**.
+  作業在總分計算中所佔的權重可以百分比的形式設定在 **在總分中的權重** 裡。
   
   The total weight of all assignment types must equal 100.
   
@@ -121,15 +121,15 @@ You configure the following fields for each assignment type:
   
   
   
-* **Total Number:** 
+* **作業總量:** 
   
-  The number of assignments of this type that you plan to include in your course.
+  您想呈現在課程中的作業類別的數量。
   
   
   
-* **Number of Droppable**
+* **可拋棄的數量**
   
-  The number of assignments of this type that the grader will drop. The grader will drop the lowest-scored assignments first.            
+  指定評分程式可以拋棄的數量，評分程式會從最低分的成績開始拋棄。            
 
 
 .. _set_assignment:

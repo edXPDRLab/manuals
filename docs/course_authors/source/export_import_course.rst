@@ -1,7 +1,7 @@
 .. _Exporting and Importing a Course:
 
 #####################################
-Exporting and Importing a Course
+匯出或匯入課程
 #####################################
 
 You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
@@ -9,7 +9,7 @@ You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
 .. _Export a Course:
 
 *************** 
-Export a Course
+匯出一門課程
 ***************
 There are several reasons you may want to export your course:
 
@@ -19,8 +19,7 @@ There are several reasons you may want to export your course:
 * To share with another instructor for another class
  
  
-When you export your course, Studio creates a **.tar.gz** file that includes
-the following course data:
+當您匯出您的課程時，Studio 會創建一個 **.tar.gz** 檔案，其中包含以下課程資料：
  
 * Course content (all Sections, Subsections, and Units)
 * Course structure
@@ -30,7 +29,7 @@ the following course data:
 * Course settings
  
 
-The following data is not exported with your course:
+匯出的檔案不會包含以下資料：
  
 * User data
 * Course team data
@@ -48,7 +47,7 @@ When the export completes you can then access the .tar.gz file on your computer.
 .. _Import a Course:
 
 *************** 
-Import a Course
+匯入課程
 ***************
 
 .. warning::
@@ -68,10 +67,8 @@ The course that you import must be in a .tar.gz file (that is, a .tar file compr
 This .tar.gz file must contain a course.xml file in a course data directory. The tar.gz file must
 have the same name as the course data directory. It may also contain other files.
  
-If your course uses legacy layout structures, you may not be able to edit
-the course in Studio, although it will probably appear correctly on Edge. To
-make sure that your course is completely editable, ensure that all of your
-material is embedded in a unit.
+若您的課程使用傳統舊的格式包裝，您可能無法在 Studio 中編輯您的課程資料，即使其可能正確地在 Edge 裡顯示。
+要確定您的課程是完全可編輯的，必須確定您所有的教材都被嵌入至一個「單元」中。
  
 The import process has five stages. During the first two stages, you must stay on the Course Import page. 
 You can leave this page after the Unpacking stage has completed. We recommend, however, 

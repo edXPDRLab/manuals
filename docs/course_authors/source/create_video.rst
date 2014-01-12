@@ -112,7 +112,8 @@ YouTube
 
 After you've created your video, upload the video to `YouTube <http://www.youtube.com/>`_. 
 
-.. note:: YouTube only hosts videos of up to 15 minutes. If you create a 0.75-speed option, you must make sure that your 1.0-speed video segments are only 11.25 minutes long so that YouTube can host all speeds. YouTube offers paid accounts that relax this restriction.
+.. note:: YouTube 上普通帳號僅能上傳最長 15 分鐘的影片。如果您選擇 0.75 倍播放速度，您必須確定來源的影片片段是只有11.25分鐘長，如此一來才能確定影片能全部上傳至 YouTube。
+  YouTube 有提供付費機制可以解除這個限制。
 
 Other Sites
 -----------
@@ -131,12 +132,12 @@ post the videos may have to handle a lot of traffic.
 Create a Video Component
 *************************
 
-#. Under **Add New Component**, click **Video**.
+#. 在 **新增元件** 之下，點擊 **影片** 。
 
 #. When the new video component appears, click **Edit**. The video editor opens to the **Basic** tab.
    
-#. In the **Display Name** field, enter the name you want students to see when they hover the mouse 
-   over the unit in the course accordion. This text also appears as a header for the video.
+#. 在 **顯示名稱** 欄位中，填入您想要於滑鼠滑過頁面時顯示的提示文字，
+這個文字也將會成為影片的標題文字。
 
 #. In the **Video URL** field, enter the URL of the video. For example, the URL may resemble one of the following.
 
@@ -157,7 +158,7 @@ Create a Video Component
 
 #. Optionally, click **Advanced** to set more options for the video. For a description of each option, see the table below.
 
-#. Click **Save.**
+#. 點擊 **儲存**
   
 Advanced Options
 ----------------
