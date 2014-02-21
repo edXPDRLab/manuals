@@ -1,11 +1,11 @@
 .. _Establish a Grading Policy:
 
 ##############################
-建立評分標準  
+Establishing a Grading Policy  
 ##############################
 
 *******************
-簡介
+Overview
 *******************
 
 Establishing a grading policy takes several steps. You must:
@@ -60,12 +60,12 @@ After you make any changes to the grade range, you must click **Save Changes** a
 .. _Set the Grace Period:
 
 *************************
-設定寬限期
+Set the Grace Period 
 *************************
     
-您可以為您的學生設定一個寬限期，允許他們遲交作業。
+You can set a grace period that extends homework due dates for your students. 
 
-.. note:: 請注意，寬限期會套用到整門課程上，您無法單獨為一次作業設定寬限期。
+.. note:: The grace period applies to the whole course; you cannot set a grace period for individual assignments.
   
 In the Grading page, under **Grading Rules & Policies**, enter a value in the **Grace Period on Deadline** field. Enter the value in Hours:Minutes format.
 
@@ -99,21 +99,21 @@ Assignment Type Fields
 ==========================
 You configure the following fields for each assignment type:
     
-* **作業類別名稱:** 
+* **Assignment Type Name:** 
   
   The general category of the assignment. This name will be visible to students.
  
   .. note:: All assignments of a particular type are automatically worth the same amount. Thus, a homework assignment that contains 10 problems is worth the same percentage of a student's grade as a homework assignment that contains 20 problems. 
   
   
-* **簡稱:** 
+* **Abbreviation:** 
   
-  這是會顯示在學生的 **進度** 分頁旁的短名(請見下圖)。
+  This is the short name that appears next to an assignment on a student's **Progress** tab.
       
 
-* **在總分中的權重:** 
+* **Weight of Total Grade:** 
   
-  作業在總分計算中所佔的權重可以百分比的形式設定在 **在總分中的權重** 裡。
+  The assignments of this type together account for the percent value set in **Weight of Total Grade**.
   
   The total weight of all assignment types must equal 100.
   
@@ -121,15 +121,15 @@ You configure the following fields for each assignment type:
   
   
   
-* **作業總量:** 
+* **Total Number:** 
   
-  您想呈現在課程中的作業類別的數量。
+  The number of assignments of this type that you plan to include in your course.
   
   
   
-* **可拋棄的數量**
+* **Number of Droppable**
   
-  指定評分程式可以拋棄的數量，評分程式會從最低分的成績開始拋棄。            
+  The number of assignments of this type that the grader will drop. The grader will drop the lowest-scored assignments first.            
 
 
 .. _set_assignment:
@@ -154,6 +154,47 @@ Both Subsections can contain other content as well as the actual homework or lab
 .. note:: You can create problems in Studio without specifying that the Subsection is an assignment type. However, such problems will not count toward a student's grade.
 
 See :ref:`Working with Problem Components` for instructions on creating problems. 
+
+
+
+=======================
+Set the Grading Policy
+=======================
+
+You can designate a subsection as one of the assignment types that you specified in the grading policy.
+
+You set the grading policy for the subsection from the course outline or from the subsection page.
+
+From the course outline, click the checkmark next to the subsection.  Then select a grading policy from the popup menu:
+
+    .. image:: Images/course_outline_set_grade.png
+       :width: 600
+
+From the Subsection page, click the text next to the **Graded as** label, then select a grading policy from the popup menu:
+
+    .. image:: Images/subsection_set_grade.png
+       :width: 600
+
+See :ref:`Establish a Grading Policy` for more information.
+
+
+==================
+Set the Due Date
+==================
+
+For subsections that contain graded problems, you can set a due date. Students must complete the problems in the subsection before the due date to get credit.
+
+#. From the subsection page, click **SET A DUE DATE**. The Due Day and Due Time fields appear.
+#. Place the cursor in the Due Date field, and pick a day from the popup calendar.
+#. Place the cursor in the Due Time field and pick a time.
+
+.. note:: When you set a due date, keep in mind that students will be in different time zones. By default, the time zone appears as UTC, not the student's local time. If you tell your students an assignment is due at 5:00 PM, make sure to specify that the time is 5:00 PM UTC and point them to a time converter.
+
+Alternatively, you can :ref:`Set the Grace Period` for your assignments to cover any misunderstandings about time. For example, some classes have set a grace period of 1 day, 6 hours, and 1 minute. The grace period applies to all assignments.
+
+For more information, see :ref:`Establish a Grading Policy`.
+
+
 
 .. _student_view:
 
