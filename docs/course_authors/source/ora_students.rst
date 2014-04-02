@@ -1,404 +1,285 @@
 .. _ORA for Students:
 
-Open Response Assessments for Students
+開放式問答─學生須知
 ======================================
 
 .. _ORA Introduction:
 
-Introduction to Open Response Assessments
+前言
 -----------------------------------------
 
 .. warning::
 
-    Modify this section according to your course. For example, you
-    can delete sentences such as "For more information, see :ref:`ORA Peer Assessment`"
-    and "For more information, see :ref:`ORA AI Assessment`" if your ORA problem doesn't
-    contain peer assessments or AI assessments and you want to delete these sections from
-    this document.
+    據課程內容修改本章節內容，例如，開放式問答的題目並未包含同儕評分或電腦評分，可以刪除這些字句：「為取得更多資訊，請見 :ref:`ORA Peer Assessment`"
+    ，以及為取得更多資訊，請見 :ref:`ORA AI Assessment`" 。文件中的說明也可以刪除。
 
 
-Open response assessments allow you to submit a short written answer,
-an essay, or a file such as an image or computer code file.
+開放式問答可讓學生輸入一段文字、短文或附加檔案，如：圖片或電腦程式碼。
 
-When you come to an open response assessment problem, you see the name of the
-problem, the assessment types, the text of the question, the field where you'll
-enter your response, and the **Save** and **Submit** buttons.
+在開放式問答的頁面，請見下圖，提供題目名稱、評量類型、題目敘述、答題欄位、 **儲存答案** 與 **提交答案** 的按鈕。
 
 .. image:: /Images/ExampleORA.gif
 
-If an open response assessment asks you to submit a file, you'll also see a button
-that you'll click to upload your file.
+利用此題型設計，要求學生上傳檔案，頁面會出現上傳檔案的按鈕，請見下圖。
 
 .. image:: /Images/ExampleORA_File.gif
 
-The *assessment types* can include *self assessment*, *peer assessment*, and *artificial intelligence (AI) assessment*. The
-assessment types run in the order in which they appear in the problem.
+*評量類型* 包含 *自我評分* 、 *同儕評分* 與 *電腦評分* 。依照此順序出現在題目內。
 
-- In a self assessment, you assess your response according a rubric that the
-  instructor has created. For more information, see :ref:`ORA Self Assessment`.
+- 根據教師的評分標準，批改自己的答案，並給予分數。
+  請詳見 :ref:`ORA Self Assessment`.
 
-- In a peer assessment, you grade
-  responses that your peers have submitted while several of your peers
-  grade your response. For more information, see
-  :ref:`ORA Peer Assessment`.
+- 同儕評分是指共同修課的同學，相互批改答案，並給予分數。
+  請詳見 :ref:`ORA Peer Assessment`.
 
-- In an AI assessment, a computer algorithm grades your response. For more information,
-  see :ref:`ORA AI Assessment`.
+- 電腦評分指由電腦根據運算規則，批改作答內容，並給予分數。
+  請詳見 :ref:`ORA AI Assessment`.
 
-An open response assessment problem doesn't have to use all assessment types. For example, one problem
-may use self assessment and AI assessment, while another problem may use self assessment
-and peer assessment, and another problem may use only peer assessment.
+不需要同時使用全部的評量類型，例如，指定某個問題要採用自我評分與電腦評分，另一個問題採用自我評分與同儕評分，或是只用同儕評分。
 
-You'll answer open response assessment problems in much the same way that you answer other
-problems. For more information about how to submit responses, see :ref:`ORA Submit a Response`.
+開放式問答的題目，作答方式大多都相同，請詳見 :ref:`ORA Submit a Response`.
 
-When you submit a response to an open response assessment, the next step
-depends on the type of assessment that the problem uses. For more information,
-see :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, and :ref:`ORA AI Assessment`.
+提交答案之後，接下來是評量的方式。請見 :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, and :ref:`ORA AI Assessment`.
 
-After you submit your response, your score will be available shortly - sometimes within a few
-minutes. For information about how to access your score after your response has been graded,
-see :ref:`ORA Access Scores`.
+答案提交之後，可能在很短時間內可以查看分數。查看分數的方式，請詳見 :ref:`ORA Access Scores`.
 
-If you want to experiment with open response assessments, you can try out the open
-assessment problems in the `EdX Demo <https://courses.edx.org/courses/edX/DemoX/Demo_Course/info>`_
-course. To get started, go
-to the `Self-Assessed Essay <https://courses.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/machine_grading/2>`_
-unit, and then enter a response in the **Response** field under the
-question. You can enter your own response, or you can use one of the sample
-responses in the `Sample Answers <https://courses.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/machine_grading/6/>`_
-unit.
+利用 `EdX Demo <https://courses.edx.org/courses/edX/DemoX/Demo_Course/info>`_
+課程，可以測試開放式問答。請至 `Self-Assessed Essay <https://courses.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/machine_grading/2>`_
+單元，在 **答題欄** 輸入答案或使用 `Sample Answers <https://courses.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/machine_grading/6/>`_
+單元的答案。
 
 .. _ORA Submit a Response:
 
-Submit a Response
+提交答案
 -----------------
 
-Submitting a response is slightly different if you're submitting a written response
-or uploading a file.
+用文字或上傳檔案作為答案，兩者提交的方式有些許差異。
 
-#. Enter the response that you want to submit.
+#. 輸入答案：
 
-   - If you're submitting a written response, type your response in the
-     **Response** field.
+   - 以文字作答，學生在 **答題欄** 打字。
 
-   - If you're uploading a file, click **Choose File** under the **Response**
-     field. In the dialog box that opens, select the file that you want to upload,
-     and then click **Open**.
+   - 以上傳檔案作答，點下 **答題欄** 下方的 **選擇檔案** ，在新的對話框，選擇要上傳的檔案，然後點下 **開啟**。
 
-#. Click **Submit**, and then click **OK** in the dialog box to continue.
+#. 點下 **提交答案** ，再點下 **確認** 。
 
-   .. note:: If you want to save your response and work on it again later, click **Save**.
-             An "Answer saved, but not yet submitted" message appears directly under the **Save** and
-             **Submit** buttons.
+   .. note:: 系統允許可以先儲存作答內容，並於稍後再作答或提交，點下 **儲存** ，此時，在 **儲存** 與 **提交答案** 的按鈕下方，出現此段提醒文字：已儲存作答內容，但是，尚未提交。
 
-After you submit your response, the assessment types start running in the order in which they
-appear in the problem. For more information,
-see :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, or :ref:`ORA AI Assessment`.
+提交答案後，評量的類型會出現在題目旁邊。請見 :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, 或 :ref:`ORA AI Assessment`.
 
 .. _ORA Self Assessment:
 
-Self Assessment
+自我評分
 ---------------
 
 .. warning::
 
-    You can delete this section if your ORA problem doesn't use self assessments.
+    開放式問答若未使用自我評分時，可以刪除此章節。
+	
 
 
-In a self assessment, the rubric for the problem appears below your response immediately
-after you submit the response. You then assess your response based on the rubric.
 
-Perform a Self Assessment
+評分標準在提交答案後，會立即顯示在答題欄下方，學生遵循此標準自我評分。
+
+自我評分的步驟
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Submit a response to a self-assessed ORA problem.
+#. 提交答案。
 
-#. When the rubric appears, compare your response with the rubric, and select the
-   option that you think is appropriate for each category.
+#. 出現評分標準，比較答案與標準，選擇合適的項目。請見下圖。
 
    .. image:: /Images/Rubric1.gif
 
-#. Click **Submit assessment**.
+#. 點下 **輸入評分結果**
 
-   Your response appears, and you can see the scores that you gave
-   yourself.
+   送出評分後，可以立即看見評分結果。
 
 .. _ORA Peer Assessment:
 
-Peer Assessment
+同儕評分
 ---------------
 
 .. warning::
 
-    You can delete this section if your ORA problem doesn't use peer assessments.
+    開放式問答若未使用同儕評分時，可以刪除此章節。
 
 
-In a peer assessment, several students in the course grade your response while you grade
-other students' responses. You have to grade a number of your peers' responses before
-you receive your score. (After you grade the minimum number of responses required to
-receive your score, you can grade as many additional responses as you want.)
+設定每個答案需有多少位學生評分，每位學生就必須完成同樣的評分題目數量，同時，得先完成設定的評分題目數量，才能夠查看自己的分數。完成基本的評分數量後，可自行決定是否對其他學生的答案進行評分。
 
-After you submit your response for grading, the following
-message appears under your response.
+提交作答內容後，會出現下方訊息。
 
-    **Your response has been submitted. Please check back later for your grade.**
+    **答案已送出，請稍候確認分數。** 
 
-Peer Grading Interface
+同儕評分介面
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The area where you'll grade responses is the *peer
-grading interface*. Each course that has peer assessments has at least
-one peer grading interface. There may be just one peer grading interface
-for the whole course, or each individual problem may have its own
-separate peer grading interface.
+此部份即為評分的介面。每堂課至少包含一個同儕評分介面。整個課程可能只有一個同儕評分界面，或是個別的題目有其同儕評分介面。範例如下圖。
 
 .. image:: /Images/PGI_FromOEC_2Problems.gif
 
 
-Perform a Peer Assessment
+同儕評分的步驟
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Performing a peer assessment has several steps. You can find detailed instructions for each step
-below.
+同儕評分會有截止日期的限定，在期限之前，必須完成提交作答內容，以及完成評分。
 
-#. :ref:`Access Responses`, either in the body of the
-   course or from the **Open Ended Console** page.
-#. :ref:`Learn to Grade` (this process is called
-   *calibration*).
-#. :ref:`Grade Responses` from other students.
+同儕評分的步驟描述如下：
+
+
+#. :ref:`Access Responses`, 從課程或是 **開放式問答操作** 頁面。
+#. :ref:`Learn to Grade` （此部分稱為 *評分校準* ）。
+#. :ref:`Grade Responses`
 
 .. _Access Responses:
 
-Step 1: Access responses from other students
+步驟一：查詢其它學生的答案。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. warning::
 
-    Modify the content in this section according to
-    your course. For example, if your students can only grade by using the **Open
-    Ended Console** page, change the introductory sentence below, and delete the
-    second and third bullets.
+	系統允許根據課程需求修正本小節內容。舉例來說，假使學生只能夠透過 **開放式問答操作** 頁面評分，藉由修改以下的指引的字句，並且刪除第二點與第三點。
 
 
-**Note** *You can only grade a response if you've submitted a response to the
-question, an instructor has already graded at least 20 responses, and
-there are more essays from other students left to grade. If you haven't submitted
-a response or no responses are available for grading, you see a yellow message in the
-interface.*
+**備註** *符合此三種情況才能夠評分：完成作答的題目、教師已經完成至少20位學生的評分、以及尚未給予分數的短文。反之，尚未作答或是沒有作答的題目，無法給予評分，系統會出現下圖的訊息。*
 
    .. image:: /Images/PAStudent_NoSubmissions.gif
 
 
-There are several ways to access other students' responses, depending on
-the way that the course is set up.
+根據課程的設定，決定查詢學生答案的方式。
 
--  Through the **Open Ended Console** page. This option is always
-   available for every course. To access the **Open Ended Console** page,
-   click the **Open Ended Panel** tab at the top of any page in the course.
-   When you see the list of problems that have responses available to grade,
-   click the name of the problem that you want to open it.
+-  點選 **開放式問答控制** 標籤，進入 **開放式問答操作** 頁面，此功能出現在課程畫面的上方。進入本頁面後，系統會列出已被回答的題目，點下題目名稱開始評分。
 
    .. image:: /Images/PGI_FromOEC_2Problems.gif
 
--  Through the courseware, in a specific unit. This option is only available if the
-   instructor has included a peer grading interface for the problem in the body of
-   the course. To access responses in the courseware, go to the unit that contains
-   the open response assessment problem. Scroll down past the response that you
-   submitted until you see the peer grading interface that appears below the problem.
+-  教師將同儕評分作為題目的評量方式，開放式問答的功能才會出現。進入有開放式問答評量題目的單元，可以查看答案。同儕評分介面出現在題目下方的位置。請見下圖範例。
 
    .. image:: /Images/PGI_InUnitComposite.gif
 
--  Through the courseware, in a separate section. This option may not be available
-   for your course. If it is, you'll see the section for peer grading in the
-   course accordion on the left side of your screen. For example, MIT's 6.00x:
-   Introduction to Computer Science and Programming course has a separate section
-   that holds all the course peer grading interfaces. To access peer grading for
-   a problem, you click the problem name.
+-  若在課程中未看見本功能，請進入各小節，如下圖範例。例如，MIT的6: 00x: 電腦科學與程式語言導論，設計了幾個小節，點選小節的題目名稱，可以開始評分。
 
    .. image:: /Images/PGI_Multiple-600x.gif
 
 
 .. _Learn to Grade:
 
-Step 2: Learn to grade
+步驟二：學習評分
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Before you grade your peers' responses, you must learn to grade
-the same way that an instructor would. In this process, called
-*calibration*, you'll grade several responses that an instructor has already
-graded. If your grading is similar to the instructor's, you can begin grading
-other students' responses to the question.
+學生開始評分之前，必須先學習與教師採用同樣標準來評分，此學習過程稱為：*評分校準* 。先從教師評分過的題目開始練習，當學生的評分與教師的評分接近，即可開始正式替其他學生評分。
 
-#. Click the name of the problem. When the **Learning to grade** page
-   opens, click **Start learning to grade**.
+#. 點下題目名稱，出現 **學習評分** 的頁面，點選 **開始學習評分** 。
 
-#. When the problem opens, compare the student's response with the
-   rubric. Select the options that best apply to the response, and then
-   click **Submit**.
+#. 先比較答案與教師的評分標準，選擇最合適的項目後， **提交** 結果。
 
-#. Review the **How did I do?** message that you receive, and then click
-   **Continue**.
+#. 系統會告知學生，是否與教師的評分有差異。閱讀完 **評分校準結果？** ，點下 **繼續** ，練習下一個題目。
 
    .. image:: /Images/PG_Calibration_Correct.gif
 
    .. image:: /Images/PG_Calibration_Incorrect.gif
 
-   When you click **Continue**, the next student response appears for
-   you to grade, and you see a yellow **Calibration essay saved** message in
-   the top left corner of the page.
+   練習新題目時，同時會看見一段黃色的 **已儲存評分校準短文** 的訊息出現在頁面的左上角。
 
-#. Continue to grade responses. After you grade the required number of
-   responses correctly, you receive a **Ready to grade!** message. You
-   can then start to grade responses for other students.
+#. 正確地完成練習後，系統會告知學生可以開始 **正式評分** 。
 
 .. _Grade Responses:
 
-Step 3: Grade responses
+步驟三：評分
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-When you grade a peer assessment response, you can not only select
-options in the rubric, but also provide additional feedback for the
-student who submitted the response.
+學生除了從評分標準選擇分數之外，還可以給予意見回饋。
 
-#. When the response opens, select the options in the rubric that you
-   feel best apply to the response, as you did in the calibration process.
+#. 從評分標準選擇適當的分數。
 
-   If you have concerns about the response, you can select other
-   options to flag the response for instructor review. You don't have to fill
-   out the rubric before you select these options.
+   若學生對於作答內容產生疑慮，可以勾選其他項目，替該題作記號，提醒教師審閱。在勾選之前，不用替題目評分。
 
-   -  If you aren't sure how to grade the response, select the **I am unsure about
-      the scores I have given above** check box.
-   -  If the response is offensive, or if you suspect that it contains plagiarized
-      material, select the **This submission has explicit, offensive, or (I suspect)
-      plagiarized content** check box.
+   -  例如：不知該如何評分，請勾選 **我無法確認評分結果是否恰當** 。
+   -  例如：答案令人反感，或是懷疑抄襲他人資料，請勾選 **此作答內容含有不友善字句、或是懷疑抄襲他人資料** 
 
-#. Under **Written Feedback**, write a comment about the score that you
-   gave the response.
+#. 在 **意見回饋** 寫下個人評分的想法。
 
-#. Click **Submit**. You see a **Successfully saved your feedback**
-   message at the top of the screen, and the next response opens.
+#. 點下提交評分，網頁會自動出現 **已成功儲存您的意見** 的訊息，然後出現下一個待評分的答案。
 
-#. Continue to grade until you've graded the required number of
-   responses (usually 3). When you've graded enough responses, you
-   receive the following message.
+#. 完成所有的作答內容後（通常是3個），系統會出現以下訊息。
 
    .. image:: /Images/DoneGrading.gif
 
-   When you see this message, you can access the score for your own
-   response. For more information, see :ref:`ORA Access Scores`.
+   已成功儲存您的意見，前往下一個短文。已經完成指定的數量，可自行選擇是否繼續評分。
+   
+   看到上述的訊息時，學生可查看自己的得分，請見 :ref:`ORA Access Scores`.
 
-If you want to grade additional responses at any time, you can go back
-to the **Peer Grading** page and click the name of the problem that you want
-to continue grading.
+回到 **同儕評分** 頁面，點下欲評分的題目名稱，開始對其他的題目評分，系統允許學生隨時評分。
 
-.. note:: When a response opens for you to grade, it leaves the current "grading pool"
-          that other instructors or students are grading from, which prevents other
-          instructors or students from
-          grading the response while you are working on it. If you do not submit a score
-          for this response within 30 minutes, the response returns to the grading pool
-          (so that it again becomes available for others to grade), even if you still have
-          the response open on your screen.
+.. note:: 系統將需要評分的答案放置於目前的評分區，提供教師或學生評分，同時也避免教師與其他學生針對同一個題目評分。開始評分後，若在30分鐘內未評分，系統會自動將作答內容放回評分區，重新開放給大家使用，即便自己的電腦螢幕仍然顯示該答案的評分畫面。
 
-          If the response returns to the grading pool (because the 30 minutes have passed),
-          but the response is still open on your screen, you can still submit feedback for
-          that response. If another instructor or student grades the response after it returns to the
-          grading pool but before you submit your feedback, the response receives two grades.
+          已知30分鐘內未評分，系統會將作答內容放回評分區，假使電腦螢幕仍然顯示該答案的畫面，系統會允許學生繼續評分，若在送出分數之前，已有其他人完成評分，則該答案會有兩個評分結果。
 
-          If you click your browser's **Back** button to return to the problem list before you
-          click **Submit** to submit your feedback for a response, the response stays outside
-          the grading pool until 30 minutes have passed. When the response returns to the
-          grading pool, you can grade it.
+          使用瀏覽器的 **返回上一頁** 功能鍵，回到題目清單，而且尚未送出分數，題目的狀態是回到評分區，30分鐘期限將重新計算，此時便可評分。
 
 .. _ORA AI Assessment:
 
-Artificial Intelligence (AI) Assessment
+電腦評分
 ---------------------------------------
 
 .. warning::
 
-    You can delete this section if your ORA problem doesn't use AI assessments.
+    若開放式問題的評量方式不採用電腦評分，可刪除此章節。
 
 
-In an AI assessment, an instructor grades a sample set of student responses to the
-open response assessment problem. A machine learning algorithm then creates a model
-based on the instructor's scores and grades the remaining students' responses.
+教師先提供評分樣本，電腦的學習運算功能會依照此樣本，提供評分模組。
 
-After you submit your response to an AI assessment, the following message appears under your
-response.
+學生提交答案後，系統會自動顯示以下訊息：
 
-    **Your response has been submitted. Please check back later for your grade.**
+    **你的作答內容已送出，請稍後查看分數。**
 
-Depending on the time that it takes for the instructor to grade a sample set of
-responses, you may receive your grade within minutes, or you may have to wait
-a few days. You won't receive a notification when your score is ready, so keep
-checking back.
+可能在幾分鐘或幾天後可以查看分數，依照教師提供給電腦的答案樣本時間而定。此外，系統不會自動通知，請自行查看。
 
-For more information about accessing your scores, see :ref:`ORA Access Scores`.
+取得更多資訊 :ref:`ORA Access Scores`.
 
 .. _ORA Access Scores:
 
-Access Scores and Feedback
+查詢分數與意見回饋
 --------------------------
 
 .. warning::
 
-    Modify the text in this section to apply to your course.
+    可以依照課程需求，修改本章節文字
 
 
-For *self assessments*, the score that you give yourself appears as soon as you submit
-the score.
+**自我評分** 的分數確定後，可以立即查看。
 
-For *peer assessments* and *AI assessments*, you'll access your scores through the **Open Ended Console** page.
+從 **開放式問答操作** 頁面查看 **同儕評分** 與 **電腦評分** 的分數。
 
-#. In the EdX Demo course, click the **Open Ended Panel** tab at the top
-   of the page.
+#. 進入EdX Demo課程，點下 **開放式問答控制** 標籤。
 
-#. On the **Open Ended Console** page, click **Problems You Have
-   Submitted**.
+#. 進入開放式問答操作頁面，點下 **已完成的題目**。
 
-#. On the **Open Ended Problems** page, check the **Status** column to
-   see whether your responses have been graded. The status for each problem is
-   either **Waiting to be Graded** or **Finished**.
+#. 進入開放式問答問題頁面，點 **狀態** 查看分數。因此，問題的狀態可能是 **等待評分** 或 **已完成評分**。
 
-#. If **Finished** appears in the **Status** column for the problem you want,
-   click the name of the problem to see your score for that problem. When you
-   click the name of the problem, the problem opens in the courseware.
+#. 點下 **已完成評分** 的問題名稱查看分數。
 
-For both AI and peer assessments, the score appears below your response
-in an abbreviated version of the rubric.
+電腦評分與同儕評分的分數與評分標準，出現在作答內容的下方並用簡易的說明方式呈現。請見下圖。
 
 .. image:: /Images/AIScoredResponse.gif
 
-For peer assessments, you can
-also see the written feedback that your response received from different
-graders.
+同儕評分的部分，還可看到評分者的意見回饋。
 
 .. image:: /Images/PeerScoredResponse.gif
 
-If you want to see the full rubric for either an AI or peer assessment,
-click **Toggle Full Rubric**.
+點下 **觀看詳細評分標準** ，可看見完整的評分標準。
 
-.. note:: For a peer assessment, if you haven't yet graded enough
-          problems to see your score, you receive a message that lets you know how
-          many problems you still need to grade.
+.. note:: 在同儕評分的部分，若學生未完成足夠的評分題目數量，系統會提醒學生還有多少題目待評分。請見下方訊息。
 
 .. image:: /Images/FeedbackNotAvailable.gif
 
-For more information about grading peer assessments, see :ref:`ORA Peer Assessment`.
+請見 :ref:`ORA Peer Assessment` ，獲得更多資訊。
 
-Resubmitting a Response
+再次提交答案
 -----------------------
 
 .. warning::
 
-    You can delete this section if you don't allow students to submit multiple responses.
+    若不允許學生提交多次答案，可刪除此章節。
 
-Some open response assessments allow multiple attempts. For these
-problems, a **New Submission** button appears below your original
-response.
+針對可以多次提交答案的開放性問答題目，在原本的作答內容下方，系統提供 **新的提交答案** 按鈕，學生利用此功能，能夠多次提交答案。
 
-If you want to answer the question again, click **New Submission** to
-clear your former response, and click **OK** in the dialog box that
-appears. You can then enter a new response for the problem.
+點下 **新的提交答案** 清除之前的答案，點下 **確認** 。開始重新輸入答案。

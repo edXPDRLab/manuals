@@ -1,12 +1,12 @@
 .. _Setting up a New Course:
 
 ###########################
-Setting up a New Course
+建立新課程
 ###########################
 
 
 *******************
-Overview
+綜覽
 *******************
 
 This chapter describes how to create and set up your course:
@@ -33,38 +33,38 @@ Also see the chapters :ref:`Establish a Grading Policy`, :ref:`Organizing Your C
 .. _Create a New Course:
   
 *******************
-Create a New Course
+建立新課程
 *******************
 
-#. Log in to Studio.
-#. Click **New Course**.
-#. Enter course information as needed and click **Create**.
+#. 登入Studio
+#. 點選 **新課程**.
+#. 輸入課程名稱、授課學校等課程資訊後點選 **建立**.
 
   .. image:: Images/new_course_info.png
      :width: 800
 
-  .. note::  Enter new course information carefully. This information becomes part of the URL for your course. To change the URL after the course is created, you must contact edX through the Help site (http://help.edge.edx.org). Additionally, because this information becomes part of your course URL, the total number of characters in the following three fields must be 65 or fewer.
+  .. note::  您所輸入的課程資訊字數限制為65字元以下，在此輸入的文字將成為URL網址的一部分，儲存前請務必仔細確認。課程建立後，若需修改URL網址，必須向edX聯繫尋求協助(網址：http://help.edge.edx.org)
 
-  * For **Course Name**, enter the title of your course. For example, the name may be “Sets, Maps and Symmetry Groups". Use title capitalization for the course title.
+  *  **課程名稱**：在此輸入課程的標題，其首字母須為大寫。
 
-  * For **Organization**, enter the name of your university. Do not include whitespace or special characters.
+  *  **組織**：輸入所屬單位名稱，請勿輸入空格及特殊符號。
+  
+  *  **課程編號**：輸入主題縮寫與號碼，例如公共衛生207課程，在此欄位以PH207表示。數學101x課程，輸入Math101x，請勿輸入空格及特殊符號。
 
-  * For **Course Number**, enter both a subject abbreviation and a number. For example, for public health course number 207, enter **PH207**. For math course 101x, enter **Math101x**. Do not include whitespace or special characters in the course number.
+    *備註: 若您的課程開放給全球學生選修，請確認課程標號中加註“x”；僅供所屬單位學生選修時，則不加註“x”。* 
 
-    *Note: If your course will be open to the world, be sure to include the "x". If it is exclusively an on-campus offering, do not include the "x".* 
-
-4. Click **Save.**
+4. 點選 **儲存**
 
 You then see the empty Course Outline.
 
 .. _Edit Your Course:
 
 ************************
-Edit Your Course
+編輯課程
 ************************
-When you create a new course, the course opens in Studio automatically and you can begin editing.
+建立新課程時，Studio 會自動開啟編輯畫面，閒置過久時將自動登出。
 
-If you come back to Studio later, your courses are listed on the Studio login page. 
+點選課程名稱，開啟編輯畫面後，將進入課程大綱頁面，後續詳細說明建立新課程時的各項功能。
 
  .. image:: Images/open_course.png
   :width: 800
@@ -78,62 +78,52 @@ The rest of this page discusses other tasks you must do to set up your course.
 .. _Use the Course Checklist:
 
 ************************
-Use the Course Checklist
+使用工作檢查清單
 ************************
 
-You can use a Course Checklist within Studio to help you work through the tasks of building a course.
+您可利用工作檢查清單功能確認課程建置進度。
 
-Categories of tasks in the Course Checklist include:
+課程檢查清單項目包含：
 
-* Getting Started with Studio
-* Draft a Rough Course Outline
-* Explore edX's Support Tools
-* Draft Your Course About Page
+* 開始建置新課程
+* 初擬課程大綱
+* 發展 edX 支援工具
+* 初擬課程介紹資訊
 
-From the **Tools** menu, select **Checklists**.
+從課程清單點選工作 **檢查清單**。
 
  .. image:: Images/checklist.png
   :width: 800
  
 
-As shown above for the **Add Course Team Members** task, if you hover over a task, a button is displayed that takes you to the page to complete that task.
-
-You can expand and collapse sections of this page as needed.
-
-You can check tasks as you complete them. Studio saves your changes automatically. Other course staff can see your changes.
+如上圖所示，將滑鼠停留在 **新增課程團隊人員**功能時，畫面上就會顯示編輯功能按鈕，也可展開或摺疊工作檢查清單，勾選已完成的工作項目。Studio 將自動儲存更新的項目，課程團隊人員皆可進行檢視。
 
 .. _Add Course Team Members:
 
 ************************
-Add Course Team Members
+新增課程團隊人員
 ************************
 
-Course team members are users who help you build your course.
+課程團隊人員是指協助建置課程內容的相關人員，其中具備管理者功能的成員能夠新增、移除課程團隊人員名單，並將管理者功能授權給其他成員。 除了管理者功能以及授權功能之外，其他的團隊人員能夠使用編輯課程以及執行各項平台功能。
 
-Only a team member with Admin access can add or remove course team members, or grant Admin access to other team members. 
+.. note::  課程團隊人員能夠刪除其他成員建立的內容項目。
 
-Other course team members can edit the course and perform all tasks except adding and removing other new team members and granting Admin access.
+課程團隊人員必須註冊 Studio 帳號，並進行啟用。
 
-.. note::  Any course team member can delete content created by other team members.
+設定步驟如下：
 
-All course team members must be registered with Studio and have an active account. 
-
-To add a course team member:
-
-#. Ensure you have Admin access.
-#. Ensure that the new team member has registered with Studio.
-#. From the **Settings** menu, select **Course Team**.
-#. Click **Add a New Team Member**.
-#. Enter the new team member's email address, then click **ADD USER**.
+#. 確認您的帳號具備管理者功能
+#. 確認成員已註冊 Studio 帳號
+#. 在 **功能設定**表單中，選擇 **課程團隊**
+#. 點選 **新增團隊人員**
+#. 輸入成員的電子郵件信箱，然後點選 **新增成員**
 
 .. _Set Important Dates for Your Course:
 
 ***********************************
-Set Important Dates for Your Course
+設定重要時程
 ***********************************
-You must set dates and times for enrollment and for the course.
-
-From the **Settings** menu, select **Schedule and Details**.  
+在 **功能設定**表單中點選 **課程表和細節**。依照網頁上的項目逐一設定課程開課以及報名的起迄日期和時間。 
 
 .. image:: Images/schedule.png
 
@@ -141,248 +131,230 @@ Follow the on-screen text to enter the course and enrollment schedule.
 
 .. note::
 
-    The Time fields on this page reflect the current time zone in your browser, depending on your geography. Course start times for students are shown as UTC.
+網頁上所顯示的時間與您的瀏覽器所設定的時區相同，而學生看到的時間則是世界標準時間 UTC。
 
 .. _`Describe Your Course`:
 
 ************************
-Describe Your Course
+撰寫課程簡介
 ************************
 
-The description of your course appears on the Course Summary page that students see, and includes a course summary, prerequisites, staff information and FAQs.
+課程簡介包含摘要、先修課程、課程人員介紹以及常見問題，學生可於課程摘要網頁上瀏覽簡介內容。
 
-For courses on edX.org, the description is shown in the course catalog. 
+edX.org 平台上的課程簡介位於課程目錄，學生必須參加該門課程才能夠瀏覽簡介內容。
 
-On Edge, there is no course catalog and users will not find your course description. You must explicitly invite students to participate in your course for them to find the description.
-
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Introducing Your Course** section, then locate the **Course Overview** field.
+#. 在功能設定選單中點選 **課程表和細節**
+#. 下拉網頁至 **課程介紹**，在 **課程綜覽**欄位中撰寫課程簡介。
 
 .. image:: Images/course_overview.png
   :width: 800
 
-3. Overwrite the content as needed for your course, following the directions in the boilerplate text. Do not edit HTML tags. For a template that includes placeholders, see :doc:`appendices/a`.
+3. 依照黑色字體的內文說明編輯簡介內容，請勿更動 HTML 程式碼。包含欄位輸入提示的 HTML 程式碼範本，請參閱附件一 :doc:`appendices/a`.
 
    .. note:: There is no save button. Studio automatically saves your changes.
  
-4. Click **your course summary page** in the text beneath the field to test how the description will appear to students.
+4. 點選 **課程摘要頁面**，檢視學生瀏覽的課程簡介畫面。
 
 .. _`Add a Course Image`:
 
 ************************
-Add a Course Image
+新增課程圖片
 ************************
 
-The course image appears on the Course Summary page that students see.
+在此新增的課程圖片將上傳至課程摘要頁面，供學生瀏覽。
+圖片尺寸應大於 660 *240 畫素，檔案格式為 JPG、PNG
 
-The course image should be a minimum of 660 pixels in width by 240 pixels in height, and in .JPG or .PNG format.
-
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Course Image** section.
-#. To select an image from your computer, click **Upload Course Image**, then follow the prompts to find and upload your image.
-#. View your course summary page to test how the image will appear to students.
+#. 在 **功能設定**表單中點選 **課程表和細節** 
+#. 下拉網頁至 **課程圖片**
+#. 從本機電腦選擇圖片後，點選 **上傳課程圖片**，並依照網頁提示上傳圖片。
+#. 檢視課程摘要頁面，確認圖片上傳成功
 
 .. _`Add a Course Video`:
 
 ************************
-Add a Course Video
+新增課程影片
 ************************
-The course video appears on the Course Summary page that students see.
+學生可在課程摘要頁面上觀看影片。
 
 
-#. Upload the course video to YouTube. Make note of the code that appears between **watch?v =** and **&feature** in the URL. This code appears in the green box below.
+#. 將課程影片上傳至 YouTube，記下位於影片網址  “watch?v =”  和“&feature”之間的 ID 編碼，如下圖以綠色方框標示的部分。
 
   .. image:: Images/image127.png
     :width: 800
     
-2. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Course Introduction Video** section.
-#. In the field below the video box, enter the YouTube video ID. When you add the code, the video automatically loads in the video box. Studio automatically saves your changes.
-#. View your course summary page to test how the video will appear to students.
+2. 從 **功能設定表單**中選擇 **課程表和細節**
+#. 下拉網頁至 **課程介紹影片**
+#. 在影片框下方輸入 YouTube 影片的 ID 編碼，輸入完成後，Studio 自動儲存與更新您的影片
+#. 檢視課程摘要頁面，測試學生所看到的影片內容。
 
 .. _`Set Course Requirements`:
 
 ************************
-Set Course Requirements
+設定課程必要條件
 ************************
 The estimated Effort per Week appears on the Course Summary page that students see.
 
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Requirments** section.
-#. In the **Hours of Effort per Week** field, enter the number of hours you expect students to work on this course each week.
-#. View your course summary page to test how the video will appear to students.
+#. 從 **功能設定**表單選擇 **課程表和細節**
+#. 下拉網頁至 **必要條件**
+#. 在 **每週學習時數**欄位，輸入學生於每週課程所需投入的學習時數
+#. 檢視課程摘要頁面，測試學生所看到的影片內容。
 
 .. _`Add Files to a Course`:
 
 **********************
-Add Files to a Course
+新增課程檔案
 **********************
 
-You can add files that you want students to access in the course. After you add a file,
-you must link to it from a course component, update, or in the course handouts. A file 
-is only visible to students if you create a link to it.
+新增課程檔案時，必須從課程項目、更新或講課題綱中增加檔案連結。在建立檔案連結之前，學生無法瀏覽該課程檔案。
  
-.. note:: Because the file name becomes part of the URL, students can see the name of the file when they open it. Avoid using file names such as AnswerKey.pdf.
+.. note:: 檔案名稱會成為 URL網址的一部分，當學生開啟檔案時，即可看到檔案名稱，因此避免將檔案名稱設為 AnswerKey.pdf 等文字。
   
-.. warning:: If you upload a file with the same name as an existing course file, the original file is overwritten without warning.
+.. warning:: 上傳新檔案時，若檔案名稱和現有的檔案名稱相同時，現有檔案將被新檔案覆蓋取代。
 
-To add a file:
+設定步驟如下：
  
-#. From the **Content** menu, select **Files & Uploads**.
-#. Click **Upload New File**.
-#. In the **Upload New File** dialog box, click **Choose File**.
-#. In the **Open** dialog box, locate the file that you want, and then click **Open**.
-#. To add another file, click **Load Another File**. 
-#. To close the dialog box, click the **x** in the top right corner. 
+#. 在 **內容表單**中選擇 **檔案與上傳**
+#. 點選 **上傳新檔案**
+#. 在 **上傳新檔案**對話框中點選 **選擇檔案**
+#. 在 **開啟**對話框中選擇要上傳的檔案後，點選 **開啟**
+#. 欲新增其他檔案時，點選 **上傳其他檔案**
+#. 點選右上角的 **x** 關閉對話框
 
-When you close the dialog box, the new files appear on the **Files & Uploads** page.
+當您關閉對話框後，新增課程檔案將顯示於 **檔案與上傳**頁面
 
 ==================
-Find Files
+尋找檔案
 ==================
-Files are sorted by the Date Added column, with the most recently added first.  
+檔案依照上傳時間排序，最近上傳的檔案至於最上方。
 
-The **Files & Uploads** page lists up to 50 files.  If your course has more the 50 files, additional files are listed in other pages.
+在 **檔案與上傳**頁面中最多列出 50 個檔案項目，檔案數量超過 50 個時，將顯示
+於下一頁，檔案總數會標示於網頁上方。
 
-The range of the files listed on the page, and the total number of files, are shown at the top of the page.
+您可透過下列兩種方式尋找檔案：
 
-You can navigate through the pages listing files in two ways:
+* 使用網頁上的<>按鈕至上一頁和下一頁的網頁。
 
-* Use the **<** and **>** buttons at the top and bottom of the list to navigate to the previous and next pages.
-
-* At the bottom of the page, enter the page number to skip to, then tab out of the field:
+* 在網頁最下方，輸入頁碼即可前往對應編號的網頁。
 
   
   .. image:: Images/file_pagination.png
 
   
 ==================
-Get the File URL
+取得檔案連結網址
 ==================
-To link to the file from a course component, update, or the course handout list, you must get the file URL.
-
-In the **Files & Uploads** page, locate the file. The **URL** column shows the value to use in links.
-
-You can double click a value in the **URL** column to select the value, then copy it.
+從課程項目、更新或講課題綱中增加檔案連結至檔案時，必須取得 URL 網址。
+在 **檔案與上傳**頁面，確認檔案的位置，URL 網址欄位中即顯示連結數值，在該欄位上連續點擊兩下選擇網址後，再進行複製。
  
 ==================
-Lock a file
+鎖定檔案
 ==================
-By default, anyone can access a file you upload if they know the URL, even people not enrolled in your class.
-
-To ensure that those not in your class cannot view the file, click the lock icon.
+系統將已上傳的檔案設定為，無論是否註冊該門課程，只要擁有檔案網址的使用者皆可存取。點選鎖定圖示，即可將檔案設定為限該門課程人員和學生才可存取的權限。
  
 ==================
-Delete a file
+刪除檔案
 ==================
-To delete a file, click the **x** icon next to the file.  You are prompted to confirm the deletion.
+點選檔案旁的 **x** 圖示即可刪除檔案，同時畫面上會有提示說明，確認執行刪除
+檔案
 
-.. warning:: If you have links to a file you delete, those links will be broken. Ensure you change those links before deleting the file.
+.. warning:: 檔案刪除後，網址連結便失效。刪除檔案前，請先確認您已修改連結網址。
  
 .. _`Add Static Pages`:
 
 ****************
-Add Static Pages
+新增靜態網頁
 ****************
-You can add static pages to your course. Each static page appears in your courses navigation bar. 
-For example, the following navigation bar includes a
-**Syllabus** and **Projects** static pages.
+靜態網頁將顯示於課程導覽列，例如下圖導覽列的 **教學大綱*和 **計畫**的靜態網頁。您可以在課程中新增教學大綱、成績規則、講課題綱等靜態網頁。
 
 .. image:: Images/image157.png
 
 You can use static pages for a syllabus, grading policy, course handouts, or any other purpose.
 
-.. note:: The Course Info, Discussion, Wiki, and Progress pages are displayed to students by default. You cannot delete these pages.   
+.. note:: 系統已預設並公開課程資訊、討論、維基百科、學習進度網頁供學生瀏覽，請勿刪除上述網頁。
 
-To create a static page:
+設定步驟如下：
 
-#. From the **Content** menu, select **Static Pages**.
-#. Click **New Page**. The following screen opens:
+#. 在 **內容**表單中選擇 **靜態網頁**
+#. 點選 **新增頁面**後，呈現網頁如下圖：
 
   .. image:: Images/image161.png
    :width: 800
 
-3. Click **Edit**. 
+3. 點選 **編輯** 
 
-#. Enter text for your page. You can switch to HTML mode if needed.
-#. To edit the Display Name, click **Settings**.
-#. Click **Save**.
+#. 在此輸入文字，可將編輯畫面切換為 HTML 模式
+#. 點選 **設定**編輯網頁名稱
+#. 點選 **儲存**
 
-To delete a static page, click **Delete** in the row for the page.  Confirm the deletion.
+若要刪除靜態網頁，請點選網頁列的 **刪除**。
 
 
 ==================
-Add a Calendar
+新增行事曆
 ==================
-You can also use a static page to show a course calendar.
-
-You can embed a Google calendar. Paste the embed code for the calendar in the static page. 
-
-You can also create a dynamic HTML calendar. See :ref:`Appendix B`. 
+您可使用靜態網頁呈現課程行事曆，將 Google 行事曆嵌入碼輸入至靜態網頁，建立 Google 行事曆，也可以建立動態 HTML 行事曆，請參閱附件二 :ref:`Appendix B`. 
 
 .. _`Add a Course Update`:
 
 **********************
-Add a Course Update
+新增課程更新通知
 **********************
 
-You add updates to notify students of exams, changes in the course schedule, or anything else of a more urgent nature.
+新增課程更新通知，以提醒學生有關測驗、課程表或任何緊急事件。
 
-Students see course updates in **Course Info** tab when they log in to the course:
+學生登入後，可從 **課程資訊**網頁上查看更新內容。
 
 .. image:: Images/course_info.png
  :width: 800
 
-To add a course update:
+設定步驟如下：
 
-#. From the **Content** menu, select **Updates**. 
-#. Click **New Update**.
-#. Enter your update as as HTML.
+#. 在 **內容**表單選擇 **更新**
+#. 點選 **新增更新**
+#. 以 HTML 輸入更新內容
 
-  .. note::  You must enter the update in HTML. For a template that includes placeholders, see :ref:`Appendix A`.
+  .. note::  您必須以 HTML 輸入更新內容，包含欄位輸入提示的 HTML 程式碼範本，請參閱附件一 :ref:`Appendix A`.
 
-4. Click **Save**.
+4. 點選 **儲存**
 
 .. _`Add Course Handouts`:
 
 **********************
-Add Course Handouts
+新增講課題綱
 **********************
-You can add course handouts that are visible to students on the **Course Info** page.
+學生可在 **課程資訊**網頁瀏覽講課題綱。
 
 .. note::  You must :ref:`Add Files to a Course` before you can add them as course handouts.
 
-#. From the **Content** menu, select **Updates**. 
-#. In the **Course Handouts** page, click **Edit**.
+設定步驟如下：
+#. 在 **內容**表單選擇 **更新**
+#. 在 **講課題綱**頁面點選 **編輯**
 #. Edit the HTML to add links to the files you uploaded. See :ref:`Add a Link in an HTML Component` for more information.
-#. Click **Save**.
+#. 點選 **儲存**
 
 .. _`Add Textbooks`:
 
 ****************
-Add Textbooks
+新增教科書
 ****************
-You can add textbooks for your course as PDF files.  
-
-Each textbook that you add is displayed to students as a tab in the course navigation bar.
-
-It's recommended that you upload a separate PDF file for each chapter of your textbook.
-
-When students open the textbook tab in the course, they can navigate the textbook by chapter:
+您可在課程中以 PDF 檔案格式新增教科書。每一份教科書檔案顯示於課程導覽
+列供學生瀏覽。
+建議您，分開上傳各章節的教科書檔案。當學生開啟教科書網頁時，可依照章
+節順序瀏覽教科書。
 
 .. image:: Images/textbook_chapters.png
  :width: 800
 
-To add a textbook:
+設定步驟如下：
 
-#. From the **Content** menu, select **Textbooks**.
-#. Click **New Textbook**. The following screen opens:
+#. 在 **內容**表單選擇 **教科書**
+#. 選擇新增 **教科書**，呈現網頁如下圖：
 
   .. image:: Images/textbook_new.png
    :width: 800
 
-3. Enter the **Textbook Name**.
-#. Enter the first **Chapter Name**.
-#. To upload a PDF file from your computer, click **Upload PDF**.  Follow the prompts to upload your file.
-#. To add addition chapters, click **+Add a Chapter** and repeat steps 3 and 4.
-#. Click **Save**.
+3. 輸入 **教科書**名稱
+#. 輸入 **章節名稱**
+#. 點選 **上傳 PDF**，從您的電腦選擇檔案進行上傳。
+#. 點選 **新增章節**後，重複步驟 3 和 4，可增加新的章節。
+#. 點選 **儲存**

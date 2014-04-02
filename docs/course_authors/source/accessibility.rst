@@ -1,24 +1,29 @@
 .. _Guidelines for Creating Accessible Content:
 
 ###################################################
-Guidelines for Creating Accessible Content
+建立無障礙教學內容之指導方針
 ###################################################
 
  
-EdX strives to create an innovative, online-learning platform that promotes accessibility for everyone, including learners with disabilities. 
-We intend for these guidelines to help the course teams understand the importance of considering accessibility when designing courses and provide guidance so that they can serve the widest possible audience. 
-*Accessibility* in online instruction refers to the degree to which information and activities are available to all students equally, regardless of physical or other disabilities.
-
-Our guidance is based on international standards and principles for web accessibility (W3C WCAG 2.0) and universal design (usable by all, to the greatest extent possible, without the need for adaptation or specialized design). 
-Instructors who build courses based on these principles promote the opportunity to create an inclusive experience that considers the diverse set of learning styles and needs of all learners—including learners with disabilities, learners who speak English as a second language, learners with technical issues such as low bandwidth internet or no access to audio, and learners with age-related capability issues. For purposes of these guidelines, we have assumed that end users will be equipped with the appropriate adaptive technology and compatible software.
-
-Occasionally, unanticipated accessibility barriers will arise. 
-To supplement the accessibility you can achieve within the edX platform, we recommend that you engage the resources available at your institution to support learners with disabilities. 
-Most institutions offer disability support services and information technology resources that provide accessibility advice and support. These professionals are trained in making disability accommodation decisions and can advise you on what accommodations may be appropriate in light of the goals of the course and the inherent instructional methodologies employed.
-
-As technology and accessibility improvements are constantly emerging, we plan to update these guidelines periodically. 
-
-See the following sections for more information:
+EdX 致力於建立一個可推廣至一般大眾且具創新、線上學習機制之平台，服務
+對象包含了身心障礙學習者。我們希望藉由這些指引來幫助課程設計團隊了解到
+在設計課程時應考量無障礙之重要性，並且提供指導，如此才能服務最為廣泛的
+學習族群。 線上無障礙教學意指不論是否具有身體或殘疾上的差異，資訊與活動
+訊息均能使所有學生獲得的程度。
+此指導方針乃根據無障礙網頁之國際標準與準則(W3C WCAG 2.0)以及全方位
+設計(在不需要適應或專業設計之下，竭盡所能地使所有人均可使用)。根據這些
+準則建立課程之教師能夠藉此機會創造一個能夠考量學習者不同學習方式及需
+求且具包容性之學習經驗，其中包含了身心障礙學習者、第二語言為英語之學習
+者、在硬體技術上有所困難之學習者，例如僅具低頻寬網路或無法聽取音訊檔、
+以及與年齡相關的學習能力問題。為使這些指導方針達成目的，我們假定使用者
+具備適當的技術以及相容的軟體。
+資訊取用上的難以預料的困難偶爾會發生，因此可藉由 EdX 平台以加強資料的
+無障礙性，我們推薦您可在貴單位中使用此資源來幫助身心障礙學習者。多數機
+構均具有身心障礙支援服務及資訊技術資源以提供資訊取用上之相關意見與幫
+助。相關專業人士在身心障礙人士的協調與適應上所做的決策均受過專業訓練，
+其能在考量到個人課程學習目標以及順應之教學方法時建議適當的學習內容。
+當技術及無障礙上的改進逐步展現時，我們計劃定期更新以下指導方針。
+請看以下更多訊息：
 
 * :ref:`Supporting Learners with Diverse Needs`
 * :ref:`Accessibility Best Practices`
@@ -28,45 +33,53 @@ See the following sections for more information:
 .. _Supporting Learners with Diverse Needs:
 
 ************************************************************
-Supporting Learners with Diverse Needs
+支援多樣需求的學習者
 ************************************************************
 
-Almost one-fifth of the world's population has some kind of disability. 
-Online courses can reduce many barriers to education for these learners by providing access to courses from any location, at any time, and through the use of assistive technologies.
+全球幾乎五分之一的人口具有某種殘疾。線上課程能夠在任何地點、時間藉由輔
+助技術的使用提供課程以降低學習上的障礙。 
 
-EdX is dedicated to creating a platform that is not only itself accessible, but also enables course creators to create accessible content. 
-If you encounter platform issues that you believe may affect your ability to provide accessible course content, please contact us at accessibility@edx.org. 
-We also welcome your comments and questions.
+EdX 致力於創造一個不只是能夠取用的平台，而是更能使課程建立者創造可理
+解的內容。如果你在平台建立上遭遇到的問題是可能影響提供線上無障礙課程內
+容的能力，請寫信到 accessibility@edx.org 聯絡我們。我們也歡迎您的意見與
+提問。
+以下我們列出了在建立及傳播課程內容的準則，其能使學生使用內建的無障礙輔
+助功能(例如放大鏡及縮放功能)，輔助技術以及不同格式的選擇。這些準則考量
+了以下這些學習者的特性：
 
-In the following sections, we outline guidelines for creating and delivering course content that allows students to use built-in accessibility functionality (such as magnification and zoom features), assistive technologies, and alternative formats. 
-These practices consider learners such as the following:
+* 全盲學習者使用螢幕報讀器來大聲閱讀文字或藉由點字顯示器來閱讀點字
+形式的文字。
 
-* Blind learners who use a screen reader, which reads page text aloud, or a Braille display device, which renders page text in Braille.
+* 低視能學習者使用螢幕放大軟體來使字體以及其他螢幕上的內容放大。
 
-* Low-vision learners who use screen magnification software to enlarge text and other onscreen content.
+* 視障學習者，例如在低光照條件下難以看清之症狀，會調整瀏覽器或操作系
+統來改變背景顏色及字形好方便閱讀。
 
-* Learners with vision impairments, such as difficulty seeing in low-light conditions, who modify their browser or operating system to change background colors and text settings to make text easier to read.
+* 有學習障礙之學習者，例如讀寫障礙，會使用文字轉語音的技術得以大聲閱
+讀文字內容。
+ 
 
-* Learners with learning disabilities, such as dyslexia, who use text-to-speech technology that reads page content aloud.
+* 肢體障礙學習者使用開關裝置、語音辨識軟體、眼動技術，而非傳統的滑鼠
+或鍵盤來控制電腦。
 
-* Physically disabled learners who use switching devices, voice recognition software, or eye-gaze activated technology instead of a standard mouse or keyboard to control their computer.
+* 學習者藉由調整操作系統設定使滑鼠及鍵盤更容易使用。
 
-* Learners who modify their operating system settings to make the mouse or keyboard easier to use.
+* 無法取用音訊內容的聽障學習者需要其他替代格式，例如標題或文字稿來獲
+得相同之訊息。
 
-* Learners with hearing impairments who cannot access audio content and need the equivalent information in an alternative format, such as captions or a transcript.
-
-We highly recommend that you implement the best practices shared with you in this document and other widely available resources (some of which are referred to herein). 
-As mentioned above, if you cannot easily address these barriers, we recommend that you consult with any disability-related resources at your institution 
-(Disability Services, Assistive Technology, or Accessibility). 
-While your ability to support students in the MOOC context may be different from supporting on-campus students, 
-we encourage you to develop a plan to respond to students who inform you of accessibility barriers to learning. 
-However, given the large numbers of learners enrolling in many of the courses, you will quickly see how important it is to address accessibility concerns when creating a course.
+我們極力推薦並與您分享此份文件中之最佳作業流程以及其他普遍可用之資源
+(其中部分在此文件中談及)。如同上述，如果您無法闡明許多困難之處，建議您
+向貴單位洽詢身心障礙相關服務資源(身心障礙服務、輔助技術或無障礙)。有別
+於以往在校園內為學生所提供的支援，在提供大規模網路免費公開課程中之學生
+相關學習服務時，當有學生向您反應無障礙學習上的困難時，建議您擬訂相關回
+覆的機制。然而，在有大量註冊學生的情況之下，建立課程時所應考量無障礙之
+重要性則顯而易見。
 
 
 .. _Accessibility Best Practices:
 
 ************************************************************
-Accessibility Best Practices
+無障礙之典範實務
 ************************************************************
 
 * :ref:`Best Practices for Universal Design for Learning`
@@ -81,284 +94,302 @@ Accessibility Best Practices
 .. _Best Practices for Universal Design for Learning:
 
 ====================================================
-Best Practices for Universal Design for Learning
+全方位學習設計之最佳作業流程
 ====================================================
 
-Universal Design for Learning focuses on delivering courses in a format so that as many of your learners as possible can 
-successfully interact with the learning resources and activities you provide them, without compromising on pedagogic rigor and quality.
+全方位學習設計聚焦於單一課程格式的教授，因此多數學習者能夠成功地與您所
+提供的學習資源及學習活動內容進行互動，而不需要就僵化的教學方式與品質上
+有所妥協。
 
-The principles of Universal Design for Learning can be summarized as:
+全方位學習設計之準則摘要如下：
 
-#. Present information and content in different ways.
-#. Differentiate the ways that students can express what they know.
-#. Stimulate interest and motivation for learning.
+#. 以不同方式呈現資訊與內容。
+#. 區別學生就所知進行表達的方式。
+#. 刺激學習的興趣與動機。
 
-Instructors can apply these principles in course design by:
+教師能夠根據以下準則進行課程設計：
 
-* Designing resources and activities that can be accessed by learners in different ways 
-  (for example, providing text that allows a student to enlarge it or change color, a diagram with an equivalent text description, or a video with audio and text captions).
+* 設計能夠使學習者以不同方式取用的資源與活動(例如提供能夠讓學生進行
+放大或改變顏色的字體、與文字描述相符的圖示、具聲音檔及文字標題的影
+片)。
 
-* Providing multiple ways for learners to engage with information and demonstrate their knowledge. 
-  This is particularly important when developing exercises and assessments.
+* 提供多重方式讓學習者能接觸資訊及表達既有知識內涵，而這在發展練習題
+及教學評量時特別重要。
   
-* Identifying activities that require specific sensory or physical capability, such as activities that require color identification, 
-  for which accommodating the specific accessibility needs of students will be difficult or impossible. 
-  In these cases, consider whether there is a pedagogical justification for these requirements. 
-  If there is a justification, consider communicating these requirements to prospective students in the course description and establish a 
-  plan for responding to students who encounter barriers that can be addressed without fundamental alteration. 
-  If there is no justification for the requirements, we recommend that you modify the learning activities to be more flexible and broadly accessible.
+* 辨識出需要特定感應器或肢體活動能力的學習內容，例如需要辨識顏色的學
+習活動，其對於學生在無障礙學習上有特定需求來說，在適應上則格外困難
+或甚至無法適應。在這些狀況下則要衡量是否就這些需求上作教學上的調
+整，如需調整，則在課程內容上與即將修課的學生先進行溝通，且就學生在
+學習上遭遇困難情況下設定可能的回覆機制，如此便能在無須作全面性調整
+之下解決問題。如果無法針對需求進行教學上的調整，建議您修正活動內
+容，使其更具彈性且更能廣為取用。
   
-**Resources**
+**相關資源**
 
-* Delivering Accessible Digital Learning (JISC Techdis) provides a useful overview of an inclusive approach to course design: 
+* 「無障礙數位學習內容傳遞」(JISC Techdis)在課程設計方法上提供一個有
+用的概述：
   http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent
 
-* The National Center on Universal Design for Learning provides a helpful overview on Universal Design for Learning: 
+* 國家全方位學習設計中心在全方位學習設計上提供一個有用的概述：
   http://www.udlcenter.org/implementation/postsecondary
 
 
 .. _Best Practices for Readability:
 
 ====================================================
-Best Practices for Readability
+可讀性之最佳作業流程
 ====================================================
 
-EdX courses have a global and diverse audience. 
-Learners will be better positioned to access the concepts of your content if it is written in clear, straightforward language and the content is well structured. 
-Use appropriate terminology to your subject area, but keep it as clear and unambiguous as possible to help learners who:
+EdX 擁有廣大及多樣的學習族群。如果學習內容在文字撰寫上言簡意賅且內容
+上結構完整，則學習者能夠藉由此平台瞭解教學內容。使用在主題領域中適當的
+辭彙，但在字義上盡量清楚且不含糊，如此才能幫助以下學習者：
 
-* Are not native English speakers; or
-* Have a disability that affects reading, such as dyslexia or a visual impairment.
+* 母語非英文的學習者；或
+* 天生具有影響閱讀的缺陷，如讀寫障礙或視覺障礙。
 
-To produce content that is more readable by all students:
+為所有學生製作較易於閱讀的教學內容：
 
-* Make the names of elements such as course sections, subsections, units, components, and discussion topics descriptive 
-  and easy to skim by putting the important information first in the name. 
-  These names are used in navigation menus, page headings, and section headings and are signposts that help learners navigate your course and read course content. 
-  “Front-loading” menus and headings particularly helps screen reader users, who can more quickly assess the relevance of a link or heading.
+* 將課程中的各項元素，例如課程章節、小節、單元、組成要件以及討論主題
+加以命名並予以敘述，並藉由將重要訊息置於名稱中使其容易瀏覽。這些名
+稱被用於選單中的導航、頁面標題以及段落標題，因此對學習者來說便是能
+夠在課程中導航以及閱讀課程內容的指示牌。前置的選單及標題特別能幫助
+閱讀報讀器使用者能夠快速地評估連結或標題的相關性。
 
 * When creating written learning resources, break text into sections by using HTML elements, such as headings, paragraphs, and lists. 
   Long blocks of unbroken text are a barrier to most readers. Segmented content is more inviting and is easier to navigate and search. 
   See :ref:`Best Practices for HTML Markup` for guidance on creating accessible HTML.
 
-* Avoid jargon. If unfamiliar words or phrases are relevant to the subject, explain them when they are first used, and include a glossary with your course materials. 
-  When using an abbreviation or acronym, write out the phrase the first time it appears: for example, “National Aeronautics and Space Administration (NASA).”
+* 避免專業術語。如果不常見的詞彙與主題相關時，不常見詞彙在第一次出現
+時予以解釋，並在課程教材中附上詞彙表。當用到簡稱或縮寫時，在第一次
+出現時寫出完整詞彙，舉例來說：「美國國家航空暨太空總署(NASA)」 。
 
-* Use link text that clearly explains the link destination (for example, “Review the Course Syllabus”). 
-  Avoid using constructs like “You can review the Course Syllabus here.” For links that point to documents rather than web pages, 
-  include the document type in the link (e.g., “Course Syllabus (PDF)”).
+* 使用純文字鏈結來清楚解釋所連結的位置(例如「檢視課程大綱」)。避免編
+製成「你能在此檢視課程大綱」。若是連結到文件而非網頁，在超連結處加
+上文件類型(例如「課程大綱(PDF)」。
 
-**Resources**
+**相關資源**
 
-* The Center for Plain Language provides detailed resources on writing clearly and concisely, in language appropriate for your content and target audience: 
+* 簡明語言中心針對如何根據內容及目標學習者以適當語言清楚且準確地進
+行撰寫提供詳細的資源。
   http://centerforplainlanguage.org/about-plain-language/checklist/
 
 .. _Best Practices for Accessible PDFs:
 
 ====================================================
-Best Practices for Accessible PDFs
+建立無障礙 PDFs 之最佳作業流程
 ====================================================
 
-PDF is a common format for course materials, including textbooks supplied by publishers. 
-However, converting materials to PDFs can create accessibility barriers, particularly for learners with visual impairments. 
-To improve the accessibility of your PDFs, review the guidance below about preparing documents for conversion, using Adobe Acrobat Professional, 
-and working with third-party suppliers.
+PDF 是課程教材中常見使用的格式，包含由出版社出版的教科書。然而，將教
+材轉檔成 PDFs 格式會產生使用上的障礙，特別是對視障學習者。為了增進 PDFs
+5
+的取用，您可以閱讀以下指南瞭解如何作文件轉檔，以及使用 Adobe Acrobat
+專業版並與第三方供應者合作。
 
 +++++++++++++++++++++++++++++++++++++++++++++
-Converting Microsoft Office documents to PDF
+將微軟文書軟體文件轉檔成 PDF 檔
 +++++++++++++++++++++++++++++++++++++++++++++
-The teaching materials that you will convert to PDFs may use different formats—for example, your syllabus may be in Word, 
-your presentation slides in PowerPoint, and your textbooks in publisher-supplied PDF. 
-Use the tools available in the applicable software to create well-structured source documents. 
-This early step helps minimize issues that may be difficult or impossible to address later in the conversion process.
+要將教學教材轉檔成 PDFs 檔會使用不同格式，例如課程大綱是 Word 檔，簡報
+檔是 PowerPoint，而教科書則是由出版商供應的 PDF 檔。使用可應用的軟體工
+具來建立結構完整的文件資料來源。及早處理能夠降低在轉檔過程中難以解決或
+無法轉檔的問題。
 
-**Preparing Word documents**
+**準備Word文件**
 
-* Keep formatting simple. Use headings, paragraphs, lists, images, and captions, and tables for tabular data. 
-  Don’t add unnecessary indents, rules, columns, blank lines, and typographic variation. The simpler the formatting, the easier it will be to make an accessible PDF document.
+* 簡化格式。使用標題、段落、清單、圖像、說明文字、表格。勿增加不必要
+的縮排、規則、欄位、空行以及排字上的不同。格式越簡單越容易製作無障
+礙的 PDF 文件。
 
 * Use styles for formatting your text, such as Normal, Heading 1, and Heading 2, rather than manually formatting text using bold and indents. 
   Add alternative text to images (see :ref:`Best Practices for Describing Images`) using Word’s picture formatting options.
 
-**Preparing PowerPoint documents**
+準備PowerPoint文件
 
-* To help make your content accessible and comprehensible to learners who use screen reading software, start in Outline view and include all of your content as text. 
-  Add design elements and images after completing the outline, and use PowerPoint’s picture formatting options to include detailed descriptions of images that convey information. Avoid adding animations or transitions, as they will not be saved with the PDF format.
+* 為使文件更容易讓使用螢幕閱讀軟體的學習者取用及瞭解，首先使用大綱模
+式並將內容文件填入，在完成大綱之後加入美工圖案，並且在圖案格式中作
+細項的設定以傳達圖片要表達的訊息。避免使用動畫或過場，因為這些無法
+存在 PDF 格式中。
 
-* Use the Home > Drawing > Arrange > Selection Pane option to view the reading order of objects on each slide. If the reading order is not logical, reorder the objects.
+* 到「常見」＞「繪圖」＞「排列」＞「  選取窗格」選項中來檢視每張投影
+片中物件閱讀上的順序，如果閱讀上的順序不合乎邏輯，則重新排列物件。
+ 
+* 到「常見」＞「投影片」＞「重設」選項中給每張獨特且能提供訊息的標題，
+也能夠影藏標題。
 
-* Use the Home > Slides > Reset option to give each slide a unique and informative title. The title can be hidden if preferred.
+* 藉由 PowerPoint 中的表格樣式選項(「表格」＞「表格選項」＞「標題列」
+辨識表格中欄位標題，並確認每個標題中的文字均能陳述表格中的資料。
 
-* Identify column headers for any data table using PowerPoint’s table formatting options (Tables > Table Options > Header Row), 
-  and ensure that each header contains informative text describing the data in that column.
+**準備Excel活頁夾**
 
-**Preparing Excel spreadsheets**
-
-* Use a unique and informative title for each worksheet tab.
+* 每個活頁夾加上獨特且能提供訊息的標題。
 
 * Include text alternatives for images (see :ref:`Best Practices for Describing Images`) using Excel’s picture formatting options.
 
-* Identify column headers using Excel’s table formatting options (Table > Table Options > Header Row), and include in each header cell informative text describing the data in that column.
+* 藉由 Excel 中的表格樣式選項(「表格」＞「表格選項」＞「標題列」辨識
+表格中欄位標題，在每個標題儲存格中加上能夠敘述欄位資料的文字。 
 
-* Do not use blank cells for formatting.
+* 勿在空白儲存格中設定格式。
 
-* Use descriptive link text rather than URLs in data cells.
+* 使用敘述性的純文字鏈結，而不要在儲存格中放入 URLs。
 
-**Converting Word, PowerPoint, and Excel documents to PDF**
+**轉換Word, PowerPoint以及Excel文件成為PDF檔**
 
-To generate PDFs from Microsoft Office documents, use the **Save as PDF** option. 
-Make sure the **Document Structure Tags for Accessibility** option is selected (consult your software documentation for more details). 
-Note that PDFs generated from Windows versions of Office will be more accessible than those generated from Mac OS.
-
-+++++++++++++++++++++++++++++++++++++++++++++
-Working with third-party supplied PDFs
-+++++++++++++++++++++++++++++++++++++++++++++
-
-When you control the creation of a PDF, you have greater control over the document’s accessibility. 
-If you use PDFs provided by third parties, including textbooks supplied by publishers, the document’s accessibility may be unknown.
-
-**Asking the right questions about accessible PDFs**
-
-Where possible, ask the supplier of the PDF if the PDF is accessible. If it isn’t, ask whether the supplier can provide an accessible version. Questions to ask include:
-
-* Can screen readers read the document text?
-* Do images in the document include text descriptions?
-* Are all tables, charts, and math provided in an accessible format?
-* Does all media include text equivalents?
-* Does the document have navigational aids, such as a table of contents, index, headings, and bookmarks?
+將微軟 Office 文件轉換成 PDFs 檔時，選擇另存新檔選項，確定「協助工具的文
+件結構標籤」項目已被勾選(細節請查看軟體文件)。要注意的是微軟版本的文書
+軟體另存成的 PDFs 會比從麥金塔操作軟體所轉檔的 PDFs 來得更容易取用。
 
 +++++++++++++++++++++++++++++++++++++++++++++
-Updating PDFs for accessibility
+與第三方供應者合作
 +++++++++++++++++++++++++++++++++++++++++++++
 
-You may need to update your existing teaching materials in PDF format to improve accessibility. This might include PDFs that were:
+當能夠有掌握地建置 PDFs 文件時，便更能夠控制文件的可及性。如果 PDFs
+文件是由第三方提供時，包含由出版商所建置的教科書，此種文件的可及性便無
+法確定。
 
-* Created by scanning a hard-copy document;
-* Generated from a document that was not created with accessibility in mind; or
-* Generated by a process that does not preserve source accessibility information.
+**有關無障礙 PDFs 所值得注意的問題**
 
-In such cases, you need special software, such as Adobe Acrobat Professional, to enhance the accessibility of the PDF. 
-PDFs that are created from scanned documents require a preliminary Optical Character Recognition (OCR) step to generate a text version of the document. 
-The procedure checks documents for accessibility barriers, adds properties and tags for document structure, sets the document’s language, and adds alternative text for images.
+若可以的話需詢問提供 PDF 的廠商是否為無障礙型式，若不是的話則需詢問是
+否能夠提供無障礙版本，相關詢問方式如下：
 
-**Resources**
+* 螢幕報讀器是否能夠閱讀文件中的文字?
+* 文件中的圖像是否有文字說明?
+* 所有提供的表格、圖表以及數學是否為無障礙格式?
+* 所有的媒體形式是否有相對應的文字版本?
+* 文件中是否有導航指引?  例如目次、索引、標題以及書籤?
 
-* Microsoft provides detailed guidance on generating accessible PDFs from Microsoft Office applications, including Word, Excel, and PowerPoint:
++++++++++++++++++++++++++++++++++++++++++++++
+更新無障礙版本的 PDFs 文件
++++++++++++++++++++++++++++++++++++++++++++++
+
+您需更新現有的 PDF 格式的教材以達到無障礙性，原有 PDF 格式有以下特點：
+
+* 由紙本文件掃描而成；
+* 原先不具有無障礙概念所製成的文件；
+* 在文件創造的過程中並無保存可取用資料來源的相關訊息。
+
+在上述情況下 ，您需要特別的軟體，如 Adobe Acrobat Professional 來加強 PDF
+檔的無障礙性。由紙本文件掃描而成的 PDF 檔初步需經過光學字元辨認以產生
+純文字版本的文件。 在過程中會檢查文件在達到無障礙上所遇到的困難，再就文
+件架構上增加屬性及標籤，並針對圖像部分添上相關說明文字。
+
+**相關資源**
+
+* 微軟就文書應用軟體，包含 Word, Excel 及 PowerPoint 轉為無障礙之 PDFs
+檔格式提供詳細的指引：
   http://office.microsoft.com/en-gb/word-help/create-accessible-pdfs-HA102478227.aspx
 
-* Adobe provides a detailed accessibility PDF repair workflow using Acrobat XI: 
+* Adobe 針對無障礙 PDF 檔提供藉由 AcrobatXI 進行修復之詳細工作流程：
   http://www.adobe.com/content/dam/Adobe/en/accessibility/products/acroba t/pdfs/acrobat-xi-pdf-accessibility-repair-workflow.pdf
 
-* Adobe Accessibility (Adobe) is a comprehensive collection of resources on PDF authoring and repair, using Adobe’s products: 
+* Adobe  無障礙資源中心(Adobe)提供 PDF 製作及修改上全面性的資源內
+容：
   http://www.adobe.com/accessibility.html
 
-* PDF Accessibility (University of Washington) provides a step-by-step guide to creating accessible PDFs from different sources and using different applications: 
+* 華盛頓大學藉由不同資源及應用程式在製作上無障礙性 PDFs 提供逐步式
+的指引：
   http://www.washington.edu/accessibility/pdf/
 
-* PDF Accessibility (WebAIM) provides a detailed and illustrated guide on creating accessible PDFs: 
+* WebAIM 在創造無障礙是 PDFs 上提供詳細且圖文並茂的指引：
   http://webaim.org/techniques/acrobat/
 
-* The National Center of Disability and Access to Education has a collection of one- page “cheat sheets” on accessible document authoring: 
+* 國家殘疾人士受教中心在建置無障礙文件上提供一頁式的備忘單：
   http://ncdae.org/resources/cheatsheets/
 
-* The Accessible Digital Office Document (ADOD) Project provides guidance on creating accessible Office documents: 
+* 無障礙數位公文管理系統計畫在創作無障礙辦公文件上提供指引：
   http://adod.idrc.ocad.ca/
 
 .. _Best Practices for Custom Content Types:
 
 ====================================================
-Best Practices for Custom Content Types
+自訂內容類型之最佳作業流程
 ====================================================
-Using different content types can significantly add to the learning experience. 
-We discuss below how to design several custom content types to be accessible to students with disabilities.
+使用不同內容類型能夠大大地增加學習經驗。以下將討論如何設計數種身心障礙
+學生能夠取用的內容類型。
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Information graphics (charts, diagrams, illustrations)
+圖解化(圖表、簡圖、插圖)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Although images can be helpful for communicating concepts and information, they present challenges for people with visual impairments. 
-For example, a chart that requires color perception or a diagram with tiny labels and annotations will likely be difficult to comprehend for learners with color blindness or low vision. 
-All images present a barrier to learners who are blind.
+雖然圖像能夠幫助傳達概念及資訊，然而對有視覺障礙的人來說則是項挑戰。舉
+例來說，圖表需要顏色的概念呈現或者簡圖中微小的標籤及註解對有色盲或低是
+能的學習者來說是難以理解的。所有的圖像對全盲者來說是種障礙。
+以下是將圖解化資訊使視障學生能夠取用的最佳方式： 
 
-The following are best practices for making information graphics accessible to visually impaired students:
-
-* Avoid using only color to distinguish important features of the image. For example, on a line graph, use a different symbol as well as color to distinguish the data elements.
-* Whenever possible, use an image format, such as SVG, that supports scaling. Consider providing a high-resolution version of complex graphics that have small but essential details.
-* Provide a text alternative that describes the information in the graphic. For charts and graphs, a text alternative could be a table displaying the same data. 
+* 避免使用顏色來分辨圖樣的重要性。例如使用不同圖樣及顏色來分辨現狀途
+中的資料元素。
+* 盡量使用 SVG 圖像格式，其具有縮放功能。在複雜圖像部分考慮提供高解
+析度版本，如此能辨識出細部重要的細節。
+* 提供能夠圖像裡資訊的替代文本。就統計圖及曲線圖來說，相關替代文本就
+是能夠呈現相同資料的表格。有關提供圖像替代文本細節資訊請見描述圖像
+之最佳作業流程。
   See :ref:`Best Practices for Describing Images` for details about providing text alternatives for images.
 
 +++++++++++++++++++++++++++++++++++++++++++
-Math content
+數學內容
 +++++++++++++++++++++++++++++++++++++++++++
 
-Math in online courses has been challenging to deliver in a way that is accessible to people with vision impairments. 
-Instructors frequently create images of equations rather than including text equations. 
-Math images cannot be modified by people who need a high-contrast display and cannot be read by screen reader software.
-EdX uses MathJax to render math content in a format that is clear, readable, and accessible to people who use screen readers. 
-MathJax works together with math notation, like LaTeX and MathML, to render mathematical equations as text instead of images. 
-We recommend that you use MathJax to display your math content. 
-You can learn more about using MathJax in the MathJax documentation on accessibility (see the link in “Resources” below). 
-We will update these guidelines as improvements to MathJax are developed.
+將線上數學課程傳遞給視障學生在某些方面來說是具挑戰性的。教師通常會製作
+方程式的圖像，而非包含純文字的方程式。數學圖像對需要高對比顯示螢幕的使
+用者來說無法做修改，且無法被螢幕報讀軟體加以辨識。EdX 藉由 MathJax 使
+數學內容變得清楚、可讀以及對需要螢幕報讀器的學習者來說能夠取用。
+MathJax 藉由數字符號，如 LaTex 及 MathML ，來使數學方程式成為純文字，而
+非圖像的呈現。我們建議您使用 MathJax 來呈現數學內容。從 MathJax 無障礙
+相關文件能夠了解更多 MathJax 的運用(請見下方相關資源的連結)。我們會在
+MathJax 有所改良時更新指引
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Simulations and interactive modules
+模擬互動模組
 ++++++++++++++++++++++++++++++++++++++++++++
 
-Simulations, including animated or gamified content, can enhance the learning experience. 
-In particular, they benefit learners who may have difficulty acquiring knowledge from reading and processing textual content alone. 
-However, simulations can also present some groups of learners with difficulties. 
-To minimize barriers, consider the intended learning outcome of the simulation. 
-Is it to reinforce understanding that can also come from textual content or a video lecture, or is it to convey new knowledge that other course resources can’t cover? 
-Providing alternative resources will help mitigate the impact of any barriers.
+模擬式教材，包含動畫形式及遊戲化內容，能夠加強學習體驗，特別是對僅能從
+閱讀和處理文本內容來學習知識的學習者來說。然而，模擬式教材對一些族群的
+學習者來說仍是項障礙。為了降低此障礙，需考量模擬式教材所帶來的學習成
+果。 是否能夠從文本內容或影片教學中加強瞭解，或者是能夠傳遞其他課程資源
+所無法傳遞的新知識?  如果替代資源能夠幫助減輕任何障礙所帶來的影響。
+雖然能夠藉由模擬設計來避免達到無障礙性上所帶來的困難，特別是由第三方者
+所提供的模擬式教材所產生的困難更會因為技術及教學上的原因難以處理。在瞭
+解這些障礙的原因後能夠幫助您為那些受到影響的學習者提供應變措施。請留意
+針對第三方者提供的模擬所產生的應變措施，在不涉及隱私權政策之下需先獲得
+供應商的同意。
+在製作模擬式教材時請留意以下問題，特別是當身為課程教師， 您在課程目標即
+產生的選擇上擁有很大的發揮空間。此外，如果模擬式教材當中的視覺化元素對
+於課程設計是相當重要的時候，須提供替代文字敘述以及在不實際或不可行的情
+況下要提供其他調和措施。
 
-Although you can design simulations to avoid many accessibility barriers, some barriers, particularly in simulations supplied by third parties, 
-may be difficult or impossible to address for technical or pedagogic reasons. 
-Understanding the nature of these barriers can help you provide workarounds for learners who are affected. 
-Keep in mind that attempted workarounds for simulations supplied by third parties may require the supplier’s consent if copyrighted material is involved.
-
-Consider the following questions when creating simulations, keeping in mind that as the course instructor, 
-you enjoy considerable freedom in selecting course objectives and outcomes. 
-Additionally, if the visual components of a simulation are so central to your course design, 
-providing alternate text description and other accommodations may not be practical or feasible:
-
-* Does the simulation require vision to understand? If so, provide text describing the concepts that the simulation conveys.
-* Is the mouse necessary to operate the simulation? If so, provide text describing the concepts that the simulation conveys.
-* Does the simulation include flashing or flickering content that could trigger seizures? If so and this content is critical to the nature of the simulation:
+* 模擬式教材需要藉由視覺加以瞭解嗎?  如果是的話，請提供文字敘述來描述
+模擬式教材中所傳遞的概念。 
+* 在操作模擬式教材時需要用到滑鼠嗎?  如果是的話，請提供文字敘述來描述
+模擬式教材中所傳遞的概念。
+* 模擬式教材內容中會有引起癲癇的閃爍光線嗎?  若有且這些內容在課程中
+是具關鍵性的話：
  
-  * do not require learners to use the simulation for a required assessment
-    activity; and
-  * provide a warning that the simulation contains flickering or flashing content.
+  * 在必要的評量活動中請不要讓學習者使用模擬式教材；
+  * 在必要的評量活動中請不要讓學習者使用模擬式教材；
 
-As best practices continue to emerge in this area, we will update these guidelines.
+當此部分有其他最佳適當作法時，我們會持續更新指引內容。
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Online exercises and assessments
+線上練習及評量
 ++++++++++++++++++++++++++++++++++++++++++++
 
-For activities and assessments, consider difficulties students may have in completing an activity and consider using multiple assessment options, 
-keeping in mind that some of the end users have disabilities. 
-Focus on activities that allow students to complete the activity and submit their work without difficulties.
+在教學活動及評量上，需考量學生正在完成一項教學活動以及考慮使用多重評量
+項目時所遇到的困難，請留意有些終端使用者是具有殘疾的。請專注於讓學生在
+完成學習及遞交作業時不會產生困難的教學活動。
+有些線上練習的問題類型對有視覺或行動障礙的學生來說是困難的，舉例來說：
 
-Some students take longer to read information and input responses, such as students with visual or mobility impairments and students who need time to comprehend the information. 
-If an exercise has a time limit, consider whether it’s long enough to allow students to respond. Advanced planning may help cut down on the number of students requesting 
-time extensions.
+* 需要眼手協調的線上練習，例如圖像對照或拖放練習會對有行動障礙的學生
+來說產生困難。請考慮其他不需精確動作技能的替代方案，除非這些技能對
+於課程的參與度來說是有效的。例如將原子對照到化合物的拖放練習可以設
+計複選框或選擇題。
 
-Some online exercise question types may be difficult for students who have vision or mobility impairments. For example:
-
-* Exercises requiring fine hand-eye coordination, such as image mapped input or drag and drop exercises, 
-  may present difficulties to students who have limited mobility. Consider alternatives that do not require fine motor skills, unless, of course, 
-  such skills are necessary for effective participation in the course. For example, for a drag-and-drop exercise mapping atoms to compounds, provide a
-  checkbox or multiple-choice exercise.
-
-* Highly visual stimuli, such as word clouds, may not be accessible to students
-  who have visual impairments. Provide a text alternative that conveys the same information, such as an ordered list of words in the word cloud.
+* 具高度視覺刺激的內容 ，例如文字雲對有視覺障礙的學生來說應無法觸及。
+可提供傳達相同訊息的替代文字，例如在文字雲中具有順序性的文字清單。
 
 ++++++++++++++++++++++++++++++++++++++++++++    
-Third-party content
+第三方內容
 ++++++++++++++++++++++++++++++++++++++++++++
 
-When including links to third-party content in your course, be mindful as to the accessibility of such third party resources, 
-which may not be readily accessible to learners with disabilities. We recommend that you test any links prior to sharing them with users.
+當在課程中加入第三方內容的連結時，請留意此種第三方資源的無障礙性可能仍
+無法讓身心障礙學習者取用。建議您在與其他使用者分享連結前先進行測試。
 
 You can use the eReader tool or :ref:`Add Files to a Course` to incorporate third-party textbooks and other 
 publications in PDF format into your course. You can also incorporate such materials into your course in HTML format. 
@@ -366,177 +397,205 @@ See :ref:`Best Practices for Accessible PDFs` for guidance on working with third
 for guidance on creating accessible HTML.
 
 
-**Resources**
+**相關資源**
 
-* Effective Practices for Description of Science Content within Digital Talking Books, from the National Center for Accessible Media, provides best practices for describing graphs, 
-  charts, diagrams, and illustrations: 
+* 國家無障礙媒體中心之「有效描述數位有聲讀物中的科學內容」提供描述數
+據圖、簡圖、圖表及插圖之最佳方式：
   http://ncam.wgbh.org/experience_learn/educational_media/stemdx
 
-* The University of Washington’s DO-IT project provides guidance on creating accessible math content: 
+* 華盛頓大學的 DO-IT 計畫提供製作無障礙數學內容的指引：
   http://www.washington.edu/doit/Faculty/articles?465
 
-* AccessSTEM provides guidance on creating accessible science, technology, engineering and math educational content: 
+* AccessSTEM 就製作無障礙之科學、技術、工程及數學教育內容上提供指
+引：
   http://www.washington.edu/doit/Stem/
 
-* The National Center on Educational Outcomes (NCEO) provides Principles and Characteristics of Inclusive Assessment and Accountability Systems: 
+* 國家教育成果中心(NCEO)提供「全面性評估與計量系統之準則與特性」：
   http://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html
 
-* MathJax provides guidance on creating accessible pages with the display engine: 
+* MathJax 在製作具有顯示引擎的無障礙頁面上提供指引：
   http://www.mathjax.org/resources/articles-and-presentations/accessible-pages-with-mathjax/
 
 .. _Best Practices for Describing Images:
 
 ====================================================
-Best Practices for Describing Images
+描述圖像之最佳作業流程
 ====================================================
 
-Pictures, diagrams, maps, charts, and icons can present information very effectively. 
-However, some visually impaired students, including people who use screen reader software, need text alternatives to understand the information conveyed by these images. 
-The text alternative for an image depends on the image’s context and purpose, and may not be a straight description of the image’s visual characteristics.
+圖片、圖表、地圖、統計圖及符號能夠有效呈現訊息；然而對有些視覺障礙，包
+含那些使用螢幕報讀器軟體的學生來說則需要替代文字來瞭解圖像所傳遞的資
+訊。圖像的替代文字乃根據圖像的情境及使用目的，而也可能不是根據圖像具有
+的視覺化特性所直接作的描述。
+要在課程中設計圖像時請使用以下指引：
 
-Use the following guidelines when you include images in your course:
-
-* Provide a short text description that conveys the purpose of the image, unless the image conveys a concept or is the only source for the information it presents, 
-  in which case a long text description is appropriate. Note that you don’t need to provide a long description if the information appears elsewhere on the page. 
-  For example, you don’t need to describe a chart if the same data appears as text in a data table.
+* 附上能夠傳遞圖像涵義的簡短文字描述， 可適當使用較長的文字描述的情況
+僅在於圖像傳遞一種概念或是傳遞特定資訊內容的唯一來源之時。請注意! 
+當資訊在頁面上其他地方也出現時不需要提供較長的文字敘述。例如在有相
+同文字資料在表格中時則不需要描述圖表中的內容。
   
-  * For a representative image, such as a photograph of Ponte Vecchio, a short
-    description could be “Photo of Ponte Vecchio.” If the photograph’s purpose is to provide detailed information about the location, the long description should be more specific: “Photo of Ponte Vecchio showing its three stone arches and the Arno River.”
+  * 具象徵性的圖像，例如義大利佛羅倫斯市內舊橋的照片，則簡短的文字
+敘述則可以寫為「舊橋的照片」。如果呈現照片的目的是提供此地點的
+詳細資訊，較長的描述則應較具體：「舊橋的照片呈現出三道石製拱門
+以及阿諾河」
 
-  * For a chart, diagram, or illustration, the short description might be “Diagram of Ponte Vecchio.” The long description should include the details conveyed visually, such as dimensions and materials used.
+  * 以統計圖、圖表或插圖來說，簡短描述可以為「舊橋的圖表」。較長的
+敘述應包含能夠傳遞視覺的細節，例如尺寸及使用的建材。
 
-  * For a map, a short description might be “Map showing location of Ponte Vecchio.” If the map is intended to provide directions to the bridge, the long description should provide text directions.
+  * 以地圖來說，簡短的敘述則可以為「呈現舊橋位置的地圖」。如果地圖
+是要用來指引舊橋的位置，較長的敘述則應該包含文字上的路線指引。
+ 
   
-  * For icons, the short description should be the equivalent to the information that the icon provides. For example, for a Course Syllabus link containing a PDF icon, the text equivalent for the icon would be “PDF,” which would be read as “Course Syllabus PDF.”
+  * 以符號來說， 簡短之敘述應與符號所傳遞的資訊相當，例如課程大綱的
+連結包含 PDF 符號時，等同於符號的文字則應為 「PDF」 ，讀起來為 「課
+程大綱 PDF」。
+ 
 
-  * For an image that serves primarily as a link to another web page, the short description should describe the link’s destination, not the image. For example, an image of a question mark that serves as a link to a Help page should be described as “help,” not “question mark.”
+  * 主要作為另一個網頁頁面連結的圖像所應該有的簡短敘述應包含連結
+的目的地，而非圖像本身，例如連結到服務中心的問號的圖像應該被敘
+述為「服務中心」而非問號。
 
-  * Images that don’t provide information don’t need text descriptions. For example, a PDF icon that is followed by link text reading “Course Syllabus (PDF)” does not need a description. Another example is a banner graphic whose function is purely aesthetic.
+  * 無資訊意涵的圖像無須文字敘述，例如 PDF 的符號之後的純文字鏈結
+讀為「課程大綱(PDF)」，而不需要加以描述。另一個例子是標題圖片
+僅作為美化之用。
   
 * Include the short description in the alt attribute of the HTML image element, as follows (see :ref:`Add an Image to an HTML Component` for more information about adding images):
 
   ``<img src="image.jpg" alt="Photo of Ponte Vecchio">``
 
-* Include an empty alt attribute for non-informative images. When image elements do not include an alt attribute, screen reader software may skip the image, announce the image filename, or, in the case of a linked image, announce the link URL. An empty alt attribute tells screen reader software to skip the image.
+* 針對無提示性的圖像給予空白的 alt 屬性。當圖像元素不包含 alt 屬性時，
+螢幕報讀軟體可能會略過此圖片，讀出圖像的檔案名，如果是具有連結的圖
+像則讀出超連結網址。空白的 alt 屬性會使螢幕報讀軟體掠過此圖像。
 
   ``<img src="image.jpg" alt="">``
   
-* Consider using a caption to display long descriptions so that the information is available to all users. In the following example, the image element includes the short description as the alt attribute and the paragraph element includes the long description.
+* 考慮使用說明文字來呈現較長的敘述，如此所有使用者方能獲得資訊息。在
+以下的例子中，圖像元素包含簡短敘述因為 alt 屬性，而段落元素則具有較
+長的敘述。
   
   ``<img src="image.jpg" alt="Photo of Ponte Vecchio"><p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>``
     
-* Alternatively, provide long descriptions by creating an additional unit or downloadable file that contains the descriptive text and providing a link to the unit or file below the image.
+* 另一種提供較長敘述的方式是藉由增加另一單位或包含描述性文字且下載
+的檔案以及在圖像底下提供該單位的連結或檔案。
   
   ``<img src="image.jpg" alt="Diagram of Ponte Vecchio"> <p><a href="description.html">Description of Ponte Vecchio Diagram</a></p>``
 
-**Resources**
+**相關資源**
 
-* A decision tree for choosing appropriate alternative text for images (Dey Alexander): 
+* 在描述圖像上包含適當附加文字的決策樹。(Dey Alexander)：
   http://www.4syllables.com.au/2010/12/text-alternatives-decision- tree/
-* General guidance on appropriate use of alternative text for images (WebAim): 
+* 對圖像提供附加文字的通用準則：
   http://webaim.org/techniques/alttext/
-* HTML5: A more detailed description of techniques for providing useful alternative text for images: 
+* HTML5：在提供有用的附加文字技巧上更為詳細的描述：
   http://dev.w3.org/html5/alt-techniques/
-* The DIAGRAM Center, established by the US Department of Education (Office of Special Education Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images: 
+* 由美國教育部建立的 DIAGRAM 中心就創造及使用無障礙圖像上提供更為
+簡易、快速且有效率的指引：
   http://www.diagramcenter.org/webinars.html
 
 .. _Best Practices for Accessible Media:
 
 ====================================================
-Best Practices for Accessible Media
-====================================================
+無障礙多媒體之最佳作業流程 ====================================================
 
-Media-based course materials help convey concepts and bring course information to life. 
-We require all edX courses to use videos with interactive, screen-reader- accessible transcripts. 
-This built-in universal design mechanism helps enhance your course’s accessibility. 
-When you create your course, you need to factor in time and resources for creating these transcripts.
+多媒體形式的課程教材幫助傳達概念以及將課程資訊活用於生活中。我們要求
+EdX 課程在使用影片時要包含互動式且可螢幕報讀的無障礙逐字稿。全方位學
+習設計機制幫助增強課程的無障礙性。當在建置課程時，需把製作逐字稿的時間
+及資源考慮進去。
 
 ++++++++++++++++++++++++++++++++++++++++++++  
-Audio transcription
+聲音轉錄
 ++++++++++++++++++++++++++++++++++++++++++++  
 
-Audio transcripts are essential for presenting audible content to students who can’t hear and are helpful to students who are not native English speakers. 
-Synchronized transcripts allow students who can’t hear to follow along with the video and navigate to a specific section of the video by clicking the transcript text. 
-Additionally, all students can use transcripts of media-based learning materials for study and review.
+在播放音訊內容給聽障學生時，音訊的逐字檔是很重要的，且對英文為非母語的
+學生來說也有所幫助。同步的逐字稿能夠聽障學生跟著影片學習並在藉由點選高
+字稿文字來導航於特定章節。除此之外，所有學生能夠使用多媒體形式課程教材
+的逐字稿來研讀及複習。
+逐字稿開始於影片口說內容的文字版本。如果在使用腳本之下來製作影片將有助
+於逐字稿的製作。 只有檢視所錄製的影片並且有需要時更新腳本。否則則需要自
+行轉錄影片或請別人來製作。許多公司能夠製作需收費的計時影片逐字稿(意即
+利用時間編碼使逐字稿與影片中的文字同步)。
 
-A transcript starts with a text version of the video’s spoken content. 
-If you created your video using a script, you have a great start on creating the transcript. 
-Just review the recorded video and update the script as needed. 
-Otherwise, you’ll need to transcribe the video yourself or engage someone to do it. 
-There are many companies that will create timed video transcripts (i.e., transcripts that synchronize the text with the video using time codes) for a fee.
-
-The edX platform supports the use of transcripts in .srt format. 
-When you integrate a video file into the platform, you should also upload the .srt file of the timed transcript for such video. 
-See :ref:`Working with Video Components` for details on how to add timed transcripts.
+EdX 平台支援.srt 格式的逐字稿。當整合影片檔至平台時，應上傳.srt 格式的計
+時逐字稿。增加計時逐字稿的方式請見 :ref:`Working with Video Components` for details on how to add timed transcripts.
 
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Video description
+影像轉錄
 ++++++++++++++++++++++++++++++++++++++++++++
 
-When creating video segments, consider how to convey information to learners who can’t see. 
-For many topics, you can fully cover concepts in the spoken presentation. 
-If practical, you might also describe visual information, for example, by speaking as you are writing on a tablet.
+在製作影片片段時，要考量如何將資訊傳遞給視障學習者。許多主題能夠以口說
+呈現方式來涵蓋許多概念。實際上當在白板上寫字且說話的同時，也能夠描述視
+覺化資訊。
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Downloadable transcripts
+可下載的逐字稿
 ++++++++++++++++++++++++++++++++++++++++++++
 
-For both audio and video transcripts, consider including a text file that students can download and review using tools such as word processing, screen reader, or literacy software. 
-The downloadable transcript should be text only, without time codes.
+對音訊及視訊的逐字稿來說， 要考慮加上純文字檔案好讓學生能夠下載以及使用
+文件處理軟體、螢幕報讀器或識字軟體進行複習。可下載的逐字稿應只有文字，
+而不包含時間編碼。
 
-**Resources**
+**相關資源**
 
-* Accessible Digital Media Guidelines provides detailed advice on creating online video and audio with accessibility in mind: 
+* 「無障礙數位多媒體指引」在製作無障礙形式的線上影片及音訊檔提供詳細
+的指導：
   http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide
 
 
 .. _Best Practices for HTML Markup:
 
 ====================================================
-Best Practices for HTML Markup
+HTML 標記之最佳作業流程
 ====================================================
   
-HTML is the best format for creating accessible content. It is well supported and adaptable across browsers and devices, 
-the information in the markup helps assistive technologies, such as screen reader software, provide information and functionality to people with vision impairments.
+HTML 是創造無障礙內容的最佳格式，其完全支援瀏覽器且和設備相容，標註裡
+面的資訊幫助輔助技術，例如螢幕報讀軟體，且提供視障者資訊及視覺上的官能
+性。
+為簡化課程小組製作優良 HTML 標記的內容，我們致力於使 EdX 工作室裡所有
+的範本與以下所談及的最佳作業流程相符。在過渡期間， 建議您手動增加適當的
+HTML 標籤。根據要加入到 EdX 工作室的課程之所屬類型組件，原始 HTML 資
+料將自動產生或藉由選擇¡§Advanced Editor¡¨ 或¡§HTML¡¨ views。
+在建置 HTML 內容時請留意下列指引：
 
-To make it easier for our course teams to create content with good HTML markup, we are working to make all templates in edX Studio conform to the best practices set forth below. 
-In the interim, we recommend that you manually add the appropriate HTML tagging. 
-Depending on the type of component you are adding to your course in edX Studio, the raw HTML data will be available either automatically or by selecting the “Advanced Editor” or “HTML” views.
+* 使用 HTML 來描述內容的意涵而不是外貌。一詞組被標記為第一層級的標
+題(<h1>乃清楚註明為此頁的主題，然而當一詞組標記為粗黑體(<bold>  或
+<strong>)也許意指此標題或文字為教師所要強調的部分。在不仰賴目視提
+示，例如項目符號或縮排之下， 一群組被標記為一個清單的物件是與特定編
+碼相關。編碼轉譯為內容對使用螢幕報讀器的學生來說特別有用，舉例來
+說，螢幕報讀器能夠報讀標題或告知清單中的物件數量。
 
-Keep the following guidelines in mind when you create HTML content:
+* 按順序使用 HTML 標題層級來呈現文件的結構。結構完整的標題可幫助學
+生導航頁面並找到所想要的。
 
-* Use HTML to describe your content’s *meaning* rather than its *appearance*. A phrase marked as a level 1 heading (<h1>) clearly indicates the topic of the page, 
-  while a phrase marked as bold text (<bold> or <strong>) may be a heading or may just be text that the instructor wants to emphasize. 
-  A group of items marked up as a list are related in the code, without relying on visual cues such as bullets and indents. 
-  Coding meaning into content is particularly useful for students using screen readers, which, for example, can read through headings or announce the number of items in a list.
+* 使用 HTML 清單元素以聚合相關物件以使內容易於瀏覽及閱讀。HTML 具
+有以下三種清單：
 
-* Use HTML heading levels in sequential order to represent the structure of the document. Well-structured headings help students navigate a page and find what they are looking for.
+  #. 無按順序排列的清單，當中的每種物件都標註項目符號。
+  #. 按順序排列的清單，當中的每種物件依號碼編號。
+  #. 定義列表，當中的每種物件是藉由詞彙及描述配對而呈現(就像辭典)。
 
-* Use HTML list elements to group related items and make content easier to skim and read. HTML offers three kinds of lists:
+* 藉由描述性行列來使用表元素標註資料集--意即資訊在網格格式中運行最
+好。使用<th>元素標註行列標題，如此螢幕報讀器才能有效地描述表格中的
+內容。
 
-  #. Unordered lists, where each item is marked with a bullet.
-  #. Ordered lists, where each item is listed with a number.
-  #. Definition lists, where each item is represented using term and description pairs (like a dictionary).
+**相關資源**
 
-* Use table elements to mark up data sets—that is, information that works best in a grid format—with descriptive rows and columns. 
-  Mark up row and column headers using the <th> element so screen readers can effectively describe the content in the table.
-
-**Resources**
-
-* Creating Semantic Structure provides guidance on reflecting the semantic structure of a web page in the underlying markup (WebAIM): 
+* 「製造語意結構」提供能夠表達以標記為基礎的網頁語意結構相關指引
+(WebAIM)：
   http://webaim.org/techniques/semanticstructure/
   
-* Creating Accessible Tables provides specific guidance on creating data tables with the appropriate semantic structure so that screen readers can correctly present the information (WebAIM): 
+* 「製造無障礙表格」所提供的指引是有關藉由適當的語意結構以使螢幕報讀
+器能準確呈現資訊輔助之下建置表格資料(WebAIM)：
   http://webaim.org/techniques/tables/data
 
 .. _Conclusion:
 
 ************************************************************
-Conclusion
+結論
 ************************************************************
 
-At edX, the heart of our mission is to provide global access to higher-level learning with only a computer and the Internet. 
-We have designed a platform that enables course creators to reach thousands of learners, some of whom will lack the typical backgrounds and resources of resident students taking traditional courses on college campuses. 
-We hope that these guidelines prove useful to you as you work with your institution’s disability support services and information technology resources to comply with applicable accessibility laws. 
-As we are all on this learning venture together, we encourage you to share your thoughts with us at accessibility@edx.org.
+EdX 的使命為單純藉由電腦與網路來提供全球性網絡均可取用的高層級學習方
+式。 我們已建置一個學習平台，而這個平台能夠使課程建置者觸及數以千計的學
+習者，其中有些不具有傳統在大學校園裡學生上課的典型背景及資源內容。我們
+期望上述這些指引對您在貴單位針對無障礙支援服務及資訊技術資源能與適當
+的可適性法條相符能有所幫助 。因我們均在數位學習探索的船上，鼓勵您能夠寫
+信到 accessibility@edx.org 分享您的想法。 

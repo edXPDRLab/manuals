@@ -1,65 +1,43 @@
 .. _Specialized Problems:
 
-Specialized Problems
+特殊題型
 ====================
 
-Specialized problems are advanced problems such as annotations, open
-response assessments, and word clouds. These problems are available
-through the Advanced component in Studio. To add the Advanced component
-to your course, you'll modify your course's advanced settings. The
-Advanced component then appears under **Add New Component** in each
-unit.
+特殊題型是指註解、開放式問答和文字雲等進階題型，可於Studio進階功能項目中進行設定。
+您必須先修改進階設定，才能在各單元的增加新項目中新增進階功能項目。
 
--  :ref:`Annotation` Annotation problems ask students to respond to
-   questions about a specific block of text. The question appears above
-   the text when the student hovers the mouse over the highlighted text
-   so that students can think about the question as they read.
--  :ref:`Open Response Assessment` Open response assessment problems allow students
-   to enter short answer or essay responses that students or a computer
-   algorithm can then grade.
--  :ref:`Word Cloud` Word cloud problems show a colorful graphic of the
-   words that students enter as responses to a prompt.
+-  :ref:`Annotation` 註解題型是指當學生將滑鼠游標移至重點文字上時，題目敘述才會顯示在文字上方，讓學生閱讀後再填寫答案。
+-  :ref:`Open Response Assessment` 學生輸入答案或短文後，由電腦或同儕進行評分。
+-  :ref:`Word Cloud` 以彩色圖像彙集與呈現學生填答時所輸入的詞彙。
 
 .. _ Add Advanced Component:
 
-**Add the Advanced Component to Your Course**
+**新增進階功能項目**
 
-By default, when you create a new component in Studio, you see the
-following options.
+當您新增功能項目時，Studio預設下列功能：
 
 .. image:: Images/AddNewComponent.gif
 
-To create a specialized problem, you must first add the Advanced
-component to your course. To do this, follow these steps.
+建立特殊題型之前，您必須先新增進階功能項目，步驟如下：
 
-#. On the **Settings** menu, click **Advanced Settings**.
+#. 在 **設定** 表單中點選 **進階設定** 。
 
-#. On the **Advanced Settings** page, locate the **Manual Policy
-   Definition** section, and then locate the **advanced_modules**
-   policy key (this key is at the top of the list).
+#. 在 **進階設定** 頁面的使用規則定義 **(Manual Policy Definition)** 區塊，將 **advanced_modules** 
+   填入規則序號(Policy Key)欄位(序號於清單最上方)
 
    .. image:: Images/AdvancedModulesEmpty.gif
 
-#. Under **Policy Value**, place your cursor between the brackets, and
-   then enter the value for the type of problem that you want to create.
-   Make sure to include the quotation marks, but not the period.
+#. 將滑鼠游標移至規則數值 **(Policy Value)** 欄位裡的方括弧之間，輸入您所要建立的問題類型，並確認輸入引號。
 
-   -  For annotations, enter **"annotatable"**.
+   -  建立註解時輸入 **"annotatable "**。
 
-   -  For open response assessments, enter
-      **"combinedopenended","peergrading"**. (Include the comma but no
-      spaces between the words.)
+   -  建立開放式問答時輸入 **"combinedopenended”,”peergrading "** 。 (兩個文字之間僅以逗號區隔，不用輸入空格)
 
-   -  For word clouds, enter **"word_cloud"**.
+   -  建立文字雲時輸入 **"word_cloud "** 。
 
-   You can enter more than one problem type at a time. When you do,
-   make sure to surround each problem type with quotation marks and
-   separate each problem type with a comma, but do not include any
-   spaces.
+   您可建立一種以上的問題類型，建立時確認在個別問題類型名稱兩側都須加上引號，並以逗號區隔，不用輸入空格。
    
-   For example, if you wanted to add annotations, open response
-   assessments, and word cloud problems in your course, you would enter
-   the following between the brackets.
+   例如您要在課程中新增註解、開放式問答、文字雲，只需將下列紅字部分輸入方括弧之間即可。
 
    ::
 
@@ -67,71 +45,57 @@ component to your course. To do this, follow these steps.
 
    .. image:: Images/AdvSettings_Before.gif
 
-#. At the bottom of the page, click **Save Changes**.
+#. 下拉至網頁底部，點選 **儲存更新** 。
 
-   The page refreshes automatically. At the top of the page, you see a
-   notification that your changes have been saved.
-
-   The text in the **Policy Value** field now appears as follows.
+   本網頁會自動更新，網頁最上方會顯示更新資訊已儲存的提醒資訊。
+   
+   **規則數值** 欄位中的文字呈現樣式如下圖：
 
    .. image:: Images/AdvSettings_After.gif
 
-#. Return to the unit where you want to add the specialized problem. The
-   list of possible components now contains an Advanced component.
+#. 回到單元頁面，確認進階功能項目已新增完成。
 
    .. image:: Images/AdvancedComponent.gif
 
-When you click the Advanced component, you see the following list.
+點選進階功能項目後，確認畫面出現下列清單後，即可開始建立註解、開放式問答、文字雲，各題型網頁上皆有提供建立說明指引。
 
 .. image:: Images/SpecProbs_List.gif
 
-You can now create annotations, open response assessments, and word
-clouds in your course. More information about how to create each problem
-is provided in the page for that problem type.
+
 
 .. _Annotation:
 
-Annotation
+註解
 ----------
 
 
-In an annotation problem, the instructor highlights specific text
-inside a larger text block and then asks questions about that text. The
-questions appear when students hover the mouse over the highlighted
-text. The questions also appear in a section below the text block, along
-with space for students' responses.
+在註解題型中，導讀重點文字會顯示於大型文字框，然後再寫出與本文相關的問題。當學生將滑鼠游標移至重點文字上時，才會顯示題目敘述，下方則是學生回答欄位。
 
 .. image:: Images/AnnotationExample.gif
 
-Create an Annotation Problem
+建立註解題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-To create an annotation problem:
+步驟如下：
 
-Add the Annotation advanced component. To do this, add the "annotatable"
-key value to the **Advanced Settings** page. (For more information, see
-the instructions in :ref:`Specialized Problems`.)
+在 **進階設定** 頁面新增 “annotatable” 鍵值。(詳細資訊請參閱:ref:`Specialized Problems`.)
 
-Add the **Instructions** and **Guided Discussion** segments of the
-problem.
+新增 **題型內的說明指引** 和 **引導式討論** ：
 
 
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**.
-#. In the list of problem types, click **Annotation**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. 在單元頁面中點選 **增加新項目** 的 **進階** 。
+#. 在題型類型清單中選擇 **註解** 。
+#. 點選 **編輯** 。
+#. 在項目編輯模式中輸入編碼規則。
+#. 點選 **儲存** 。
 
 
-Add the **Annotation problem** segment of the problem.
+在題型樣目中新增 **註解題型** ：
 
 
-#. Under the Annotation component, create a new blank Advanced Problem
-   component.
-#. Paste the following code in the Advanced Problem component, replacing
-   placeholders with your own information.
+#. 在註解項目之下新增進階題型項目。
+#. 在進階題型項目中複製貼上下列編碼規則，以您的課程內容取代欄位輸入提示。
 
 
        ::
@@ -163,77 +127,56 @@ Add the **Annotation problem** segment of the problem.
             </solution>
            </problem>
 
-#. Click **Save**.
+#. 點選 **儲存** 。
 
 
 .. _Open Response Assessment:
 
-Open Response Assessment
+開放式問答
 ------------------------
 
 
-In open response assessments, tens of thousands of students can receive feedback 
-on written responses of varying lengths as well as files, such as computer code or 
-images, that the students upload. 
+成千上萬名學生可以透過開放式問答發佈回覆文章或上傳檔案、圖片等，並且獲得同儕的回饋。
 
 
-Because open response assessments are more complex than most other problem types,
-they have a separate section. For more information about these problems, see 
+因為開放式問答較其他題型複雜，詳細設定步驟請參閱 
 :ref:`Open Response Assessment Problems`.
-
 
 
 .. _Word Cloud:
 
-Word Cloud
+文字雲
 ----------
 
 
-In a word cloud problem, students enter words into a field in response
-to a question or prompt. The words all the students have entered then
-appear instantly as a colorful graphic, with the most popular responses
-appearing largest. The graphic becomes larger as more students answer.
-Students can both see the way their peers have answered and contribute
-their thoughts to the group.
+文字雲是以彩色圖像彙集與呈現學生填答時所輸入的詞彙，最受歡迎的詞彙字體越大，當有輸入詞彙的學生數量越多時，文字雲的尺寸也隨之改變。學生可以透過文字雲瞭解同儕回覆和想法。
 
 
-For example, the following word cloud was created from students'
-responses to a question in a HarvardX course.
+例如下圖是學生回答HarvardX課程問題所組成的文字雲。
 
 .. image:: Images/WordCloudExample.gif
 
-Create a Word Cloud Problem
+建立文字雲
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a word cloud problem:
+步驟如下：
 
 
-#. Add the Word Cloud advanced component. To do this, add the
-   "word_cloud" key value to the **Advanced Settings** page. (For more
-   information, see the instructions in :ref:`Specialized Problems`.)
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**.
-#. In the list of problem types, click **Word Cloud**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. You can
-   leave the default value for everything except **Display Name**.
+#. 在 **進階設定** 頁面新增“word_cloud”鍵值。(詳細資訊請參閱 :ref:`Specialized Problems`.)
+#. 在單元頁面中點選 **增加新項目** 的 **進階** 。
+#. 在題型類型清單中選擇 **文字雲** 。
+#. 點選 **編輯** 。
+#. 在項目編輯模式中進行功能設定，除了 **名稱** 之外，其他項目可保持為預設值。
 
 
-   -  **Display Name**: The name that appears in the course ribbon and
-      as a heading above the problem.
-   -  **Inputs**: The number of text boxes into which students can enter
-      words, phrases, or sentences.
-   -  **Maximum Words**: The maximum number of words that the word cloud
-      displays. If students enter 300 different words but the maximum is
-      set to 250, only the 250 most commonly entered words appear in the
-      word cloud.
-   -  **Show Percents**: The number of times that students have entered
-      a given word as a percentage of all words entered appears near
-      that word.
+   -  **名稱** ：顯示於項目上方以及課程畫面上方的橫軸。
+   -  **輸入項** ：學生可於文字框輸入的字數。
+   -  **最大顯示字數** ：文字雲顯示的最大字數，若學生輸入300個不同的文字，但最大顯示字數設定為250時，文字雲僅會顯示250個文字。
+   -  **顯示百分比** ：每個文字旁會顯示出輸入該文字的學生比例。
 
 
-#. Click **Save**.
+#. 點選 **儲存** 。
 
 
-For more information, see `Xml Format of "Word Cloud" Module 
+詳細資訊請參閱： `Xml Format of "Word Cloud" Module 
 <https://edx.readthedocs.org/en/latest/course_data_formats/word_cloud/word_cloud.html#>`_.

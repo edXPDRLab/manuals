@@ -1,13 +1,11 @@
 .. _Advanced Problems:
 
-Advanced Problems
+進階題型
 =================
 
-Advanced problems are problems such as drag and drop, circuit schematic
-builder, and math expression problems. These problems appear on the
-Advanced tab when you create a new Problem component. Studio provides
-templates for these problems, but the problems open directly in the
-**Advanced Editor** and have to be created in XML.
+拖放、電路示意圖生成器及數學表達等皆為進階題型。當要新增題型時，這些問
+題會置於進階標籤中。本工作室提供建置這些題目的範本，但題目會直接在 **進階
+編輯**中開放，並且要以 XML 格式製作。
 
 -  :ref:`Circuit Schematic Builder` In circuit schematic problems, students
    create and modify circuits on an interactive grid and submit
@@ -33,81 +31,75 @@ templates for these problems, but the problems open directly in the
    feedback or hints based on their responses. Problems with adaptive
    hints can be text input or multiple choice problems.
 
-These problems are easy to access in Studio. To create them, click
-**Problem** under **Add New Component**, click the **Advanced** tab, and
-then click the name of the problem that you want to create.
+這些問題很容易在 Studio 中取得。要發問的話請按在 **新增組件**底下點選 **題型**，
+並點選 **進階標籤**，然後點選想新增的題型名稱。
 
 .. _Circuit Schematic Builder:
 
-Circuit Schematic Builder
+電路示意圖生成器
 -------------------------
 
-In circuit schematic builder problems, students can arrange circuit
-elements such as voltage sources, capacitors, resistors, and MOSFETs on
-an interactive grid. They then submit a DC, AC, or transient analysis of
-their circuit to the system for grading.
+在電路示意圖題目部份，學生能夠調整電路元件如互動網格上的電壓源 、電容器、
+電組器以及金氧半導體場效電晶體 ，然後他們要交出就系統中電路上直流電、交
+流電或暫態之分析並以此打分。 
 
 .. image:: /Images/CircuitSchematicExample.gif
 
-Create a Circuit Schematic Builder Problem
+建立電路示意生成器題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Circuit Schematic Builder**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **電路生成器**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，以自己的編碼取代範例編碼。
+#. 點選 **儲存**。
 
 .. _Custom JavaScript Display and Grading:
 
-Custom JavaScript Display and Grading
+自訂 JavaScript 程式語言顯示與打分
 -------------------------------------
 
-Custom JavaScript display and grading problems (also called custom JavaScript problems
-or JS Input problems) allow you to create a custom problem or tool that uses JavaScript
-and then add the problem or tool directly into Studio. When you create a JS Input problem,
-Studio embeds the problem in an inline frame (IFrame) so that your students can interact with
-it in the LMS. You can grade your students’ work using JavaScript and some basic Python, and
-the grading is integrated into the edX grading system.
-
-The JS Input problem that you create must use HTML, JavaScript, and cascading style sheets
-(CSS). You can use any application creation tool, such as the Google Web Toolkit (GWT), to
-create your JS Input problem.
+自訂 JavaScript 程式語言顯示與打分題型(也稱為自訂 JavaScript 程式語言題型
+或 JS 輸入題型)讓您能夠建置使用 JavaScript 程式語言的自訂題型或工具，然
+後將題型或工具直接新增於 Studio 中。當在建置 JS 輸入題型時， Studio 將題型
+內嵌於內建框架中(IFrame)，如此學生便能夠在 LMS 中與其互動。您能夠使用
+JavaScript 程式語言或基本 Python 語言為學生的作業打分數，而成績會整合在
+EdX 打分系統中。
+所建置的 JS 題型必須是 HTML 格式、 JavaScript 程式語言及串接式表單(CSS)。
+您能夠使用任何應用工具，例如 Google 網頁應用程式開發工具(GWT)，來建置
+自己的 JS 輸入題型。 
 
 .. image:: /Images/JavaScriptInputExample.gif
 
-Create a Custom JavaScript Display and Grading Problem
+自訂 JavaScript 程式語言顯示與打分題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Create your JavaScript application, and then upload all files associated with
-   that application to the **Files & Uploads** page.
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Custom JavaScript Display and Grading**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, modify the example code according to your problem.
+#. 建立自己的 JavaScript 程式並上傳所有與此應用程式有關的檔案到 **檔案與上傳**
+頁面。
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **自訂 JavaScript 程式語言顯示與打分**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，根據您的題型編修範例編碼。
 
-   - All problems have more than one element. Most problems conform to the same-origin
-     policy (SOP), meaning that all elements have the same protocol, host, and port.
-     For example, **http**://**store.company.com**:**81**/subdirectory_1/JSInputElement.html and
+   - 所有的題型有超過一種的元素。大部分的題型皆與同源政策(SOP)相符，意即所
+有元素有相同的協定、主機以及埠。例如, **http**://**store.company.com**:**81**/subdirectory_1/JSInputElement.html and
      **http**://**store.company.com**:**81**/subdirectory_2/JSInputElement.js have the same protocol
      (http), host (store.company.com), and port (81).
 
-     If any elements of your problem use a different protocol, host, or port, you need to
-     bypass the SOP. For example, **https**://**info.company.com**/JSInputElement2.html
+    如果問題中的任何元素使用不同的協定、主機或埠 ，則需要略過同源政策。
+例如 **https**://**info.company.com**/JSInputElement2.html
      uses a different protocol, host, and port. To bypass the SOP, change
      **sop="false"** in line 8 of the example code to **sop="true"**. For more information, see the same-origin policy
      page on the `Mozilla Developer Network <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_
      or on `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
-#. If you want your problem to have a **Save** button, click the **Settings** tab, and then set
-   **Maximum Attempts** to a number larger than zero.
-#. Click **Save**.
+#. 如果想要使題目有 **儲存**鈕的話，點選 **設定**標籤，然後在 **最大嘗試次數**中設定
+一個大於 0 的數字。
+#. 點選儲存。
 
-Re-create the Example Problem
+重設範例題型
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To re-create the example problem above, you'll need the following files.
+要重設上述範例題型，則需要以下檔案：
 
    - webGLDemo.html
    - webGLDemo.js
@@ -132,16 +124,15 @@ file that you'll download.
     this, go to the `jschannel.js <https://github.com/mozilla/jschannel/blob/master/src/jschannel.js>`_
     page, copy the code for the file into a text editor, and then save the file as jschannel.js.
 
-#. On the **Files & Uploads** page, upload all the files you just created or downloaded.
-#. Create a new custom JavaScript display and grading problem component.
-#. On the **Settings** tab, set **Maximum Attempts** to a number larger than
-   zero.
-#. In the problem component editor, replace the example code with the code below.
-#. Click **Save.**
+#. 在 **檔案及上傳** 頁面，上傳所有剛建立或下載的檔案。
+#. 建立一個新的自訂 JavaScript 顯示與給分範例題目組件。
+#. 在 **設定**標籤，將 **最大嘗試次數**設定一個大於 0 的數字。
+#. 在題目組件編輯器中，將以下的編碼替代範例編碼。
+#. 點選 **儲存**。 
 
 
 
-JavaScript Input Problem Code
+JavaScript 程式語言題型編碼
 #############################
 
 ::
@@ -181,123 +172,112 @@ JavaScript Input Problem Code
     </problem>
 
 
-.. note::    When you create this problem, keep the following in mind.
+.. note::    當要建立題目時，請注意以下要點‧ 
 
-             - The webGLDemo.js file defines the three JavaScript functions (**WebGLDemo.getGrade**,
-               **WebGLDemo.getState**, and **WebGLDemo.setState**).
+             - webGLDemo.js file  界定三種  JavaScript 程式語言功能
+ **(WebGLDemo.getGrade,WebGLDemo.getState**,  以及
+ **WebGLDemo.setState)**.
+  JavaScript
 
-             - The JavaScript input problem code uses **WebGLDemo.getGrade**, **WebGLDemo.getState**,
-               and **WebGLDemo.setState** to grade, save, or restore a problem. These functions must
-               be global in scope.
+             - JavaScript 程式語言輸入題型編碼使用
+ **WebGLDemo.getGrade, WebGLDemo.getState**,  以及
+ **WebGLDemo.setState** 來打分、儲存或復原題型。這些功能全球皆通用
 
-             - **WebGLDemo.getState** and **WebGLDemo.setState** are optional. You only have to define
-               these functions if you want to conserve the state of the problem.
+             -  **WebGLDemo.getState** 以及 **WebGLDemo.setState** 是可任意選擇的。如
+果想要保有這些題型的狀態時必須界定這些功能。
+   **寬** 和  **高** 
 
-             - **Width** and **height** represent the dimensions of the IFrame that holds the
-               application.
+             - 寬 和 高 代表內鍵框架中應用程式的尺寸。
+
+             - 當打開題目時，圓錐和立方體都是藍色或 「未經選擇」 。當點選一次點選其中
+一個形狀時，該形狀會變黃色，或成為 「已選擇」。若不選擇的話則再點選一
+次。繼續點選形狀以做選擇。
 
-             - When the problem opens, the cone and the cube are both blue, or "unselected." When
-               you click either shape once, the shape becomes yellow, or "selected." To unselect
-               the shape, click it again. Continue clicking the shape to select and unselect it.
+             - 當使用者 **點選**查詢而圓錐(黃色)被選擇時則代表回答被評為正確。
 
-             - The response is graded as correct if the cone is selected (yellow) when the user
-               clicks **Check**.
-
-             - Clicking **Check** or **Save** registers the problem's current state.
+             - 點選 **查詢**或 **儲存**登記題目的現況。
 
 
 
 .. _Write-Your-Own-Grader:
 
-Write-Your-Own-Grader ("Custom Python-Evaluated Input")
+自行評分  (自訂 Python 語言輸入)
 -------------------------------------------------------
 
 
-In write-your-own-grader problems (also called "custom Python-evaluated
-input" problems), the grader evaluates a student's response using a
-Python script that you create and embed in the problem. These problems
-can be any type. Numerical input and text input problems are the most
-popular write-your-own-grader.
+在自行評分題型中(也稱為自訂 Python 語言輸入) ，評估的是學生使用在課程裡面
+創造及嵌入 Python 語言。這些題目可以是任何類型，數值輸入及文字輸入是常
+見的自行評分方式。 
 
 .. image:: Images/WriteYourOwnGraderExample.gif
 
-Create a Write-Your-Own-Grader Problem
+建立自行評分題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a write-your-own-grader problem:
+要建立自行評分題型：
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Custom Python-Evaluated Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **自訂 Python 語言輸入**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，以自己的編碼取代範例編碼。
+#. 點選 **儲存**。
 
 For more information about write-your-own-grader problems, see `CustomResponse XML and Python
 Script <https://edx.readthedocs.org/en/latest/course_data_formats/custom_response.html>`_.
 
 .. _Drag and Drop:
 
-Drag and Drop
+拖放
 -------------
 
-In drag and drop problems, students respond to a question by dragging
-text or objects to a specific location on an image.
+在拖放的問題中，學生藉由託拉文字或物件到一圖像的特定位置來回答問題。 
 
 .. image:: Images/DragAndDropExample.gif
 
-Create a Drag and Drop Problem
+建立拖放題目
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a drag and drop problem:
+要建立拖放題目：
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Drag and Drop**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
-
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **拖放**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，以自己的編碼取代範例編碼。
+#. 點選 **儲存**。
 
 For more information about drag and drop problems, see `XML Format of Drag and Drop Input
 <http://data.edx.org/en/latest/course_data_formats/drag_and_drop/drag_and_drop_input.html>`_.
 
 .. _Image Mapped Input:
 
-Image Mapped Input
+圖像映射輸入
 ------------------
 
-In an image mapped input problem, students click inside a defined area
-in an image. You define this area by including coordinates in the body
-of the problem.
+在圖像映射輸入題目中，學生點選一限定範圍中的圖樣，  藉由加上題目主體的
+座標來界定此範圍。 
 
 .. image:: Images/ImageMappedInputExample.gif
 
-Create an Image Mapped Input Problem
+建立影像映射輸入題目
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a image mapped input problem:
+要建立影像映射輸入題目：
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Image Mapped Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
-
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **影像映射輸入**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，以自己的編碼取代範例編碼。
+#. 點選 **儲存**。
 
 
 .. _Math Expression Input:
 
-Math Expression Input
+數學表達式輸入
 ---------------------
 
-In math expression input problems, students enter text that represents
-a mathematical expression, and Studio changes that text to a symbolic
-expression that appears below the field where the student is typing.
-Unlike numerical input problems, which only allow integers and a few
-select constants, math expression problems can include more complicated
-symbolic expressions.
+在數學表達式輸入題目中，學生輸入代表數學公式的文字，而 Studio 將文字轉換
+為具象徵性的表達式並呈現於學生所打字的下方。不像數值輸入題目只允許整數
+及些許常數，數學表達式題目能夠包含更多複雜且具象徵性的表達式。
 
 When you create a math expression input problem for your students in
 Studio, you'll use `MathJax <http://www.mathjax.org>`_ to change your
@@ -306,31 +286,28 @@ MathJax in Studio, see :ref:`MathJax in Studio`.
 
 .. image:: Images/MathExpressionInputExample.gif
 
-Create a Math Expression Input Problem
+建立數學表達式題目
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a math expression input problem:
+要建立數學表達式題目：
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Math Expression Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **數學表達式輸入**。
+#. 在出現的組件中點選 **編輯**。
+#. 在組件編輯器中，以自己的編碼取代範例編碼。
+#. 點選 **儲存**。
 
 For more information, see `Symbolic Response
 <https://edx.readthedocs.org/en/latest/course_data_formats/symbolic_response.html>`_.
 
 .. _Problem Written in LaTeX:
 
-Problem Written in LaTeX
+以 LaTeX 寫成的題目 
 ------------------------
 
-If you have an problem that is already written in LaTeX, you can use
-this problem type to easily convert your code into XML. After you paste
-your code into the LaTeX editor, you'll only need to make a few minor
-adjustments. Note that **this problem type is still a prototype and may
-not be supported in the future**, so you should use it with caution.
+如果原有題目已經是以 LaTeX  寫成，您能夠使用這種題目類型輕易地轉換編碼
+為 XML。在將編碼貼到 LaTeX  編輯器後，只需要多些微調整。請注意這種題目
+類型仍在雛型階段且未來可能不予以支援，所以請謹慎使用。
 
 .. note:: If you want to use LaTeX to typeset mathematical expressions
           in problems that you haven't yet written, use any of the other problem
@@ -340,41 +317,35 @@ not be supported in the future**, so you should use it with caution.
 
 .. image:: Images/ProblemWrittenInLaTeX.gif
 
-Create a Problem Written in LaTeX
+建立以 LaTeX 寫成的題目
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a problem written in LaTeX:
+要建立以 LaTeX  寫成的題目：
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Problem Written in LaTeX**.
-#. In the component editor that appears, click **Edit**.
-#. In the lower left corner of the component editor, click **Launch
-   LaTeX Source Compiler**.
-#. Replace the example code with your own code.
-#. In the lower left corner of the LaTeX source compiler, click **Save &
-   Compile to edX XML**.
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **以 LaTeX 寫成的題目**。
+#. 在出現的組件中點選 **編輯*。
+#. 在左下角的組件編輯器中，點選開始原始編譯器。
+#. 以自己的編碼替代範例編碼。
+#. 在左下角的 LaTeX 原始編譯器中，點選 **儲存及編碼為 edX XML**。
 
 .. _Problem with Adaptive Hint:
 
-Problem with Adaptive Hint
+具有適應性暗示之題型
 --------------------------
 
-A problem with an adaptive hint evaluates a student's response, then
-gives the student feedback or a hint based on that response so that the
-student is more likely to answer correctly on the next attempt. These
-problems can be text input or multiple choice problems.
+具有適應性暗示之題型是要評估學生的回答，然後根據學生的回答給予回饋或暗
+示，如此學生更能在下次回答正確。這種問題能夠是文字輸入或單選題題目。 
 
 .. image:: Images/ProblemWithAdaptiveHintExample.gif
 
-Create a Problem with an Adaptive Hint
+建立具有適應性暗示之題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a problem with an adaptive hint:
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Problem with Adaptive Hint**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
+#. 點選 **具有適應性暗示之題型**。
+#. 在出現的組件中點選 **編輯*。
+#. 以自己的編碼替代範例編碼。
+#. 點選 **儲存**。

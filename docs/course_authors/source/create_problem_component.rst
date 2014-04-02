@@ -1,23 +1,18 @@
 .. _Working with Problem Components:
 
 ################################
-Working with Problem Components
+題型
 ################################
 
 ******************************
-Overview of Problem Components
+前言
 ******************************
 
-The problem component allows you to add interactive, automatically
-graded exercises to your course content. You can create many different
-types of problems in Studio.
+本節將說明各種題型的設定與維護方式，使用者可以自行增加多種互動式與自動計分的練習題。
 
-All problems receive a point score, but, by default, problems do not count
-toward a student's grade. If you want the problems to count toward the
-student's grade, change the assignment type of the subsection that contains the
-problems.
+所有的題目都可計分，請先進入小節的評量類型，修改預設值，讓系統自動計分。
 
-For more information, see the following topics.
+請點入以下標題，以取得更多詳細資訊。
 
 * :ref:`Components and the User Interface`
 * :ref:`Problem Settings`
@@ -28,255 +23,193 @@ For more information, see the following topics.
 .. _Components and the User Interface:
 
 ************************************
-Components and the User Interface
+功能項目與使用者介面
 ************************************
 
-This section contains a description of the various components of a
-problem as students see it in the LMS, as well as an introduction to the
-Studio user interface for course creators.
+此部分將說明題目的各種功能項目，即學生在學習管理平台看到的題目，以及為開課教師說明Studio user interface。
 
 ==============================
-The Student View of a Problem
+學生瀏覽畫面
 ==============================
 
-All problems on the edX platform have several component parts.
+凡是出現在edX平台的題目都包含以下功能項目。
 
 .. image:: Images/AnatomyOfExercise1.gif
 
-#. **Problem text.** The problem text can contain any standard HTML formatting.
+#. **問題說明。** 說明文字允許使用符合標準的HTML格式。
 
-#. **Response field with the student’s answer.** Students enter answers
-   in *response fields*. The appearance of the response field depends on
-   the type of the problem.
+#. **答題欄位。** 學生必須在此欄位作答。答題欄位的樣式會根據題型而變化。
 
-#. **Rendered answer.** For some problem types, Studio uses MathJax to
-   render plain text as “beautiful math.”
+#. **顯示完整的數學公式。** 因應部分題型需求，Studio使用MathJax呈現完整的數學公式。
 
-#. **Check button.** The student clicks **Check** to submit a response
-   or find out if his answer is correct. If the answer is correct, a green
-   check mark appears. If it is incorrect, a red X appears. When the
-   student clicks the **Check button**, Studio saves the grade and current
-   state of the problem.
+#. **提交答案。** 學生透過此功能輸入或確認答案是否正確，若正確答題，則出現綠色的打勾符號，若答題錯誤，則以紅色的X符號表示。系統會同步儲存分數與作答結果。
 
-#. **Save button.** The student can click **Save** to save his current
-   response without submitting it for a grade. This allows the student to
-   stop working on a problem and come back to it later.
+#. **儲存答案。** 此功能允許學生儲存作答內容，而非提交，因此，學生可回頭修改與提交答案。
 
-#. **Show Answer button.** This button is optional. When the student
-   clicks **Show Answer**, the student sees both the correct answer (see 2
-   above) and the explanation (see 10 below). The instructor sets whether
-   the **Show Answer** button is visible.
+#. **顯示答案。** 此功能可同時顯示正確答案與解題說明。出題者可選擇是否開啟此功能。
 
-#. **Attempts.** The instructor may set a specific number of attempts or
-   allow unlimited attempts.
+#. **提交答案次數。** 出題者可設定題目的作答次數，從特定次數到不限次數。
 
    .. image:: Images/AnatomyOfExercise2.gif
 
-#. **Feedback.** After a student clicks **Check**, all problems return a
-   green check mark or a red X.
+#. **回饋功能。** 學生提交答案後，系統會以符號表示答案是正確或錯誤。
 
    .. image:: Images/AnatomyofaProblem_Feedback.gif
 
-#. **Correct answer.** Most problems require that the instructor specify
-   a single correct answer.
+#. **正確的答案。** 多數的題型需要出題者提供唯一的正確解答。
 
-#. **Explanation.** The instructor may include an explanation that
-   appears when a student clicks **Show Answer**.
+#. **解題說明。** 出題者提供解題的說明。只有使用「顯示答案」功能，才會出現解題說明。
 
-#. **Reset button.** This button clears the student input, so that the
-   problem looks the way it did originally.
+#. **重新作答。** 此功能會清除學生的作答內容，可讓學生重新作答。
 
-#. **Hide Answer button.**
+#. **隱藏答案。**
 
    .. image:: Images/AnatomyOfExercise3.gif
 
-#. **Grading.** The instructor may specify whether a group of problems
-   is graded. If a group of problems is graded, a clock icon appears for
-   that assignment in the course accordion.
+#. **自動計分。** 出題者可設定需要自動計分的問題，設定完畢後，該測驗會以藍色的鬧鐘符號表示。
 
    .. image:: Images/clock_icon.gif
 
-#. **Due date.** The date that the problem is due. A problem that is
-   past due does not have a **Check** button. It also does not accept
-   answers or provide feedback.
+#. **作答期限。** 此功能是用於限制題目的作答時間，一旦過期，就不接受提交答案與提供解題說明。
 
-.. note::  Problems can be **open** or **closed.** Closed problems do not
-           have a **Check** button. Students can still see questions, solutions,
-           and revealed explanations, but they cannot check their work, submit
-           responses, or change their stored score.
+.. note::  每個題目有 **開啟** 或 **關閉** 的設定，被關閉的問題不能提交答案與更改已儲存的分數，但是，學生仍然可以看見題目、答案與解題說明。
+		   
 
-There are also some attributes of problems that are not immediately
-visible.
 
--  **Randomization.** For some problems, the instructor can specify
-   whether a problem will use randomly generated numbers that vary from
-   student to student.
--  **Weight.** Different problems in a particular problem set may be
-   given different weights.
+有些題型的屬性功能尚無法立即可用。
+
+-  **隨機顯示題目編號。** 此功能適用於部份題型，出題者可以自行設定，開啟此功能後，每位學生看到的題目編號都不相同。
+-  **最高得分。** 可自行設定各個題目的最高得分。
 
 .. _Studio UI:
 
 ==============================
-The Studio User Interface
+使用者介面
 ==============================
 
-Studio offers two interfaces for editing problem components: the Simple
-Editor and the Advanced Editor.
+Studio提供兩種設定問題功能項目的介面：簡易編輯與進階編輯
 
--  The **Simple Editor** allows you to edit problems visually, without
-   having to work with XML.
--  The **Advanced Editor** converts the problem to edX’s XML standard
-   and allows you to edit that XML directly.
+-  **簡易編輯模式** 僅能直接輸入內容，無法透過XML編輯。
+-  **進階編輯模式** 就是在edX的XML標準環境下編輯題目。
 
-.. note:: You can switch at any time from the Simple Editor to the
-          Advanced Editor by clicking **Advanced Editor** in the top right corner
-          of the Simple Editor interface. However, it is not possible to switch from
-          the Advanced Editor to the Simple Editor.
+.. note:: 系統允許使用者隨時從簡易編輯模式轉換到 **進階編輯模式** ，但是，無法從進階編輯模式轉換到簡易編輯模式。
 
-The Simple Editor
+簡易編輯模式
 ~~~~~~~~~~~~~~~~~
-The Common Problem templates, including multiple choice, open in the Simple Editor. The
-following image shows a multiple choice problem in the Simple Editor.
+在簡易編輯模式可使用題目製作的套版。下圖為單選題的範例。
 
-The Simple Editor includes a toolbar that helps you format the text of your problem.
-When you select text and then click the formatting buttons, the Simple Editor formats
-the text for you automatically. The toolbar buttons are the following:
+為有效編輯與格式化題目，簡易編輯模式提供工具列。以下列出工具列的項目：
 
-1. Create a level 1 heading.
-2. Create multiple choice options.
-3. Create checkbox options.
-4. Create text input options.
-5. Create numerical input options.
-6. Create dropdown options.
-7. Create an explanation that appears when students click **Show Answer**.
-8. Open the problem in the Advanced Editor.
-9. Open a list of formatting hints.
+1.	製作Level 1的標題
+2.	製作單選題的題型
+3.	製作勾選題的題型
+4.	製作可輸入文字的題型
+5.	製作可輸入數字的題型
+6.	製作下拉式的題型
+7.	製作解題說明，當學生使用 **顯示答案** 時，此說明便會出現在網頁。
+8.	在進階編輯模式編輯題目
+9.	開啟格式化的提示列表
 
-The following image shows a multiple choice problem in the Simple Editor.
+
+下圖是簡易編輯模式的單選題範例。
 
 .. image:: Images/MultipleChoice_SimpleEditor.gif
 
 .. _Advanced Editor:
 
-The Advanced Editor
+進階編輯模式
 ~~~~~~~~~~~~~~~~~~~
-The **Advanced Editor** opens a problem in XML. The Advanced Problem templates,
-such as the circuit schematic builder, open directly in the Advanced Editor.
+**進階編輯模式** 是採用XML來製作題目，提供套版使用，包含電路圖。
 
-For more information about the XML for different problem types, see :ref:`Appendix E`.
+欲了解更多使用XML製作不同題型，請參見 :ref:`Appendix E`.
 
-The following image shows the multiple choice problem above in the Advanced Editor
-instead of the Simple Editor.
+下圖是進階編輯模式的製作單選題的範例。
 
 .. image:: Images/MultipleChoice_AdvancedEditor.gif
 
 .. _Problem Settings:
 
 ******************
-Problem Settings
+題目設定
 ******************
 
-All problems except word cloud and open response assessment problems
-have the following settings. These settings appear on the **Settings** tab in
-the component editor. (The settings for open response assessments and word clouds
-are listed on the page for those problem types.)
+除了文字雲與開放式問答以外，系統提供以下的設定功能給所有的題目。本功能放在功能項目編輯器的 **設定** 。（在問題類型的頁面，提供開放式問題與文字雲的設定）
 
--  Display Name
--  Maximum Attempts
--  Problem Weight
--  Randomization
--  Show Answer
+-  顯示題目名稱
+-  提交答案的次數
+-  目最高得分
+-  隨機變更數值
+-  顯示答案
 
 .. image:: Images/ProbComponent_Attributes.gif
 
 ===============
-Display Name
+題目名稱
 ===============
 
-This setting indicates the name of your problem. The display name
-appears as a heading over the problem in the LMS and in the course
-ribbon at the top of the page.
+題目名稱出現在網頁上方的位置，如同標題。
 
 .. image:: Images/ProbComponent_LMS_DisplayName.gif
 
 ==============================
-Maximum Attempts
+提交答案的次數
 ==============================
 
-This setting specifies the number of times a student can try to answer
-the problem. By default, a student has an unlimited number of attempts.
+設定學生作答次數，系統預設是無限次。
 
 .. _Problem Weight:
 
 ==============================
-Problem Weight
+題目最高得分
 ==============================
 
-.. note:: Studio stores scores for all problems, but scores only count
-          toward a student’s final grade if they are in a subsection that is
-          graded.
+.. note:: Studio儲存所有問題的分數，但是，學生成績僅計算真正被要求計分的題目。
 
-This setting specifies the maximum number of points possible for the
-problem. The problem weight appears next to the problem title.
+本節說明如何設定題目的最高得分，設定完成後，該題的最高得分會顯示在題目名稱旁邊。
 
 .. image:: Images/ProblemWeight_DD.gif
 
-By default, each response field, or “answer space,” in a Problem
-component is worth one point. Any Problem component can have multiple
-response fields. For example, the Problem component above
-contains one dropdown problem that has three separate questions for students
-to answer, and thus has three response fields.
+系統預設每個題目的答題欄位都是1分，每題可以設計多個答題欄位，例如，上圖範例採用下拉式題型，並要求學生回答3個問題，因此，有3個答題欄位，共是3分。
 
-The following Problem component contains one text input problem,
-and has just one response field.
+下圖範例採用文字輸入的題型，只有1個答題欄位，因此，只有1分。
 
 .. image:: Images/ProblemWeight_TI.gif
 
-Computing Scores
+計算分數
 ~~~~~~~~~~~~~~~~
 
-The score that a student earns for a problem is the result of the
-following formula:
+每個問題的 **得分計算公式 = 最高得分 x （正確的答題數 ／ 全部的題目數）**
 
-**Score = Weight × (Correct answers / Response fields)**
+-  **分數** 即為學生的得分。
+-  **最高得分** 為完全答對題目的最高得分。
+-  **正確答案** 是指回答正確的題目欄位次數。
+-  **答題欄位** 是指題目的答題欄位總數量。
 
--  **Score** is the point score that the student receives.
--  **Weight** is the problem’s maximum possible point score.
--  **Correct answers** is the number of response fields that contain
-   correct answers.
--  **Response fields** is the total number of response fields in the
-   problem.
+**例題**
 
-**Examples**
+以下提供計算分數的例題。
 
-The following are some examples of computing scores.
+*Example 1  例題1*
 
-*Example 1*
+題目的 **最高得分** 的設定是空白，且該題目有兩個答題欄位，所以，依照預設值，該題目的最高得分是2分。
 
-A problem’s **Weight** setting is left blank. The problem has two
-response fields. Because the problem has two response fields, the
-maximum score is 2.0 points.
+若學生僅答對一個答題欄位，另外一個答題欄位答錯，則學生的得分是1分。
 
-If one response field contains a correct answer and the other response
-field contains an incorrect answer, the student’s score is 1.0 out of 2
-points.
+*Example 2  例題2*
 
-*Example 2*
+題目的最高得分是12，該題目有三個答題欄位。
 
-A problem’s weight is set to 12. The problem has three response fields.
+其中，學生答對二個答題欄位，一個答錯，則學生的得分是8分。
 
-If a student’s response includes two correct answers and one incorrect
-answer, the student’s score is 8.0 out of 12 points.
 
-*Example 3*
+*Example 3 例題3*
 
-A problem’s weight is set to 2. The problem has four response fields.
+題目的最高得分是2分，該題目有四個答題欄位。
 
-If a student’s response contains one correct answer and three incorrect
-answers, the student’s score is 0.5 out of 2 points.
+其中，學生答對一個，答錯三個，則學生的得分是0.5分。
 
 ===============
-Randomization
+隨機更換計算數值
 ===============
 
 This setting only applies to problems that have randomly generated
@@ -284,138 +217,81 @@ numeric values. It specifies whether random variable inputs are
 randomized when a student loads the problem.
 
 ===============
-Show Answer
+顯示答案
 ===============
 
-This setting defines when the problem shows the answer to the student.
-This setting has seven options.
+本功能有七種設定。
 
-+-------------------+--------------------------------------+
-| **Always**        | Always show the answer when the      |
-|                   | student clicks the **Show Answer**   |
-|                   | button.                              |
-+-------------------+--------------------------------------+
-| **Answered**      | Show the answer after the student    |
-|                   | has submitted her final answer.      |
-+-------------------+--------------------------------------+
-| **Attempted**     | Show the answer after the student    |
-|                   | has tried to answer the problem one  |
-|                   | time, whether or not the student     |
-|                   | answered the problem correctly.      |
-+-------------------+--------------------------------------+
-| **Closed**        | Show the answer after the student    |
-|                   | has used up all his attempts to      |
-|                   | answer the problem or the due date   |
-|                   | has passed.                          |
-+-------------------+--------------------------------------+
-| **Finished**      | Show the answer after the student    |
-|                   | has answered the problem correctly,  |
-|                   | the student has no attempts left, or |
-|                   | the problem due date has passed.     |
-+-------------------+--------------------------------------+
-| **Past Due**      | Show the answer after the due date   |
-|                   | for the problem has passed.          |
-+-------------------+--------------------------------------+
-| **Never**         | Never show the answer. In this case, |
-|                   | the **Show Answer** button does not  |
-|                   | appear next to the problem in Studio |
-|                   | or in the LMS.                       |
-+-------------------+--------------------------------------+
++--------------------------+---------------------------------------+
+| **隨時觀看答案**         | 允許學生隨時都可以看到答案。          |
+|                          |                                       |
++--------------------------+---------------------------------------+
+| **提交答案後看答案**     | 學生提交答案後，才能看到答案。        |
+|                          |                                       |
++--------------------------+---------------------------------------+
+| **限制回答一次後看答案** | 學生試圖回答一次後，才能看到答案，    |
+|                          | 無論學生回答的內容是否正確。          |
+|                          |                                       |
++--------------------------+---------------------------------------+
+| **無法提交題目**         | 學生達到被要求回答的次數，或是已過    |
+|                          | 期無法作答的題目，才能看到答案。      |
++--------------------------+---------------------------------------+
+| **題目完成後**           | 要求學生必須答題正確、已無可用的作答  |
+|                          | 次數、或是已經過期無法作答的題目，    |
+|                          | 才能看到答案。                        |
++--------------------------+---------------------------------------+
+| **題目超過有效期**       | 已經過期無法作答的題目，才能看到答案。|
+|                          |                                       |
++--------------------------+---------------------------------------+
+| **關閉**                 | 不允許使用此功能，一旦選擇此設定，    |
+|                          | 顯示答案的功能將被隱藏。              |
+|                          |                                       |
++--------------------------+---------------------------------------+
 
 ===============
-Problem Types
+題目類型
 ===============
 
-Studio includes templates for many different types of problems, from
-simple multiple choice problems to advanced problems that require the
-student to “build” a virtual circuit. Details about each problem type,
-including information about how to create the problem, appears in the
-page for the problem type.
+Studio提供多種題型的樣本，從單選題到建構虛擬電路，每個題目類型可在該題目的頁面取得。
 
--  :ref:`Common Problems` appear on the **Common Problem Types** tab when you
-   create a new Problem component in Studio. You create these problems
-   using the Simple Editor.
--  :ref:`Advanced Problems` appear on the **Advanced** tab when you create a
-   new Problem component. You create these problems using the Advanced
-   Editor.
--  :ref:`Specialized Problems` are advanced problems that aren’t available by
-   default. To add these problems, you first have to modify the advanced
-   settings in your course. The Advanced component then appears under
-   **Add New Component** in each unit, and these problems are available
-   in the Advanced component.
--  :ref:`Open Response Assessment Problems` are a new kind of problem that allow you, the
-   students in your course, or a computer algorithm to grade responses in the form
-   of essays, files such as computer code, and images.
+-  :ref:`Common Problems` 在簡易編輯模式新增題型，可看到Studio提供的 **一般題目類型** 的標籤。
+-  :ref:`Advanced Problems` 在進階編輯模式新增題型，可看到各種 **進階** 題型的標籤。
+-  :ref:`Specialized Problems` 這些是預設值未提供的進階題型，新增的方式，首先必須調整該課程的進階設定，在 **增加新細項** 顯示進階細項，此時便可以開始編輯特殊題型。
+-  :ref:`Open Response Assessment Problems` 提供以短文、附加檔案（如：電腦編碼或圖片）方式回答問題。
 
 .. _Multiple Problems in One Component:
 
 ************************************
-Multiple Problems in One Component
+在單一問題功能項目新增多種題目
 ************************************
 
-You may want to create a problem that has more than one response type.
-For example, you may want to create a numerical input problem, and then
-include a multiple choice question about the numerical input problem.
-Or, you may want a student to be able to check the answers to
-many problems at one time. To do this, you can include multiple problems
-inside a single Problem component. The problems can be different types.
+希望能夠讓學生以數字作答單選題，或是想讓學生同時回答多個題目，為了達到這個目的，可以在一個題目下使用多種題型。
 
-To create multiple problems in one component, create a new Blank
-Advanced Problem component, and then paste the XML for each problem in
-the component editor. You only need to include the XML for the problem
-and its answers. You don’t have to include the code for other elements,
-such as the **Check** button.
+先新增一個空白的進階題型，在功能項目編輯器，將XML貼到每個題型與答案，不需要連同其他細項也貼上，像是 **確認答案** 。
 
-Elements such as the **Check**, **Show Answer**, and **Reset** buttons,
-as well as the settings that you select for the Problem component, apply
-to all of the problems in that component. Thus, if you set the maximum
-number of attempts to 3, the student has three attempts to answer
-the entire set of problems in the component as a whole rather than three
-attempts to answer each problem individually. If a student clicks
-**Check**, the LMS scores all of the problems in the component at once.
-If a student clicks **Show Answer**, the answers for all the problems in
-the component appear.
+把 **確認答案** 、**顯示答案**、**重新提交**與自選的設定，套用到所有題目時，假若自行設定提交答案的次數為3次，表示學生有3次機會回答所有的題目，而非每個題目有3次回答的機會。
 
 .. _Modifying a Released Problem:
 
 ************************************
-Modifying a Released Problem
+修改已發佈的題目
 ************************************
 
-.. warning:: Be careful when you modify problems after they have been released!
+.. warning:: 修改已經發布的題目時，要特別留意！
 
-After a student submits a response to a problem, Studio stores the
-student’s response, the score that the student received, and the maximum
-score for the problem. Studio updates these values when a student
-submits a new response to a problem. However, if an instructor changes a
-problem or its attributes, Studio does not automatically update existing
-student information for that problem.
+當學生重新提交答案時，Studio會更新已有的分數，但是，若出題者修改題目內容或屬性，Studio不會自動更新已經儲存的分數。
 
-For example, you may release a problem and specify that its answer is 3.
-After some students have submitted responses, you notice that the answer
-should be 2 instead of 3. When you update the problem with the correct
-answer, Studio doesn’t update scores for students who answered 2 for the
-original problem and thus received the wrong score.
+舉例來說，原本公布的題目與答案是3，而且已有學生完成作答，後來發現有誤，必須更正答案為2，此時，若原本學生的答案是2，Studio不會修正該學生的分數，會以修正前為主。因此，該學生不會取得此題目的分數。
 
-For another example, you may change the number of response fields to
-three. Students who submitted answers before the change have a score of
-0, 1, or 2 out of 2.0 for that problem. Students who submitted answers
-after the change have scores of 0, 1, 2, or 3 out of 3.0 for the same
-problem.
+在學生作答之後，才將答題欄位由原本的2個增加至3個，學生的得分則變更成0分、1分、2分、或3分。
 
-If you change the weight of the problem, however, the existing scores
-update when you refresh the **Progress** page.
+變更題目的最高得分，原本系統儲存的分數，透過重新下載 **Progress** 頁面，即可更新分數。
 
 ===============
-Workarounds
+暫時解決方案
 ===============
 
-If you have to modify a released problem in a way that affects grading,
-you have two options. Note that both options require you to ask your
-students to go back and resubmit a problem.
+修改已發佈的題目，因而影響到分數時，系統提供二種選項，但是，都必須請學生重新提交該題目的答案。
 
--  In the Problem component, increase the number of attempts for the
-   problem. Then ask all your students to redo the problem.
--  Delete the entire Problem component in Studio and create a new
-   Problem component with the content and settings that you want. Then
-   ask all your students to complete the new problem.
+-  在題目功能項目中，增加提交答案的次數後，請學生重新提交答案。
+-  刪除原本的題目，新增新的題目與設定方式，請學生完成新題目的答案提交。

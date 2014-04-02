@@ -1,14 +1,10 @@
 .. _Publishing Your Course:
 
 ###########################
-Publishing Your Course
+發佈課程
 ###########################
 
-When you have set up your course, established a grading system, and organized your course content,
-you are ready to publish your course and make it available to students.
-
-Understanding the content your students can view, and knowing how to change what students can view, is complex.
-Read the following sections carefully:
+當您完成課程內容組織以及訂定評分方式後，即可發佈課程，供學生選課。透過下列四項要點，可以瞭解學生能夠瀏覽的課程內容以及知道如何修改學生可瀏覽的課程內容項目：
 
 * :ref:`Understanding Content Students Can View`
 * :ref:`Release Dates`
@@ -19,88 +15,62 @@ Read the following sections carefully:
 .. _Understanding Content Students Can View:
 
 ******************************************
-Understanding Content Students Can View
+瞭解學生可瀏覽的課程內容
 ******************************************
 
-When you create a course on Studio, students cannot see any of your course content until the course start date has passed. 
-After the course start date has passed, whether a student can see your course materials depends on two settings that you can control: release dates and visibility.
+當您在Studio建置課程時，學生在開課日期之前無法瀏覽課程內容。 
+開課後，您可以透過發佈日期(release dates)和可見性(visibility)功能，管理學生可瀏覽的課程內容。
 
-* The **Release Date**. Sections and subsections have release dates. If the current date
-  of a section or subsection is before the release date, the content of that course element is
-  not yet published, and not visible to students. 
+* **發佈日期(release dates)** ：您可以設定章節、小節的發佈日期。如果章節和小節的建置日期早於發佈日期，課程內容不會被公開，學生也無法進行瀏覽。
   
-  For a student to view a subsection, both it and its containing section must be have a release date
-  earlier than the current date.  It is possible that a section is released, but a subsection within it
-  is not released. In this case, students cannot view that subsection.
-  
-  Course staff can see sections and subsections before the release date in the LMS.
-  
-* The unit must be **Public**.  All units have a **Visibility** setting that is **Public** or **Private**.
-  When you create a unit, it is **Private** by default. 
-  
-  Students cannot view a **Private** unit, even if the containing section and subsection are released.
-  
-  Students cannot view a **Public** unit if the containing section and subsection are *not* released.
-  
-  Course staff *cannot* see Private units in the LMS.
-  
-In summary, for students to see content, the unit must be **Public**, and the containing section and
-subsection must be released. If all these criteria are not met, students do not see that unit.
+  當章節和小節的發佈日期早於當前日期時，學生才可瀏覽其內容。章節內容已開放，但小節內容尚未開放的情況下，學生則無法瀏覽小節的內容。
 
-Continue reading this chapter for more details.
+  在發佈日期之前，課程人員可於從學習管理平台(LMS)瀏覽章節和小節內容。
+  
+* 各單元必須是 **公開的** 。每一個單元皆具備 **公開** 、 **隱藏** 的 **可見性功能設定** 。當您建置單元項目時，其可見性預設為 **隱藏** ，即使您已發佈章節和小節內容，學生此時仍無法瀏覽其內容。
+ 
+  若 **尚未** 發佈章節和小節內容，學生則無法瀏覽 **已公開** 的單元項目。
+  
+  課程人員 **無法** 瀏覽學習管理平台(LMS)中被隱藏的單元項目。
+  
+簡要而言，必須發佈上一層的章節和小節，且單元項目必須是 **公開的** ，學生才可瀏覽課程內容。
+
 
 
 .. _Release Dates:
 
 *******************
-Release Dates
+發佈日期
 *******************
 
-Release dates specify the dates when content is available to students. 
-Release dates are set at the section and subsection levels. 
-Neither a section nor its contents are visible to students until the release date passes. 
-However, course staff can see content in the LMS regardless of its release date.
+發佈日期功能明確指定課程內容開放的日期，此項功能設定可於章節和小節層級中使用。直到發佈日期當天，學生才可瀏覽章節及其相關內容，課程人員不在此限。
 
 ========================================
-Set the Release Date for a Section
+設定章節發佈日期
 ========================================
 
-You can set release date and time for each section.
-Before the release date and time, students are not able to view any content in that section. 
+您可為每一章節個別設定發佈日期和時間，在此日期和時間之前，學生無法瀏覽章節內容。設定步驟如下：
 
-To set a release date for a section:
-
-#. In the **Will Release:** field next to the section title, click **Edit**.
-#. Enter the release date in MM/DD/YYYY format, and the UTC time.
-#. Click **Save**.
+#. 在 **Will Release** 中，選擇下一步(next)至章節標題(section title)，點選 **編輯(Edit)** 
+#. 以月/日/年(MM/DD/YYYY)的時間格式輸入發佈時間(以世界標準時間為準)
+#. 點選 **儲存(Save)**
 
 
 ========================================
-Set the Release Date for a Subsection
+設定小節發佈日期
 ========================================
 
-小節預設是繼承其所在小節的發佈日期，但您可以更改這個日期，如此一來不同的小節能在不同的時間發布。
-
-注意若小節的發佈日期比在其所在的章節的發佈日期更早，學生在此 **章節** 發佈日期前將無法看到此小節，章節的發佈日期會覆寫小節的發佈日期。 
-
-要為小節設定發佈日期:
-
+小節的預設發佈日期會依照章節的發佈日期而定，但是各小節可以另行設定不同的發佈時間。需要注意的是，小節發佈日期早於章節發佈日期時，學生在章節發佈日期之前無法瀏覽小節內容。章節的發佈日期設定效力大於小節的發佈日期設定。設定步驟如下：
 #. 開啟小節。
-#. 找到在右上角的 **小節設定** 方格。
-#. 在 **發佈日期ㄧ** 下方修改日期。
+#. 在右上角找到 **小節設定框(Subsection Settings box)** 
+#. 以月/日/年(MM/DD/YYYY)的時間格式輸入 **發佈時間** (以世界標準時間為準)
 
 
 ================================================
-Synch the Release Date for a Subsection
+同步小節發佈日期
 ================================================
 
-You or other course staff could inadvertantly set the release date for a subsection 
-earlier than the release date for the containing section. In this situation, the subsection is 
-not released until the section is released.
-
-To help you keep your course and release dates organized, Studio flags subsections with earlier release dates
-than their containing section.  In this situation, when you open the subsection, in the Subsection Settings,
-you see the following message:
+您或其他課程人員可能不小心將小節發佈時間設定早於章節的發佈時間，在此情況之下，需到章節發佈日期當天，才會發佈小節內容。為了幫助您組織管理課程的發佈時間，Studio會標示出早於章節發佈日期的小節項目。當您開啟小節時，在設定介面中就會看到下列訊息：
 
 ``The date above differs from the release date of <Section Name> - <Section release date and time>. Sync to <Section Name>.``
 
@@ -109,55 +79,50 @@ Click **Sync to <Section Name>** to have the subsection inherit the later sectio
 .. _Public and Private Units:
 
 *************************
-Public and Private Units
+公開與隱藏單元
 *************************
 
-Units are released at the release date of the subsection they are in.
+單元開放日期為小節設定之開放日期。
 
-In addition, unites have a **Visibility** setting that you can set to **Public** or
-**Private**. 
+此外，單元中具備 **可見性(Visibility)**功能，可設定是否 **公開** 或 **隱藏** 單元項目。
 
-When you create a unit, it is Private by default. 
-A Private unit is never visible to students, even if it is contained by a subsection that has been released.
+當您建置一個單元時，其預設為隱藏，即使上一層的小節內容已進行發佈，學生仍無法瀏覽。
 
-When you change the visibility setting of a unit from Private to Public, you publish the unit and its contents. 
-You must set the Visibility to Public for students to be able to see the unit.
+當您修改單元之可見性功能從隱藏改為公開時，表示您已發佈此單元內容。您必須將單元設定為公開，學生才能夠進行瀏覽。
 
-Course staff cannot see Private units in the LMS.
+課程人員無法瀏覽學習管理平台(LMS)中的隱藏單元項目。
 
 
 .. _Modifying Public Units:
 
 *************************
-Modifying Public Units
+修改已公開之單元
 *************************
 
-To make revisions to a unit that has been published, you create and edit a draft of that unit. 
+若要修改已公開的單元內容時，請您建置與編輯該單元之草稿(draft)。
 
-.. warning:: There are additional implications to modifying the public unit that has graded problem 
-            components students may have already completed.  See :ref:`Modifying a Released Problem` for more information.
+.. warning:: 修改已公開之單元項目將影響學生已完成的問題功能項目，請參閱修改 :ref:`Modifying a Released Problem` ，取得更多資訊。.
 
-To create a draft, go to the unit's page, and then click **edit a draft** in the right pane.
+前往單元頁面，點選右邊視窗中的 **編輯草稿(edit a draft)** 建置草稿。
 
 .. image:: Images/Viz_Revise_EditDraft.png
  :width: 800
 
-When you edit a draft of a unit, you can view the unit's contents in two ways.
+當您編輯單元草稿時，可由下列兩種方式進行瀏覽：
 
-* To view the already-published content as it appears in the live course, click **View the Live Version** in the upper-right corner of the page.
-* To view the unpublished content as you're working on it, click **Preview**.
+* 點選網頁右上角的 **瀏覽已開放使用的版本(View the Live Version)** 
+* 點選 **預覽(Preview)** ，瀏覽未公開的內容
 
 .. image:: Images/Viz_Revise_ViewLiveandPreview.png
  :width: 800
 
-When you're ready to publish the draft of your revised content, 
-click **replace it with this draft** in the right pane. 
+當您準備公開修改完成的草稿內容時，點選右方視窗的 **以草稿取代此版本(replace it with this draft)**
 
-If you decide you don't want to keep the revised content, click **Delete Draft**.
+若您選擇不保留此修改內容時，點選 **刪除草稿(Delete Draft)** 。
 
 .. image:: Images/Viz_Revise_ReplaceorDelete.png
 
-.. Warning:: Historical versions of units are not stored by Studio. After you replace the live version with a new draft, you cannot revert the unit to the previous version. 
+.. Warning:: 將完全刪除單元內容的舊版本，不予保留！當您以草稿內容進行取代後，將無法回復舊版本內容。
 
   
   

@@ -2,133 +2,96 @@
 
 
 #############################
-Working with Tools
+工具
 #############################
 
 ***************************
-Overview of Tools in Studio
+Studio工具綜覽
 ***************************
 
-In addition to text, images, and different types of problems, Studio allows you
-to add customized learning tools such as word clouds to your course.
+除了文字、圖片和問題題型之外，Studio能夠提供客製化的學習工具，例如文字雲。
 
-- :ref:`LTI Component`: LTI components allow you to add an external learning application
-  or textbook to Studio.
-- :ref:`Word Cloud`: Word clouds arrange text that students enter - for example, in
-  response to a question - into a colorful graphic that students can see.
-- :ref:`Zooming image`: Zooming images allow you to enlarge sections of an image so
-  that students can see the section in detail.
+- :ref:`LTI Component`: 可新增外掛學習應用程式或教科書。
+- :ref:`Word Cloud`: 以彩色圖像組織學生填答時所輸入的詞彙。
+- :ref:`Zooming image`: 可放大圖片的部分區塊，讓學生能夠瀏覽細節內容。
 
 
 .. _LTI Component:
 
 **************
-LTI Components
+互動式學習工具項目
 **************
 
-You may have discovered or developed an external learning application
-that you want to add to your online course. Or, you may have a digital
-copy of your textbook that uses a format other than PDF. You can add
-external learning applications or textbooks to Studio by using a
-Learning Tools Interoperability (LTI) component. The LTI component is
-based on the `IMS Global Learning Tools
-Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
-version 1.1.1 specifications.
+您可透過互動式學習工具(LTI)項目新增外部學習應用程式或非PDF格式數位版本教科書內容。
+互動式學習功能項目是以 `IMS互動式全球學習工具 <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
+1.1.1版本為基礎。
 
-You can use an LTI component in two ways.
+互動式學習工具項目的使用方式：
 
--  You can add external LTI content that is displayed only, such as
-   textbook content that doesn’t require a student response.
--  You can add external LTI content that requires a student response. An
-   external provider will grade student responses.
+-  僅供瀏覽的項目，例如教科書資料。
+-  讓學生能夠填答回覆的項目，外部供應者端能夠對學生的回覆進行評分。
 
-Before you create an LTI component from an external LTI provider in a
-unit, you need the following information.
+在單元中新增互動式學習工具項目之前，請參考下列資訊：
 
--  The **LTI ID**. This is a value that you create to refer to the external LTI
-   provider. You should create an LTI ID that you can remember easily.
+-  互動式學習工具 **帳號** ：您須建立一組簡單易記的帳號登入LTI供應者。
+   帳號是由大小寫英文字母和數字組成，也可包含底線(_)，不限帳號字元數。
+   例如您可建立一組簡單的帳號： **test_lti_id** ，
+   也可建立複雜的帳號： **id_21441** or **book_lti_provider_from_new_york** 。
+-  **用戶端序號** ：互動式學習工具供應者提供一組由英數字組成的序列字串，作為身分認證之用，
+   例如 **b289378-f88d-2929-ctools.umich.edu** 。
+-  **用戶端密碼** ：互動式學習工具供應者提供一組由英數字組成的序列字串，作為身分認證之用。
+   密碼可能是簡單的英文字串，例如secret，也可能是由英數字搭配組成，例如23746387264或yt4984yr8。
+-  **發佈網址** ：如果互動式學習工具項目要求學生回覆，並予以評分。
+   互動式學習工具供應者將提供一組URL網址，此網址是由Studio提供給外部互動式學習工具供應者，使其回傳學生的成績資訊。
 
-   The LTI ID can contain uppercase and lowercase alphanumeric
-   characters, as well as underscore characters (_). It can contain any
-   number of characters. For example, you may create an LTI ID that is
-   as simple as **test_lti_id**, or your LTI ID may be a string of
-   numbers and letters such as  **id_21441** or
-   **book_lti_provider_from_new_york**.
--  The **client key**. This value is a sequence of characters that you
-   obtain from the LTI provider. The client key is used for
-   authentication and can contain any number of characters. For example,
-   your client key may be **b289378-f88d-2929-ctools.umich.edu**.
--  The **client secret**. This value is a sequence of characters that
-   you obtain from the LTI provider. The client secret is used for
-   authentication and can contain any number of characters. For example,
-   your client secret may be something as simple as **secret**, or it
-   may be a string of numbers and letters such as **23746387264** or
-   **yt4984yr8**.
--  The **launch URL** (if the LTI component requires a student response
-   that will be graded). You obtain the launch URL from the LTI
-   provider. The launch URL is the URL that Studio sends to the external
-   LTI provider so that the provider can send back students’ grades.
-
-Create an LTI Component
+建立互動式學習工具項目
 -----------------------
 
-Creating an LTI component in your course has three steps.
+建立步驟如下：
 
-#. Add LTI to the **advanced_modules** policy key.
-#. Register the LTI provider.
-#. Create the LTI component in an individual unit.
+#. 在 **進階模組** 規則序號新增互動式學習工具。
+#. 註冊成為互動式學習工具供應者。
+#. 在獨立單元中建立互動式學習工具項目。
 
-Step 1. Add LTI to the Advanced Modules Policy Key
+步驟一：在進階模組規則序號新增互動式學習工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. On the **Settings** menu, click **Advanced Settings**.
-#. On the **Advanced Settings** page, locate the **Manual Policy
-   Definition** section, and then locate the **advanced_modules**
-   policy key (this key is at the top of the list).
+#. 點選功能 **設定** 表單上的 **進階設定** 。
+#. 在 **進階設定** 頁面的使用規則定義 **(Manual Policy Definition)** 區塊，將 **advanced_modules** 填入規則序號(Policy Key)欄位。
 
    .. image:: Images/AdvancedModulesEmpty.gif
 
-#. Under **Policy Value**, place your cursor between the brackets, and
-   then enter **“lti”**. Make sure to include the quotation marks, but
-   not the period.
+#. 將滑鼠游標移至規則數值 **(Policy Value)** 欄位裡的方括弧之間，
+   輸入 **“lti”** （請確認輸入引號）。
 
    .. image:: Images/LTI_Policy_Key.gif
 
-   **Note** If the **Policy Value** field already contains text, place your
-   cursor directly after the closing quotation mark for the final item, and
-   then enter a comma followed by **“lti”** (make sure that you include the
-   quotation marks).
+   **備註** ：規則數值 **(Policy Value)** 欄位中已有文字內容時，請將滑鼠游標移至第二個引號後方，輸入逗號後再輸入  **“lti”** （請確認輸入引號）。
 
-#. At the bottom of the page, click **Save Changes**.
+#. 下拉至網頁底部，點選 **儲存更新** 。
 
-The page refreshes automatically. At the top of the page,
-you see a notification that your changes have been saved.
+本網頁會自動更新，網頁最上方會顯示更新資訊已儲存的提醒資訊。
 
-Step 2. Register the External LTI Provider
+步驟二：註冊成為互動式學習工具供應者
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To regiser the external LTI provider, you’ll add the LIT ID, the client
-key, and the client secret in the **lti_passports** policy key.
+註冊為外部互動式學習工具供應者，您必須在互動式學習工具密碼 **(lti_passports)** 規則序號中新增帳號、用戶端序號、用戶端密碼。
 
-#. On the **Advanced Settings** page, locate the **lti_passports**
-   policy key.
+#. 前往 **進階設定** 頁面的互動式學習工具密碼 **(lti_passports)** 欄位。
 
-#. Under **Policy Value**, place your cursor between the brackets, and
-   then enter the LTI ID, client key, and client secret in the following
-   format (make sure to include the quotation marks and the colons).
+#. 將滑鼠游標移至規則數值 **(Policy Value)** 項目中的方括弧之間，以下列格式輸入帳號、用戶端序號、用戶端密碼。
 
    ::
 
       “lti_id:client_key:client_secret”
 
-   For example, the value in the **lti_passports** field may be the following.
+   互動式學習工具密碼 **(lti_passports)** 欄位內容範例如下：
 
    ::
 
       “test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret”
 
-   If you have multiple LTI providers, separate the values with a comma.
-   Make sure to surround each entry with quotation marks.
+   若您擁有多個互動式學習工具供應者，請以逗號進行區分，並確定每一個項目的前後都有引號。
 
    ::
 
@@ -137,43 +100,36 @@ key, and the client secret in the **lti_passports** policy key.
       "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
 
 
-#. At the bottom of the page, click **Save Changes**.
+#. 下拉網頁底部，點選 **儲存更新** 。
 
-The page refreshes automatically. At the top of the page,
-you see a notification that your changes have been saved, and you can
-see your entries in the **lti_passports** policy key.
+本網頁會自動更新，網頁最上方會顯示更新資訊已儲存的提醒資訊，同時也可查看您所輸入的 **互動式學習工具密碼** 規則序號。
 
-Step 3. Add the LTI Component to a Unit
+步驟三：在獨立單元中建立互動式學習工具項目
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**, and then click **LTI**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, set the options that you want. See the table
-   below for a description of each option.
-#. Click **Save**.
+#. 在單元中建立項目，點選 **增加新項目** 之下的 **進階** ，在點選 **互動式學習工具** 。
+#. 點選 **編輯** 。
+#. 在項目編輯模式中進行功能設定，下表詳述各項功能簡介。
+#. 點選 **儲存** 。
 
   .. list-table::
      :widths: 10 80
      :header-rows: 1
 
      * - `Setting`
-       - Description
+       - 說明
      * - `Display Name`
-       - Specifies the name of the problem. This name appears above the problem and in
-         the course ribbon at the top of the page in the courseware.
+       - 詳細說明項目名稱，顯示於項目上方以及課程畫面上方的橫軸。
      * - `custom_parameters`
-       - Enables you to add one or more custom parameters. For example, if you've added an
-         e-book, a custom parameter may include the page that your e-book should open to.
-         You could also use a custom parameter to set the background color of the LTI component.
-
-         Every custom parameter has a key and a value. You must add the key and value in the following format.
+       - 可自行設定參數，例如當您新增一本電子書時，可自行設定互動性學習工具項目的背景顏色。
+		 
+		 每一項自訂參數包含key和value，您必須以下列格式新增：
 
          ::
 
             key=value
 
-         For example, a custom parameter may resemble the following.
+		 自訂參數範例如下：
 
          ::
 
@@ -181,109 +137,80 @@ Step 3. Add the LTI Component to a Unit
 
             page=144
 
-         To add a custom parameter, click **Add**.
+         點選 **新增** ，增加自訂參數。
      * - `graded`
-       - Indicates whether the grade for the problem counts towards student's total grade. By
-         default, this value is set to **False**.
+       - 標示問題得分是否計入學生總成績，預設值為 **False** 。
      * - `has_score`
-       - Specifies whether the problem has a numerical score. By default, this value
-         is set to **False**.
+       - 標示該問題題型是否具有評分數據，預設值為 **False** 。
      * - `launch_url`
-       - Lists the URL that Studio sends to the external LTI provider so that the provider
-         can send back students' grades. This setting is only used if **graded** is set to
-         **True**.
+       - 條列Studio提供外部互動式學習工具供應者的URL網址，讓供應者回傳學生成績。
+	     當 **評分參數值** 為 **True** 時，此設定會自動開啟。
      * - `lti_id`
-       - Specifies the LTI ID for the external LTI provider. This value must be the same
-         LTI ID that you entered on the **Advanced Settings** page.
+       - 標示互動式學習工具供應者的帳號，此參數值必須與 **進階設定** 網頁所設定的帳號相同。
      * - `open_in_a_new_page`
-       - Indicates whether the problem opens in a new page. If you set this value to **True**,
-         the student clicks a link that opens the LTI content in a new window. If you set
-         this value to **False**, the LTI content opens in an IFrame in the current page.
+       - 標示是否以新視窗開啟問題題型網頁，此參數值為 **True** 時，當學生點選連結時，將以新視窗開啟互動式學習工具內容；
+	     參數值為 **False** 時，將於內置框架的方式於原視窗開啟。
      * - `weight`
-       - Specifies the number of points possible for the problem. By default, if an
-         external LTI provider grades the problem, the problem is worth 1 point, and
-         a student’s score can be any value between 0 and 1.
+       - 標示問題題型的可能得分數，外部互動式學習工具供應者對問題進行評分，該項得分預設為1分，而學生得到的分數則會介於0到1之間。
 
          For more information about problem weights and computing point scores, see :ref:`Problem Weight`.
 
 .. _Word Cloud:
 
 **********
-Word Cloud
+文字雲
 **********
 
 
-In a word cloud exercise, students enter words into a field in response
-to a question or prompt. The words all the students have entered then
-appear instantly as a colorful graphic, with the most popular responses
-appearing largest. The graphic becomes larger as more students answer.
-Students can both see the way their peers have answered and contribute
-their thoughts to the group.
-
-
-For example, the following word cloud was created from students'
-responses to a question in a HarvardX course.
+所有課程學生在問題或提示所輸入的文字，將立即彙整為彩色圖樣，最多人輸入的文字，其字體越大，文字雲會隨著學生輸入的文字而擴展。
+學生也可以從文字雲瞭解同儕的整體回覆狀況，下圖是學生回答HarvardX課程問題所組成的文字雲。
 
 .. image:: Images/WordCloudExample.gif
 
-Create a Word Cloud Exercise
+建立文字雲
 ----------------------------
 
-To create a word cloud exercise:
+步驟如下：
 
 
-#. Add the Word Cloud advanced component. To do this, add the
-   "word_cloud" key value to the **Advanced Settings** page. (For more
-   information, see the instructions in :ref:`Specialized Problems`.)
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**.
-#. In the list of problem types, click **Word Cloud**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. You can
-   leave the default value for everything except **Display Name**.
+#. 在 **進階設定** 頁面新增”文字雲”鍵值（詳細資訊請參閱 :ref:`Specialized Problems`）
+#. 在單元頁面中點選 **增加新項目** 之下的 **進階** 。
+#. 在問題題型選單中點選 **文字雲** 。
+#. 點選 **編輯** 
+#. 在項目編輯模式中進行功能設定，除了 **名稱** 之外，其他項目可保持為預設值。
 
 
-   -  **Display Name**: The name that appears in the course ribbon and
-      as a heading above the problem.
-   -  **Inputs**: The number of text boxes into which students can enter
-      words, phrases, or sentences.
-   -  **Maximum Words**: The maximum number of words that the word cloud
-      displays. If students enter 300 different words but the maximum is
-      set to 250, only the 250 most commonly entered words appear in the
-      word cloud.
-   -  **Show Percents**: The number of times that students have entered
-      a given word as a percentage of all words entered appears near
-      that word.
+   -  **名稱** ：顯示於項目上方以及課程畫面上方的橫軸。
+   -  **輸入項** ：學生可於文字框輸入的字數。
+   -  **最大顯示字數** ：文字雲顯示的最大字數，若學生輸入300個不同的文字，但最大顯示字數設定為250時，文字雲僅會顯示250個文字。
+   -  **顯示百分比** ：每個文字旁會顯示出輸入該文字的學生比例。
 
 
-#. Click **Save**.
+#. 點選 **儲存** 
 
 
-For more information, see `Xml Format of "Word Cloud" Module
+詳細資訊請參閱： `Xml Format of "Word Cloud" Module
 <https://edx.readthedocs.org/en/latest/course_data_formats/word_cloud/word_cloud.html#>`_.
 
 .. _Zooming Image:
 
 ******************
-Zooming Image Tool
+圖片放大工具
 ******************
 
-Some edX courses use extremely large, extremely detailed graphics. To make it
-easier to understand we can offer two versions of those graphics, with the zoomed
-section showing when you click on the main view.
+部分edX課程使用大型、細節內容豐富的圖片。為使容易瞭解圖片內容，系統提供兩種圖片版本，當您點選主要圖片時，會顯示圖片放大工具。
 
-The example below is from 7.00x: Introduction to Biology and shows a subset of the
-biochemical reactions that cells carry out.
+下列圖片來自7.00x: Introduction to Biology課程，該圖片呈現細胞生化反應產生的子集。
 
 .. image:: Images/Zooming_Image.gif
 
-Create a Zooming Image Tool
+建立圖片放大工具
 ---------------------------
 
-#. Under **Add New Component**, click **html**, and then click **Zooming Image**.
+#. 在 **增加新項目** 之下點選 **html** ，然後點選 **放大圖片** 。
 
-#. In the empty component that appears, click **Edit**.
+#. 點選 **編輯**
 
-#. When the component editor opens, replace the example content with your own content.
+#. 輸入課程內容文字覆蓋項目編輯模式中的範例文字。
 
-#. Click **Save** to save the HTML component.
+#. 點選 **儲存**

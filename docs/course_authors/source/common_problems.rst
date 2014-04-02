@@ -1,15 +1,12 @@
 .. _Common Problems:
 
 ############################
-Common Problems
+常見題型
 ############################
 
-*Common problems* are typical problems such as multiple choice problems
-and other problems whose answers are simple for students to select or
-enter. You can create all of these problems using the Simple Editor in
-Studio. You don't have to use XML or switch to the Advanced Editor.
-
-The following are the common problem types in Studio:
+常見題型是指多重選擇題或學生能夠容易選擇、填寫的題型。您可使用 Studio
+簡易編輯模式建立各種題型，毋須使用 XML 或進階編輯模式。
+Studio 平台中的常見題型如下：
 
 -  :ref:`Checkbox` In checkbox problems, students select one or more options
    from a list of possible answers.
@@ -24,51 +21,47 @@ The following are the common problem types in Studio:
 -  :ref:`Text Input` In text input problems, students enter a short text
    answer to a question.
 
-These problems are easy to access in Studio. To create them, click
-**Problem** under **Add New Component**, click the **Common Problem
-Types** tab, and then click the name of the problem. (Note that
-**Checkbox** doesn't appear in the list of common problem types. To
-create a checkbox problem, you'll click **Blank Common Problem**.)
+建立各項題型可點選題型之下的 **增加新項目**，點選 **常見題型**，選擇題型名稱。
+( **多選按鈕**題型須另從 **空白常見題型**中建立)
+11.1.
 
 .. _Checkbox:
 
 *******************
-Checkbox
+多選按鈕
 *******************
 
-In checkbox problems, the student selects one or more options from a
-list of possible answers. The student must select all the options that
-apply to answer the problem correctly. Each checkbox problem must have
-at least one correct answer.
+在多選按鈕題型中，可設定一至多個選項，其中至少有一個正確答案，學生必
+須完全選出此題的正確答案，才可繼續作答。
 
 .. image:: Images/CheckboxExample.gif
 
 ==========================
-Create a Checkbox Problem
+建立多選按鈕題型
 ==========================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Checkboxes** on the **Common Problem Types** tab.
-#. In the Problem component that appears, click **Edit**.
-#. In the component editor, replace the default text with the text of your 
-   problem. Enter each answer option on its own line.
-#. Select all the answer options, and then click the checkbox button. 
+#. 在增加新項目之下點選題型
+#. 在選擇題型項目類型畫面中，從常見題型類型標籤中點選多選按鈕
+#. 點選題型項目上的編輯
+#. 在項目編輯模式中輸入題目敘述，並分別在各行輸入選項文字。
+#. 選出所有的正確選項後，點選多選按鈕
 
    .. image:: Images/ProbComponent_CheckboxIcon.gif
    
-   When you do this, brackets appear next to each answer choice.
+   ，完成此步驟時，各選項旁會
+出現方括弧  [  ]
 
-#. Add an **x** between the brackets for the correct answer or answers.
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 在正確解答的方括弧內輸入 x
+#. 在項目編輯模式中選擇題目敘述文字，然後點選提示按鈕
 
    .. image:: Images/ProbCompButton_Explanation.gif
+   ，將圖示新
+增至敘述文字旁。
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. 各種設定說明位於設定功能標籤。
+#. 點選儲存。
 
-For the example problem above, the text in the Problem component is the
-following.
+上述示範的題型範本可參考下列：
 
 ::
 
@@ -95,47 +88,43 @@ following.
 .. _Dropdown:
 
 *******************
-Dropdown
+下拉選單
 *******************
 
-Dropdown problems allow the student to choose from a collection of
-answer options, presented as a dropdown list. Unlike multiple choice
-problems, whose answers are always visible directly below the question,
-dropdown problems don't show answer choices until the student clicks
-the dropdown arrow.
+此題型讓學生從下拉選單中直接選出正確答案，和選擇題不同的是，學生必須
+點選下拉清單才能看到該題的答案選項內容。
 
 .. image:: Images/DropdownExample.gif
 
 ==========================
-Create a Dropdown Problem
+建立下拉選單題型
 ==========================
 
-To create a dropdown problem, follow these steps.
+步驟如下：
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click
-   **Dropdown** on the **Common Problem Types** tab.
-#. In the new Problem component that appears, click **Edit**.
-#. Replace the default text with the text for your problem. Enter each of the possible 
-   answers on the same line, separated by commas.
-#. Select all the answer options, and then click the dropdown button. 
+#. 在增加 **新項目**之下點選 **題型**
+#. 在 **選擇題型項目類型**畫面中，從 **常見題型類型**標籤中點選 **下拉選單**
+#. 點選 **題型項目**上的編輯
+#. 在項目編輯模式中輸入題目敘述，在同一行欄位中輸入選項文字，並各個
+項目以逗號區分。
+#. 選擇答案項目，然後點選下拉選單按鈕
       
    .. image:: Images/ProbCompButton_Dropdown.gif
       
-   When you do this, a double set of brackets ([[ ]]) appears and surrounds the 
-   answer options.
+  ，完成此步驟時，各選項旁會
+出現雙方括弧[[ ]]
       
-#. Inside the brackets, surround the correct answer with parentheses.
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 在正確解答的兩側標註括號( )
+#. 在項目編輯模式中選擇題目敘述文字，然後點選提示按鈕
 
    .. image:: Images/ProbCompButton_Explanation.gif
+   ，將圖示新
+增至敘述文字旁。
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. 各種設定說明位於設定功能標籤。
+#. 點選儲存。
 
-For the example problem above, the text in the Problem component is the
-following.
+上述示範的題型範本可參考下列：
 
 ::
 
@@ -152,46 +141,41 @@ following.
 .. _Multiple Choice:
 
 *******************
-Multiple Choice
+選擇題
 *******************
 
-In multiple choice problems, students select one option from a list of
-answer options. Unlike with dropdown problems, whose answer choices
-don't appear until the student clicks the drop-down arrow, answer
-choices for multiple choice problems are always visible directly below
-the question.
+此題型讓學生從條列的選項清單中選出正確答案，和下拉選單不同的是，各個
+選項內容直接顯示在題目的下方。
 
 .. image:: Images/MultipleChoiceExample.gif
 
 ==================================
-Create a Multiple Choice Problem
+建立選擇題型
 ==================================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Multiple
-   Choice** on the **Common Problem Types** tab.
-#. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with the text of your 
-   problem. Enter each answer option on its own line.
-#. Select all the answer options, and then click the multiple choice button. 
+#. 在增加新項目之下點選 **題型**
+#. 在 **選擇題型項目**類型畫面中，從 **常見題型類型**標籤中點選 **選擇題**
+#. 點選題型項目上的 **編輯**
+#. 在項目編輯模式中輸入題目敘述，並分別在各行輸入選項文字。
+#. 選擇答案項目，然後點選選擇題按鈕
    
    .. image:: Images/ProbCompButton_MultChoice.gif
    
-   When you do this, the component editor adds a pair of parentheses next to each 
-   possible answer.
+   ，完成此步驟時，各選項旁會
+出現圓括弧( )
    
-#. Add an "x" between the parentheses next to the correct answer.
+#. 在正確解答的圓括弧內標註 x 
    
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 在項目編輯模式中選擇題目敘述文字，然後點選提示按鈕
 
    .. image:: Images/ProbCompButton_Explanation.gif
+   ，將圖示新
+增至敘述文字旁。
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. 各種設定說明位於設定功能標籤。
+#. 點選儲存。
 
-For the example problem above, the text in the Problem component is the
-following.
+上述示範的題型範本可參考下列：
 
 ::
 
@@ -219,60 +203,51 @@ following.
 .. _Numerical Input:
 
 *******************
-Numerical Input
+數值輸入
 *******************
 
-In numerical input problems, students enter numbers or specific and
-relatively simple mathematical expressions to answer a question. 
+在數值輸入題型中，學生直接以數字或數學運算式填答。 
 
 .. image:: Images/NumericalInputExample.gif
 
-Note that students' responses don't have to be exact for these problems. You can 
-specify a margin of error, or tolerance. For more information, see the instructions below.
-
-Responses for numerical input problems can include integers, fractions,
-and constants such as *pi* and *g*. Responses can also include text
-representing common functions, such as square root (sqrt) and log base 2
-(log2), as well as trigonometric functions and their inverses, such as
-sine (sin) and arcsine (arcsin). For these functions, Studio changes the
-text that the student enters into mathematical symbols. The following
-example shows the way Studio renders students' text responses in
-numerical input problems. To see more examples, scroll down to **Examples**.
+備註：學生的答案不必與解答完全一致。您可設定容錯率或公差，請參閱下方
+說明指引。
+為符合數值輸入可以包含整數、分數、常見常數(如圓周率)，同時也可包含平
+方根、log2、三角函數及其反函數(如正弦、反正弦)。Studio 改變數學符號的
+輸入方式，請參考下列範例：
 
 .. image:: Images/Math5.gif
 
 ==================================
-Create a Numerical Input Problem
+建立數值輸入題型
 ==================================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Numerical
-   Input** on the **Common Problem Types** tab.
-#. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with your own text.
+#. 在增加新項目之下點選 **題型**
+#. 在 **選擇題型項目**類型畫面中，從 **常見題型類型**標籤中點選 **數值輸入**
+#. 點選題型項目上的 **編輯**
+#. 在項目編輯模式中輸入題目敘述，並分別在各行輸入選項文字。
 
-#. Select the text of the answer, and then click the numerical input button. 
+#. 選擇答案項目，然後點數值輸入題型按鈕
 
    .. image:: Images/ProbCompButton_NumInput.gif
    
-   When you do this, an equal sign appears next to the answer.
+   ，完成此步驟時，答案旁會
+出現等號  = 
         
-#. (Optional) If you want to include a margin of error, or tolerance, add **+-NUMBER** after the answer. 
+#. (選用)如果要設定容錯率或公差，可在答案後方以+- **數字**標註，也可加上百
+分比符號。例如容錯率為 2%則在答案後方標註+-2%，公差為 5 標註+-5。 
    
-   You can add a percentage or number.  
-   For example, if you want to include a 2% tolerance, add **+-2%**. To add
-   a tolerance of 5, add **+-5**.
 
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 在項目編輯模式中選擇題目敘述文字，然後點選提示按鈕
 
    .. image:: Images/ProbCompButton_Explanation.gif
+   ，將圖示新
+增至敘述文字旁。
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. 各種設定說明位於 **設定功能**標籤。
+#. 點選 **儲存**。
 
-For the example problem above, the text in the Problem component is the
-following.
+上述示範的題型範本可參考下列：
 
 ::
 
@@ -284,7 +259,7 @@ following.
    As of edX's first birthday, in May 2013, edX students live in 193 different countries.
    [explanation]
 
-**Examples**
+**範例說明**
 
 The following are a few more examples of the way that Studio renders numerical input
 text that students enter.
@@ -300,46 +275,44 @@ For more information, see `Formula Equation Input
 .. _Text input:
 
 *******************
-Text Input
+文字輸入
 *******************
 
-In text input problems, students enter text into a response field. The
-response can include numbers, letters, and special characters such as
-punctuation marks. Because the text that the student enters must match
-the instructor's specified answer exactly, including spelling and
-punctuation, we recommend that you specify more than one attempt for
-text input problems to allow for typographical errors.
+在文字輸入題型中，答案可包含數字、文字、標點符號。學生所輸入的答案必
+須完全符合正確解答，無論是拼字、標點符號都須一致，因此建議您將填答次
+數設定為一次以上，允許打字錯誤的情況發生。 
 
 .. image:: Images/TextInputExample.gif
 
 ==================================
-Create a Text Input Problem
+建立文字輸入題型
 ==================================
 
-To create a text input problem, follow these steps.
+步驟如下：
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Text Input**
-   on the **Common Problem Types** tab.
-#. In the new Problem component that appears, click **Edit**.
-#. Replace the default text with the text for your problem.
-#. Select the text of the answer, and then click the text input button. 
+#. 在增加新項目之下點選 **題型**
+#. 在 **選擇題型項目**類型畫面中，從 **常見題型類型**標籤中點選 **文字輸入**
+#. 點選題型項目上的 **編輯**
+#. 在項目編輯模式中輸入題目敘述，並分別在各行輸入選項文字。
+
+#. 選擇答案項目，然後點數值輸入題型按鈕
    
    .. image:: Images/ProbCompButton_TextInput.gif
    
-   When you do this, an equal sign appears next to the answer.
+   ，完成此步驟時，答案旁
+會出現等號  = 
   
    
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 在項目編輯模式中選擇題目敘述文字，然後點選提示按鈕
 
    .. image:: Images/ProbCompButton_Explanation.gif
+   ，將圖示新
+增至敘述文字旁。
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. 各種設定說明位於 **設定功能**標籤。
+#. 點選 **儲存**。
 
-For the example problem above, the text in the Problem component is the
-following.
+上述示範的題型範本可參考下列：
 
 ::
 
@@ -355,21 +328,18 @@ following.
     [explanation]
     
 =========================================
-Multiple Responses in Text Input Problems
+文字輸入題型的多重答案
 =========================================
 
-You can specify more than one correct response for text input problems. 
-For example, instead of requiring students to enter exactly "Dr. Martin Luther 
-King, Junior," you can allow answers of "Martin Luther King," "Doctor Martin 
-Luther King," and other variations.
-
-To do this, include "or=" (without the quotation marks) before each additional
-correct response.
+您可設定一個以上的正確解答，例如正確答案為 Dr. Martin Luther King, Junior,
+時，同時您也可以設定 Martin Luther King,、Doctor Martin Luther King,  等為
+正確答案。
+設定方法：在正確答案前標註  or=，如下圖所示：
 
 .. image:: Images/TextInput_MultipleAnswer.gif
 
 =========================================
-Case Sensitivity and Text Input Problems
+區分大小寫字母與文字輸入題型
 =========================================
 
 By default, text input problems do not require a case sensitive response. You can change this
@@ -395,18 +365,16 @@ To make the response case sensitive, change the value of the **type** attribute 
     </stringresponse>
     
 =============================================
-Response Field Length of Text Input Problems
+文字輸入題型的文字長度設定
 =============================================
 
-By default, the response field for text input problems is 20 characters long. 
-
-You should preview the unit to ensure that the length of the response input field
-accommodates the correct answer, and provides extra space for possible incorrect answers.
+預設的填答文字長度限制為 20 字元以內，可視正確答案內容或學生可能填寫
+的其他答案，調整文字長度限制。
 
 If the default response field length is not sufficient, you can change it using the :ref:`Advanced Editor`.
 
-In the advanced editor, in the XML block for the answer, you see that the **size** attribute of the **textline** 
-element equals **20**:
+在進階編輯模式中， **textline** 標籤的 size 屬性為 20，表示文字長度限制為 20
+字元。
 
 ::
 

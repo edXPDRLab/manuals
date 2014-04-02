@@ -1,14 +1,14 @@
 .. _Establish a Grading Policy:
 
 ##############################
-Establishing a Grading Policy  
+建立成績規則
 ##############################
 
 *******************
-Overview
+前言
 *******************
 
-Establishing a grading policy takes several steps. You must:
+透過以下步驟，建立成績規則：
 
 #. :ref:`grade`
 #. :ref:`Set the Grace Period`
@@ -20,188 +20,187 @@ Establishing a grading policy takes several steps. You must:
 .. _grade:
 
 *******************
-Set the Grade Range
+設定分數級距
 *******************
 
-You must set the grade range for the course.  For example, your course can be pass/fail, or can have letter grades A through F.
+每堂課都必須設定分數級距，設定完畢後，學生分數將轉換成「通過／不通過」，或是以「A到F」表示。
 
-To set the grade range, from the **Settings** menu, select **Grading**.  
+請至 **設定** ，選擇 **分數** ，即可設定級距範圍。
 
-The control for the grade range is at the top of the Grading page.
+控制功能顯示在分數頁面的上方。
 
 .. image:: Images/grade_range.png
   :width: 800
 
-The above example shows that you have a pass/fail grade range, with a score of 50 as the cutoff. This is the default setting used when you create a course.
+上圖範例是系統預設值以50分為基準，採用「通過／不通過」。
 
-You use the grade range control to change these settings:
+利用分數級距控制功能來變更設定：
 
-* To add a grade in the range, click the **+** icon.
+* 點 **「+」** 符號，增加分數級距。
 
-  A new grade is added to the range between the existing grades. For example, if you add a grade in the default setting, 
-  the grade range changes to **F** (0 to 50), **B** (50 to 75), and **A** (75 to 100):
+  要在兩個級距中間加入新的級距，必須在預設值增加級距，如下圖範例，級距會改成 **F** (0至50分), **B** (50至75分), 以及 **A** (75至100分)。
 
   .. image:: Images/grade_range_b.png
     :width: 800
 
-* To change the score range, hover the mouse over the line dividing two grades, click and drag the line left or right.  
+* 使用滑鼠移動兩個級距之間的界線，往左或往右，可以更改級距的分數範圍。
 
-  You can see the range numbers of the two grades adjacent to the line change. Release the mouse button when the line is where you want it.
-  
-* To remove a grade, hover the mouse button over the grade. 
+  移動的過程，可以看到分數的改變。放開滑鼠即完成變更。
 
-  A **remove** link appears above the grade. Click the link.
+* 更改級距的名稱，只要滑鼠在名稱上方點兩下，名稱反白後，即可重新輸入名稱。例如，原本的級距名稱是「通過」，滑鼠雙擊名稱後，輸入「優等」，便可置換舊名。
   
-  You cannot remove F or A.
+  但是，系統不允許更換 **F** 或 **不通過** 。
   
-After you make any changes to the grade range, you must click **Save Changes** at the bottom of the page.
+* 利用滑鼠將級距範圍全部選取，在級距的上方會出現 **移除** 的連結，點下此連結，即可完成移除級距。
+  
+  無法移除F或A。
+  
+只要對級距有任何變更，請務必點網頁下方的 **儲存變更** 。
 
 
 .. _Set the Grace Period:
 
 *************************
-Set the Grace Period 
+設定寬限期 
 *************************
     
-You can set a grace period that extends homework due dates for your students. 
+設定作業的寬限期
 
-.. note:: The grace period applies to the whole course; you cannot set a grace period for individual assignments.
+.. note:: 寬限期的設定適用於課程，而非個別作業。
   
-In the Grading page, under **Grading Rules & Policies**, enter a value in the **Grace Period on Deadline** field. Enter the value in Hours:Minutes format.
+本功能放置於設定級距內的 **級距規則與規定** 。在 **寬限期期限** 欄位輸入時間，格式為：時：分。
 
 .. _configure:
 
 ******************************
-Configure the Assignment Types
+設定評量類型
 ******************************
 
-You must create assignment types for your course and determine the weight of the student's total grade for each assignment type. 
+每堂課都必須設定評量及其權重。
 
-For example, you may have:
+舉例來說:
 
-* 10 homework assignments, worth a total of 50% of the grade; 
-* A midterm exam, worth a total of 20% of the grade; 
-* A final exam, worth 30% of the grade. 
+* 10個作業，佔總成績的50%。
+* 期中考試，佔總成績的20%。
+* 期末考試，佔總成績的30%。
 
-By default, a new course you create has four assignment types: 
+系統預設每堂課有四種評量類型：
 
-* Homework
-* Lab
-* Midterm Exam
-* Final Exam
+* 作業
+* 實驗
+* 期中考試
+* 期末考試
 
-You can use these assignment types, modify or remove them, and create new assignment types.
+以上評量類型可修改、移除與新增。
 
-To create a new assignment type, in the bottom of the Grading page, click **New Assignment Type**, then configure the fields described below.
+進入設定級距，點 **新增評量類型** ，會出現設定的欄位，即可新增評量類型。
 
 ==========================
-Assignment Type Fields
+評量類型欄位
 ==========================
-You configure the following fields for each assignment type:
+替每個評量類型設定以下的欄位:
     
-* **Assignment Type Name:** 
+* **評量名稱**
   
-  The general category of the assignment. This name will be visible to students.
+  學生可以看見評量名稱。
  
-  .. note:: All assignments of a particular type are automatically worth the same amount. Thus, a homework assignment that contains 10 problems is worth the same percentage of a student's grade as a homework assignment that contains 20 problems. 
+  .. note:: 評量類型的權重設定完畢後，題目多寡不會影響原有的權重設定。舉例來說，10題的作業與20題的作業，最後都是以相同的權重計算。
   
   
-* **Abbreviation:** 
+* **名稱縮寫**
   
-  This is the short name that appears next to an assignment on a student's **Progress** tab.
+  進入學生的 **學習進度** 標籤，可於評量旁邊看見名稱的縮寫。
       
 
-* **Weight of Total Grade:** 
+* **總成績權重**
   
-  The assignments of this type together account for the percent value set in **Weight of Total Grade**.
+  在 **總成績權重** 計算百分比。
   
-  The total weight of all assignment types must equal 100.
+  評量類型的權重總計是100。
   
-  .. note:: Do not include the percent sign (%) in this field.
-  
-  
-  
-* **Total Number:** 
-  
-  The number of assignments of this type that you plan to include in your course.
+  .. note:: 本欄位不包含百分比的符號（%）。
   
   
   
-* **Number of Droppable**
+* **預估的評量數量**
   
-  The number of assignments of this type that the grader will drop. The grader will drop the lowest-scored assignments first.            
+  預計課程中所使用的評量數量。
+  
+  
+  
+* **拋棄不用的數量**
+  
+  可以先拋棄最低分的評量。
 
 
 .. _set_assignment:
 
 **********************************************
-Set the Assignment Type for Graded Subsections
+在計分的小節設定評量類型
 **********************************************
-After you configure assignment types, as you are organizing your course, 
-you set the assignment type for Subsections that contain problems that are to be graded.
+設定好評量類型之後，可在課程的小節，替需要計分的題目，設定評量類型。
 
-You can designate a Subsection as one, and only one, of the assignment types you configured. You can also set a due date.
+指定某個小節為其中一種評量類型，但是，必須是已經設定好的評量類型。也可以設定到期日。
   
-See :ref:`subsections` for instructions on configuring a Subsection. 
+請見 :ref:`subsections` ，取得設定小節的的說明。
 
-Within a graded Subsection, you create problems of the type designated for that Subsection. 
-You should not mix problems of different assignment types in the same Subsection.
+在小節中，可以新增評量的題目，但是，在同一個小節中，不能夠新增不同類型的評量。
 
-For example, if you want to create a homework assignment and a lab for a specific topic, create two Subsections. 
-Set one Subsection as the Homework assignment type and the other as the Lab assignment type. 
-Both Subsections can contain other content as well as the actual homework or lab problems.
+舉例來說，要在特定主題下新增作業與實驗，必須新增兩個小節，指定其中一個為作業，另一個是實驗。因此，小節涵蓋內容說明以及作業或實驗題目。
 
-.. note:: You can create problems in Studio without specifying that the Subsection is an assignment type. However, such problems will not count toward a student's grade.
+.. note:: 可以在Studio新增題目，而且不用設定某個小節作為評量，但是，此類型的題目不會列入學生成績。
 
-See :ref:`Working with Problem Components` for instructions on creating problems. 
+請見 :ref:`Working with Problem Components`，取得設定新增題目的說明。
 
 
 
 =======================
-Set the Grading Policy
+設定計分規則
 =======================
 
-You can designate a subsection as one of the assignment types that you specified in the grading policy.
+已知可以指定某個小節作為評量，也可設定計分規則。
 
-You set the grading policy for the subsection from the course outline or from the subsection page.
+可從兩個地方設定計分規則：
+	課程大綱
+	小節的頁面
 
-From the course outline, click the checkmark next to the subsection.  Then select a grading policy from the popup menu:
+課程大綱，找到要計分的小節， 點下確認符號，系統會自動跳出一個小視窗，請在視窗內勾選評量類型。
 
     .. image:: Images/course_outline_set_grade.png
        :width: 600
 
-From the Subsection page, click the text next to the **Graded as** label, then select a grading policy from the popup menu:
+進入小節的頁面，在頁面右邊，點下計分方式的標籤，系統會自動跳出一個小視窗，請在視窗內勾選 **評量類型** 。
 
     .. image:: Images/subsection_set_grade.png
        :width: 600
 
-See :ref:`Establish a Grading Policy` for more information.
+請見 :ref:`Establish a Grading Policy` ，取得更多相關資訊。
 
 
 ==================
-Set the Due Date
+設定到期日
 ==================
 
-For subsections that contain graded problems, you can set a due date. Students must complete the problems in the subsection before the due date to get credit.
+在小節中設定到期日，學生必須在到期前完成作答。請依照以下步驟完成：
 
-#. From the subsection page, click **SET A DUE DATE**. The Due Day and Due Time fields appear.
-#. Place the cursor in the Due Date field, and pick a day from the popup calendar.
-#. Place the cursor in the Due Time field and pick a time.
+#. 進入小節的頁面，點 **設定到期日** ，系統會出現日期與時間的欄位。
+#. 利用滑鼠選擇日期。
+#. 利用滑鼠選擇時間。
 
-.. note:: When you set a due date, keep in mind that students will be in different time zones. By default, the time zone appears as UTC, not the student's local time. If you tell your students an assignment is due at 5:00 PM, make sure to specify that the time is 5:00 PM UTC and point them to a time converter.
+.. note:: 學生可能分布在不同的時區，系統預設是UTC（世界標準時間），並非學生當地時間，因此，必須告知學生，並請他們計算時差，避免逾期。
 
-Alternatively, you can :ref:`Set the Grace Period` for your assignments to cover any misunderstandings about time. For example, some classes have set a grace period of 1 day, 6 hours, and 1 minute. The grace period applies to all assignments.
+ :ref:`Set the Grace Period` 能夠解決學生在不同時區與時間換算的問題，像是設定一天、6小時與1分鐘不等的寬限時間。設定後可套用至所有的評量。
 
-For more information, see :ref:`Establish a Grading Policy`.
+取得更多相關資訊，請見 :ref:`Establish a Grading Policy`
 
 
 
 .. _student_view:
 
 **************************
-The Student View of Grades
+觀看成績
 **************************
-Once a grading policy is in place, students can view both their problem scores and the percent completed and current grade in the **Progress** tab for the course.
+計分規則設定完成後，點選課程的 **學習進度** 標籤，學生可以看到自己的評量得分、百分比與目前的成績。
   
   .. image:: Images/Progress_tab.png
     :width: 800
