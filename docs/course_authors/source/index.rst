@@ -14,6 +14,7 @@
 
    read_me
    get_started
+   add_syllabus
    create_lesson
    create_section_sub_section
    create_unit
@@ -21,6 +22,9 @@
    create_discussion
    create_html_component
    create_problem
+   common_problems
+   advanced_problems
+   specialized_problems
    set_content_releasedates
    establish_course_settings
    establish_grading_policy
