@@ -1,185 +1,57 @@
-.. _Working with Video Components:
+**********
+創建一個影片
+**********
 
-#############################
-Working with Video Components
-#############################
+許多教師使用影片舉行一個教室內的演講。
+您可以創建一個您的演講影片，並且與其他的組件互相關聯，例如討論串及問題，來促進學生積極的學習。
 
+要增加一個影片到單元中，您必須上傳您的影片到 YouTube 上，以及創建一個影片組件，您也可以增加一個字幕給您的影片。
 
-**********************
-Introduction to Videos
-**********************
-You can create a video of your lecture and add it to your course with other components—such 
-as discussions and problems—to promote active learning. Adding a video to your course has several steps.
+您的影片可以以 0.75倍、1 倍、1.25倍、1.5倍速度播放。
+為了做到這點，您必須分別上傳不同影片到 YouTube 上。
 
-#. Create the video.
-#. Create or obtain a transcript for the video.
-#. Post the video online.
-#. In Studio, create a Video component.
+.. note::
 
-.. note:: Review :ref:`Best Practices for Accessible Media` before adding videos to your course.
-
-************************
-Step 1. Create the Video
-************************
-
-Your video can contain whatever content you want. The `Producing Videos <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/93451eee15ed47b0a310c19020e8dc64/a1b0835e986b4283b0f8871d97babb9a/>`_ 
-section of our `edX101 <https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about>`_ 
-course has some helpful pointers for creating good video content.
-
-
-Compression Specifications
---------------------------
-
-When you create your video, edX recommends the following compression specs. (Note that 
-these are recommended but not required.)
-
-.. list-table::
-   :widths: 10 20 20 20
-   :header-rows: 0
-   :stub-columns: 1
-
-   * - Output
-     - Edited Files
-     - Publish to YouTube
-     - Publish downloadable file to AWS S3
-   * - Codec
-     - H.264 .mp4
-     - H.264 "main concept" .mp4
-     - H.264 "x264" .mp4
-   * - Resolution and Frame Rate
-     - 1920x1080, progressive, 29.97 fps
-     - 1920x1080, progressive, 29.97 fps 
-     - 1280x720, progressive, 29.97 fps
-   * - Aspect
-     - 1.0
-     - 1.0
-     - 1.0
-   * - Bit Rate
-     - VBR, 2 pass 
-     - VBR, 2 pass 
-     - VBR, 2 pass  
-   * - Target VBR
-     - 32 mbps
-     - 5 mbps
-     - 1 mbps
-   * - Max VBS
-     - 40 vbs
-     - 7.5 mbps
-     - 1.5 mbps
-   * - Audio
-     - Linear AAC 48kHz / 256 kbps
-     - AAC 44.1 / 192 kbps
-     - AAC 44.1 / 192 kbps
-
-.. _Video Formats:
-
-Video Formats
--------------
-
-The edX video player supports videos in .mp4, .ogg, and .mpeg format.
-
-*********************************************
-Step 2. Create or Obtain a Video Transcript
-*********************************************
-
-We strongly recommend that you associate a timed transcript with your video. Transcripts can be helpful for students whose first language isn't English, or who can't watch the video or want to review the video's content. The transcript scrolls automatically while your video plays. When a student clicks a word in the transcript, the video opens to that word. You can also allow your students to download the transcript so that they can read it offline. You'll associate the transcript with the video when you create the Video component.
-
-To create or obtain a transcript, you can work with a company that provides captioning services. EdX works with `3Play Media <http://www.3playmedia.com>`_. `YouTube <http://www.youtube.com/>`_ also provides captioning services. 
-
-Transcript Format
------------------
-
-Your transcript must be an .srt file.
-
-
-*****************************
-Step 3. Post the Video Online
-*****************************
-
-All course videos should be posted to YouTube. By default, the edX video player accesses your YouTube videos. 
-
-Because YouTube is not available in all locations, however, we recommend that you also post 
-copies of your videos on a third-party site such as `Amazon S3 <http://aws.amazon.com/s3/>`_. When a student views 
-a video in your course, if YouTube is not available in that student’s location or if 
-the YouTube video doesn’t play, the video on the backup site starts playing automatically. 
-The student can also click a link to download the video from the backup site.
-
-After you post your video online, make sure you have the URL for the video. If you host copies of your video in more than one place, make sure you have the URL for each video location.
-
-
-YouTube
--------
-
-After you've created your video, upload the video to `YouTube <http://www.youtube.com/>`_. 
-
-.. note:: YouTube 上普通帳號僅能上傳最長 15 分鐘的影片。如果您選擇 0.75 倍播放速度，您必須確定來源的影片片段是只有11.25分鐘長，如此一來才能確定影片能全部上傳至 YouTube。
+  YouTube 上普通帳號僅能上傳最長 15 分鐘的影片。
+  如果您選擇 0.75 倍播放速度，您必須確定來源的影片片段是只有11.25分鐘長，如此一來才能確定影片能全部上傳至 YouTube。
   YouTube 有提供付費機制可以解除這個限制。
-
-Other Sites
------------
-
-You can use any video backup site that you want. However, keep in mind that the site where you 
-post the videos may have to handle a lot of traffic.
-
-.. note:: The URL for the video that you post on a third-party site must end in .mp4, .ogg, or 
-          .mpeg. EdX can't support videos that you post on sites such as Vimeo. 
-
-
-
-.. _Create a Video Component:
-
-*************************
-Create a Video Component
-*************************
-
-#. 在 **新增元件** 之下，點擊 **影片** 。
-
-#. When the new video component appears, click **Edit**. The video editor opens to the **Basic** tab.
-   
-#. 在 **顯示名稱** 欄位中，填入您想要於滑鼠滑過頁面時顯示的提示文字，
-這個文字也將會成為影片的標題文字。
-
-#. In the **Video URL** field, enter the URL of the video. For example, the URL may resemble one of the following.
-
-   ::
-   
-      http://youtu.be/OEoXaMPEzfM
-      http://www.youtube.com/watch?v=OEoXaMPEzfM
-      https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4	
-
-
-#. Next to **Timed Transcript**, select an option.
-
-   - If edX has a transcript for your video, Studio automatically finds the transcript and associates the transcript with the video. (If you want to modify the transcript, click **Download to Edit**. You can then make your changes and upload the new file by clicking **Upload New Timed Transcript**.)
-
-   - If your video has a transcript on YouTube, Studio automatically finds the transcript and asks if you want to import it. To use this YouTube transcript, click **Import from YouTube**. (If you want to modify the YouTube transcript, click **Download to Edit**. You can then make your changes and upload the new file by clicking **Upload New Timed Transcript**.)
-
-   - If neither edX nor YouTube has a transcript for your video, click **Upload New Timed Transcript** to upload a transcript file from your computer.
-
-#. Optionally, click **Advanced** to set more options for the video. For a description of each option, see the table below.
-
-#. 點擊 **儲存**
   
-Advanced Options
-----------------
 
-.. list-table::
-   :widths: 20 80
-   :header-rows: 0
+1. 上傳您想要的的影片到 YouTube 上。
+   您會需要顯示在 **watch?v=** 與 **&feature** 中間的影片編號，約略於下圖綠色方塊的位置。
 
-   * - **Download Transcript**
-     - If you've uploaded a transcript for your video to a backup website such as Amazon S3, enter the external URL for this transcript. 
-   * - **Download Video**
-     - If you've uploaded a copy of your video to a backup website such as Amazon S3, enter the external URL for this video. Note this URL must end in .mpeg, .mp4, or .ogg.
-   * - **End Time**
-     - The time, formatted as hours, minutes, and seconds (HH:MM:SS), when you want the video to end.
-   * - **HTML5 Transcript**
-     - The name of the timed transcript track (for non-YouTube videos).
-   * - **Show Transcript**
-     - Specifies whether you want the transcript to show by default. Students can always turn transcripts on or off while they watch the video.
-   * - **Start Time**
-     - The time, formatted as hours, minutes, and seconds (HH:MM:SS), when you want the video to begin. 
-   * - **Video Sources**
-     - Additional locations where you've posted the video. This field must contain a URL that ends in .mpeg, .mp4, or .ogg.
-   * - **YouTube ID, YouTube ID for .75x speed, YouTube ID for 1.25x speed, YouTube ID for 1.5x speed**
-     - If you have uploaded separate videos to YouTube for different speeds of your video, enter the YouTube IDs for these videos in these fields.
+.. image:: Images/C5_01.png
+  :width: 800 px
+
+2. 在 Studio 中，進入您想要編輯的單元。
+
+3. 在 **新增組件** 之下，點擊 **影片** 。
+
+4. 在畫面上點擊 **預設** 。
+
+5. 當出現新的影片組件時，點擊 **編輯** ，您將會看到一個自動播放的範例影片，您可以看到它的原始碼。
+
+6. 在 **顯示名稱** 欄位中，填入您想要於滑鼠滑過頁面時顯示的提示文字，這個文字也將會成為影片的標題文字。
+
+7. 利用於步驟1所記錄下來的影片編號，填入下圖中綠色方塊的位置。
+   格式為 **速度:影片編號** 。所以您可以同時在影片組件中指定多個檔案，讓使用者以不同速度播放。
+
+.. image:: Images/C5_02.png
+  :width: 800
+
+8. 點擊 **儲存**
+
+.. note::
+    
+  所有嵌入影片使用 edX 播放器開始自動撥放，目前暫時沒有關掉自動撥放的功能。
+  
+
+新增一個字幕到您的影片中
+*********************
+
+1. 將您的字幕 str.sjson 檔案以 **subs_YOUTUBE_ID.srt.sjson** 的格式命名，其中 YOUTUBE_ID 是 YouTube 影片的影片編號。
+
+2. 上傳 **subs_YOUTUBEID.srt.sjson** 檔案到 **檔案及上傳** 頁面。
+
+3. 根據 :doc:`add_syllabus` 中， **新增項目給講義側邊欄** 小節的說明，在頁面中建立一個檔案連結到您要的檔案上。
+

@@ -2,10 +2,9 @@
   
       \newpage %
       
-.. _Appendix B:
 
 ===========================================
-APPENDIX B: Code for Dynamic HTML Schedule
+附錄 B: 為您的動態HTML行事曆撰寫程式碼
 ===========================================
 
  :: 

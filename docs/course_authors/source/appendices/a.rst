@@ -1,15 +1,13 @@
 .. raw:: latex
   
       \newpage %
-      
-.. _Appendix A:
 
 ========================================
- APPENDIX A-Template For Course Overview
+ 附錄 A: 課程概要範本
 ========================================
 
   
-Replace the placeholders in the following template with your information.
+以接下來的範本來取代您的資訊中的placeholders。
 
 .. code-block:: html
 

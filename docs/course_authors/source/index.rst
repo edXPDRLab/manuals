@@ -4,43 +4,54 @@
    contain the root `toctree` directive.
 
 
-Contents
-========
+
+內文
+====
+
 
 .. toctree::
-   :numbered:
    :maxdepth: 5
 
    read_me
    get_started
-   create_new_course
-   establish_grading_policy
-   organizing_course
-   create_html_component
+   create_lesson
+   create_section_sub_section
+   create_unit
    create_video
    create_discussion
-   create_problem_component
-   common_problems
-   advanced_problems
-   specialized_problems
-   open_response_assessment
-   tools
+   create_html_component
+   create_problem
    set_content_releasedates
+   establish_course_settings
+   establish_grading_policy
+   add_syllabus
    view_course_content
+   modify_published_content
    export_import_course
-   accessibility
+   create_welcome_announcement
+   create_seed_wiki
+   invite_students_to_register
    checking_student_progress
-   ora_students
-   glossary
    change_log
 
+   
+
+  
 
 
-Appendices
-==========
+
+附錄 
+====
 
 .. toctree::
    :maxdepth: 3
    :glob:
 
    appendices/*
+
+
+
+
+
+
+

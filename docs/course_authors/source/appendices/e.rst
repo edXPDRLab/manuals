@@ -2,32 +2,30 @@
   
       \newpage %
 
-.. _Appendix E:
 
+================
+附錄 E: 問題類別
+================
 
-==========================
-APPENDIX E: Problem Types
-==========================
+選項響應
+========
 
-Option Response
-===============
+選項響應允許學生從一群選項組合中，從下拉式選單中選出正確的答案。
 
-The Option Response input type allows the student to choose from a collection of
-answer options, presented as a drop-down list.
+選項響應類似選擇題，有些概念上不同之處如下所列：
 
-Option Response is structurally similar to Multiple Choice. Some conceptual
-differences between the two include the following.
+* 選擇題使用的單選按鈕比較適合學生在較長的敘述中選出答案。
 
-* The Multiple Choice radio button format makes it easier for students to read very long response options.
+* 選項響應使用的下拉式選單的格式，適合學生先思考一個可能的答案再從選單中尋找，而非純粹認出這個答案。
 
-* The Option Response drop-down input format makes it more likely for students to think of an answer and then search for it, rather than relying purely on recognition to answer the question. The Multiple Choice format is more explicit and visual. This makes it a more appropriate choice for presenting tricky or complicated answer options which are intended to get the student to pause and think.
+* 選擇題的格式較為明確清晰，所以更為適合用在較為複雜的問題以及答案的組合應用上，讓學生能夠適度地暫停思考可能的答案。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image287.png
     :width: 600  
 
-**Problem Code:**
+**問題代碼**
 
 .. code-block:: xml
 
@@ -54,8 +52,7 @@ Sample Problem:
 
 
 
-
-**Template**
+**樣板**
 
 .. code-block:: xml
 
@@ -74,7 +71,7 @@ Sample Problem:
 
 
 
-**XML Attribute Information**
+**XML 屬性資訊**
 
 <optionresponse>
 
@@ -92,32 +89,27 @@ Sample Problem:
       \newpage %
 
 
-Multiple Choice 
-===============
+選擇題 
+======
 
+選擇題允許學生從一群選項組合中，以單選按鈕清單的形式選出正確的答案。
 
-The Multiple Choice input type allows the student to select at most one choice
-from a collection of answer choices, presented as a list of radio buttons.
+一個選擇題可以擁有超過一個以上的答案，端看您在 XML 中怎樣描述並標記哪些選項是正確的。如果所有的選項都是錯的，那麼這是一個錯誤格式的選擇題。
 
-A Multiple Choice problem can have more than one correct answer, depending on
-how many choices are marked as correct in the underlying XML. If all choices are
-marked as incorrect, there is no correct response.
+選擇題類似於選項響應，有些概念上不同之處如下所列：
 
-Multiple Choice is structurally similar to Option Response. Some conceptual
-differences between the two include the following.
+* 選擇題的單選按鈕讓學生容易從長敘述的選項中選出答案。
 
-• The Multiple Choice radio button format makes it easier for students to read very long response options.
+* 選項響應使用的下拉式選單的格式，適合學生先思考一個可能的答案再從選單中尋找，而非純粹認出這個答案。
 
-• The Option Response drop-down input format makes it more likely for students to think of an answer and then search for it, rather than relying purely on recognition to answer the question.
+* 選擇題的格式較為明確清晰，所以更為適合用在較為複雜的問題以及答案的組合應用上，讓學生能夠適度地暫停思考可能的答案。
 
-• The Multiple Choice format is more explicit and visual. This makes it a more appropriate choice for presenting tricky or complicated answer options which areintended to get the student to pause and think. 
-
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image289.png
  :width: 600  
 
-**Problem Code:** 
+**問題代碼** 
 
 .. code-block:: xml
 
@@ -145,7 +137,7 @@ Sample Problem:
   </problem>
 
 
-**Template** 
+**樣板** 
 
 .. code-block:: xml
 
@@ -166,7 +158,7 @@ Sample Problem:
   </problem>
 
 
-**XML Attribute Information**
+**XML 屬性資訊**
 
 
 <multiplechoiceresponse>
@@ -189,27 +181,22 @@ Sample Problem:
       \newpage %
 
 
-Checkbox
+核取方塊
 ========
 
-The Checkbox input type allows the student to select zero or more choices from a
-collection of answer choices, presented as a list of checkboxes.
+核取方塊允許學生從一群選項組合中，以核取方塊清單的形式選出零或多個的答案。
 
-Remark: Questions with one Checkbox input type have exactly one correct
-response. All the choices marked as correct="true" have to be selected for the
-submitted answer (i.e. the response) to be considered correct.
+備註：一個問題本身若使用核取方塊來描述正確答案的組合，作答時所有被標記為 "true" 的選項都必須選擇出來才會被判定為正確。
 
-In particular, the response of no boxes checked off could be the single correct
-response, and a Checkbox question, unlike a Multiple Choice question, cannot
-have zero correct responses.
+比較特別的是，“所有選項都被選起" 可以是一種正確的答案。但與選擇題不同的地方在於，一定至少要有一個選項被選起，沒有選項被選起是種錯誤的格式。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image290.png
  :width: 600  
 
 
-**Problem Code:**
+**問題代碼**
 
 .. code-block:: xml
 
@@ -229,7 +216,7 @@ Sample Problem:
   </problem>
 
 
-**Template**
+**樣板**
 
 .. code-block:: xml
 
@@ -248,27 +235,21 @@ Sample Problem:
      \newpage %
 
 
-String Response
-===============
+字串響應
+========
 
-The String Response input type provides an input box in which the student can
-enter a line of text, which is then checked against a specified expected answer.
+字串響應提供了一個輸入方塊，學生可以輸入一行文字作為答案。
 
-A String Response input does not provide any answer suggestions, so it can be a
-good way to get the students to engage with the material more deeply in a
-sequence and look up, figure out, or remember the correct answer themselves.
+字串響應並不提供任何作答輔助，所以這也間接鼓勵學生將其想法以各種形式，完成描述出來。
 
-Note that a student's answer in a String Response is marked as correct if it
-matches every character of the expected answer. This can be a problem with
-international spelling, dates, or anything where the format of the answer is not
-clear.
+需要注意的是，由於學生的答案必須一字不差地符合答案的設定才能被判定為正確，因此這可能會在一些較為多元的答案格式 (例如日期) 上造成一些困擾。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image291.png
  :width: 600   
 
-**Problem Code:**
+**問題代碼**
 
 .. code-block:: xml
 
@@ -287,7 +268,7 @@ Sample Problem:
     </solution>
   </problem>
 
-**Template**
+**樣板**
 
 .. code-block:: xml
 
@@ -301,7 +282,7 @@ Sample Problem:
     </solution>
   </problem>
 
-**XML Attribute Information**
+**XML 屬性資訊**
 
 <stringresponse>
 
@@ -317,32 +298,26 @@ Sample Problem:
       \newpage %
 
 
-Numerical Response
-==================
+數值響應
+========
 
-The Numerical Response input type accepts a line of text input from the student
-and evaluates the input for correctness based on its numerical value. The input
-is allowed to be a number or a mathematical expression in a fixed syntax.
+數值響應提供了一個輸入方塊，學生可以輸入一個數字作為答案，不過數值的表示方式則必須遵守一定的規範。
 
-The answer is correct if it is within a specified numerical tolerance of the
-expected answer.
+答案本身只要落在容忍的範圍內，就會被判定為正確。
 
-The expected answer can be specified explicitly or precomputed by a Python
-script.
+預期的答案可以是個明確的數值，或是一段 Python 腳本計算的結果。
 
-Accepted input types include ``<formulaequationinput />`` and ``<textline />``.
-However, the math display on ``<textline math="1" />`` uses a different parser
-and has different capabilities than the response type--this may lead to student
-confusion. For this reason, we strongly urge using ``<formulaequationinput />``
-only, and the examples below show its use.
+允許的輸入答案形式包含了 ``<formulaequationinput />`` and ``<textline />`` 兩種。
+不過用 ``<textline math="1" />`` 格式描述的數學問題，可能會因為使用不同的分析器處理而有不同的結果，這會造成學生作答時的困難。
+因此我們強烈建議只使用 ``<formulaequationinput />`` 這種格式，請見下面的範例問題。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image292.png
  :width: 600   
 
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -390,9 +365,9 @@ Sample Problem:
   </solution>
   </problem>
 
-**Templates**
+**樣板**
 
-Exact values
+精確值
 
 .. code-block:: xml
 
@@ -409,7 +384,7 @@ Exact values
   </solution>
   </problem>
 
-Answers with decimal precision
+十進制小數答案
 
 .. code-block:: xml
 
@@ -427,7 +402,7 @@ Answers with decimal precision
   </solution>
   </problem>
 
-Answers with percentage precision
+百分比答案
 
 .. code-block:: xml
 
@@ -445,7 +420,7 @@ Answers with percentage precision
   </solution>
   </problem>
 
-Answers with scripts
+利用腳本計算的答案
 
 .. code-block:: xml
 
@@ -469,7 +444,7 @@ Answers with scripts
   </problem>
 
 
-**XML Attribute Information**
+**XML 屬性資訊**
 
 <script>
 
@@ -529,28 +504,25 @@ We urge usage of <formulaequationinput />. See the opening paragraphs of the
 
   .. image:: ../Images/numericalresponse5.png
 
-.. _Math Expression Syntax:
 
-Math Expression Syntax
-----------------------
+數學表達式語法
+--------------
 
-In NumericalResponses, the student's input may be more complicated than a
-simple number. Expressions like ``sqrt(3)`` and even ``1+e^(sin(pi/2)+2*i)``
-are valid, and evaluate to 1.73 and -0.13 + 2.47i, respectively.
+於數值響應當中，學生輸入的內容可能比普通的數字還複雜。像是 ``sqrt(3)`` 甚至 ``1+e^(sin(pi/2)+2*i)`` 都是合法而且可以計算出答案的輸入。
 
-A summary of the syntax follows:
+語法概要如下：
 
-Numbers
-~~~~~~~
+數字
+~~~~
 
-Accepted number types:
+可接受的數字型態：
 
-- Integers: '2520'
-- Normal floats: '3.14'
-- With no integer part: '.98'
-- Scientific notation: '1.2e-2' (=0.012)
-- More s.n.: '-4.4e+5' = '-4.4e5' (=-440,000)
-- Appending SI suffixes: '2.25k' (=2,250). The full list:
+- 整數: '2520'
+- 浮點數: '3.14'
+- 小數: '.98'
+- 科學記號: '1.2e-2' (=0.012)
+- 更多的科學記號: '-4.4e+5' = '-4.4e5' (=-440,000)
+- 附加 SI 後綴: '2.25k' (=2,250). The full list:
 
   ====== ========== ===============
   Suffix Stands for One of these is
@@ -567,16 +539,14 @@ Accepted number types:
   p      pico       1e-12
   ====== ========== ===============
 
-The largest possible number handled currently is exactly the largest float
-possible (in the Python language). This number is 1.7977e+308. Any expression
-containing larger values will not evaluate correctly, so it's best to avoid
-this situation.
+目前支援的最大數字為正浮點數的上限值 (以 Python 語言能支援的定義)，也就是 1.7977e+308。
+任何表示式中含有更大的數值是不支援的，因此最好避免這樣的情況。
 
-Default Constants
-~~~~~~~~~~~~~~~~~
 
-Simple and commonly used mathematical/scientific constants are included by
-default. These include:
+預設的常數
+~~~~~~~~~~
+
+簡單而且常用的的數學及科學常數已經有定義，包含了：
 
 - ``i`` and ``j`` as ``sqrt(-1)``
 - ``e`` as Euler's number (2.718...)
@@ -586,27 +556,21 @@ default. These include:
 - ``T``: the positive difference between 0K and 0°C (285.15)
 - ``q``: the fundamental charge (~1.602e-19 Coloumbs)
 
-Operators and Functions
+運算元和函式
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-As expected, the normal operators apply (with normal order of operations): 
-``+ - * / ^``. Also provided is a special "parallel resistors" operator given
-by ``||``. For example, an input of ``1 || 2`` would represent the resistance
-of a pair of parallel resistors (of resistance 1 and 2 ohms), evaluating to 2/3
-(ohms).
+常見的四則運算 ``+ - * / ^`` 可以直接使用，另外支援了特別的 "並聯電阻" 運算元 ``||``。
+舉例來說，``1 || 2`` 表示一個 1 歐姆跟一個 2 歐姆的電阻並聯，因此計算結果為 2/3 歐姆。
 
-At the time of writing, factorials written in the form '3!' are invalid, but
-there is a workaround. Students can specify ``fact(3)`` or ``factorial(3)`` to
-access the factorial function.
+目前系統暫時不支援 '3!' 這種形式的階層計算，不過有個解決的方法：使用函式。您可以使用 ``fact(3)`` 或 ``factorial(3)`` 來呼叫函式做階層計算。
 
-The default included functions are the following:
+預設支援的函式如下所示：
 
-- Trig functions: sin, cos, tan, sec, csc, cot
-- Their inverses: arcsin, arccos, arctan, arcsec, arccsc, arccot
-- Other common functions: sqrt, log10, log2, ln, exp, abs
-- Factorial: ``fact(3)`` or ``factorial(3)`` are valid. However, you must take
-  care to only input integers. For example, ``fact(1.5)`` would fail.
-- Hyperbolic trig functions and their inverses: sinh, cosh, tanh, sech, csch,
+- 三角函數: sin, cos, tan, sec, csc, cot
+- 反三角函數: arcsin, arccos, arctan, arcsec, arccsc, arccot
+- 常用數學函式: sqrt, log10, log2, ln, exp, abs
+- 階層: ``fact(3)`` 或 ``factorial(3)`` 都是合法的，不過要注意的是只能使用整數作為輸入，舉例來說： ``fact(1.5)`` 就是個不合法的計算。
+- 雙曲線三角函數以及其反函數: sinh, cosh, tanh, sech, csch,
   coth, arcsinh, arccosh, arctanh, arcsech, arccsch, arccoth
 
 .. raw:: latex
@@ -615,32 +579,19 @@ The default included functions are the following:
 
 
 
-Formula Response
-================
+方程式響應
+============
 
-The Formula Response input type accepts a line of text representing a
-mathematical expression from the student and evaluates the input for equivalence
-to a mathematical expression provided by the grader. Correctness is based on
-numerical sampling of the symbolic expressions.
+方程式響應允許使用者輸入一串文字當做數學表示式，評分程式會代入指定的參數去做計算，基於數值採樣符號表達式判定答案正確與否。
 
-The syntax of the answers is shared with that of the Numerical Response,
-including default variables and functions. The difference between the two
-response types is that the Formula Response grader may specify unknown
-variables. The student's response is compared against the instructor's
-response, with the unknown variable(s) sampled at random values, as specified
-by the problem author.
+方程式響應與數值響應共用相同的答案格式，包含了預設的變數和函式。
+不同之處在於方程式響應在評分時可以指定未知的變數，學生的答案與教師的答案可以透過隨機取樣的方式進行比較，端看問題作者要怎樣設計。
 
-The answer is correct if both the student-provided response and the grader's
-mathematical expression are equivalent to specified numerical tolerance, over a
-specified range of values for each variable.
+評分程式會根據學生答案的計算結果，比對本身記錄的答案。程式本身可以允許一定程度的誤差，超過誤差範圍會被判定為錯誤，誤差範圍內則判定為正確。
 
-This kind of response type can handle symbolic expressions. However, it places
-an extra burden on the problem author to specify the allowed variables in the
-expression and the numerical ranges over which the variables must be sampled in
-order to test for correctness.
+這種響應型態可以控制符號表示式，不過作者本身必須額外指出哪些變數可以允許加入，計算用的數值的範圍也需設定，程式才能嘗試進行運算並檢測答案正確與否。
 
-A further note about the variables: when the following Greek letters are typed
-out, an appropriate character is substituted:
+系統支援使用希臘字母，當您需要使用希臘字母的時候，您可以輸入下列文字，對應的希臘字母將會被自動代入：
 
   ``alpha beta gamma delta epsilon varepsilon zeta eta theta vartheta iota
   kappa lambda mu nu xi pi rho sigma tau upsilon phi varphi chi psi omega``
@@ -648,12 +599,12 @@ out, an appropriate character is substituted:
 Note: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks like a
 backward 3.
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image293.png
  :width: 600   
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -701,7 +652,7 @@ Sample Problem:
     </solution>
   </problem>
 
-XML Attribute Information
+**XML 屬性資訊**
 
 <script>
 
@@ -740,21 +691,20 @@ size      (optional) defines the size (i.e. the width)
       \newpage %
 
 
-Image Response
-==============
+圖片響應
+========
 
-The Image Response input type presents an image and accepts clicks on the image as an answer.
-Images have to be uploaded to the courseware Assets directory. Response clicks are marked as correct if they are within a certain specified sub rectangle of the image canvas.
+圖片響應會顯示一張圖片並引導使用者點選特定區域作為答案。圖片必須先上傳到課程目錄底下才能使用，評分時會判定是否正確點選到指定的矩形區塊當中。
 
-*Note The Mozilla Firefox browser is currently not supported for this problem type.*
+*請注意：Mozilla Firefox 尚不支援此種問題型別*
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image294.png
  :width: 600   
 
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -767,14 +717,15 @@ Sample Problem:
       <imageinput src="/c4x/edX/edX101/asset/threeshapes.png" width="220" height="150" rectangle="(80,40)-(130,90)" />
       </imageresponse>
   </problem>
-  Template
+  
   <problem>
       <imageresponse>
       <imageinput src="Path_to_Image_File.png" width="220" height="150" rectangle="(80,40)-(130,90)" />
       </imageresponse> 
   </problem>
 
-XML Attribute Information
+
+**XML 屬性資訊**
 
 
 <imageresponse>
@@ -789,20 +740,19 @@ XML Attribute Information
   
       \newpage %
 
-.. _Custom Response:
 
-Custom Response
-===============
+自定響應
+========
 
-A Custom Response input type accepts one or more lines of text input from the student and evaluate the inputs for correctness using an embedded Python script.
+透過指定的輸入與計算流程，您可以自行撰寫一個 Python 的腳本來定義一種自定響應。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image295.png
  :width: 600  
 
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -855,9 +805,9 @@ Sample Problem:
       </solution>
   </problem>
 
-**Templates**
+**樣板**
 
-*With displayed suggested correct answers*
+*顯示建議的正確答案*
 
 .. code-block:: xml
 
@@ -884,9 +834,9 @@ Sample Problem:
   </problem>
 
 
-**Templates**
+**樣板**
 
-*With NO suggested correct answers*
+*不顯示建議的正確答案*
 
 
 .. code-block:: xml
@@ -918,20 +868,17 @@ Sample Problem:
   
       \newpage %
 
-.. _Chemical Equation Response:
+化學方程式響應
+==============
 
-Chemical Equation Response
-==========================
+化學方程式響應是一種特別的自定響應，學生可以輸入化學方程式作答。
 
-The Chemical Equation Response input type is a special type of Custom Response
-that allows the student to enter chemical equations as answers. 
-
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image296.png
  :width: 600   
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
@@ -961,13 +908,12 @@ Sample Problem:
   
       \newpage %
 
-Schematic Response
-==================
+示意圖響應
+==========
 
-The Schematic Response input type provides an interactive grid on which the
-student can construct a schematic answer, such as a circuit. 
+示意圖響應提供了一個互動的網格界面，學生可用來建構電子電路圖。
 
-Sample Problem:
+範例問題如下：
 
 .. image:: ../Images/image297.png
  :width: 600 
@@ -978,7 +924,7 @@ Sample Problem:
 .. image:: ../Images/image299.png
  :width: 600   
 
-**Problem Code**:
+**問題代碼**:
 
 .. code-block:: xml
 
