@@ -43,7 +43,7 @@
 電組器以及金氧半導體場效電晶體 ，然後他們要交出就系統中電路上直流電、交
 流電或暫態之分析並以此打分。 
 
-.. image:: /Images/CircuitSchematicExample.gif
+.. image:: Images/CircuitSchematicExample.gif
 
 建立電路示意生成器題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,7 +69,7 @@ EdX 打分系統中。
 您能夠使用任何應用工具，例如 Google 網頁應用程式開發工具(GWT)，來建置
 自己的 JS 輸入題型。 
 
-.. image:: /Images/JavaScriptInputExample.gif
+.. image:: Images/JavaScriptInputExample.gif
 
 自訂 JavaScript 程式語言顯示與打分題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

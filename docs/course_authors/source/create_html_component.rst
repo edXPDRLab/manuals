@@ -110,7 +110,7 @@ HTML 組件是建構課程的基本要素，利用 HTML 組件新增與格式化
 在 HTML 組件增加網站連結、課程單元連結、或是檔案，必須使用 **輸入／編輯
 連結**的對話框。
 
-.. image:: /Images/HTML_Insert-EditLink_DBox.gif
+.. image:: Images/HTML_Insert-EditLink_DBox.gif
 
 For more information, see:
 
@@ -153,7 +153,7 @@ For more information, see:
 #. 必須先取得該課程單元的識別號碼。請至 Studio 開啟單元，找到畫面右下角
 的 **單元位置**，複製 **單元識別碼**欄位的單元識別號碼。
    
-   .. image:: /Images/UnitIdentifier.gif
+   .. image:: Images/UnitIdentifier.gif
 
 #. 開啟要增加連結的 HTML 組件編輯器
 
@@ -168,7 +168,7 @@ For more information, see:
   貼上單元識別號碼取代<unit identifier>，並且確認有加上斜線  (/)  。請見下
 圖。
 
-   .. image:: /Images/HTML_Insert-EditLink_CourseUnit.gif
+   .. image:: Images/HTML_Insert-EditLink_CourseUnit.gif
 
 #. 若是想以新視窗開啟連結，使用 **目標**欄位的下拉式選單，選擇於 **新視窗開啟
 連結**。系統預設是不開啟新視窗。
@@ -200,7 +200,7 @@ You can add a link in an HTML component to any file you've uploaded for the cour
    貼上檔案網址取代< FileName.type >，
 確認有加上斜線  (/)  ，請見下圖。
 
-   .. image:: /Images/HTML_Insert-EditLink_File.gif
+   .. image:: Images/HTML_Insert-EditLink_File.gif
 
 #. 若是想以新視窗開啟連結，使用 **目標**欄位的下拉式選單，選擇於 **新視窗開啟
 連結**。系統預設是不開啟新視窗。
