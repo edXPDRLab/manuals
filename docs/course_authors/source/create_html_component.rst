@@ -28,11 +28,11 @@ HTML 組件是建構課程的基本要素，利用 HTML 組件新增與格式化
 *****************************************
 
 使用 HTML 組件編輯器新增 HTML 組件，編輯器提供兩種觀看模式： **視覺模式**
-與  **HTML 模式**。點下編輯器右上角的按鍵，可互換兩種模式。
+與  **HTML 模式** 。點下編輯器右上角的按鍵，可互換兩種模式。
 
 .. image:: Images/HTMLEditorTabs.gif
 
--  **視覺模式**提供「所見即所得」功能，使用編輯器上方的格式化功能時，能夠
+-  **視覺模式** 提供「所見即所得」功能，使用編輯器上方的格式化功能時，能夠
 立即看見結果。每次開啟 HTML 組件，系統預設採用視覺模式。
 
   以下清單是視覺模式提供的格式化功能。
@@ -56,7 +56,7 @@ HTML 組件是建構課程的基本要素，利用 HTML 組件新增與格式化
 
   .. image:: Images/HTMLComponent_VisualView_LMS.gif
 
-- **HTML 模式**允許使用者直接用 HTML 語法編輯內容。
+- **HTML 模式** 允許使用者直接用 HTML 語法編輯內容。
 
   .. image:: Images/HTML_HTMLView.gif
 
@@ -88,7 +88,7 @@ HTML 組件是建構課程的基本要素，利用 HTML 組件新增與格式化
 4. 在視覺模式或 HTML 模式，輸入文字與使用格式化功能。
 
 5. 輸入名稱（希望給學生看到的名稱）。點下編輯器右上角的 **設定**，在 **顯示名
-稱**欄位輸入文字。
+稱** 欄位輸入文字。
 
    點下右上角的 **編輯**，回到原本的編輯模式。 
 
@@ -108,7 +108,7 @@ HTML 組件是建構課程的基本要素，利用 HTML 組件新增與格式化
 ***********************************
 
 在 HTML 組件增加網站連結、課程單元連結、或是檔案，必須使用 **輸入／編輯
-連結**的對話框。
+連結** 的對話框。
 
 .. image:: /Images/HTML_Insert-EditLink_DBox.gif
 
@@ -130,14 +130,14 @@ For more information, see:
 
 #. 點下工具列的連結圖示。
 
-#.  **輸入／編輯連結**的對話框會被開啟，在 **連線網址**欄位，輸入要連線的網址。
+#.  **輸入／編輯連結** 的對話框會被開啟，在 **連線網址** 欄位，輸入要連線的網址。
 
    .. image:: Images/HTML_Insert-EditLink_Website.gif
 
-#. 若是想以新視窗開啟連結，使用 **目標**欄位的下拉式選單，選擇於 **新視窗開啟
-連結**。系統預設是不開啟新視窗。
+#. 若是想以新視窗開啟連結，使用 **目標** 欄位的下拉式選單，選擇於 **新視窗開啟
+連結** 。系統預設是不開啟新視窗。
 
-#. 點下 **輸入**。
+#. 點下 **輸入** 。
 
 #. 儲存並測試連結。
 
@@ -151,7 +151,7 @@ For more information, see:
 連線至課程單元的步驟，說明如下：
 
 #. 必須先取得該課程單元的識別號碼。請至 Studio 開啟單元，找到畫面右下角
-的 **單元位置**，複製 **單元識別碼**欄位的單元識別號碼。
+的 **單元位置**，複製 **單元識別碼** 欄位的單元識別號碼。
    
    .. image:: /Images/UnitIdentifier.gif
 
@@ -161,7 +161,7 @@ For more information, see:
 
 #. 點下工具列的連結圖示。
 
-#.  **輸入／編輯連結**的對話框會被開啟，在 **連線網址**欄位，輸入
+#.  **輸入／編輯連結** 的對話框會被開啟，在 **連線網址** 欄位，輸入
 
    ``/jump_to_id/<unit identifier>``
 
@@ -170,10 +170,10 @@ For more information, see:
 
    .. image:: /Images/HTML_Insert-EditLink_CourseUnit.gif
 
-#. 若是想以新視窗開啟連結，使用 **目標**欄位的下拉式選單，選擇於 **新視窗開啟
-連結**。系統預設是不開啟新視窗。
+#. 若是想以新視窗開啟連結，使用 **目標** 欄位的下拉式選單，選擇於 **新視窗開啟
+連結** 。系統預設是不開啟新視窗。
 
-#. 點下 **輸入**。
+#. 點下 **輸入** 。
 
 #. 儲存並測試連線。
 
@@ -185,7 +185,7 @@ For more information, see:
 
 You can add a link in an HTML component to any file you've uploaded for the course. For more information about uploading files, see :ref:`Add Files to a Course`.
 
-#. 進入 **檔案與上傳**頁面，複製檔案的網址。
+#. 進入 **檔案與上傳** 頁面，複製檔案的網址。
 
    .. image:: Images/HTML_Link_File.gif
 
@@ -193,7 +193,7 @@ You can add a link in an HTML component to any file you've uploaded for the cour
 
 #. 點下工具列的連結圖示。
 
-#.  **輸入／編輯**連結的對話框會被開啟，在 **連線網址**欄位，輸入
+#.  **輸入／編輯** 連結的對話框會被開啟，在 **連線網址** 欄位，輸入
 
    ``/static/FileName.type``
 
@@ -202,10 +202,10 @@ You can add a link in an HTML component to any file you've uploaded for the cour
 
    .. image:: /Images/HTML_Insert-EditLink_File.gif
 
-#. 若是想以新視窗開啟連結，使用 **目標**欄位的下拉式選單，選擇於 **新視窗開啟
-連結**。系統預設是不開啟新視窗。
+#. 若是想以新視窗開啟連結，使用 **目標** 欄位的下拉式選單，選擇於 **新視窗開啟
+連結** 。系統預設是不開啟新視窗。
 
-#. 點下 **輸入**。
+#. 點下 **輸入** 。
 
 #. 儲存並測試連線。
 
@@ -222,7 +222,7 @@ You can add any image that you have uploaded for the course to an HTML component
 
 To add an image, you'll need the URL of the image that you uploaded to the course. You'll then create a link to the image in the HTML component.
 
-#. 進入 **檔案與上傳**頁面，複製圖片的網址。
+#. 進入 **檔案與上傳** 頁面，複製圖片的網址。
 
 #. 進入 HTML 組件，切換至 HTML 模式。
 
@@ -256,18 +256,18 @@ To add an image, you'll need the URL of the image that you uploaded to the cours
 
 #. 開啟課程的規則序號。
 
-   #. 進入 Studio 的 **設定**，點下 **進階設定**。
-   #. 進入 **進階設定**頁面，下拉畫面至 **使用 LaTeX 程式編輯**的規則序號。
-   #. 找到 **使用 LaTeX 程式編輯**的規則序號旁邊的規則屬性欄位，將 **否**換成 **是**。
-   #. 點下 **儲存改變**。
+   #. 進入 Studio 的 **設定** ，點下 **進階設定** 。
+   #. 進入 **進階設定** 頁面，下拉畫面至 **使用 LaTeX 程式編輯** 的規則序號。
+   #. 找到 **使用 LaTeX 程式編輯** 的規則序號旁邊的規則屬性欄位，將 **否** 換成 **是** 。
+   #. 點下 **儲存改變** 。
 
-#. 進入要新增組件的單元，點下在 **新增組件**的 **html**，再點下 **用 LaTeX 寫電子文本**，產生新的組件。
+#. 進入要新增組件的單元，點下在 **新增組件** 的 **html** ，再點下 **用 LaTeX 寫電子文本** ，產生新的組件。
 
-#. 點下新組件右上方的 **上傳**。
+#. 點下新組件右上方的 **上傳** 。
 
    .. image:: Images/HTML_LaTeX.gif
 
-#. 選擇要上傳的檔案，然後點下 **開啟**，檔案會被上傳至 LaTeX 編輯器。
+#. 選擇要上傳的檔案，然後點下 **開啟** ，檔案會被上傳至 LaTeX 編輯器。
 
    The file loads in the LaTeX editor.
 
@@ -275,14 +275,14 @@ To add an image, you'll need the URL of the image that you uploaded to the cours
 
 #. 若想要修改檔案。
 
-#. 進入 LaTeX 編輯器，找到畫面左下的 **使用儲存與編輯成 edX XML**，點下此
+#. 進入 LaTeX 編輯器，找到畫面左下的 **使用儲存與編輯成 edX XML** ，點下此
 功能。
 
   組件編輯器將被關閉，同時開啟單元頁面，便可觀看用 LaTeX 編輯的內容。
 
    .. image:: Images/HTML_LaTeX_CompEditor.gif
 
-#. 同樣在單元頁面，點下 **預覽**，檢查檔案在學習管理平台顯示的樣式。
+#. 同樣在單元頁面，點下 **預覽** ，檢查檔案在學習管理平台顯示的樣式。
 
-   * 若發現有誤，回到單元頁面，點下 **編輯**，再度開啟組件。找到組件編輯器的左下方，點下 **開啟 Latex 來源編輯器**，重新編輯 LaTeX 程式碼。
+   * 若發現有誤，回到單元頁面，點下 **編輯** ，再度開啟組件。找到組件編輯器的左下方，點下 **開啟 Latex 來源編輯器** ，重新編輯 LaTeX 程式碼。
 
