@@ -84,7 +84,7 @@ Click **Sync to <Section Name>** to have the subsection inherit the later sectio
 
 單元開放日期為小節設定之開放日期。
 
-此外，單元中具備 **可見性(Visibility)**功能，可設定是否 **公開** 或 **隱藏** 單元項目。
+此外，單元中具備 **可見性(Visibility)** 功能，可設定是否 **公開** 或 **隱藏** 單元項目。
 
 當您建置一個單元時，其預設為隱藏，即使上一層的小節內容已進行發佈，學生仍無法瀏覽。
 
