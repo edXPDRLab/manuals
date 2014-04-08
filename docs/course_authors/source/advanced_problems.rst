@@ -5,7 +5,7 @@
 
 拖放、電路示意圖生成器及數學表達等皆為進階題型。當要新增題型時，這些問
 題會置於進階標籤中。本工作室提供建置這些題目的範本，但題目會直接在 **進階
-編輯**中開放，並且要以 XML 格式製作。
+編輯** 中開放，並且要以 XML 格式製作。
 
 -  :ref:`Circuit Schematic Builder` In circuit schematic problems, students
    create and modify circuits on an interactive grid and submit
@@ -31,8 +31,8 @@
    feedback or hints based on their responses. Problems with adaptive
    hints can be text input or multiple choice problems.
 
-這些問題很容易在 Studio 中取得。要發問的話請按在 **新增組件**底下點選 **題型**，
-並點選 **進階標籤**，然後點選想新增的題型名稱。
+這些問題很容易在 Studio 中取得。要發問的話請按在 **新增組件** 底下點選 **題型**，
+並點選 **進階標籤** ，然後點選想新增的題型名稱。
 
 .. _Circuit Schematic Builder:
 
@@ -48,11 +48,11 @@
 建立電路示意生成器題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **電路生成器**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **電路生成器** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，以自己的編碼取代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
 
 .. _Custom JavaScript Display and Grading:
 
@@ -74,11 +74,11 @@ EdX 打分系統中。
 自訂 JavaScript 程式語言顯示與打分題型
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. 建立自己的 JavaScript 程式並上傳所有與此應用程式有關的檔案到 **檔案與上傳**
+#. 建立自己的 JavaScript 程式並上傳所有與此應用程式有關的檔案到 **檔案與上傳** 
 頁面。
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **自訂 JavaScript 程式語言顯示與打分**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **自訂 JavaScript 程式語言顯示與打分** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，根據您的題型編修範例編碼。
 
    - 所有的題型有超過一種的元素。大部分的題型皆與同源政策(SOP)相符，意即所
@@ -92,7 +92,7 @@ EdX 打分系統中。
      **sop="false"** in line 8 of the example code to **sop="true"**. For more information, see the same-origin policy
      page on the `Mozilla Developer Network <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_
      or on `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
-#. 如果想要使題目有 **儲存**鈕的話，點選 **設定**標籤，然後在 **最大嘗試次數**中設定
+#. 如果想要使題目有 **儲存** 鈕的話，點選 **設定** 標籤，然後在 **最大嘗試次數** 中設定
 一個大於 0 的數字。
 #. 點選儲存。
 
@@ -126,9 +126,9 @@ file that you'll download.
 
 #. 在 **檔案及上傳** 頁面，上傳所有剛建立或下載的檔案。
 #. 建立一個新的自訂 JavaScript 顯示與給分範例題目組件。
-#. 在 **設定**標籤，將 **最大嘗試次數**設定一個大於 0 的數字。
+#. 在 **設定** 標籤，將 **最大嘗試次數** 設定一個大於 0 的數字。
 #. 在題目組件編輯器中，將以下的編碼替代範例編碼。
-#. 點選 **儲存**。 
+#. 點選 **儲存** 。 
 
 
 
@@ -193,9 +193,9 @@ JavaScript 程式語言題型編碼
 一個形狀時，該形狀會變黃色，或成為 「已選擇」。若不選擇的話則再點選一
 次。繼續點選形狀以做選擇。
 
-             - 當使用者 **點選**查詢而圓錐(黃色)被選擇時則代表回答被評為正確。
+             - 當使用者 **點選** 查詢而圓錐(黃色)被選擇時則代表回答被評為正確。
 
-             - 點選 **查詢**或 **儲存**登記題目的現況。
+             - 點選 **查詢** 或 **儲存** 登記題目的現況。
 
 
 
@@ -216,11 +216,11 @@ JavaScript 程式語言題型編碼
 
 要建立自行評分題型：
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **自訂 Python 語言輸入**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **自訂 Python 語言輸入** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，以自己的編碼取代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
 
 For more information about write-your-own-grader problems, see `CustomResponse XML and Python
 Script <https://edx.readthedocs.org/en/latest/course_data_formats/custom_response.html>`_.
@@ -239,11 +239,11 @@ Script <https://edx.readthedocs.org/en/latest/course_data_formats/custom_respons
 
 要建立拖放題目：
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **拖放**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **拖放** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，以自己的編碼取代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
 
 For more information about drag and drop problems, see `XML Format of Drag and Drop Input
 <http://data.edx.org/en/latest/course_data_formats/drag_and_drop/drag_and_drop_input.html>`_.
@@ -263,11 +263,11 @@ For more information about drag and drop problems, see `XML Format of Drag and D
 
 要建立影像映射輸入題目：
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **影像映射輸入**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **影像映射輸入** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，以自己的編碼取代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
 
 
 .. _Math Expression Input:
@@ -291,11 +291,11 @@ MathJax in Studio, see :ref:`MathJax in Studio`.
 
 要建立數學表達式題目：
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **數學表達式輸入**。
-#. 在出現的組件中點選 **編輯**。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **數學表達式輸入** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在組件編輯器中，以自己的編碼取代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
 
 For more information, see `Symbolic Response
 <https://edx.readthedocs.org/en/latest/course_data_formats/symbolic_response.html>`_.
@@ -322,12 +322,12 @@ For more information, see `Symbolic Response
 
 要建立以 LaTeX  寫成的題目：
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **以 LaTeX 寫成的題目**。
-#. 在出現的組件中點選 **編輯*。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **以 LaTeX 寫成的題目** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 在左下角的組件編輯器中，點選開始原始編譯器。
 #. 以自己的編碼替代範例編碼。
-#. 在左下角的 LaTeX 原始編譯器中，點選 **儲存及編碼為 edX XML**。
+#. 在左下角的 LaTeX 原始編譯器中，點選 **儲存及編碼為 edX XML** 。
 
 .. _Problem with Adaptive Hint:
 
@@ -344,8 +344,8 @@ For more information, see `Symbolic Response
 
 To create a problem with an adaptive hint:
 
-#. 在您想要建立題型的單元中，點選 **新增組件**底下的題型，然後點選 **進階**標籤。
-#. 點選 **具有適應性暗示之題型**。
-#. 在出現的組件中點選 **編輯*。
+#. 在您想要建立題型的單元中，點選 **新增組件** 底下的題型，然後點選 **進階** 標籤。
+#. 點選 **具有適應性暗示之題型** 。
+#. 在出現的組件中點選 **編輯** 。
 #. 以自己的編碼替代範例編碼。
-#. 點選 **儲存**。
+#. 點選 **儲存** 。
