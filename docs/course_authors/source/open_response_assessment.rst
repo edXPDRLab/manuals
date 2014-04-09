@@ -1,4 +1,4 @@
-.. _開放式互動評分問題(Open Response Assessment):
+.. _Open Response Assessment:
 
 開放式互動評分問題(Open Response Assessment)
 ---------------------------------
