@@ -18,11 +18,11 @@
 
 在開放式問答的頁面，請見下圖，提供題目名稱、評量類型、題目敘述、答題欄位、 **儲存答案** 與 **提交答案** 的按鈕。
 
-.. image:: /Images/ExampleORA.gif
+.. image:: Images/ExampleORA.gif
 
 利用此題型設計，要求學生上傳檔案，頁面會出現上傳檔案的按鈕，請見下圖。
 
-.. image:: /Images/ExampleORA_File.gif
+.. image:: Images/ExampleORA_File.gif
 
 *評量類型* 包含 *自我評分* 、 *同儕評分* 與 *電腦評分* 。依照此順序出現在題目內。
 
@@ -115,7 +115,7 @@
 
 此部份即為評分的介面。每堂課至少包含一個同儕評分介面。整個課程可能只有一個同儕評分界面，或是個別的題目有其同儕評分介面。範例如下圖。
 
-.. image:: /Images/PGI_FromOEC_2Problems.gif
+.. image:: Images/PGI_FromOEC_2Problems.gif
 
 
 同儕評分的步驟
@@ -142,22 +142,22 @@
 
 **備註** *符合此三種情況才能夠評分：完成作答的題目、教師已經完成至少20位學生的評分、以及尚未給予分數的短文。反之，尚未作答或是沒有作答的題目，無法給予評分，系統會出現下圖的訊息。*
 
-   .. image:: /Images/PAStudent_NoSubmissions.gif
+   .. image:: Images/PAStudent_NoSubmissions.gif
 
 
 根據課程的設定，決定查詢學生答案的方式。
 
 -  點選 **開放式問答控制** 標籤，進入 **開放式問答操作** 頁面，此功能出現在課程畫面的上方。進入本頁面後，系統會列出已被回答的題目，點下題目名稱開始評分。
 
-   .. image:: /Images/PGI_FromOEC_2Problems.gif
+   .. image:: Images/PGI_FromOEC_2Problems.gif
 
 -  教師將同儕評分作為題目的評量方式，開放式問答的功能才會出現。進入有開放式問答評量題目的單元，可以查看答案。同儕評分介面出現在題目下方的位置。請見下圖範例。
 
-   .. image:: /Images/PGI_InUnitComposite.gif
+   .. image:: Images/PGI_InUnitComposite.gif
 
 -  若在課程中未看見本功能，請進入各小節，如下圖範例。例如，MIT的6: 00x: 電腦科學與程式語言導論，設計了幾個小節，點選小節的題目名稱，可以開始評分。
 
-   .. image:: /Images/PGI_Multiple-600x.gif
+   .. image:: Images/PGI_Multiple-600x.gif
 
 
 .. _Learn to Grade:
@@ -173,9 +173,9 @@
 
 #. 系統會告知學生，是否與教師的評分有差異。閱讀完 **評分校準結果？** ，點下 **繼續** ，練習下一個題目。
 
-   .. image:: /Images/PG_Calibration_Correct.gif
+   .. image:: Images/PG_Calibration_Correct.gif
 
-   .. image:: /Images/PG_Calibration_Incorrect.gif
+   .. image:: Images/PG_Calibration_Incorrect.gif
 
    練習新題目時，同時會看見一段黃色的 **已儲存評分校準短文** 的訊息出現在頁面的左上角。
 
@@ -201,7 +201,7 @@
 
 #. 完成所有的作答內容後（通常是3個），系統會出現以下訊息。
 
-   .. image:: /Images/DoneGrading.gif
+   .. image:: Images/DoneGrading.gif
 
    已成功儲存您的意見，前往下一個短文。已經完成指定的數量，可自行選擇是否繼續評分。
    
@@ -259,17 +259,17 @@
 
 電腦評分與同儕評分的分數與評分標準，出現在作答內容的下方並用簡易的說明方式呈現。請見下圖。
 
-.. image:: /Images/AIScoredResponse.gif
+.. image:: Images/AIScoredResponse.gif
 
 同儕評分的部分，還可看到評分者的意見回饋。
 
-.. image:: /Images/PeerScoredResponse.gif
+.. image:: Images/PeerScoredResponse.gif
 
 點下 **觀看詳細評分標準** ，可看見完整的評分標準。
 
 .. note:: 在同儕評分的部分，若學生未完成足夠的評分題目數量，系統會提醒學生還有多少題目待評分。請見下方訊息。
 
-.. image:: /Images/FeedbackNotAvailable.gif
+.. image:: Images/FeedbackNotAvailable.gif
 
 請見 :ref:`ORA Peer Assessment` ，獲得更多資訊。
 
